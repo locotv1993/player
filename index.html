@@ -49,7 +49,7 @@
                 "sources": [{
                     "default": true,
                     "type": "dash",
-                    "file": decodeURI(getURL),
+                    "file": decodeURI(atob(getURL)),
                     "drm": {
                         "clearkey": {
                             "keyId": getKEY,
