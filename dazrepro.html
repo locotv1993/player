@@ -1,0 +1,943 @@
+
+<html lang="es">
+<title>PLAYER</title>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6DHJWGEM1P"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-6DHJWGEM1P');
+</script>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="robots" content="noindex">
+    <meta content='width=device-width, initial-scale=1' name='viewport'>
+    <script src='//cdn.jsdelivr.net/npm/@clappr/player@0.8/dist/clappr.min.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/level-selector@latest/dist/level-selector.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/clappr-chromecast-plugin@latest/dist/clappr-chromecast-plugin.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/@swarmcloud/hls/p2p-engine.min.js"></script>
+
+    <style>
+        .instagram-button {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: #0094ff;
+            color: #ffffff;
+            padding: 5px 4px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            z-index: 9999;
+            font-size: 10px;
+            font-family: Arial, sans-serif;
+        }
+
+      .embed-button {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: #0094ff;
+            color: #ffffff;
+            padding: 5px 4px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            z-index: 9999;
+            font-size: 10px;
+            font-family: Arial, sans-serif;
+            cursor: pointer;
+            border: none;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease;
+        }
+
+        .embed-button:hover {
+            background-color: #007acc;
+        }
+
+        /* Cuadro emergente */
+        .embed-modal {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #1e1e1e;
+            color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            z-index: 10000;
+            width: 80%;
+            max-width: 500px;
+        }
+
+        .embed-modal textarea {
+            width: 100%;
+            height: 120px;
+            background-color: #2d2d2d;
+            color: #ffffff;
+            border: 1px solid #444;
+            border-radius: 5px;
+            padding: 10px;
+            resize: none;
+            font-family: Arial, sans-serif;
+        }
+
+        .embed-modal button {
+            margin-top: 10px;
+            background-color: #0094ff;
+            color: #ffffff;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .embed-modal button:hover {
+            background-color: #e63939;
+        }
+
+        .embed-modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 9999;
+        }
+    
+    </style>
+</head>
+
+<body style="padding: 0px; margin:0px; position: relative;">
+    <div id="player"></div>
+    <button id="embed-button" class="embed-button">EMBED</button>
+    <div class="embed-modal-overlay" id="embed-modal-overlay"></div>
+    <div class="embed-modal" id="embed-modal">
+        <h3>Embed Code</h3>
+        <textarea id="embed-code" readonly></textarea>
+        <button id="close-modal">Cerrar</button>
+    </div>
+    <a </a>
+</body>
+
+<script>
+    function getParameterByName(name) {
+        name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+        var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+            results = regex.exec(location.search);
+        return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+    }
+    var getURL = getParameterByName('get');
+    var getIMG = getParameterByName('img');
+    var getLang = getParameterByName('lang');
+
+    if (getURL == "#") {
+        alert('Vuelve a la pÃ¡gina anterior');
+    }
+    if (getIMG == "#") {
+        alert('Vuelve a la pÃ¡gina anterior');
+    }
+
+    // Definir los canales disponibles
+    var channels = {
+        
+"intro": "https://wris.asia/mp4/intro7.mp4",        
+        
+"espn": "https://pasodpasd.livestreamdz.xyz/espn/tracks-v1a1/mono.m3u8",
+"espn_1": "https://nxksdjaksd.sevienelasexta.lat/espn/tracks-v1a1/mono.m3u8",
+"espn_2": "https://vashajs.mbappeoffside.site/espn/tracks-v1a1/mono.m3u8",
+"espn_3": "https://nnnnn.dzki.live/espn/tracks-v1a1/mono.m3u8",
+
+"espn2": "https://pasodpasd.livestreamdz.xyz/espn2/tracks-v1a1/mono.m3u8",
+"espn2_1": "https://nxksdjaksd.sevienelasexta.lat/espn2/tracks-v1a1/mono.m3u8",
+"espn2_2": "https://vashajs.mbappeoffside.site/espn2/tracks-v1a1/mono.m3u8",
+"espn2_3": "https://nnnnn.dzki.live/espn2/tracks-v1a1/mono.m3u8",
+
+"espn3": "https://pasodpasd.livestreamdz.xyz/espn3/tracks-v1a1/mono.m3u8",
+"espn3_1": "https://nxksdjaksd.sevienelasexta.lat/espn3/tracks-v1a1/mono.m3u8",
+"espn3_2": "https://vashajs.mbappeoffside.site/espn3/tracks-v1a1/mono.m3u8",
+"espn3_3": "https://nnnnn.dzki.live/espn3/tracks-v1a1/mono.m3u8",
+
+"espn4": "https://pasodpasd.livestreamdz.xyz/espn4/tracks-v1a1/mono.m3u8",
+"espn4_1": "https://nxksdjaksd.sevienelasexta.lat/espn4/tracks-v1a1/mono.m3u8",
+"espn4_2": "https://vashajs.mbappeoffside.site/espn4/tracks-v1a1/mono.m3u8",
+"espn4_3": "https://nnnnn.dzki.live/espn4/tracks-v1a1/mono.m3u8",
+
+"espn5": "https://pasodpasd.livestreamdz.xyz/espn5/tracks-v1a1/mono.m3u8",
+"espn5_1": "https://nxksdjaksd.sevienelasexta.lat/espn5/tracks-v1a1/mono.m3u8",
+"espn5_2": "https://vashajs.mbappeoffside.site/espn5/tracks-v1a1/mono.m3u8",
+"espn5_3": "https://nnnnn.dzki.live/espn5/tracks-v1a1/mono.m3u8",
+
+"espn6": "https://pasodpasd.livestreamdz.xyz/espn6/tracks-v1a1/mono.m3u8",
+"espn6_1": "https://nxksdjaksd.sevienelasexta.lat/espn6/tracks-v1a1/mono.m3u8",
+"espn6_2": "https://vashajs.mbappeoffside.site/espn6/tracks-v1a1/mono.m3u8",
+"espn6_3": "https://nnnnn.dzki.live/espn6/tracks-v1a1/mono.m3u8",
+
+"espn7": "https://pasodpasd.livestreamdz.xyz/espn7/tracks-v1a1/mono.m3u8",
+"espn7_1": "https://nxksdjaksd.sevienelasexta.lat/espn7/tracks-v1a1/mono.m3u8",
+"espn7_2": "https://vashajs.mbappeoffside.site/espn7/tracks-v1a1/mono.m3u8",
+"espn7_3": "https://nnnnn.dzki.live/espn7/tracks-v1a1/mono.m3u8",
+
+"eventos1": "https://pasodpasd.livestreamdz.xyz/eventos1/tracks-v1a1/mono.m3u8",
+"eventos1_1": "https://nxksdjaksd.sevienelasexta.lat/eventos1/tracks-v1a1/mono.m3u8",
+"eventos1_2": "https://vashajs.mbappeoffside.site/eventos1/tracks-v1a1/mono.m3u8",
+"eventos1_3": "https://nnnnn.dzki.live/eventos1/tracks-v1a1/mono.m3u8",
+
+"eventos2": "https://pasodpasd.livestreamdz.xyz/eventos2/tracks-v1a1/mono.m3u8",
+"eventos2_1": "https://nxksdjaksd.sevienelasexta.lat/eventos2/tracks-v1a1/mono.m3u8",
+"eventos2_2": "https://vashajs.mbappeoffside.site/eventos2/tracks-v1a1/mono.m3u8",
+"eventos2_3": "https://nnnnn.dzki.live/eventos2/tracks-v1a1/mono.m3u8",
+
+"eventos3": "https://pasodpasd.livestreamdz.xyz/eventos3/tracks-v1a1/mono.m3u8",
+"eventos3_1": "https://nxksdjaksd.sevienelasexta.lat/eventos3/tracks-v1a1/mono.m3u8",
+"eventos3_2": "https://vashajs.mbappeoffside.site/eventos3/tracks-v1a1/mono.m3u8",
+"eventos3_3": "https://nnnnn.dzki.live/eventos3/tracks-v1a1/mono.m3u8",
+
+"eventos4": "https://pasodpasd.livestreamdz.xyz/eventos4/tracks-v1a1/mono.m3u8",
+"eventos4_1": "https://nxksdjaksd.sevienelasexta.lat/eventos4/tracks-v1a1/mono.m3u8",
+"eventos4_2": "https://vashajs.mbappeoffside.site/eventos4/tracks-v1a1/mono.m3u8",
+"eventos4_3": "https://nnnnn.dzki.live/eventos4/tracks-v1a1/mono.m3u8",
+
+"eventos5": "https://pasodpasd.livestreamdz.xyz/eventos5/tracks-v1a1/mono.m3u8",
+"eventos5_1": "https://nxksdjaksd.sevienelasexta.lat/eventos5/tracks-v1a1/mono.m3u8",
+"eventos5_2": "https://vashajs.mbappeoffside.site/eventos5/tracks-v1a1/mono.m3u8",
+"eventos5_3": "https://nnnnn.dzki.live/eventos5/tracks-v1a1/mono.m3u8",
+
+"eventos6": "https://pasodpasd.livestreamdz.xyz/eventos6/tracks-v1a1/mono.m3u8",
+"eventos6_1": "https://nxksdjaksd.sevienelasexta.lat/eventos6/tracks-v1a1/mono.m3u8",
+"eventos6_2": "https://vashajs.mbappeoffside.site/eventos6/tracks-v1a1/mono.m3u8",
+"eventos6_3": "https://nnnnn.dzki.live/eventos6/tracks-v1a1/mono.m3u8",
+
+"eventos7": "https://pasodpasd.livestreamdz.xyz/eventos7/tracks-v1a1/mono.m3u8",
+"eventos7_1": "https://nxksdjaksd.sevienelasexta.lat/eventos7/tracks-v1a1/mono.m3u8",
+"eventos7_2": "https://vashajs.mbappeoffside.site/eventos7/tracks-v1a1/mono.m3u8",
+"eventos7_3": "https://nnnnn.dzki.live/eventos7/tracks-v1a1/mono.m3u8",
+
+"eventos8": "https://pasodpasd.livestreamdz.xyz/eventos8/tracks-v1a1/mono.m3u8",
+"eventos8_1": "https://nxksdjaksd.sevienelasexta.lat/eventos8/tracks-v1a1/mono.m3u8",
+"eventos8_2": "https://vashajs.mbappeoffside.site/eventos8/tracks-v1a1/mono.m3u8",
+"eventos8_3": "https://nnnnn.dzki.live/eventos8/tracks-v1a1/mono.m3u8",
+
+"eventos9": "https://pasodpasd.livestreamdz.xyz/eventos9/tracks-v1a1/mono.m3u8",
+"eventos9_1": "https://nxksdjaksd.sevienelasexta.lat/eventos9/tracks-v1a1/mono.m3u8",
+"eventos9_2": "https://vashajs.mbappeoffside.site/eventos9/tracks-v1a1/mono.m3u8",
+"eventos9_3": "https://nnnnn.dzki.live/eventos9/tracks-v1a1/mono.m3u8",
+
+"eventos10": "https://pasodpasd.livestreamdz.xyz/eventos10/tracks-v1a1/mono.m3u8",
+"eventos10_1": "https://nxksdjaksd.sevienelasexta.lat/eventos10/tracks-v1a1/mono.m3u8",
+"eventos10_2": "https://vashajs.mbappeoffside.site/eventos10/tracks-v1a1/mono.m3u8",
+"eventos10_3": "https://nnnnn.dzki.live/eventos10/tracks-v1a1/mono.m3u8",
+
+"foxar": "https://pasodpasd.livestreamdz.xyz/foxar/tracks-v1a1/mono.m3u8",
+"foxar_1": "https://nxksdjaksd.sevienelasexta.lat/foxar/tracks-v1a1/mono.m3u8",
+"foxar_2": "https://vashajs.mbappeoffside.site/foxar/tracks-v1a1/mono.m3u8",
+"foxar_3": "https://nnnnn.dzki.live/foxar/tracks-v1a1/mono.m3u8",
+
+"fox2ar": "https://pasodpasd.livestreamdz.xyz/fox2ar/tracks-v1a1/mono.m3u8",
+"fox2ar_1": "https://nxksdjaksd.sevienelasexta.lat/fox2ar/tracks-v1a1/mono.m3u8",
+"fox2ar_2": "https://vashajs.mbappeoffside.site/fox2ar/tracks-v1a1/mono.m3u8",
+"fox2ar_3": "https://nnnnn.dzki.live/fox2ar/tracks-v1a1/mono.m3u8",
+
+"fox3ar": "https://pasodpasd.livestreamdz.xyz/fox3ar/tracks-v1a1/mono.m3u8",
+"fox3ar_1": "https://nxksdjaksd.sevienelasexta.lat/fox3ar/tracks-v1a1/mono.m3u8",
+"fox3ar_2": "https://vashajs.mbappeoffside.site/fox3ar/tracks-v1a1/mono.m3u8",
+"fox3ar_3": "https://nnnnn.dzki.live/fox3ar/tracks-v1a1/mono.m3u8",
+
+"espnpremium": "https://pasodpasd.livestreamdz.xyz/espnpremium/tracks-v1a1/mono.m3u8",
+"espnpremium_1": "https://nxksdjaksd.sevienelasexta.lat/espnpremium/tracks-v1a1/mono.m3u8",
+"espnpremium_2": "https://vashajs.mbappeoffside.site/espnpremium/tracks-v1a1/mono.m3u8",
+"espnpremium_3": "https://nnnnn.dzki.live/espnpremium/tracks-v1a1/mono.m3u8",
+
+"tntar": "https://pasodpasd.livestreamdz.xyz/tntar/tracks-v1a1/mono.m3u8",
+"tntar_1": "https://nxksdjaksd.sevienelasexta.lat/tntar/tracks-v1a1/mono.m3u8",
+"tntar_2": "https://vashajs.mbappeoffside.site/tntar/tracks-v1a1/mono.m3u8",
+"tntar_3": "https://nnnnn.dzki.live/tntar/tracks-v1a1/mono.m3u8",
+
+"tyc": "https://pasodpasd.livestreamdz.xyz/tyc/tracks-v1a1/mono.m3u8",
+"tyc_1": "https://nxksdjaksd.sevienelasexta.lat/tyc/tracks-v1a1/mono.m3u8",
+"tyc_2": "https://vashajs.mbappeoffside.site/tyc/tracks-v1a1/mono.m3u8",
+"tyc_3": "https://nnnnn.dzki.live/tyc/tracks-v1a1/mono.m3u8",
+
+"futv": "https://pasodpasd.livestreamdz.xyz/futv/tracks-v1a1/mono.m3u8",
+"futv_1": "https://nxksdjaksd.sevienelasexta.lat/futv/tracks-v1a1/mono.m3u8",
+"futv_2": "https://vashajs.mbappeoffside.site/futv/tracks-v1a1/mono.m3u8",
+"futv_3": "https://nnnnn.dzki.live/futv/tracks-v1a1/mono.m3u8",
+
+"foxmx": "https://pasodpasd.livestreamdz.xyz/foxmx/tracks-v1a1/mono.m3u8",
+"foxmx_1": "https://nxksdjaksd.sevienelasexta.lat/foxmx/tracks-v1a1/mono.m3u8",
+"foxmx_2": "https://vashajs.mbappeoffside.site/foxmx/tracks-v1a1/mono.m3u8",
+"foxmx_3": "https://nnnnn.dzki.live/foxmx/tracks-v1a1/mono.m3u8",
+
+"foxmx2": "https://pasodpasd.livestreamdz.xyz/foxmx2/tracks-v1a1/mono.m3u8",
+"foxmx2_1": "https://nxksdjaksd.sevienelasexta.lat/foxmx2/tracks-v1a1/mono.m3u8",
+"foxmx2_2": "https://vashajs.mbappeoffside.site/foxmx2/tracks-v1a1/mono.m3u8",
+"foxmx2_3": "https://nnnnn.dzki.live/foxmx2/tracks-v1a1/mono.m3u8",
+
+"foxmx3": "https://pasodpasd.livestreamdz.xyz/foxmx3/tracks-v1a1/mono.m3u8",
+"foxmx3_1": "https://nxksdjaksd.sevienelasexta.lat/foxmx3/tracks-v1a1/mono.m3u8",
+"foxmx3_2": "https://vashajs.mbappeoffside.site/foxmx3/tracks-v1a1/mono.m3u8",
+"foxmx3_3": "https://nnnnn.dzki.live/foxmx3/tracks-v1a1/mono.m3u8",
+
+"deportestvc": "https://pasodpasd.livestreamdz.xyz/deportestvc/tracks-v1a1/mono.m3u8",
+"deportestvc_1": "https://nxksdjaksd.sevienelasexta.lat/deportestvc/tracks-v1a1/mono.m3u8",
+"deportestvc_2": "https://vashajs.mbappeoffside.site/deportestvc/tracks-v1a1/mono.m3u8",
+"deportestvc_3": "https://nnnnn.dzki.live/deportestvc/tracks-v1a1/mono.m3u8",
+
+"deportestvc2": "https://pasodpasd.livestreamdz.xyz/deportestvc2/tracks-v1a1/mono.m3u8",
+"deportestvc2_1": "https://nxksdjaksd.sevienelasexta.lat/deportestvc2/tracks-v1a1/mono.m3u8",
+"deportestvc2_2": "https://vashajs.mbappeoffside.site/deportestvc2/tracks-v1a1/mono.m3u8",
+"deportestvc2_3": "https://nnnnn.dzki.live/deportestvc2/tracks-v1a1/mono.m3u8",
+
+"deportestvc3": "https://pasodpasd.livestreamdz.xyz/deportestvc3/tracks-v1a1/mono.m3u8",
+"deportestvc3_1": "https://nxksdjaksd.sevienelasexta.lat/deportestvc3/tracks-v1a1/mono.m3u8",
+"deportestvc3_2": "https://vashajs.mbappeoffside.site/deportestvc3/tracks-v1a1/mono.m3u8",
+"deportestvc3_3": "https://nnnnn.dzki.live/deportestvc3/tracks-v1a1/mono.m3u8",
+
+"deportestvc4": "https://pasodpasd.livestreamdz.xyz/deportestvc4/tracks-v1a1/mono.m3u8",
+"deportestvc4_1": "https://nxksdjaksd.sevienelasexta.lat/deportestvc4/tracks-v1a1/mono.m3u8",
+"deportestvc4_2": "https://vashajs.mbappeoffside.site/deportestvc4/tracks-v1a1/mono.m3u8",
+"deportestvc4_3": "https://nnnnn.dzki.live/deportestvc4/tracks-v1a1/mono.m3u8",
+
+"foxdeportes": "https://pasodpasd.livestreamdz.xyz/foxdeportes/tracks-v1a1/mono.m3u8",
+"foxdeportes_1": "https://nxksdjaksd.sevienelasexta.lat/foxdeportes/tracks-v1a1/mono.m3u8",
+"foxdeportes_2": "https://vashajs.mbappeoffside.site/foxdeportes/tracks-v1a1/mono.m3u8",
+"foxdeportes_3": "https://nnnnn.dzki.live/foxdeportes/tracks-v1a1/mono.m3u8",
+
+"daznf1": "https://pasodpasd.livestreamdz.xyz/daznf1/tracks-v1a1/mono.m3u8",
+"daznf1_1": "https://nxksdjaksd.sevienelasexta.lat/daznf1/tracks-v1a1/mono.m3u8",
+"daznf1_2": "https://vashajs.mbappeoffside.site/daznf1/tracks-v1a1/mono.m3u8",
+"daznf1_3": "https://nnnnn.dzki.live/daznf1/tracks-v1a1/mono.m3u8",
+
+"dazn1de": "https://pasodpasd.livestreamdz.xyz/dazn1de/tracks-v1a1/mono.m3u8",
+"dazn1de_1": "https://nxksdjaksd.sevienelasexta.lat/dazn1de/tracks-v1a1/mono.m3u8",
+"dazn1de_2": "https://vashajs.mbappeoffside.site/dazn1de/tracks-v1a1/mono.m3u8",
+"dazn1de_3": "https://nnnnn.dzki.live/dazn1de/tracks-v1a1/mono.m3u8",
+
+"dazn2de": "https://pasodpasd.livestreamdz.xyz/dazn2de/tracks-v1a1/mono.m3u8",
+"dazn2de_1": "https://nxksdjaksd.sevienelasexta.lat/dazn2de/tracks-v1a1/mono.m3u8",
+"dazn2de_2": "https://vashajs.mbappeoffside.site/dazn2de/tracks-v1a1/mono.m3u8",
+"dazn2de_3": "https://nnnnn.dzki.live/dazn2de/tracks-v1a1/mono.m3u8",
+
+"espndeportes": "https://pasodpasd.livestreamdz.xyz/espndeportes/tracks-v1a1/mono.m3u8",
+"espndeportes_1": "https://nxksdjaksd.sevienelasexta.lat/espndeportes/tracks-v1a1/mono.m3u8",
+"espndeportes_2": "https://vashajs.mbappeoffside.site/espndeportes/tracks-v1a1/mono.m3u8",
+"espndeportes_3": "https://nnnnn.dzki.live/espndeportes/tracks-v1a1/mono.m3u8",
+
+"tntar": "https://pasodpasd.livestreamdz.xyz/tntar/tracks-v1a1/mono.m3u8",
+"tntar_1": "https://nxksdjaksd.sevienelasexta.lat/tntar/tracks-v1a1/mono.m3u8",
+"tntar_2": "https://vashajs.mbappeoffside.site/tntar/tracks-v1a1/mono.m3u8",
+"tntar_3": "https://nnnnn.dzki.live/tntar/tracks-v1a1/mono.m3u8",
+
+"hypermotion": "https://pasodpasd.livestreamdz.xyz/hypermotion/tracks-v1a1/mono.m3u8",
+"hypermotion_1": "https://nxksdjaksd.sevienelasexta.lat/hypermotion/tracks-v1a1/mono.m3u8",
+"hypermotion_2": "https://vashajs.mbappeoffside.site/hypermotion/tracks-v1a1/mono.m3u8",
+"hypermotion_3": "https://nnnnn.dzki.live/hypermotion/tracks-v1a1/mono.m3u8",
+
+"hypermotion2": "https://pasodpasd.livestreamdz.xyz/hypermotion2/tracks-v1a1/mono.m3u8",
+"hypermotion2_1": "https://nxksdjaksd.sevienelasexta.lat/hypermotion2/tracks-v1a1/mono.m3u8",
+"hypermotion2_2": "https://vashajs.mbappeoffside.site/hypermotion2/tracks-v1a1/mono.m3u8",
+"hypermotion2_3": "https://nnnnn.dzki.live/hypermotion2/tracks-v1a1/mono.m3u8",
+
+"dazn1": "https://pasodpasd.livestreamdz.xyz/dazn1/tracks-v1a1/mono.m3u8",
+"dazn1_1": "https://nxksdjaksd.sevienelasexta.lat/dazn1/tracks-v1a1/mono.m3u8",
+"dazn1_2": "https://vashajs.mbappeoffside.site/dazn1/tracks-v1a1/mono.m3u8",
+"dazn1_3": "https://nnnnn.dzki.live/dazn1/tracks-v1a1/mono.m3u8",
+
+"dazn2": "https://pasodpasd.livestreamdz.xyz/dazn2/tracks-v1a1/mono.m3u8",
+"dazn2_1": "https://nxksdjaksd.sevienelasexta.lat/dazn2/tracks-v1a1/mono.m3u8",
+"dazn2_2": "https://vashajs.mbappeoffside.site/dazn2/tracks-v1a1/mono.m3u8",
+"dazn2_3": "https://nnnnn.dzki.live/dazn2/tracks-v1a1/mono.m3u8",
+
+"dazn3": "https://pasodpasd.livestreamdz.xyz/dazn3/tracks-v1a1/mono.m3u8",
+"dazn3_1": "https://nxksdjaksd.sevienelasexta.lat/dazn3/tracks-v1a1/mono.m3u8",
+"dazn3_2": "https://vashajs.mbappeoffside.site/dazn3/tracks-v1a1/mono.m3u8",
+"dazn3_3": "https://nnnnn.dzki.live/dazn3/tracks-v1a1/mono.m3u8",
+
+"dazn4": "https://pasodpasd.livestreamdz.xyz/dazn4/tracks-v1a1/mono.m3u8",
+"dazn4_1": "https://nxksdjaksd.sevienelasexta.lat/dazn4/tracks-v1a1/mono.m3u8",
+"dazn4_2": "https://vashajs.mbappeoffside.site/dazn4/tracks-v1a1/mono.m3u8",
+"dazn4_3": "https://nnnnn.dzki.live/dazn4/tracks-v1a1/mono.m3u8",
+
+"daznlaliga": "https://pasodpasd.livestreamdz.xyz/daznlaliga/tracks-v1a1/mono.m3u8",
+"daznlaliga_1": "https://nxksdjaksd.sevienelasexta.lat/daznlaliga/tracks-v1a1/mono.m3u8",
+"daznlaliga_2": "https://vashajs.mbappeoffside.site/daznlaliga/tracks-v1a1/mono.m3u8",
+"daznlaliga_3": "https://nnnnn.dzki.live/daznlaliga/tracks-v1a1/mono.m3u8",
+
+"sportv1": "https://pasodpasd.livestreamdz.xyz/sportv1/tracks-v1a1/mono.m3u8",
+"sportv1_1": "https://nxksdjaksd.sevienelasexta.lat/sportv1/tracks-v1a1/mono.m3u8",
+"sportv1_2": "https://vashajs.mbappeoffside.site/sportv1/tracks-v1a1/mono.m3u8",
+"sportv1_3": "https://nnnnn.dzki.live/sportv1/tracks-v1a1/mono.m3u8",
+
+"sportv2": "https://pasodpasd.livestreamdz.xyz/sportv2/tracks-v1a1/mono.m3u8",
+"sportv2_1": "https://nxksdjaksd.sevienelasexta.lat/sportv2/tracks-v1a1/mono.m3u8",
+"sportv2_2": "https://vashajs.mbappeoffside.site/sportv2/tracks-v1a1/mono.m3u8",
+"sportv2_3": "https://nnnnn.dzki.live/sportv2/tracks-v1a1/mono.m3u8",
+
+"sportv3": "https://pasodpasd.livestreamdz.xyz/sportv3/tracks-v1a1/mono.m3u8",
+"sportv3_1": "https://nxksdjaksd.sevienelasexta.lat/sportv3/tracks-v1a1/mono.m3u8",
+"sportv3_2": "https://vashajs.mbappeoffside.site/sportv3/tracks-v1a1/mono.m3u8",
+"sportv3_3": "https://nnnnn.dzki.live/sportv3/tracks-v1a1/mono.m3u8",
+
+"sportv4": "https://pasodpasd.livestreamdz.xyz/sportv4/tracks-v1a1/mono.m3u8",
+"sportv4_1": "https://nxksdjaksd.sevienelasexta.lat/sportv4/tracks-v1a1/mono.m3u8",
+"sportv4_2": "https://vashajs.mbappeoffside.site/sportv4/tracks-v1a1/mono.m3u8",
+"sportv4_3": "https://nnnnn.dzki.live/sportv4/tracks-v1a1/mono.m3u8",
+
+"sportv5": "https://pasodpasd.livestreamdz.xyz/sportv5/tracks-v1a1/mono.m3u8",
+"sportv5_1": "https://nxksdjaksd.sevienelasexta.lat/sportv5/tracks-v1a1/mono.m3u8",
+"sportv5_2": "https://vashajs.mbappeoffside.site/sportv5/tracks-v1a1/mono.m3u8",
+"sportv5_3": "https://nnnnn.dzki.live/sportv5/tracks-v1a1/mono.m3u8",
+
+"winsportsplus": "https://pasodpasd.livestreamdz.xyz/winsportsplus/tracks-v1a1/mono.m3u8",
+"winsportsplus_1": "https://nxksdjaksd.sevienelasexta.lat/winsportsplus/tracks-v1a1/mono.m3u8",
+"winsportsplus_2": "https://vashajs.mbappeoffside.site/winsportsplus/tracks-v1a1/mono.m3u8",
+"winsportsplus_3": "https://nnnnn.dzki.live/winsportsplus/tracks-v1a1/mono.m3u8",
+
+"espnpremium": "https://pasodpasd.livestreamdz.xyz/espnpremium/tracks-v1a1/mono.m3u8",
+"espnpremium_1": "https://nxksdjaksd.sevienelasexta.lat/espnpremium/tracks-v1a1/mono.m3u8",
+"espnpremium_2": "https://vashajs.mbappeoffside.site/espnpremium/tracks-v1a1/mono.m3u8",
+"espnpremium_3": "https://nnnnn.dzki.live/espnpremium/tracks-v1a1/mono.m3u8",
+
+"tudnusa": "https://pasodpasd.livestreamdz.xyz/tudnusa/tracks-v1a1/mono.m3u8",
+"tudnusa_1": "https://nxksdjaksd.sevienelasexta.lat/tudnusa/tracks-v1a1/mono.m3u8",
+"tudnusa_2": "https://vashajs.mbappeoffside.site/tudnusa/tracks-v1a1/mono.m3u8",
+"tudnusa_3": "https://nnnnn.dzki.live/tudnusa/tracks-v1a1/mono.m3u8",
+
+"liga1max": "https://pasodpasd.livestreamdz.xyz/liga1max/tracks-v1a1/mono.m3u8",
+"liga1max_1": "https://nxksdjaksd.sevienelasexta.lat/liga1max/tracks-v1a1/mono.m3u8",
+"liga1max_2": "https://vashajs.mbappeoffside.site/liga1max/tracks-v1a1/mono.m3u8",
+"liga1max_3": "https://nnnnn.dzki.live/liga1max/tracks-v1a1/mono.m3u8",
+
+"foxpremium": "https://pasodpasd.livestreamdz.xyz/foxpremium/tracks-v1a1/mono.m3u8",
+"foxpremium_1": "https://nxksdjaksd.sevienelasexta.lat/foxpremium/tracks-v1a1/mono.m3u8",
+"foxpremium_2": "https://vashajs.mbappeoffside.site/foxpremium/tracks-v1a1/mono.m3u8",
+"foxpremium_3": "https://nnnnn.dzki.live/foxpremium/tracks-v1a1/mono.m3u8",
+
+"tntpremium": "https://pasodpasd.livestreamdz.xyz/tntpremium/tracks-v1a1/mono.m3u8",
+"tntpremium_1": "https://nxksdjaksd.sevienelasexta.lat/tntpremium/tracks-v1a1/mono.m3u8",
+"tntpremium_2": "https://vashajs.mbappeoffside.site/tntpremium/tracks-v1a1/mono.m3u8",
+"tntpremium_3": "https://nnnnn.dzki.live/tntpremium/tracks-v1a1/mono.m3u8",
+
+"premiere": "https://pasodpasd.livestreamdz.xyz/premiere/tracks-v1a1/mono.m3u8",
+"premiere_1": "https://nxksdjaksd.sevienelasexta.lat/premiere/tracks-v1a1/mono.m3u8",
+"premiere_2": "https://vashajs.mbappeoffside.site/premiere/tracks-v1a1/mono.m3u8",
+"premiere_3": "https://nnnnn.dzki.live/premiere/tracks-v1a1/mono.m3u8",
+
+"premiere2": "https://pasodpasd.livestreamdz.xyz/premiere2/tracks-v1a1/mono.m3u8",
+"premiere2_1": "https://nxksdjaksd.sevienelasexta.lat/premiere2/tracks-v1a1/mono.m3u8",
+"premiere2_2": "https://vashajs.mbappeoffside.site/premiere2/tracks-v1a1/mono.m3u8",
+"premiere2_3": "https://nnnnn.dzki.live/premiere2/tracks-v1a1/mono.m3u8",
+
+"premiere3": "https://pasodpasd.livestreamdz.xyz/premiere3/tracks-v1a1/mono.m3u8",
+"premiere3_1": "https://nxksdjaksd.sevienelasexta.lat/premiere3/tracks-v1a1/mono.m3u8",
+"premiere3_2": "https://vashajs.mbappeoffside.site/premiere3/tracks-v1a1/mono.m3u8",
+"premiere3_3": "https://nnnnn.dzki.live/premiere3/tracks-v1a1/mono.m3u8",
+
+"premiere4": "https://pasodpasd.livestreamdz.xyz/premiere4/tracks-v1a1/mono.m3u8",
+"premiere4_1": "https://nxksdjaksd.sevienelasexta.lat/premiere4/tracks-v1a1/mono.m3u8",
+"premiere4_2": "https://vashajs.mbappeoffside.site/premiere4/tracks-v1a1/mono.m3u8",
+"premiere4_3": "https://nnnnn.dzki.live/premiere4/tracks-v1a1/mono.m3u8",
+
+"premiere5": "https://pasodpasd.livestreamdz.xyz/premiere5/tracks-v1a1/mono.m3u8",
+"premiere5_1": "https://nxksdjaksd.sevienelasexta.lat/premiere5/tracks-v1a1/mono.m3u8",
+"premiere5_2": "https://vashajs.mbappeoffside.site/premiere5/tracks-v1a1/mono.m3u8",
+"premiere5_3": "https://nnnnn.dzki.live/premiere5/tracks-v1a1/mono.m3u8",
+
+"espnplus1": "https://pasodpasd.livestreamdz.xyz/espnplus1/tracks-v1a1/mono.m3u8",
+"espnplus1_1": "https://nxksdjaksd.sevienelasexta.lat/espnplus1/tracks-v1a1/mono.m3u8",
+"espnplus1_2": "https://vashajs.mbappeoffside.site/espnplus1/tracks-v1a1/mono.m3u8",
+"espnplus1_3": "https://nnnnn.dzki.live/espnplus1/tracks-v1a1/mono.m3u8",
+
+"espnplus2": "https://pasodpasd.livestreamdz.xyz/espnplus2/tracks-v1a1/mono.m3u8",
+"espnplus2_1": "https://nxksdjaksd.sevienelasexta.lat/espnplus2/tracks-v1a1/mono.m3u8",
+"espnplus2_2": "https://vashajs.mbappeoffside.site/espnplus2/tracks-v1a1/mono.m3u8",
+"espnplus2_3": "https://nnnnn.dzki.live/espnplus2/tracks-v1a1/mono.m3u8",
+
+"espnplus3": "https://pasodpasd.livestreamdz.xyz/espnplus3/tracks-v1a1/mono.m3u8",
+"espnplus3_1": "https://nxksdjaksd.sevienelasexta.lat/espnplus3/tracks-v1a1/mono.m3u8",
+"espnplus3_2": "https://vashajs.mbappeoffside.site/espnplus3/tracks-v1a1/mono.m3u8",
+"espnplus3_3": "https://nnnnn.dzki.live/espnplus3/tracks-v1a1/mono.m3u8",
+
+"espnplus4": "https://pasodpasd.livestreamdz.xyz/espnplus4/tracks-v1a1/mono.m3u8",
+"espnplus4_1": "https://nxksdjaksd.sevienelasexta.lat/espnplus4/tracks-v1a1/mono.m3u8",
+"espnplus4_2": "https://vashajs.mbappeoffside.site/espnplus4/tracks-v1a1/mono.m3u8",
+"espnplus4_3": "https://nnnnn.dzki.live/espnplus4/tracks-v1a1/mono.m3u8",
+
+"espnplus5": "https://pasodpasd.livestreamdz.xyz/espnplus5/tracks-v1a1/mono.m3u8",
+"espnplus5_1": "https://nxksdjaksd.sevienelasexta.lat/espnplus5/tracks-v1a1/mono.m3u8",
+"espnplus5_2": "https://vashajs.mbappeoffside.site/espnplus5/tracks-v1a1/mono.m3u8",
+"espnplus5_3": "https://nnnnn.dzki.live/espnplus5/tracks-v1a1/mono.m3u8",
+
+"espnplus6": "https://pasodpasd.livestreamdz.xyz/espnplus6/tracks-v1a1/mono.m3u8",
+"espnplus6_1": "https://nxksdjaksd.sevienelasexta.lat/espnplus6/tracks-v1a1/mono.m3u8",
+"espnplus6_2": "https://vashajs.mbappeoffside.site/espnplus6/tracks-v1a1/mono.m3u8",
+"espnplus6_3": "https://nnnnn.dzki.live/espnplus6/tracks-v1a1/mono.m3u8",
+
+"espnplus7": "https://pasodpasd.livestreamdz.xyz/espnplus7/tracks-v1a1/mono.m3u8",
+"espnplus7_1": "https://nxksdjaksd.sevienelasexta.lat/espnplus7/tracks-v1a1/mono.m3u8",
+"espnplus7_2": "https://vashajs.mbappeoffside.site/espnplus7/tracks-v1a1/mono.m3u8",
+"espnplus7_3": "https://nnnnn.dzki.live/espnplus7/tracks-v1a1/mono.m3u8",
+
+"espnplus8": "https://pasodpasd.livestreamdz.xyz/espnplus8/tracks-v1a1/mono.m3u8",
+"espnplus8_1": "https://nxksdjaksd.sevienelasexta.lat/espnplus8/tracks-v1a1/mono.m3u8",
+"espnplus8_2": "https://vashajs.mbappeoffside.site/espnplus8/tracks-v1a1/mono.m3u8",
+"espnplus8_3": "https://nnnnn.dzki.live/espnplus8/tracks-v1a1/mono.m3u8",
+
+"espnplus9": "https://pasodpasd.livestreamdz.xyz/espnplus9/tracks-v1a1/mono.m3u8",
+"espnplus9_1": "https://nxksdjaksd.sevienelasexta.lat/espnplus9/tracks-v1a1/mono.m3u8",
+"espnplus9_2": "https://vashajs.mbappeoffside.site/espnplus9/tracks-v1a1/mono.m3u8",
+"espnplus9_3": "https://nnnnn.dzki.live/espnplus9/tracks-v1a1/mono.m3u8",
+
+"espnplus10": "https://pasodpasd.livestreamdz.xyz/espnplus10/tracks-v1a1/mono.m3u8",
+"espnplus10_1": "https://nxksdjaksd.sevienelasexta.lat/espnplus10/tracks-v1a1/mono.m3u8",
+"espnplus10_2": "https://vashajs.mbappeoffside.site/espnplus10/tracks-v1a1/mono.m3u8",
+"espnplus10_3": "https://nnnnn.dzki.live/espnplus10/tracks-v1a1/mono.m3u8",
+
+"peacock1": "https://pasodpasd.livestreamdz.xyz/peacock1/tracks-v1a1/mono.m3u8",
+"peacock1_1": "https://nxksdjaksd.sevienelasexta.lat/peacock1/tracks-v1a1/mono.m3u8",
+"peacock1_2": "https://vashajs.mbappeoffside.site/peacock1/tracks-v1a1/mono.m3u8",
+"peacock1_3": "https://nnnnn.dzki.live/peacock1/tracks-v1a1/mono.m3u8",
+
+"peacock2": "https://pasodpasd.livestreamdz.xyz/peacock2/tracks-v1a1/mono.m3u8",
+"peacock2_1": "https://nxksdjaksd.sevienelasexta.lat/peacock2/tracks-v1a1/mono.m3u8",
+"peacock2_2": "https://vashajs.mbappeoffside.site/peacock2/tracks-v1a1/mono.m3u8",
+"peacock2_3": "https://nnnnn.dzki.live/peacock2/tracks-v1a1/mono.m3u8",
+
+"peacock3": "https://pasodpasd.livestreamdz.xyz/peacock3/tracks-v1a1/mono.m3u8",
+"peacock3_1": "https://nxksdjaksd.sevienelasexta.lat/peacock3/tracks-v1a1/mono.m3u8",
+"peacock3_2": "https://vashajs.mbappeoffside.site/peacock3/tracks-v1a1/mono.m3u8",
+"peacock3_3": "https://nnnnn.dzki.live/peacock3/tracks-v1a1/mono.m3u8",
+
+"peacock4": "https://pasodpasd.livestreamdz.xyz/peacock4/tracks-v1a1/mono.m3u8",
+"peacock4_1": "https://nxksdjaksd.sevienelasexta.lat/peacock4/tracks-v1a1/mono.m3u8",
+"peacock4_2": "https://vashajs.mbappeoffside.site/peacock4/tracks-v1a1/mono.m3u8",
+"peacock4_3": "https://nnnnn.dzki.live/peacock4/tracks-v1a1/mono.m3u8",
+
+"peacock5": "https://pasodpasd.livestreamdz.xyz/peacock5/tracks-v1a1/mono.m3u8",
+"peacock5_1": "https://nxksdjaksd.sevienelasexta.lat/peacock5/tracks-v1a1/mono.m3u8",
+"peacock5_2": "https://vashajs.mbappeoffside.site/peacock5/tracks-v1a1/mono.m3u8",
+"peacock5_3": "https://nnnnn.dzki.live/peacock5/tracks-v1a1/mono.m3u8",
+
+"mls": "https://pasodpasd.livestreamdz.xyz/mls/tracks-v1a1/mono.m3u8",
+"mls_1": "https://nxksdjaksd.sevienelasexta.lat/mls/tracks-v1a1/mono.m3u8",
+"mls_2": "https://vashajs.mbappeoffside.site/mls/tracks-v1a1/mono.m3u8",
+"mls_3": "https://nnnnn.dzki.live/mls/tracks-v1a1/mono.m3u8",
+
+"laligabar": "https://pasodpasd.livestreamdz.xyz/laligabar/tracks-v1a1/mono.m3u8",
+"laligabar_1": "https://nxksdjaksd.sevienelasexta.lat/laligabar/tracks-v1a1/mono.m3u8",
+"laligabar_2": "https://vashajs.mbappeoffside.site/laligabar/tracks-v1a1/mono.m3u8",
+"laligabar_3": "https://nnnnn.dzki.live/laligabar/tracks-v1a1/mono.m3u8",
+
+"mlaliga": "https://pasodpasd.livestreamdz.xyz/mlaliga/tracks-v1a1/mono.m3u8",
+"mlaliga_1": "https://nxksdjaksd.sevienelasexta.lat/mlaliga/tracks-v1a1/mono.m3u8",
+"mlaliga_2": "https://vashajs.mbappeoffside.site/mlaliga/tracks-v1a1/mono.m3u8",
+"mlaliga_3": "https://nnnnn.dzki.live/mlaliga/tracks-v1a1/mono.m3u8",
+
+"mcampeones": "https://pasodpasd.livestreamdz.xyz/mcampeones/tracks-v1a1/mono.m3u8",
+"mcampeones_1": "https://nxksdjaksd.sevienelasexta.lat/mcampeones/tracks-v1a1/mono.m3u8",
+"mcampeones_2": "https://vashajs.mbappeoffside.site/mcampeones/tracks-v1a1/mono.m3u8",
+"mcampeones_3": "https://nnnnn.dzki.live/mcampeones/tracks-v1a1/mono.m3u8",
+
+"nba1": "https://pasodpasd.livestreamdz.xyz/nba1/tracks-v1a1/mono.m3u8",
+"nba1_1": "https://nxksdjaksd.sevienelasexta.lat/nba1/tracks-v1a1/mono.m3u8",
+"nba1_2": "https://vashajs.mbappeoffside.site/nba1/tracks-v1a1/mono.m3u8",
+"nba1_3": "https://nnnnn.dzki.live/nba1/tracks-v1a1/mono.m3u8",
+
+"nba2": "https://pasodpasd.livestreamdz.xyz/nba2/tracks-v1a1/mono.m3u8",
+"nba2_1": "https://nxksdjaksd.sevienelasexta.lat/nba2/tracks-v1a1/mono.m3u8",
+"nba2_2": "https://vashajs.mbappeoffside.site/nba2/tracks-v1a1/mono.m3u8",
+"nba2_3": "https://nnnnn.dzki.live/nba2/tracks-v1a1/mono.m3u8",
+
+"nba3": "https://pasodpasd.livestreamdz.xyz/nba3/tracks-v1a1/mono.m3u8",
+"nba3_1": "https://nxksdjaksd.sevienelasexta.lat/nba3/tracks-v1a1/mono.m3u8",
+"nba3_2": "https://vashajs.mbappeoffside.site/nba3/tracks-v1a1/mono.m3u8",
+"nba3_3": "https://nnnnn.dzki.live/nba3/tracks-v1a1/mono.m3u8",
+
+"nba4": "https://pasodpasd.livestreamdz.xyz/nba4/tracks-v1a1/mono.m3u8",
+"nba4_1": "https://nxksdjaksd.sevienelasexta.lat/nba4/tracks-v1a1/mono.m3u8",
+"nba4_2": "https://vashajs.mbappeoffside.site/nba4/tracks-v1a1/mono.m3u8",
+"nba4_3": "https://nnnnn.dzki.live/nba4/tracks-v1a1/mono.m3u8",
+
+"nba5": "https://pasodpasd.livestreamdz.xyz/nba5/tracks-v1a1/mono.m3u8",
+"nba5_1": "https://nxksdjaksd.sevienelasexta.lat/nba5/tracks-v1a1/mono.m3u8",
+"nba5_2": "https://vashajs.mbappeoffside.site/nba5/tracks-v1a1/mono.m3u8",
+"nba5_3": "https://nnnnn.dzki.live/nba5/tracks-v1a1/mono.m3u8",
+
+"nba6": "https://pasodpasd.livestreamdz.xyz/nba6/tracks-v1a1/mono.m3u8",
+"nba6_1": "https://nxksdjaksd.sevienelasexta.lat/nba6/tracks-v1a1/mono.m3u8",
+"nba6_2": "https://vashajs.mbappeoffside.site/nba6/tracks-v1a1/mono.m3u8",
+"nba6_3": "https://nnnnn.dzki.live/nba6/tracks-v1a1/mono.m3u8",
+
+"nba7": "https://pasodpasd.livestreamdz.xyz/nba7/tracks-v1a1/mono.m3u8",
+"nba7_1": "https://nxksdjaksd.sevienelasexta.lat/nba7/tracks-v1a1/mono.m3u8",
+"nba7_2": "https://vashajs.mbappeoffside.site/nba7/tracks-v1a1/mono.m3u8",
+"nba7_3": "https://nnnnn.dzki.live/nba7/tracks-v1a1/mono.m3u8",
+
+"nba8": "https://pasodpasd.livestreamdz.xyz/nba8/tracks-v1a1/mono.m3u8",
+"nba8_1": "https://nxksdjaksd.sevienelasexta.lat/nba8/tracks-v1a1/mono.m3u8",
+"nba8_2": "https://vashajs.mbappeoffside.site/nba8/tracks-v1a1/mono.m3u8",
+"nba8_3": "https://nnnnn.dzki.live/nba8/tracks-v1a1/mono.m3u8",
+
+"nba9": "https://pasodpasd.livestreamdz.xyz/nba9/tracks-v1a1/mono.m3u8",
+"nba9_1": "https://nxksdjaksd.sevienelasexta.lat/nba9/tracks-v1a1/mono.m3u8",
+"nba9_2": "https://vashajs.mbappeoffside.site/nba9/tracks-v1a1/mono.m3u8",
+"nba9_3": "https://nnnnn.dzki.live/nba9/tracks-v1a1/mono.m3u8",
+
+"nba10": "https://pasodpasd.livestreamdz.xyz/nba10/tracks-v1a1/mono.m3u8",
+"nba10_1": "https://nxksdjaksd.sevienelasexta.lat/nba10/tracks-v1a1/mono.m3u8",
+"nba10_2": "https://vashajs.mbappeoffside.site/nba10/tracks-v1a1/mono.m3u8",
+"nba10_3": "https://nnnnn.dzki.live/nba10/tracks-v1a1/mono.m3u8",
+
+"disney1": "https://pasodpasd.livestreamdz.xyz/disney1/tracks-v1a1/mono.m3u8",
+"disney1_1": "https://nxksdjaksd.sevienelasexta.lat/disney1/tracks-v1a1/mono.m3u8",
+"disney1_2": "https://vashajs.mbappeoffside.site/disney1/tracks-v1a1/mono.m3u8",
+"disney1_3": "https://nnnnn.dzki.live/disney1/tracks-v1a1/mono.m3u8",
+
+"disney2": "https://pasodpasd.livestreamdz.xyz/disney2/tracks-v1a1/mono.m3u8",
+"disney2_1": "https://nxksdjaksd.sevienelasexta.lat/disney2/tracks-v1a1/mono.m3u8",
+"disney2_2": "https://vashajs.mbappeoffside.site/disney2/tracks-v1a1/mono.m3u8",
+"disney2_3": "https://nnnnn.dzki.live/disney2/tracks-v1a1/mono.m3u8",
+
+"disney3": "https://pasodpasd.livestreamdz.xyz/disney3/tracks-v1a1/mono.m3u8",
+"disney3_1": "https://nxksdjaksd.sevienelasexta.lat/disney3/tracks-v1a1/mono.m3u8",
+"disney3_2": "https://vashajs.mbappeoffside.site/disney3/tracks-v1a1/mono.m3u8",
+"disney3_3": "https://nnnnn.dzki.live/disney3/tracks-v1a1/mono.m3u8",
+
+"disney4": "https://pasodpasd.livestreamdz.xyz/disney4/tracks-v1a1/mono.m3u8",
+"disney4_1": "https://nxksdjaksd.sevienelasexta.lat/disney4/tracks-v1a1/mono.m3u8",
+"disney4_2": "https://vashajs.mbappeoffside.site/disney4/tracks-v1a1/mono.m3u8",
+"disney4_3": "https://nnnnn.dzki.live/disney4/tracks-v1a1/mono.m3u8",
+
+"disney5": "https://pasodpasd.livestreamdz.xyz/disney5/tracks-v1a1/mono.m3u8",
+"disney5_1": "https://nxksdjaksd.sevienelasexta.lat/disney5/tracks-v1a1/mono.m3u8",
+"disney5_2": "https://vashajs.mbappeoffside.site/disney5/tracks-v1a1/mono.m3u8",
+"disney5_3": "https://nnnnn.dzki.live/disney5/tracks-v1a1/mono.m3u8",
+
+"disney6": "https://pasodpasd.livestreamdz.xyz/disney6/tracks-v1a1/mono.m3u8",
+"disney6_1": "https://nxksdjaksd.sevienelasexta.lat/disney6/tracks-v1a1/mono.m3u8",
+"disney6_2": "https://vashajs.mbappeoffside.site/disney6/tracks-v1a1/mono.m3u8",
+"disney6_3": "https://nnnnn.dzki.live/disney6/tracks-v1a1/mono.m3u8",
+
+"disney7": "https://pasodpasd.livestreamdz.xyz/disney7/tracks-v1a1/mono.m3u8",
+"disney7_1": "https://nxksdjaksd.sevienelasexta.lat/disney7/tracks-v1a1/mono.m3u8",
+"disney7_2": "https://vashajs.mbappeoffside.site/disney7/tracks-v1a1/mono.m3u8",
+"disney7_3": "https://nnnnn.dzki.live/disney7/tracks-v1a1/mono.m3u8",
+
+"disney8": "https://pasodpasd.livestreamdz.xyz/disney8/tracks-v1a1/mono.m3u8",
+"disney8_1": "https://nxksdjaksd.sevienelasexta.lat/disney8/tracks-v1a1/mono.m3u8",
+"disney8_2": "https://vashajs.mbappeoffside.site/disney8/tracks-v1a1/mono.m3u8",
+"disney8_3": "https://nnnnn.dzki.live/disney8/tracks-v1a1/mono.m3u8",
+
+"disney9": "https://pasodpasd.livestreamdz.xyz/disney9/tracks-v1a1/mono.m3u8",
+"disney9_1": "https://nxksdjaksd.sevienelasexta.lat/disney9/tracks-v1a1/mono.m3u8",
+"disney9_2": "https://vashajs.mbappeoffside.site/disney9/tracks-v1a1/mono.m3u8",
+"disney9_3": "https://nnnnn.dzki.live/disney9/tracks-v1a1/mono.m3u8",
+
+"disney10": "https://pasodpasd.livestreamdz.xyz/disney10/tracks-v1a1/mono.m3u8",
+"disney10_1": "https://nxksdjaksd.sevienelasexta.lat/disney10/tracks-v1a1/mono.m3u8",
+"disney10_2": "https://vashajs.mbappeoffside.site/disney10/tracks-v1a1/mono.m3u8",
+"disney10_3": "https://nnnnn.dzki.live/disney10/tracks-v1a1/mono.m3u8",
+
+"disney11": "https://pasodpasd.livestreamdz.xyz/disney11/tracks-v1a1/mono.m3u8",
+"disney11_1": "https://nxksdjaksd.sevienelasexta.lat/disney11/tracks-v1a1/mono.m3u8",
+"disney11_2": "https://vashajs.mbappeoffside.site/disney11/tracks-v1a1/mono.m3u8",
+"disney11_3": "https://nnnnn.dzki.live/disney11/tracks-v1a1/mono.m3u8",
+
+"disney12": "https://pasodpasd.livestreamdz.xyz/disney12/tracks-v1a1/mono.m3u8",
+"disney12_1": "https://nxksdjaksd.sevienelasexta.lat/disney12/tracks-v1a1/mono.m3u8",
+"disney12_2": "https://vashajs.mbappeoffside.site/disney12/tracks-v1a1/mono.m3u8",
+"disney12_3": "https://nnnnn.dzki.live/disney12/tracks-v1a1/mono.m3u8",
+
+"disney13": "https://pasodpasd.livestreamdz.xyz/disney13/tracks-v1a1/mono.m3u8",
+"disney13_1": "https://nxksdjaksd.sevienelasexta.lat/disney13/tracks-v1a1/mono.m3u8",
+"disney13_2": "https://vashajs.mbappeoffside.site/disney13/tracks-v1a1/mono.m3u8",
+"disney13_3": "https://nnnnn.dzki.live/disney13/tracks-v1a1/mono.m3u8",
+
+"disney14": "https://pasodpasd.livestreamdz.xyz/disney14/tracks-v1a1/mono.m3u8",
+"disney14_1": "https://nxksdjaksd.sevienelasexta.lat/disney14/tracks-v1a1/mono.m3u8",
+"disney14_2": "https://vashajs.mbappeoffside.site/disney14/tracks-v1a1/mono.m3u8",
+"disney14_3": "https://nnnnn.dzki.live/disney14/tracks-v1a1/mono.m3u8",
+
+"disney15": "https://pasodpasd.livestreamdz.xyz/disney15/tracks-v1a1/mono.m3u8",
+"disney15_1": "https://nxksdjaksd.sevienelasexta.lat/disney15/tracks-v1a1/mono.m3u8",
+"disney15_2": "https://vashajs.mbappeoffside.site/disney15/tracks-v1a1/mono.m3u8",
+"disney15_3": "https://nnnnn.dzki.live/disney15/tracks-v1a1/mono.m3u8",
+
+"disney16": "https://pasodpasd.livestreamdz.xyz/disney16/tracks-v1a1/mono.m3u8",
+"disney16_1": "https://nxksdjaksd.sevienelasexta.lat/disney16/tracks-v1a1/mono.m3u8",
+"disney16_2": "https://vashajs.mbappeoffside.site/disney16/tracks-v1a1/mono.m3u8",
+"disney16_3": "https://nnnnn.dzki.live/disney16/tracks-v1a1/mono.m3u8",
+
+"disney17": "https://pasodpasd.livestreamdz.xyz/disney17/tracks-v1a1/mono.m3u8",
+"disney17_1": "https://nxksdjaksd.sevienelasexta.lat/disney17/tracks-v1a1/mono.m3u8",
+"disney17_2": "https://vashajs.mbappeoffside.site/disney17/tracks-v1a1/mono.m3u8",
+"disney17_3": "https://nnnnn.dzki.live/disney17/tracks-v1a1/mono.m3u8",
+
+"disney18": "https://pasodpasd.livestreamdz.xyz/disney18/tracks-v1a1/mono.m3u8",
+"disney18_1": "https://nxksdjaksd.sevienelasexta.lat/disney18/tracks-v1a1/mono.m3u8",
+"disney18_2": "https://vashajs.mbappeoffside.site/disney18/tracks-v1a1/mono.m3u8",
+"disney18_3": "https://nnnnn.dzki.live/disney18/tracks-v1a1/mono.m3u8",
+
+"disney19": "https://pasodpasd.livestreamdz.xyz/disney19/tracks-v1a1/mono.m3u8",
+"disney19_1": "https://nxksdjaksd.sevienelasexta.lat/disney19/tracks-v1a1/mono.m3u8",
+"disney19_2": "https://vashajs.mbappeoffside.site/disney19/tracks-v1a1/mono.m3u8",
+"disney19_3": "https://nnnnn.dzki.live/disney19/tracks-v1a1/mono.m3u8",
+
+"disney20": "https://pasodpasd.livestreamdz.xyz/disney20/tracks-v1a1/mono.m3u8",
+"disney20_1": "https://nxksdjaksd.sevienelasexta.lat/disney20/tracks-v1a1/mono.m3u8",
+"disney20_2": "https://vashajs.mbappeoffside.site/disney20/tracks-v1a1/mono.m3u8",
+"disney20_3": "https://nnnnn.dzki.live/disney20/tracks-v1a1/mono.m3u8",
+
+"disney21": "https://pasodpasd.livestreamdz.xyz/disney21/tracks-v1a1/mono.m3u8",
+"disney21_1": "https://nxksdjaksd.sevienelasexta.lat/disney21/tracks-v1a1/mono.m3u8",
+"disney21_2": "https://vashajs.mbappeoffside.site/disney21/tracks-v1a1/mono.m3u8",
+"disney21_3": "https://nnnnn.dzki.live/disney21/tracks-v1a1/mono.m3u8",
+
+"disney22": "https://pasodpasd.livestreamdz.xyz/disney22/tracks-v1a1/mono.m3u8",
+"disney22_1": "https://nxksdjaksd.sevienelasexta.lat/disney22/tracks-v1a1/mono.m3u8",
+"disney22_2": "https://vashajs.mbappeoffside.site/disney22/tracks-v1a1/mono.m3u8",
+"disney22_3": "https://nnnnn.dzki.live/disney22/tracks-v1a1/mono.m3u8",
+
+"disney23": "https://pasodpasd.livestreamdz.xyz/disney23/tracks-v1a1/mono.m3u8",
+"disney23_1": "https://nxksdjaksd.sevienelasexta.lat/disney23/tracks-v1a1/mono.m3u8",
+"disney23_2": "https://vashajs.mbappeoffside.site/disney23/tracks-v1a1/mono.m3u8",
+"disney23_3": "https://nnnnn.dzki.live/disney23/tracks-v1a1/mono.m3u8",
+
+"disney24": "https://pasodpasd.livestreamdz.xyz/disney24/tracks-v1a1/mono.m3u8",
+"disney24_1": "https://nxksdjaksd.sevienelasexta.lat/disney24/tracks-v1a1/mono.m3u8",
+"disney24_2": "https://vashajs.mbappeoffside.site/disney24/tracks-v1a1/mono.m3u8",
+"disney24_3": "https://nnnnn.dzki.live/disney24/tracks-v1a1/mono.m3u8",
+
+"disney25": "https://pasodpasd.livestreamdz.xyz/disney25/tracks-v1a1/mono.m3u8",
+"disney25_1": "https://nxksdjaksd.sevienelasexta.lat/disney25/tracks-v1a1/mono.m3u8",
+"disney25_2": "https://vashajs.mbappeoffside.site/disney25/tracks-v1a1/mono.m3u8",
+"disney25_3": "https://nnnnn.dzki.live/disney25/tracks-v1a1/mono.m3u8",
+
+"max1": "https://pasodpasd.livestreamdz.xyz/max1/tracks-v1a1/mono.m3u8",
+"max1_1": "https://nxksdjaksd.sevienelasexta.lat/max1/tracks-v1a1/mono.m3u8",
+"max1_2": "https://vashajs.mbappeoffside.site/max1/tracks-v1a1/mono.m3u8",
+"max1_3": "https://nnnnn.dzki.live/max1/tracks-v1a1/mono.m3u8",
+
+"max2": "https://pasodpasd.livestreamdz.xyz/max2/tracks-v1a1/mono.m3u8",
+"max2_1": "https://nxksdjaksd.sevienelasexta.lat/max2/tracks-v1a1/mono.m3u8",
+"max2_2": "https://vashajs.mbappeoffside.site/max2/tracks-v1a1/mono.m3u8",
+"max2_3": "https://nnnnn.dzki.live/max2/tracks-v1a1/mono.m3u8",
+
+"max3": "https://pasodpasd.livestreamdz.xyz/max3/tracks-v1a1/mono.m3u8",
+"max3_1": "https://nxksdjaksd.sevienelasexta.lat/max3/tracks-v1a1/mono.m3u8",
+"max3_2": "https://vashajs.mbappeoffside.site/max3/tracks-v1a1/mono.m3u8",
+"max3_3": "https://nnnnn.dzki.live/max3/tracks-v1a1/mono.m3u8",
+
+"max4": "https://pasodpasd.livestreamdz.xyz/max4/tracks-v1a1/mono.m3u8",
+"max4_1": "https://nxksdjaksd.sevienelasexta.lat/max4/tracks-v1a1/mono.m3u8",
+"max4_2": "https://vashajs.mbappeoffside.site/max4/tracks-v1a1/mono.m3u8",
+"max4_3": "https://nnnnn.dzki.live/max4/tracks-v1a1/mono.m3u8",
+
+"max5": "https://pasodpasd.livestreamdz.xyz/max5/tracks-v1a1/mono.m3u8",
+"max5_1": "https://nxksdjaksd.sevienelasexta.lat/max5/tracks-v1a1/mono.m3u8",
+"max5_2": "https://vashajs.mbappeoffside.site/max5/tracks-v1a1/mono.m3u8",
+"max5_3": "https://nnnnn.dzki.live/max5/tracks-v1a1/mono.m3u8",
+
+"max6": "https://pasodpasd.livestreamdz.xyz/max6/tracks-v1a1/mono.m3u8",
+"max6_1": "https://nxksdjaksd.sevienelasexta.lat/max6/tracks-v1a1/mono.m3u8",
+"max6_2": "https://vashajs.mbappeoffside.site/max6/tracks-v1a1/mono.m3u8",
+"max6_3": "https://nnnnn.dzki.live/max6/tracks-v1a1/mono.m3u8",
+
+"max7": "https://pasodpasd.livestreamdz.xyz/max7/tracks-v1a1/mono.m3u8",
+"max7_1": "https://nxksdjaksd.sevienelasexta.lat/max7/tracks-v1a1/mono.m3u8",
+"max7_2": "https://vashajs.mbappeoffside.site/max7/tracks-v1a1/mono.m3u8",
+"max7_3": "https://nnnnn.dzki.live/max7/tracks-v1a1/mono.m3u8",
+
+"max8": "https://pasodpasd.livestreamdz.xyz/max8/tracks-v1a1/mono.m3u8",
+"max8_1": "https://nxksdjaksd.sevienelasexta.lat/max8/tracks-v1a1/mono.m3u8",
+"max8_2": "https://vashajs.mbappeoffside.site/max8/tracks-v1a1/mono.m3u8",
+"max8_3": "https://nnnnn.dzki.live/max8/tracks-v1a1/mono.m3u8",
+
+"max9": "https://pasodpasd.livestreamdz.xyz/max9/tracks-v1a1/mono.m3u8",
+"max9_1": "https://nxksdjaksd.sevienelasexta.lat/max9/tracks-v1a1/mono.m3u8",
+"max9_2": "https://vashajs.mbappeoffside.site/max9/tracks-v1a1/mono.m3u8",
+"max9_3": "https://nnnnn.dzki.live/max9/tracks-v1a1/mono.m3u8",
+
+"max10": "https://pasodpasd.livestreamdz.xyz/max10/tracks-v1a1/mono.m3u8",
+"max10_1": "https://nxksdjaksd.sevienelasexta.lat/max10/tracks-v1a1/mono.m3u8",
+"max10_2": "https://vashajs.mbappeoffside.site/max10/tracks-v1a1/mono.m3u8",
+"max10_3": "https://nnnnn.dzki.live/max10/tracks-v1a1/mono.m3u8",
+
+"tigopy": "https://pasodpasd.livestreamdz.xyz/tigopy/tracks-v1a1/mono.m3u8",
+"tigopy_1": "https://nxksdjaksd.sevienelasexta.lat/tigopy/tracks-v1a1/mono.m3u8",
+"tigopy_2": "https://vashajs.mbappeoffside.site/tigopy/tracks-v1a1/mono.m3u8",
+"tigopy_3": "https://nnnnn.dzki.live/tigopy/tracks-v1a1/mono.m3u8",
+
+"tigopy2": "https://pasodpasd.livestreamdz.xyz/tigopy2/tracks-v1a1/mono.m3u8",
+"tigopy2_1": "https://nxksdjaksd.sevienelasexta.lat/tigopy2/tracks-v1a1/mono.m3u8",
+"tigopy2_2": "https://vashajs.mbappeoffside.site/tigopy2/tracks-v1a1/mono.m3u8",
+"tigopy2_3": "https://nnnnn.dzki.live/tigopy2/tracks-v1a1/mono.m3u8",
+
+"tigopy3": "https://pasodpasd.livestreamdz.xyz/tigopy3/tracks-v1a1/mono.m3u8",
+"tigopy3_1": "https://nxksdjaksd.sevienelasexta.lat/tigopy3/tracks-v1a1/mono.m3u8",
+"tigopy3_2": "https://vashajs.mbappeoffside.site/tigopy3/tracks-v1a1/mono.m3u8",
+"tigopy3_3": "https://nnnnn.dzki.live/tigopy3/tracks-v1a1/mono.m3u8",
+
+"tigogt": "https://pasodpasd.livestreamdz.xyz/tigogt/tracks-v1a1/mono.m3u8",
+"tigogt_1": "https://nxksdjaksd.sevienelasexta.lat/tigogt/tracks-v1a1/mono.m3u8",
+"tigogt_2": "https://vashajs.mbappeoffside.site/tigogt/tracks-v1a1/mono.m3u8",
+"tigogt_3": "https://nnnnn.dzki.live/tigogt/tracks-v1a1/mono.m3u8",
+
+"espnmx": "https://pasodpasd.livestreamdz.xyz/espnmx/tracks-v1a1/mono.m3u8",
+"espnmx_1": "https://nxksdjaksd.sevienelasexta.lat/espnmx/tracks-v1a1/mono.m3u8",
+"espnmx_2": "https://vashajs.mbappeoffside.site/espnmx/tracks-v1a1/mono.m3u8",
+"espnmx_3": "https://nnnnn.dzki.live/espnmx/tracks-v1a1/mono.m3u8",
+
+"espnmx2": "https://pasodpasd.livestreamdz.xyz/espnmx2/tracks-v1a1/mono.m3u8",
+"espnmx2_1": "https://nxksdjaksd.sevienelasexta.lat/espnmx2/tracks-v1a1/mono.m3u8",
+"espnmx2_2": "https://vashajs.mbappeoffside.site/espnmx2/tracks-v1a1/mono.m3u8",
+"espnmx2_3": "https://nnnnn.dzki.live/espnmx2/tracks-v1a1/mono.m3u8",
+
+"fanatiz": "https://pasodpasd.livestreamdz.xyz/fanatiz/tracks-v1a1/mono.m3u8",
+"fanatiz_1": "https://nxksdjaksd.sevienelasexta.lat/fanatiz/tracks-v1a1/mono.m3u8",
+"fanatiz_2": "https://vashajs.mbappeoffside.site/fanatiz/tracks-v1a1/mono.m3u8",
+"fanatiz_3": "https://nnnnn.dzki.live/fanatiz/tracks-v1a1/mono.m3u8",
+
+"fanatiz2": "https://pasodpasd.livestreamdz.xyz/fanatiz2/tracks-v1a1/mono.m3u8",
+"fanatiz2_1": "https://nxksdjaksd.sevienelasexta.lat/fanatiz2/tracks-v1a1/mono.m3u8",
+"fanatiz2_2": "https://vashajs.mbappeoffside.site/fanatiz2/tracks-v1a1/mono.m3u8",
+"fanatiz2_3": "https://nnnnn.dzki.live/fanatiz2/tracks-v1a1/mono.m3u8",
+
+"fanatiz3": "https://pasodpasd.livestreamdz.xyz/fanatiz3/tracks-v1a1/mono.m3u8",
+"fanatiz3_1": "https://nxksdjaksd.sevienelasexta.lat/fanatiz3/tracks-v1a1/mono.m3u8",
+"fanatiz3_2": "https://vashajs.mbappeoffside.site/fanatiz3/tracks-v1a1/mono.m3u8",
+"fanatiz3_3": "https://nnnnn.dzki.live/fanatiz3/tracks-v1a1/mono.m3u8",
+
+"fanatiz4": "https://pasodpasd.livestreamdz.xyz/fanatiz4/tracks-v1a1/mono.m3u8",
+"fanatiz4_1": "https://nxksdjaksd.sevienelasexta.lat/fanatiz4/tracks-v1a1/mono.m3u8",
+"fanatiz4_2": "https://vashajs.mbappeoffside.site/fanatiz4/tracks-v1a1/mono.m3u8",
+"fanatiz4_3": "https://nnnnn.dzki.live/fanatiz4/tracks-v1a1/mono.m3u8"
+
+
+
+
+
+
+
+};
+
+    // Obtener el canal desde la URL
+    var channel = getParameterByName('channel') || 'espn'; // Por defecto, ESPN
+
+    // Validar si el canal existe
+    if (!channels[channel]) {
+        alert("El canal especificado no estÃ¡ disponible.");
+        channel = 'intro';
+    }
+    
+   // Crear el cÃ³digo de embed dinÃ¡micamente
+        var embedCode = `<iframe title="${channel} Player" marginheight="0" marginwidth="0" src="https://wris.asia/player/embed.php?channel=${channel}" scrolling="no" allowfullscreen="yes" allow="encrypted-media; picture-in-picture;" width="100%" height="100%" frameborder="0"></iframe>`;
+
+        // BotÃ³n EMBED
+        var embedButton = document.getElementById('embed-button');
+        var embedModal = document.getElementById('embed-modal');
+        var embedModalOverlay = document.getElementById('embed-modal-overlay');
+        var embedCodeTextarea = document.getElementById('embed-code');
+        var closeModalButton = document.getElementById('close-modal');
+
+        embedButton.addEventListener('click', function () {
+            embedCodeTextarea.value = embedCode;
+            embedModal.style.display = 'block';
+            embedModalOverlay.style.display = 'block';
+        });
+
+        // Cerrar el modal
+        closeModalButton.addEventListener('click', function () {
+            embedModal.style.display = 'none';
+            embedModalOverlay.style.display = 'none';
+        });
+
+        embedModalOverlay.addEventListener('click', function () {
+            embedModal.style.display = 'none';
+            embedModalOverlay.style.display = 'none';
+        });
+
+    // ConfiguraciÃ³n de P2P
+    var p2pConfig = {
+        showSlogan: false,
+        announce: "https://ann.embedme.top/v1",
+        token: "dazc",
+        channelId: channel, // Canal dinÃ¡mico
+        swFile: 'https://wris.asia/player/sw.js',
+        live: true,
+        getStats: function(totalP2PDownloaded, totalP2PUploaded, totalHTTPDownloaded) {
+            var total = totalHTTPDownloaded + totalP2PDownloaded;
+            console.log(`P2P ratio: ${Math.round(totalP2PDownloaded / total * 100)}%, Saved traffic: ${totalP2PDownloaded}KB, Uploaded: ${totalP2PUploaded}KB`);
+        }
+    };
+
+    var player = new Clappr.Player({
+        source: channels[channel] + atob("P21kNT1MakpIRU9mX1RmSTl5dGhRM21QTTRBJmV4cGlyZXM9MTczMzEwMDM5MQ=="),
+        parentId: "#player",
+        mediacontrol: {
+            seekbar: "#0094ff",
+            buttons: "#ffffff"
+        },
+        loop: "true",
+        preload: "metadata",
+        autoStart: false,
+        width: "100%",
+        height: "100%",
+        strings: {
+            en: {
+                live: "90Minutos"
+            },
+            es: {
+                live: "90Minutos"
+            }
+        }
+    });
+
+    P2PEngineHls.tryRegisterServiceWorker(p2pConfig).then(() => {
+        p2pConfig.hlsjsInstance = player.core.getCurrentPlayback()?._hls;
+        var engine = new P2PEngineHls(p2pConfig);
+    });
+
+    if (getLang == "") {
+        getLang = 1;
+    }
+
+    player.on(Clappr.Events.PLAYER_PLAY, function() {
+    if (typeof player.setCurrentAudioTrack === 'function') {
+        player.setCurrentAudioTrack(getLang);
+    } else {
+        console.warn("La funciÃ³n setCurrentAudioTrack no estÃ¡ disponible.");
+    }
+});
+
+
+    function toggleFullScreen() {
+        if (!document.fullscreenElement) {
+            document.documentElement.requestFullscreen();
+        } else {
+            if (document.exitFullscreen) {
+                document.exitFullscreen();
+            }
+        }
+    }
+</script>
+<script type="text/javascript">
+!function(){try{var t=["sandbox","hasAttribute","frameElement","data","indexOf","href","domain","","plugins","undefined","namedItem","object","createElement","onerror","type","application/pdf","setAttribute","style","visibility:hidden;width:0;height:0;position:absolute;top:-99px;","appendChild","body","removeChild","parentElement","https://wris.asia/player/block.html?referer=","substring","referrer"];function e(){try{if(config.ampallow){var e=window.location.ancestorOrigins;if(e[e.length-1].endsWith("google.com"))return}}catch(n){}setTimeout(function(){location[t[5]]="https://wris.asia/player/block.html"},500)}!function e(n){try{if(window[t[2]][t[1]](t[0])){n();return}}catch(r){}if(0!=location[t[5]][t[4]](t[3])&&document[t[6]]==t[7]){n();return}if(typeof navigator[t[8]]!=t[9]&&typeof navigator[t[8]][t[10]]!=t[9]&&null!=navigator[t[8]][t[10]](t[11])){var i=document[t[13]](t[12]);i[t[14]]=function(){n()},i[t[17]](t[15],t[16]),i[t[17]](t[18],t[19]),i[t[17]](t[3],t[20]),document[t[22]][t[21]](i),setTimeout(function(){i[t[24]][t[23]](i)},150)}}(e),function t(){try{document.domain=document.domain}catch(e){try{if(-1!=e.toString().toLowerCase().indexOf("sandbox"))return!0}catch(n){}}return!1}()&&e(),function t(){if(window.parent===window)return!1;try{var e=window.frameElement}catch(n){e=null}return null===e?""===document.domain&&"data:"!==location.protocol:e.hasAttribute("sandbox")}()&&e()}catch(n){}}();
+</script>
+</body>
+
+</html>
