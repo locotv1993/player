@@ -16,7 +16,7 @@
     "status": false,
     "sliders": [
       {
-        "title": "Bienbenid@s a 90Minutos",
+        "title": "Bienbenid@s aResultados Ec",
         "message": "La mejor app de entretenimiento para una mejor experiencia entra al gruopo de soporte",
         "image": "https://i.postimg.cc/9QcM3Kkv/IMG-20240807-185012-903.jpg",
         "background_color": "ffffff"
@@ -67,7 +67,7 @@
   ],
   "ads": {
     "ad_status": true,
-    "main_ads": "admob",
+    "main_ads": "wortise",
     "backup_ads": "none",
     "admob_publisher_id": "pub-7431474071061268",
     "admob_banner_unit_id": "ca-app-pub-2076954299288974/3979011798",
@@ -95,11 +95,11 @@
     "ironsource_app_key": "85460dcd",
     "ironsource_banner_placement_name": "DefaultBanner",
     "ironsource_interstitial_placement_name": "DefaultInterstitial",
-    "wortise_app_id": "test-app-id",
-    "wortise_banner_ad_unit_id": "test-banner",
-    "wortise_interstitial_ad_unit_id": "test-interstitial",
+    "wortise_app_id": "ca-app-pub-4537341636281998~7170763251",
+    "wortise_banner_ad_unit_id": "8938ec4b-0795-428a-a3ff-9b1eb2618cab",
+    "wortise_interstitial_ad_unit_id": "d87d9b72-ccce-4b9c-a125-dc94d307eaed",
     "wortise_native_ad_unit_id": "test-native",
-    "wortise_app_open_ad_unit_id": "test-app-open",
+    "wortise_app_open_ad_unit_id": "495ba502-7d03-4f25-90e4-a4f7f8c3201d",
     "interstitial_ad_interval_on_drawer_menu": 2,
     "interstitial_ad_interval_on_web_page_link": 1,
     "native_ad_style_drawer_menu": "medium",
