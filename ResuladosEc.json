@@ -1,0 +1,117 @@
+{
+  "app": {
+    "status": true,
+    "toolbar": true,
+    "navigation_drawer": true,
+    "geolocation": false,
+    "cache": true,
+    "open_link_in_external_browser": false,
+    "zoom_controls": false,
+    "user_agent": "",
+    "privacy_policy_url": "https://cmrroto01.blogspot.com/p/politica-de-privacidad.html",
+    "more_apps_url": "https://play.solodroid.co.id/store/apps/",
+    "redirect_url": ""
+  },
+  "intro": {
+    "status": false,
+    "sliders": [
+      {
+        "title": "Bienbenid@s a 90Minutos",
+        "message": "La mejor app de entretenimiento para una mejor experiencia entra al gruopo de soporte",
+        "image": "https://i.postimg.cc/9QcM3Kkv/IMG-20240807-185012-903.jpg",
+        "background_color": "ffffff"
+      },
+      {
+        "title": "Navegacion del  menu",
+        "message": "En la parte izquierda encuentras el DCMA y la politica de privacidad",
+        "image": "https://i.postimg.cc/43mXsgQF/IMG-20240807-193120-432.jpg",
+        "background_color": "ffffff"
+      },
+      {
+        "title": "Notificaciones",
+        "message": "Notificaciones el instante de tus eventos favoritos",
+        "image": "https://i.postimg.cc/W4Fcx7sB/IMG-20240807-193415-809.jpg",
+        "background_color": "ffffff"
+      },
+      {
+        "title": "Calificar o compartir",
+        "message": "Puedes calificar o compartir la app con tus amigos",
+        "image": "https://i.postimg.cc/FH62bJ0D/IMG-20240807-194023-301.jpg",
+        "background_color": "ffffff"
+      }
+    ]
+  },
+  "menus": [
+    {
+      "name": "Resuldasos EC",
+      "type": "url",
+      "icon": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/webview/icons/home.png",
+      "url": "https://cmrroto01.blogspot.com/p/resultados-ec-inicio.html",
+      "url_dark": "https://cmrroto01.blogspot.com/p/resultados-ec-inicio.html"
+    },
+    {
+      "name": "DCMA",
+      "type": "url",
+      "icon": "https://www.solodroid.net/demo/webdroid/images/ic_privacy.png",
+      "url": "https://politicaprivacidad09.blogspot.com/p/dcma.html",
+      "url_dark": "https://politicaprivacidad09.blogspot.com/p/dcma.html"
+    },
+    
+    {
+      "name": "Politica de privacidad",
+      "type": "url",
+      "icon": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/webview/icons/privacy-policy.png",
+      "url": "https://cmrroto01.blogspot.com/p/politica-de-privacidad-resultados-ec.html",
+      "url_dark": "https://cmrroto01.blogspot.com/p/politica-de-privacidad-resultados-ec.html"
+    }
+  ],
+  "ads": {
+    "ad_status": true,
+    "main_ads": "admob",
+    "backup_ads": "none",
+    "admob_publisher_id": "pub-7431474071061268",
+    "admob_banner_unit_id": "ca-app-pub-2076954299288974/3979011798",
+    "admob_interstitial_unit_id": "ca-app-pub-2076954299288974/2875425835",
+    "admob_native_unit_id": "ca-app-pub-2076954299288974/8618707102",
+    "admob_app_open_ad_unit_id": "ca-app-pub-2076954299288974/9167132328",
+    "ad_manager_banner_unit_id": "",
+    "ad_manager_interstitial_unit_id": "",
+    "ad_manager_native_unit_id": "",
+    "ad_manager_app_open_ad_unit_id": "",
+    "fan_banner_unit_id": "",
+    "fan_interstitial_unit_id": "",
+    "fan_native_unit_id": "",
+    "startapp_app_id": "0",
+    "unity_game_id": "4089993",
+    "unity_banner_placement_id": "banner",
+    "unity_interstitial_placement_id": "video",
+    "applovin_banner_ad_unit_id": "0",
+    "applovin_interstitial_ad_unit_id": "0",
+    "applovin_native_ad_manual_unit_id": "0",
+    "applovin_app_open_ad_unit_id": "0",
+    "applovin_banner_zone_id": "0",
+    "applovin_banner_mrec_zone_id": "0",
+    "applovin_interstitial_zone_id": "0",
+    "ironsource_app_key": "85460dcd",
+    "ironsource_banner_placement_name": "DefaultBanner",
+    "ironsource_interstitial_placement_name": "DefaultInterstitial",
+    "wortise_app_id": "test-app-id",
+    "wortise_banner_ad_unit_id": "test-banner",
+    "wortise_interstitial_ad_unit_id": "test-interstitial",
+    "wortise_native_ad_unit_id": "test-native",
+    "wortise_app_open_ad_unit_id": "test-app-open",
+    "interstitial_ad_interval_on_drawer_menu": 2,
+    "interstitial_ad_interval_on_web_page_link": 1,
+    "native_ad_style_drawer_menu": "medium",
+    "native_ad_style_exit_dialog": "medium",
+    "placement": {
+      "banner_home": true,
+      "interstitial_drawer_menu": true,
+      "interstitial_web_page_link": true,
+      "native_drawer_menu": true,
+      "native_exit_dialog": true,
+      "app_open_ad_on_start": true,
+      "app_open_ad_on_resume": true
+    }
+  }
+}
