@@ -36,26 +36,10 @@
     {
       "date": "",
       "time": "04:00 UTC -5",
-      "category": "TENNIS",
-      "info": "Mixed",
-      "title": "World Tennis League Falcons - Eagles",
-      "url": "https://voodc.com/embed/858a948ba08b84978799838c9988988686.html"
-    },
-    {
-      "date": "",
-      "time": "04:00 UTC -5",
       "category": "GOLF",
       "info": "DP World Tour",
       "title": "AfraAsia Bank Mauritius Open",
       "url": "https://voodc.com/embed/858a948ba08b8497879983899a8d988a.html"
-    },
-    {
-      "date": "",
-      "time": "04:05 UTC -5",
-      "category": "TENNIS",
-      "info": "WTA",
-      "title": "World Tennis League Rybakina - Swiatek",
-      "url": "https://voodc.com/embed/858a948ba08b849a8799838c998898868c.html"
     },
     {
       "date": "",
@@ -64,14 +48,6 @@
       "info": "Skiing",
       "title": "FIS Alpine Skiing World Cup: St. Moritz",
       "url": "https://voodc.com/embed/858a948ba08b8695879983879a8a9889.html"
-    },
-    {
-      "date": "",
-      "time": "04:45 UTC -5",
-      "category": "TENNIS",
-      "info": "WTA",
-      "title": "World Tennis League Rybakina/Garcia - Badosa/Swiatek",
-      "url": "https://voodc.com/embed/858a948ba08b87948799838c9988988784.html"
     },
     {
       "date": "",
@@ -115,27 +91,11 @@
     },
     {
       "date": "",
-      "time": "05:30 UTC -5",
-      "category": "TENNIS",
-      "info": "ATP",
-      "title": "World Tennis League Rublev/Shapovalov - Tsitsipas/Shevchenko",
-      "url": "https://voodc.com/embed/858a948ba08b8a918799838c9988988783.html"
-    },
-    {
-      "date": "",
       "time": "06:00 UTC -5",
       "category": "HOCKEY",
       "info": "KHL",
       "title": "Tractor Chelyabinsk - Barys Astana",
       "url": "https://voodc.com/embed/858a948ba08b8b99879983899388988c.html"
-    },
-    {
-      "date": "",
-      "time": "06:15 UTC -5",
-      "category": "TENNIS",
-      "info": "ATP",
-      "title": "World Tennis League Rublev - Tsitsipas",
-      "url": "https://voodc.com/embed/858a948ba08b8c988799838c9988988785.html"
     },
     {
       "date": "",
@@ -256,6 +216,134 @@
       "info": "PDC",
       "title": "World Darts Championship",
       "url": "https://voodc.com/embed/858a948ba08c87998799838c9a8f98868b.html"
+    },
+    {
+      "date": "",
+      "time": "08:00 UTC -5",
+      "category": "SOCCER",
+      "info": "3. Liga",
+      "title": "Aue - Munich 1860",
+      "url": "https://voodc.com/embed/858a948ba08c899187998389948d988788.html"
+    },
+    {
+      "date": "",
+      "time": "08:00 UTC -5",
+      "category": "SOCCER",
+      "info": "3. Liga",
+      "title": "Dortmund II - Saarbrucken",
+      "url": "https://voodc.com/embed/858a948ba08c899187998389948e988789.html"
+    },
+    {
+      "date": "",
+      "time": "08:00 UTC -5",
+      "category": "SOCCER",
+      "info": "3. Liga",
+      "title": "RW Essen - Stuttgart II",
+      "url": "https://voodc.com/embed/858a948ba08c899187998389948f98878a.html"
+    },
+    {
+      "date": "",
+      "time": "08:00 UTC -5",
+      "category": "SOCCER",
+      "info": "3. Liga",
+      "title": "Unterhaching - SG Dynamo Dresden",
+      "url": "https://voodc.com/embed/858a948ba08c899187998389949098878b.html"
+    },
+    {
+      "date": "",
+      "time": "08:00 UTC -5",
+      "category": "SOCCER",
+      "info": "3. Liga",
+      "title": "Viktoria Koln - Sandhausen",
+      "url": "https://voodc.com/embed/858a948ba08c899187998389958798878c.html"
+    },
+    {
+      "date": "",
+      "time": "08:00 UTC -5",
+      "category": "SOCCER",
+      "info": "Israel Ligat ha'Al",
+      "title": "Maccabi Tel Aviv - Maccabi Petah Tikva",
+      "url": "https://voodc.com/embed/858a948ba08c8991879983899588988883.html"
+    },
+    {
+      "date": "",
+      "time": "08:00 UTC -5",
+      "category": "SOCCER",
+      "info": "LaLiga",
+      "title": "Getafe - Mallorca [english]",
+      "url": "https://voodc.com/embed/858a948ba08c8991879983899589988884.html"
+    },
+    {
+      "date": "",
+      "time": "08:00 UTC -5",
+      "category": "SOCCER",
+      "info": "LaLiga",
+      "title": "Getafe - Mallorca [spanish]",
+      "url": "https://voodc.com/embed/858a948ba08c899187998389958a988885.html"
+    },
+    {
+      "date": "",
+      "time": "08:00 UTC -5",
+      "category": "SOCCER",
+      "info": "LaLiga",
+      "title": "Getafe - Mallorca [polish]",
+      "url": "https://voodc.com/embed/858a948ba08c899187998389958b988886.html"
+    },
+    {
+      "date": "",
+      "time": "08:00 UTC -5",
+      "category": "SOCCER",
+      "info": "LaLiga2",
+      "title": "Eibar - Granada CF",
+      "url": "https://voodc.com/embed/858a948ba08c899187998389958c988887.html"
+    },
+    {
+      "date": "",
+      "time": "08:00 UTC -5",
+      "category": "SOCCER",
+      "info": "Turkey Super Lig",
+      "title": "Sivasspor - Samsunspor",
+      "url": "https://voodc.com/embed/858a948ba08c899187998389958d988888.html"
+    },
+    {
+      "date": "",
+      "time": "08:00 UTC -5",
+      "category": "HOCKEY",
+      "info": "KHL",
+      "title": "HC Lada - Avangard Omsk",
+      "url": "https://voodc.com/embed/858a948ba08c899187998389958e988786.html"
+    },
+    {
+      "date": "",
+      "time": "08:00 UTC -5",
+      "category": "RUGBY",
+      "info": "URC",
+      "title": "Benetton - Zebre",
+      "url": "https://voodc.com/embed/858a948ba08c899187998389958f988787.html"
+    },
+    {
+      "date": "",
+      "time": "08:30 UTC -5",
+      "category": "RUGBY",
+      "info": "Top 14",
+      "title": "Stade Rochelais - Clermont",
+      "url": "https://voodc.com/embed/858a948ba08c8a99879983899590988889.html"
+    },
+    {
+      "date": "",
+      "time": "08:45 UTC -5",
+      "category": "RUGBY",
+      "info": "URC",
+      "title": "Stormers - Lions",
+      "url": "https://voodc.com/embed/858a948ba08c8b9887998389968798888a.html"
+    },
+    {
+      "date": "",
+      "time": "08:45 UTC -5",
+      "category": "VOLLEYBALL",
+      "info": "Poland",
+      "title": "Rzeszow - Jastrzebski",
+      "url": "https://voodc.com/embed/858a948ba08c8b9887998389968898888b.html"
     }
   ]
 }
