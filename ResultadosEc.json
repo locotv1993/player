@@ -106,10 +106,10 @@
     "native_ad_style_exit_dialog": "medium",
     "placement": {
       "banner_home": true,
-      "interstitial_drawer_menu": false,
-      "interstitial_web_page_link": false,
-      "native_drawer_menu": true,
-      "native_exit_dialog": true,
+      "interstitial_drawer_menu": true,
+      "interstitial_web_page_link": true,
+      "native_drawer_menu": false,
+      "native_exit_dialog": false,
       "app_open_ad_on_start": true,
       "app_open_ad_on_resume": true
     }
