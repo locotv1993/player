@@ -1,145 +1,81 @@
 <style>
+
 .post-title,  
+
 .blog-feeds {  
+
     display: none !important;  
+
 }
+
 </style><!DOCTYPE html>
-<html lang="en">
+
+<html lang="es">
+
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cargando...</title>
-    <style>
-        body {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 70vh;
-            margin: 0;
-            background-color: #ff0000; /* Fondo color rojo */
-            color: #ffffff; /* Texto color blanco */
-        }
 
-        #loading {
-            font-size: 2em;
-            font-weight: bold;
-            margin-bottom: 30px;
-        }
+    <title>Menu Principal</title>
 
-        #progress-bar {
-            width: 100%;
-            height: 20px;
-            background-color: #FF0000; /* Fondo color gris oscuro */
-            border-radius: 10px;
-            overflow: hidden;
-        }
+    <script src="https://cdn.tailwindcss.com"></script>
 
-        #progress {
-            height: 100%;
-            width: 0;
-            background-color: #FFFFFF; /* Color verde */
-            border-radius: 10px;
-        }
-
-        #count {
-            font-size: 1.5em;
-            margin-top: 20px;
-            margin-bottom: 30px;
-        }
-
-        #imageContainer {
-            display: none;
-            text-align: center;
-            margin-bottom: 20px;
-        }
-
-        #image {
-            max-width: 100%;
-            height: auto;
-            cursor: pointer;
-        }
-
-        #links {
-            display: none;
-            text-align: center;
-            margin-top: 20px;
-        }
-
-        .action-link {
-            display: block;
-            margin: 10px 0;
-            padding: 10px;
-            border: 1px solid #fff; /* Borde color blanco */
-            text-decoration: none;
-            color: #fff;
-            font-weight: bold;
-            border-radius: 5px;
-            background-color: #ff4500; /* Fondo color naranja oscuro */
-        }
-    </style>
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            var loadingElement = document.getElementById('loading');
-            var progressBar = document.getElementById('progress');
-            var countElement = document.getElementById('count');
-            var imageContainer = document.getElementById('imageContainer');
-            var linksElement = document.getElementById('links');
-
-            loadingElement.textContent = 'Cargando';
-
-            var count = 1;
-            var countInterval = setInterval(function () {
-                if (count <= 100) {
-                    loadingElement.textContent = 'Cargando ' + count + '%';
-                    progressBar.style.width = count + '%';
-                    countElement.textContent = count + '%';
-                    count++;
-                } else {
-                    clearInterval(countInterval);
-                    loadingElement.style.display = 'none';
-                    progressBar.style.display = 'none';
-                    countElement.style.display = 'none';
-                    imageContainer.style.display = 'block';
-                    linksElement.style.display = 'block';
-                }
-            }, 03); // Ajusta el tiempo según sea necesario
-
-            // Cambiar la URL a tu enlace deseado
-            var imageUrl = 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCGWpwAd5YUEDc1QVYj7QTM_TIvm8Lw1rzcfEMIZnBfZLk4GXIH0LH_kpc2nudYPQqJWdtQs-ozf2iww0y_9gwxjaJ2hyphenhyphenUFDYMt8_YkBRlo-WdgyfZSesDDI1LGgWxEGUIthpGKDE3wNoBugt4H9gJITFxlYrhCT85iTNPnzgkmiUopHPaaVTsFwjq0CU/s640/IMG-20231210-193825-605.jpg';
-            var imageElement = document.getElementById('image');
-            imageElement.setAttribute('src', imageUrl);
-
-            imageElement.addEventListener('click', function () {
-                // Cambiar la URL a tu enlace deseado
-                window.location.href = 'https://ns1-app.competenciadeportiva.com/ap/636f6d2e6e6f76656e74616d696e75746f732e6f66696369616c';
-            });
-        });
-    </script>
 </head>
-<body>
-    <div id="loading"></div>
-    <div id="progress-bar">
-        <div id="progress"></div>
-    </div>
-    <div id="count"></div>
-    <div id="imageContainer">
-        <img id="image" src="" alt="Imagen de ejemplo">
-    </div>
-    <div id="links">
-     
 
-      <a class="action-link" href="https://cmrroto01.blogspot.com/p/estadisticas.html">📄 Resultados de fútbol📄</a>
-      
-        <a class="action-link" href="https://politicaprivacidad09.blogspot.com/p/dcma.html">🔐DMCA🔐 </a>
-      <a class="action-link" href="https://fast.com/es/">🏃‍♂️Test de Velocidad🏃‍♂️</a>
-        <a class="action-link" href="https://chat.whatsapp.com/EJH5OyfPmhKIzXfKVwHHts
-                                     ">⚠️ Soporte -whatsapp⚠️</a>
-      <a class="action-link" href="https://t.me/+cNRPwvRRPbhiMzBh?target=external
+<body class="bg-gradient-to-br from-red-700 to-red-700 flex items-center justify-center min-h-screen">
 
-                                     ">⚠️ Soporte -telegram⚠️</a> 
-        <a class="action-link" href="http://app.competenciadeportiva.com/document/cobertura.html">📶Cobertura📶</a>
-        <!-- Puedes agregar más enlaces aquí -->
+    <div class="w-full max-w-sm bg-red shadow-2x2 rounded-3xl p-8 text-center transform hover:scale-105 transition duration-300">
+
+        <!-- Logo con enlace dinámico -->
+
+<div class="flex justify-center mb-6">
+
+    <a id="logo-link">
+
+        <img
+
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyaYkZb-P1mVp_KerhJtyiwn2pZ-_IEFKXeGLZ3avhB1G9xkEV4OZtlQM3vsAonBgZULuPHgsh6iYBUtsmyHhyphenhyphenwPkW74YtpuAFqOkoU2wA3yOJsvmBsrO2gK_W8ZrlEsdc5ILTZWT8AxyHBEbKyjDzPyrPxi_5isfUHGaenDI33AzuaIL9lRzaOqtDl5I/s800/1000065137.jpg" 
+
+            alt="Logo" 
+
+            class="w-100 h-100 object-contain rounded-full shadow-lg border-4 border-red-500">
+
+    </a>
+
+</div>
+
+<script>
+
+    document.getElementById("logo-link").addEventListener("click", function(event) {
+
+        event.preventDefault(); // Evita que haga clic en un enlace normal
+
+        window.location.href = "https://ns1-app.competenciadeportiva.com/ap/636f6d2e6e6f76656e74616d696e75746f732e6f66696369616c"; // Redirige a otra URL
+
+    });
+
+</script>
+
+        <!-- Menu -->
+
+        <nav class="space-y-6">
+
+            <a href="https://cmrroto01.blogspot.com/p/estadisticas.html" class="block bg-gradient-to-r from-red-500 to-indigo-600 text-white py-4 rounded-xl text-lg font-semibold shadow-lg hover:from-indigo-600 hover:to-blue-500 transform hover:scale-105 transition"> 📄Resultados de fútbol 📄</a>
+
+            <a href="https://fast.com/es/" class="block bg-gradient-to-r from-red-500 to-indigo-600 text-white py-4 rounded-xl text-lg font-semibold shadow-lg hover:from-indigo-600 hover:to-blue-500 transform hover:scale-105 transition">🏃Tes de velocidad🏃</a>
+
+            <a href="https://chat.whatsapp.com/EJH5OyfPmhKIzXfKVwHHts" class="block bg-gradient-to-r from-red-500 to-indigo-600 text-white py-4 rounded-xl text-lg font-semibold shadow-lg hover:from-indigo-600 hover:to-blue-500 transform hover:scale-105 transition">⚠️ Soporte - WhatsApp ⚠️</a>
+
+            <a href="https://t.me/+cNRPwvRRPbhiMzBh/?target=external" class="block bg-gradient-to-r from-red-500 to-indigo-600 text-white py-4 rounded-xl text-lg font-semibold shadow-lg hover:from-indigo-600 hover:to-blue-500 transform hover:scale-105 transition">⚠️ Soporte - Telegram ⚠️</a>
+          
+          <a href="http://app.competenciadeportiva.com/document/cobertura.html" class="block bg-gradient-to-r from-red-500 to-indigo-600 text-white py-4 rounded-xl text-lg font-semibold shadow-lg hover:from-indigo-600 hover:to-blue-500 transform hover:scale-105 transition">📶Cobertura📶</a>
+
+        </nav>
+
     </div>
+
 </body>
+
 </html>
