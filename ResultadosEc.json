@@ -66,7 +66,7 @@
     }
   ],
   "ads": {
-    "ad_status": true,
+    "ad_status": false,
     "main_ads": "wortise",
     "backup_ads": "none",
     "admob_publisher_id": "pub-7431474071061268",
