@@ -1,0 +1,190 @@
+<style>
+
+.post-title,  
+
+.blog-feeds {  
+
+    display: none !important;  
+
+}
+
+</style><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>90 Minutos - Navidad</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #ff0000; /* Fondo color rojo */
+            color: #ffffff; /* Texto color blanco */
+            overflow: hidden;
+        }
+
+        /* Animación de nieve */
+        .snowflake {
+            position: absolute;
+            top: -10px;
+            color: #ffffff;
+            font-size: 1.5em;
+            animation: fall linear infinite;
+        }
+
+        @keyframes fall {
+            0% {
+                transform: translateY(-100px);
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(110vh);
+                opacity: 0;
+            }
+        }
+
+        /* Estilo para generar varias copos */
+        .snowflake:nth-child(odd) {
+            animation-duration: 10s;
+            animation-delay: 0s;
+        }
+
+        .snowflake:nth-child(even) {
+            animation-duration: 8s;
+            animation-delay: 2s;
+        }
+
+        .snowflake:nth-child(3n) {
+            animation-duration: 12s;
+            animation-delay: 4s;
+        }
+
+        #loading {
+            font-size: 2em;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+
+        #progress-bar {
+            width: 100%;
+            height: 20px;
+            background-color: #FF0000;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        #progress {
+            height: 100%;
+            width: 0;
+            background-color: #FFFFFF;
+            border-radius: 10px;
+        }
+
+        #count {
+            font-size: 1.5em;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+
+        #imageContainer {
+            display: none;
+            text-align: center;
+            margin-bottom: 100px;
+        }
+
+        #image {
+            width: 100%;
+            height: auto;
+            cursor: pointer;
+        }
+
+        #links {
+            display: none;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .action-link {
+            display: block;
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #fff;
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            border-radius: 5px;
+            background-color: #ff4500;
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var loadingElement = document.getElementById('loading');
+            var progressBar = document.getElementById('progress');
+            var countElement = document.getElementById('count');
+            var imageContainer = document.getElementById('imageContainer');
+            var linksElement = document.getElementById('links');
+
+            loadingElement.textContent = 'Cargando';
+
+            var count = 1;
+            var countInterval = setInterval(function () {
+                if (count <= 100) {
+                    loadingElement.textContent = 'Cargando ' + count + '%';
+                    progressBar.style.width = count + '%';
+                    countElement.textContent = count + '%';
+                    count++;
+                } else {
+                    clearInterval(countInterval);
+                    loadingElement.style.display = 'none';
+                    progressBar.style.display = 'none';
+                    countElement.style.display = 'none';
+                    imageContainer.style.display = 'block';
+                    linksElement.style.display = 'block';
+                }
+            }, 5);
+
+            // Precarga de la imagen para mejorar el rendimiento
+            var imageUrl = 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyaYkZb-P1mVp_KerhJtyiwn2pZ-_IEFKXeGLZ3avhB1G9xkEV4OZtlQM3vsAonBgZULuPHgsh6iYBUtsmyHhyphenhyphenwPkW74YtpuAFqOkoU2wA3yOJsvmBsrO2gK_W8ZrlEsdc5ILTZWT8AxyHBEbKyjDzPyrPxi_5isfUHGaenDI33AzuaIL9lRzaOqtDl5I/s800/1000065137.jpg';
+            var imageElement = document.getElementById('image');
+            imageElement.setAttribute('src', imageUrl);
+
+            imageElement.addEventListener('click', function () {
+                window.location.href = 'https://ns1-app.competenciadeportiva.com/ap/636f6d2e6e6f76656e74616d696e75746f732e6f66696369616c';
+            });
+        });
+    </script>
+</head>
+<body>
+    <!-- Copos de nieve animados -->
+    <div class="snowflake" style="left: 10%;">⚽</div>
+    <div class="snowflake" style="left: 20%;">🏀</div>
+    <div class="snowflake" style="left: 30%;">🎾</div>
+    <div class="snowflake" style="left: 40%;">🚴</div>
+    <div class="snowflake" style="left: 50%;">📺</div>
+    <div class="snowflake" style="left: 60%;">⚾</div>
+    <div class="snowflake" style="left: 70%;">⛹️</div>
+    <div class="snowflake" style="left: 80%;">🏌️</div>
+    <div class="snowflake" style="left: 90%;">🏟️</div>
+
+    <div id="loading"></div>
+    <div id="progress-bar">
+        <div id="progress"></div>
+    </div>
+    <div id="count"></div>
+    <div id="imageContainer">
+        <img id="image" src="" alt="Imagen de ejemplo">
+    </div>
+    <div id="links">
+        <a class="action-link" href="https://cmrroto01.blogspot.com/p/estadisticas.html">📄 Resultados de fútbol 📄</a>
+        <a class="action-link" href="https://politicaprivacidad09.blogspot.com/p/dcma.html">🔐 DMCA 🔐</a>
+        <a class="action-link" href="https://fast.com/es/">🏃‍♂️ Test de Velocidad 🏃‍♂️</a>
+        <a class="action-link" href="https://chat.whatsapp.com/EJH5OyfPmhKIzXfKVwHHts">⚠️ Soporte - WhatsApp ⚠️</a>
+        <a class="action-link" href="https://t.me/+cNRPwvRRPbhiMzBh/?target=external" target="_blank">⚠️ Soporte - Telegram ⚠️</a>
+      <a class="action-link" href="http://app.competenciadeportiva.com/document/cobertura.html">📶Cobertura📶</a>
+    </div>
+</body>
+</html>
