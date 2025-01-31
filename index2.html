@@ -1,66 +1,24 @@
 <style>
-
 .post-title,  
-
 .blog-feeds {  
-
     display: none !important;  
-
 }
-
 </style><!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>90 Minutos - Navidad</title>
+    <title>Cargando...</title>
     <style>
         body {
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            height: 100vh;
+            height: 70vh;
             margin: 0;
             background-color: #ff0000; /* Fondo color rojo */
             color: #ffffff; /* Texto color blanco */
-            overflow: hidden;
-        }
-
-        /* Animación de nieve */
-        .snowflake {
-            position: absolute;
-            top: -10px;
-            color: #ffffff;
-            font-size: 1.5em;
-            animation: fall linear infinite;
-        }
-
-        @keyframes fall {
-            0% {
-                transform: translateY(-100px);
-                opacity: 1;
-            }
-            100% {
-                transform: translateY(110vh);
-                opacity: 0;
-            }
-        }
-
-        /* Estilo para generar varias copos */
-        .snowflake:nth-child(odd) {
-            animation-duration: 10s;
-            animation-delay: 0s;
-        }
-
-        .snowflake:nth-child(even) {
-            animation-duration: 8s;
-            animation-delay: 2s;
-        }
-
-        .snowflake:nth-child(3n) {
-            animation-duration: 12s;
-            animation-delay: 4s;
         }
 
         #loading {
@@ -72,7 +30,7 @@
         #progress-bar {
             width: 100%;
             height: 20px;
-            background-color: #FF0000;
+            background-color: #FF0000; /* Fondo color gris oscuro */
             border-radius: 10px;
             overflow: hidden;
         }
@@ -80,7 +38,7 @@
         #progress {
             height: 100%;
             width: 0;
-            background-color: #FFFFFF;
+            background-color: #FFFFFF; /* Color verde */
             border-radius: 10px;
         }
 
@@ -93,11 +51,11 @@
         #imageContainer {
             display: none;
             text-align: center;
-            margin-bottom: 100px;
+            margin-bottom: 20px;
         }
 
         #image {
-            width: 100%;
+            max-width: 100%;
             height: auto;
             cursor: pointer;
         }
@@ -105,19 +63,19 @@
         #links {
             display: none;
             text-align: center;
-            margin-top: 50px;
+            margin-top: 20px;
         }
 
         .action-link {
             display: block;
             margin: 10px 0;
             padding: 10px;
-            border: 1px solid #fff;
+            border: 1px solid #fff; /* Borde color blanco */
             text-decoration: none;
             color: #fff;
             font-weight: bold;
             border-radius: 5px;
-            background-color: #ff4500;
+            background-color: #ff4500; /* Fondo color naranja oscuro */
         }
     </style>
     <script>
@@ -145,31 +103,21 @@
                     imageContainer.style.display = 'block';
                     linksElement.style.display = 'block';
                 }
-            }, 5);
+            }, 20); // Ajusta el tiempo según sea necesario
 
-            // Precarga de la imagen para mejorar el rendimiento
-            var imageUrl = 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyaYkZb-P1mVp_KerhJtyiwn2pZ-_IEFKXeGLZ3avhB1G9xkEV4OZtlQM3vsAonBgZULuPHgsh6iYBUtsmyHhyphenhyphenwPkW74YtpuAFqOkoU2wA3yOJsvmBsrO2gK_W8ZrlEsdc5ILTZWT8AxyHBEbKyjDzPyrPxi_5isfUHGaenDI33AzuaIL9lRzaOqtDl5I/s800/1000065137.jpg';
+            // Cambiar la URL a tu enlace deseado
+            var imageUrl = 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCGWpwAd5YUEDc1QVYj7QTM_TIvm8Lw1rzcfEMIZnBfZLk4GXIH0LH_kpc2nudYPQqJWdtQs-ozf2iww0y_9gwxjaJ2hyphenhyphenUFDYMt8_YkBRlo-WdgyfZSesDDI1LGgWxEGUIthpGKDE3wNoBugt4H9gJITFxlYrhCT85iTNPnzgkmiUopHPaaVTsFwjq0CU/s640/IMG-20231210-193825-605.jpg';
             var imageElement = document.getElementById('image');
             imageElement.setAttribute('src', imageUrl);
 
             imageElement.addEventListener('click', function () {
+                // Cambiar la URL a tu enlace deseado
                 window.location.href = 'https://ns1-app.competenciadeportiva.com/ap/636f6d2e6e6f76656e74616d696e75746f732e6f66696369616c';
             });
         });
     </script>
 </head>
 <body>
-    <!-- Copos de nieve animados -->
-    <div class="snowflake" style="left: 10%;">⚽</div>
-    <div class="snowflake" style="left: 20%;">🏀</div>
-    <div class="snowflake" style="left: 30%;">🎾</div>
-    <div class="snowflake" style="left: 40%;">🚴</div>
-    <div class="snowflake" style="left: 50%;">📺</div>
-    <div class="snowflake" style="left: 60%;">⚾</div>
-    <div class="snowflake" style="left: 70%;">⛹️</div>
-    <div class="snowflake" style="left: 80%;">🏌️</div>
-    <div class="snowflake" style="left: 90%;">🏟️</div>
-
     <div id="loading"></div>
     <div id="progress-bar">
         <div id="progress"></div>
@@ -179,12 +127,19 @@
         <img id="image" src="" alt="Imagen de ejemplo">
     </div>
     <div id="links">
-        <a class="action-link" href="https://cmrroto01.blogspot.com/p/estadisticas.html">📄 Resultados de fútbol 📄</a>
-        <a class="action-link" href="https://politicaprivacidad09.blogspot.com/p/dcma.html">🔐 DMCA 🔐</a>
-        <a class="action-link" href="https://fast.com/es/">🏃‍♂️ Test de Velocidad 🏃‍♂️</a>
-        <a class="action-link" href="https://chat.whatsapp.com/EJH5OyfPmhKIzXfKVwHHts">⚠️ Soporte - WhatsApp ⚠️</a>
-        <a class="action-link" href="https://t.me/+cNRPwvRRPbhiMzBh/?target=external" target="_blank">⚠️ Soporte - Telegram ⚠️</a>
-      <a class="action-link" href="http://app.competenciadeportiva.com/document/cobertura.html">📶Cobertura📶</a>
+     
+
+      <a class="action-link" href="https://cmrroto01.blogspot.com/p/estadisticas.html">📄 Resultados de fútbol📄</a>
+      
+        <a class="action-link" href="https://politicaprivacidad09.blogspot.com/p/dcma.html">🔐DMCA🔐 </a>
+      <a class="action-link" href="https://fast.com/es/">🏃‍♂️Test de Velocidad🏃‍♂️</a>
+        <a class="action-link" href="https://chat.whatsapp.com/EJH5OyfPmhKIzXfKVwHHts
+                                     ">⚠️ Soporte -whatsapp⚠️</a>
+      <a class="action-link" href="https://t.me/+cNRPwvRRPbhiMzBh?target=external
+
+                                     ">⚠️ Soporte -telegram⚠️</a> 
+        <a class="action-link" href="http://app.competenciadeportiva.com/document/cobertura.html">📶Cobertura📶</a>
+        <!-- Puedes agregar más enlaces aquí -->
     </div>
 </body>
 </html>
