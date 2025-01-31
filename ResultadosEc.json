@@ -100,8 +100,8 @@
     "wortise_interstitial_ad_unit_id": "fd2169e2-2056-4a63-862f-15a819c4975a",
     "wortise_native_ad_unit_id": "",
     "wortise_app_open_ad_unit_id": "7d72b77c-5aa1-4e3b-8bad-03ba7b863615",
-    "interstitial_ad_interval_on_drawer_menu": 2,
-    "interstitial_ad_interval_on_web_page_link": 1,
+    "interstitial_ad_interval_on_drawer_menu": 3,
+    "interstitial_ad_interval_on_web_page_link": 2,
     "native_ad_style_drawer_menu": "medium",
     "native_ad_style_exit_dialog": "medium",
     "placement": {
