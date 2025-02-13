@@ -1,64 +1,56 @@
-<html> 
-<head> 
-   <meta charset="utf-8"></meta> 
-  <meta content="width=device-width, initial-scale=1" name="viewport"></meta> 
-<style type="text/css"> 
-body{ 
-background: black; 
-margin: 0px; 
+<html>
+<head>
+<style type="text/css">
+body {
+   margin: 0;
+   padding: 0;
+}#player{  
+height: 100vh !important; 
 } 
-a { 
-    text-decoration: none; 
-    color: #fff; 
-} 
-</style> 
- 
-<script src="//ssl.p.jwpcdn.com/player/v/8.25.1/jwplayer.js"></script> 
-<script> jwplayer.key = 'XSuP4qMl+9tK17QNb+4+th2Pm9AWgMO/cYH8CI0HGGr7bdjo'; 
-</script> 
-</head> 
-<body> 
-<div id="player"></div> 
-<script> 
-    var playerInstance = jwplayer("player"); 
- 
-    playerInstance.setup({ 
-              logo: {
-        file: 'https://i.ibb.co/ZJhwZWM/image-6.png',
-        link: 'http://linktab.co/SportsLLED',
-        position: 'top-right',
- hide: 'false',
-        margin: '30',
-        linktarget: '_blank',
-        hide: 'false',
-        over: '1',
-        out: '1'
+.jw-controls {
+    overflow: hidden;
+    position: absolute;
+    z-index: 8;
+    background: url(https://www.appcreator24.com/srv/imgs/gen/2022196_fondo.png) no-repeat;
+    background-position: top right;
+    background-position-y: 0.80em;
+    background-size: 14em auto,auto;
+}</style>
 
-},
+<script src="//ssl.p.jwpcdn.com/player/v/8.25.1/jwplayer.js"></script>
+<script> jwplayer.key = 'XSuP4qMl+9tK17QNb+4+th2Pm9AWgMO/cYH8CI0HGGr7bdjo';
+</script>
+</head>
+<body>
+<div id="player"></div>
+<script>
+    var playerInstance = jwplayer("player");
 
-        playlist: [{ 
-            "title": "SportsLLED | LIGA DE CAMPEONES", 
-            "description": "Nos encanta el deporte", 
-            "image": "https://pbs.twimg.com/profile_images/1667129415120171009/iNiyNN5p_400x400.jpg", 
-            "sources": [ 
-                { 
-                     "default": false, 
-                    "type": "dash", 
-                    "file": 'http://live12-dash.cdns.cdn.orangetv.orange.es/p2xowdSwSmRFEP0fIUFrYw/1739551127/58094929/139039291/87/cmaf/r12_mcampeones/dash_high.mpd', 
-                    "drm": { 
-                        "clearkey": { "keyId":  "850c1a430396ce4255f3902bf1f4e897", "key":  
-                        "295b1db977f94dfbba012073901a019b" } 
-                    }, 
-                    "label": "0" 
-                } 
-            ] 
-        }], 
-        width: "100%", 
-        height: "100vh", 
-        autostart: false, 
-        cast: true, 
-        sharing: false, 
-    }); 
-</script> 
-</body> 
+    playerInstance.setup({
+
+        playlist: [{
+            "title": "Eventos gratis",
+            "description": "comparte la app",
+            "image": "",
+            "sources": [
+                {
+                    "default": false,
+                    "type": "dash",
+                    "file": 'https://xn--cl-ci4a5dyczam8p.xyz/Content/Channel/SPOCCR1HD/dsc1/manifest.mpd',
+                    "drm": {
+                        "clearkey": { "keyId": "559680804e9d3feca84a10f155397484", "key": "4fedf21e2b4cb47b61f4975362774b78" }
+                    },
+                    "label": "0"
+                }
+            ]
+        }],
+        width: "100%",
+        height: "100%",
+        aspectratio: "16:9",
+        autostart: false,
+        cast: {},
+        sharing: {}
+    });
+</script>
+</body>
 </html>
