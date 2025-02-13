@@ -1,0 +1,64 @@
+<html> 
+<head> 
+   <meta charset="utf-8"></meta> 
+  <meta content="width=device-width, initial-scale=1" name="viewport"></meta> 
+<style type="text/css"> 
+body{ 
+background: black; 
+margin: 0px; 
+} 
+a { 
+    text-decoration: none; 
+    color: #fff; 
+} 
+</style> 
+ 
+<script src="//ssl.p.jwpcdn.com/player/v/8.25.1/jwplayer.js"></script> 
+<script> jwplayer.key = 'XSuP4qMl+9tK17QNb+4+th2Pm9AWgMO/cYH8CI0HGGr7bdjo'; 
+</script> 
+</head> 
+<body> 
+<div id="player"></div> 
+<script> 
+    var playerInstance = jwplayer("player"); 
+ 
+    playerInstance.setup({ 
+              logo: {
+        file: 'https://i.ibb.co/ZJhwZWM/image-6.png',
+        link: 'http://linktab.co/SportsLLED',
+        position: 'top-right',
+ hide: 'false',
+        margin: '30',
+        linktarget: '_blank',
+        hide: 'false',
+        over: '1',
+        out: '1'
+
+},
+
+        playlist: [{ 
+            "title": "SportsLLED | LIGA DE CAMPEONES", 
+            "description": "Nos encanta el deporte", 
+            "image": "https://pbs.twimg.com/profile_images/1667129415120171009/iNiyNN5p_400x400.jpg", 
+            "sources": [ 
+                { 
+                     "default": false, 
+                    "type": "dash", 
+                    "file": 'http://live12-dash.cdns.cdn.orangetv.orange.es/p2xowdSwSmRFEP0fIUFrYw/1739551127/58094929/139039291/87/cmaf/r12_mcampeones/dash_high.mpd', 
+                    "drm": { 
+                        "clearkey": { "keyId":  "850c1a430396ce4255f3902bf1f4e897", "key":  
+                        "295b1db977f94dfbba012073901a019b" } 
+                    }, 
+                    "label": "0" 
+                } 
+            ] 
+        }], 
+        width: "100%", 
+        height: "100vh", 
+        autostart: false, 
+        cast: true, 
+        sharing: false, 
+    }); 
+</script> 
+</body> 
+</html>
