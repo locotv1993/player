@@ -2563,6 +2563,265 @@
                 "channels2": []
             }
         ],
+        "Tennis ATP - HOUSTON": [
+            {
+                "time": "19:00",
+                "event": "ATP - HOUSTON : Galan D. E. vs McDonald M.",
+                "channels": [
+                    {
+                        "channel_name": "Tennis Stream 8",
+                        "channel_id": "1508"
+                    }
+                ],
+                "channels2": []
+            },
+            {
+                "time": "20:30",
+                "event": "ATP - HOUSTON : Quinn E. vs Thompson J.",
+                "channels": [
+                    {
+                        "channel_name": "Tennis Stream 8",
+                        "channel_id": "1508"
+                    }
+                ],
+                "channels2": []
+            },
+            {
+                "time": "23:00",
+                "event": "ATP - HOUSTON : Hijikata R. vs Eubanks C.",
+                "channels": [
+                    {
+                        "channel_name": "Tennis Stream 8",
+                        "channel_id": "1508"
+                    }
+                ],
+                "channels2": []
+            },
+            {
+                "time": "00:30",
+                "event": "ATP - HOUSTON : Nishikori K. vs Krueger M.",
+                "channels": [
+                    {
+                        "channel_name": "Tennis Stream 8",
+                        "channel_id": "1508"
+                    }
+                ],
+                "channels2": []
+            }
+        ],
+        "Tennis WTA - CHARLESTON": [
+            {
+                "time": "16:30",
+                "event": "WTA - CHARLESTON : Chirico L. vs Andreeva E.",
+                "channels": [
+                    {
+                        "channel_name": "Tennis Stream 2",
+                        "channel_id": "1502"
+                    }
+                ],
+                "channels2": []
+            },
+            {
+                "time": "16:30",
+                "event": "WTA - CHARLESTON : Li A. vs Blinkova A.",
+                "channels": [
+                    {
+                        "channel_name": "Tennis Stream 3",
+                        "channel_id": "1503"
+                    }
+                ],
+                "channels2": []
+            },
+            {
+                "time": "16:30",
+                "event": "WTA - CHARLESTON : Kenin S. vs Pera B.",
+                "channels": [
+                    {
+                        "channel_name": "Tennis Stream 1",
+                        "channel_id": "1501"
+                    }
+                ],
+                "channels2": []
+            },
+            {
+                "time": "18:00",
+                "event": "WTA - CHARLESTON : Gadecki O. vs Baptiste H.",
+                "channels": [
+                    {
+                        "channel_name": "Tennis Stream 1",
+                        "channel_id": "1501"
+                    }
+                ],
+                "channels2": []
+            },
+            {
+                "time": "18:00",
+                "event": "WTA - CHARLESTON : Zhang S. vs Bronzetti L.",
+                "channels": [
+                    {
+                        "channel_name": "Tennis Stream 2",
+                        "channel_id": "1502"
+                    }
+                ],
+                "channels2": []
+            },
+            {
+                "time": "19:30",
+                "event": "WTA - CHARLESTON : Dolehide C. vs Keys M.",
+                "channels": [
+                    {
+                        "channel_name": "Tennis Stream 1",
+                        "channel_id": "1501"
+                    }
+                ],
+                "channels2": []
+            },
+            {
+                "time": "22:00",
+                "event": "WTA - CHARLESTON : Montgomery R. vs Collins D.",
+                "channels": [
+                    {
+                        "channel_name": "Tennis Stream 1",
+                        "channel_id": "1501"
+                    }
+                ],
+                "channels2": []
+            },
+            {
+                "time": "23:30",
+                "event": "WTA - CHARLESTON : Anisimova A. vs Kudermetova V.",
+                "channels": [
+                    {
+                        "channel_name": "Tennis Stream 1",
+                        "channel_id": "1501"
+                    }
+                ],
+                "channels2": []
+            }
+        ],
+        "Tennis WTA - BOGOTA": [
+            {
+                "time": "17:30",
+                "event": "WTA - CHARLESTON : Higuita Barraza M. I. vs Osorio C.",
+                "channels": [
+                    {
+                        "channel_name": "Tennis Stream 4",
+                        "channel_id": "1504"
+                    }
+                ],
+                "channels2": []
+            },
+            {
+                "time": "18:00",
+                "event": "WTA - CHARLESTON : Jovic I. vs Parks A.",
+                "channels": [
+                    {
+                        "channel_name": "Tennis Stream 5",
+                        "channel_id": "1505"
+                    }
+                ],
+                "channels2": []
+            },
+            {
+                "time": "18:00",
+                "event": "WTA - CHARLESTON : Serban R. vs Parrizas-Diaz N.",
+                "channels": [
+                    {
+                        "channel_name": "Tennis Stream 9",
+                        "channel_id": "1509"
+                    }
+                ],
+                "channels2": []
+            },
+            {
+                "time": "19:00",
+                "event": "WTA - CHARLESTON : Arango E. vs Stefanini L.",
+                "channels": [
+                    {
+                        "channel_name": "Tennis Stream 4",
+                        "channel_id": "1504"
+                    }
+                ],
+                "channels2": []
+            },
+            {
+                "time": "19:30",
+                "event": "WTA - CHARLESTON : Boskovic L. vs Bara I.",
+                "channels": [
+                    {
+                        "channel_name": "Tennis Stream 9",
+                        "channel_id": "1509"
+                    }
+                ],
+                "channels2": []
+            },
+            {
+                "time": "19:30",
+                "event": "WTA - CHARLESTON : Bektas E. vs Torres Murcia M. C.",
+                "channels": [
+                    {
+                        "channel_name": "Tennis Stream 5",
+                        "channel_id": "1505"
+                    }
+                ],
+                "channels2": []
+            },
+            {
+                "time": "20:30",
+                "event": "WTA - CHARLESTON : Bouzkova M. vs Krunic A.",
+                "channels": [
+                    {
+                        "channel_name": "Tennis Stream 4",
+                        "channel_id": "1504"
+                    }
+                ],
+                "channels2": []
+            },
+            {
+                "time": "21:00",
+                "event": "WTA - CHARLESTON : Deichmann K. vs Jeanjean L.",
+                "channels": [
+                    {
+                        "channel_name": "Tennis Stream 5",
+                        "channel_id": "1505"
+                    }
+                ],
+                "channels2": []
+            },
+            {
+                "time": "21:00",
+                "event": "WTA - CHARLESTON : Riera J. vs Jones F.",
+                "channels": [
+                    {
+                        "channel_name": "Tennis Stream 9",
+                        "channel_id": "1509"
+                    }
+                ],
+                "channels2": []
+            },
+            {
+                "time": "22:30",
+                "event": "WTA - CHARLESTON : Bucsa C. vs Kung L.",
+                "channels": [
+                    {
+                        "channel_name": "Tennis Stream 9",
+                        "channel_id": "1509"
+                    }
+                ],
+                "channels2": []
+            },
+            {
+                "time": "22:30",
+                "event": "WTA - CHARLESTON : Pareja J. vs Sanchez Uribe M. J.",
+                "channels": [
+                    {
+                        "channel_name": "Tennis Stream 5",
+                        "channel_id": "1505"
+                    }
+                ],
+                "channels2": []
+            }
+        ],
         "Tennis<\/span>": [
             {
                 "time": "08:00",
@@ -3429,6 +3688,578 @@
                         "channel_id": "7722119"
                     }
                 ]
+            },
+            {
+                "time": "17:10",
+                "event": "Challenger - Morelos (MEX) : Bernard Tomic vs Juan Carlos Manuel Aguilar",
+                "channels": [],
+                "channels2": [
+                    {
+                        "channel_name": "SD-7732673",
+                        "channel_id": "7732673"
+                    }
+                ]
+            },
+            {
+                "time": "17:10",
+                "event": "Challenger - Morelos (MEX) : Elmar Ejupovic vs Hugo Grenier",
+                "channels": [],
+                "channels2": [
+                    {
+                        "channel_name": "SD-7732676",
+                        "channel_id": "7732676"
+                    }
+                ]
+            },
+            {
+                "time": "17:10",
+                "event": "Challenger - Morelos (MEX) : Govind Nanda vs Aidan Mayo",
+                "channels": [],
+                "channels2": [
+                    {
+                        "channel_name": "SD-7732677",
+                        "channel_id": "7732677"
+                    }
+                ]
+            },
+            {
+                "time": "17:30",
+                "event": "Challenger - Campinas (BRA) : Juan Pablo Varillas vs Juan Bautista Torres",
+                "channels": [],
+                "channels2": [
+                    {
+                        "channel_name": "SD-7722845",
+                        "channel_id": "7722845"
+                    }
+                ]
+            },
+            {
+                "time": "17:30",
+                "event": "Challenger - Campinas (BRA) - Double : V.Orlov\/P.A.Saraiva Dos Santos vs G.Duran\/C.Rodriguez",
+                "channels": [],
+                "channels2": [
+                    {
+                        "channel_name": "SD-7721561",
+                        "channel_id": "7721561"
+                    }
+                ]
+            },
+            {
+                "time": "18:00",
+                "event": "WTA - Bogota (COL) : Mariana Isabel Higuita Barraza vs Camila Osorio Serrano",
+                "channels": [],
+                "channels2": [
+                    {
+                        "channel_name": "SD-7722814",
+                        "channel_id": "7722814"
+                    }
+                ]
+            },
+            {
+                "time": "18:10",
+                "event": "ATP - Houston (USA) : Michael Mmoh vs Adam Walton",
+                "channels": [],
+                "channels2": [
+                    {
+                        "channel_name": "SD-7716884",
+                        "channel_id": "7716884"
+                    }
+                ]
+            },
+            {
+                "time": "18:20",
+                "event": "Challenger - Morelos (MEX) : Murphy Cassone vs Robin Catry",
+                "channels": [],
+                "channels2": [
+                    {
+                        "channel_name": "SD-7732672",
+                        "channel_id": "7732672"
+                    }
+                ]
+            },
+            {
+                "time": "18:20",
+                "event": "Challenger - Morelos (MEX) : Rodrigo Alujas vs Stefano Napolitano",
+                "channels": [],
+                "channels2": [
+                    {
+                        "channel_name": "SD-7723168",
+                        "channel_id": "7723168"
+                    }
+                ]
+            },
+            {
+                "time": "18:40",
+                "event": "Challenger - Campinas (BRA) - Double : B.Arias\/F.Zeballos vs L.Britto\/J.E.Schiessl",
+                "channels": [],
+                "channels2": [
+                    {
+                        "channel_name": "SD-7721557",
+                        "channel_id": "7721557"
+                    }
+                ]
+            },
+            {
+                "time": "19:00",
+                "event": "UTR (F) - Newport Beach (USA) : Agnes Guggenheim vs Danielle Willson",
+                "channels": [],
+                "channels2": [
+                    {
+                        "channel_name": "SD-7716257",
+                        "channel_id": "7716257"
+                    }
+                ]
+            },
+            {
+                "time": "19:00",
+                "event": "WTA Charleston : Caroline Dolehide vs Madison Keys",
+                "channels": [],
+                "channels2": [
+                    {
+                        "channel_name": "SD-7731446",
+                        "channel_id": "7731446"
+                    }
+                ]
+            },
+            {
+                "time": "19:00",
+                "event": "WTA - Charleston (USA) - Double : D.Shnaider\/P.Stearns vs T.Mihalikova\/O.Nicholls",
+                "channels": [],
+                "channels2": [
+                    {
+                        "channel_name": "SD-7723819",
+                        "channel_id": "7723819"
+                    }
+                ]
+            },
+            {
+                "time": "19:00",
+                "event": "ATP - Houston (USA) : Daniel Elahi Galan vs Mackenzie McDonald",
+                "channels": [],
+                "channels2": [
+                    {
+                        "channel_name": "SD-7716889",
+                        "channel_id": "7716889"
+                    }
+                ]
+            },
+            {
+                "time": "19:00",
+                "event": "WTA - Charleston (USA) : Olivia Gadecki vs Hailey Baptiste",
+                "channels": [],
+                "channels2": [
+                    {
+                        "channel_name": "SD-7722640",
+                        "channel_id": "7722640"
+                    }
+                ]
+            },
+            {
+                "time": "19:00",
+                "event": "UTR (F) - Newport Beach (USA) : Rachel Lee vs Camille Kiss",
+                "channels": [],
+                "channels2": [
+                    {
+                        "channel_name": "SD-7716263",
+                        "channel_id": "7716263"
+                    }
+                ]
+            },
+            {
+                "time": "19:00",
+                "event": "WTA - Bogota (COL) : Raluca Georgiana Serban vs Nuria Parrizas Diaz",
+                "channels": [],
+                "channels2": [
+                    {
+                        "channel_name": "SD-7728057",
+                        "channel_id": "7728057"
+                    }
+                ]
+            },
+            {
+                "time": "19:00",
+                "event": "WTA - Charleston (USA) : Shuai Zhang vs Lucia Bronzetti",
+                "channels": [],
+                "channels2": [
+                    {
+                        "channel_name": "SD-7727348",
+                        "channel_id": "7727348"
+                    }
+                ]
+            },
+            {
+                "time": "19:00",
+                "event": "UTR (F) - Newport Beach (USA) : Veronica Miroshnichenko vs Justine Lespes",
+                "channels": [],
+                "channels2": [
+                    {
+                        "channel_name": "SD-7715800",
+                        "channel_id": "7715800"
+                    }
+                ]
+            },
+            {
+                "time": "19:10",
+                "event": "UTR (F) - Boca Raton (USA) : Katsiaryna Starastsenka vs Marine Partaud",
+                "channels": [],
+                "channels2": [
+                    {
+                        "channel_name": "SD-7714859",
+                        "channel_id": "7714859"
+                    }
+                ]
+            },
+            {
+                "time": "19:30",
+                "event": "Challenger - Morelos (MEX) : Jurij Rodionov vs Tom Paris",
+                "channels": [],
+                "channels2": [
+                    {
+                        "channel_name": "SD-7732674",
+                        "channel_id": "7732674"
+                    }
+                ]
+            },
+            {
+                "time": "19:30",
+                "event": "Challenger - Morelos (MEX) : Max Wiskandt vs Maxime Cressy",
+                "channels": [],
+                "channels2": [
+                    {
+                        "channel_name": "SD-7732675",
+                        "channel_id": "7732675"
+                    }
+                ]
+            },
+            {
+                "time": "20:00",
+                "event": "ATP - Houston (USA) : Colton Smith vs James Duckworth",
+                "channels": [],
+                "channels2": [
+                    {
+                        "channel_name": "SD-7727323",
+                        "channel_id": "7727323"
+                    }
+                ]
+            },
+            {
+                "time": "20:00",
+                "event": "WTA - Bogota (COL) : Emiliana Arango vs Lucrezia Stefanini",
+                "channels": [],
+                "channels2": [
+                    {
+                        "channel_name": "SD-7722819",
+                        "channel_id": "7722819"
+                    }
+                ]
+            },
+            {
+                "time": "21:00",
+                "event": "WTA - Charleston (USA) - Double : B.M.Sands\/L.Safarova vs S.Chang\/R.McAdoo",
+                "channels": [],
+                "channels2": [
+                    {
+                        "channel_name": "SD-7723815",
+                        "channel_id": "7723815"
+                    }
+                ]
+            },
+            {
+                "time": "21:00",
+                "event": "Challenger - Campinas (BRA) : Conner Huertas Del Pino vs Gustavo Albieri",
+                "channels": [],
+                "channels2": [
+                    {
+                        "channel_name": "SD-7732540",
+                        "channel_id": "7732540"
+                    }
+                ]
+            },
+            {
+                "time": "21:00",
+                "event": "WTA - Charleston (USA) - Double : S.Kenin\/L.Kichenok vs N.Kichenok\/A.Sutjiadi",
+                "channels": [],
+                "channels2": [
+                    {
+                        "channel_name": "SD-7723817",
+                        "channel_id": "7723817"
+                    }
+                ]
+            },
+            {
+                "time": "21:10",
+                "event": "ATP - Houston (USA) - Double : M.McDonald\/A.Michelsen vs M.C.Romios\/A.Walton",
+                "channels": [],
+                "channels2": [
+                    {
+                        "channel_name": "SD-7718999",
+                        "channel_id": "7718999"
+                    }
+                ]
+            },
+            {
+                "time": "22:10",
+                "event": "Challenger - Campinas (BRA) - Double : P.B.Dias\/J.L.R.Silva vs S.Watanabe\/T.Yuzuki",
+                "channels": [],
+                "channels2": [
+                    {
+                        "channel_name": "SD-7721559",
+                        "channel_id": "7721559"
+                    }
+                ]
+            },
+            {
+                "time": "22:20",
+                "event": "ATP - Houston (USA) - Double : N.Balaji\/M.A.R.Varela vs F.A.Gomez\/S.Gonzalez",
+                "channels": [],
+                "channels2": [
+                    {
+                        "channel_name": "SD-7719001",
+                        "channel_id": "7719001"
+                    }
+                ]
+            },
+            {
+                "time": "23:00",
+                "event": "UTR (M) - Melbourne (AUS) : Haruto Ishikawa vs Noah Brownrigg",
+                "channels": [],
+                "channels2": [
+                    {
+                        "channel_name": "SD-7713271",
+                        "channel_id": "7713271"
+                    }
+                ]
+            },
+            {
+                "time": "23:00",
+                "event": "WTA - Bogota (COL) : Julia Riera vs Francesca Jones",
+                "channels": [],
+                "channels2": [
+                    {
+                        "channel_name": "SD-7722817",
+                        "channel_id": "7722817"
+                    }
+                ]
+            },
+            {
+                "time": "23:00",
+                "event": "WTA - Bogota (COL) : Kathinka von Deichmann vs Leolia Jeanjean",
+                "channels": [],
+                "channels2": [
+                    {
+                        "channel_name": "SD-7722816",
+                        "channel_id": "7722816"
+                    }
+                ]
+            },
+            {
+                "time": "23:00",
+                "event": "UTR (M) - Melbourne (AUS) : Oliver King vs Sam Ryan Ziegann",
+                "channels": [],
+                "channels2": [
+                    {
+                        "channel_name": "SD-7713276",
+                        "channel_id": "7713276"
+                    }
+                ]
+            },
+            {
+                "time": "23:00",
+                "event": "WTA - Charleston (USA) : Robin Montgomery vs Danielle Rose Collins",
+                "channels": [],
+                "channels2": [
+                    {
+                        "channel_name": "SD-7731431",
+                        "channel_id": "7731431"
+                    }
+                ]
+            },
+            {
+                "time": "23:00",
+                "event": "Challenger - Morelos (MEX) : Rodrigo Pacheco Mendez vs Mateus Alves",
+                "channels": [],
+                "channels2": [
+                    {
+                        "channel_name": "SD-7723160",
+                        "channel_id": "7723160"
+                    }
+                ]
+            },
+            {
+                "time": "00:00",
+                "event": "WTA Charleston : Amanda Anisimova vs Veronika Kudermetova",
+                "channels": [],
+                "channels2": [
+                    {
+                        "channel_name": "SD-7732530",
+                        "channel_id": "7732530"
+                    }
+                ]
+            },
+            {
+                "time": "00:00",
+                "event": "UTR (F) - Melbourne (AUS) : Larisa Arnautovic vs Kirra Bond-Scott",
+                "channels": [],
+                "channels2": [
+                    {
+                        "channel_name": "SD-7710817",
+                        "channel_id": "7710817"
+                    }
+                ]
+            },
+            {
+                "time": "00:00",
+                "event": "UTR (M) - Melbourne (AUS) : Stefan Bianchet vs Stefan Storch",
+                "channels": [],
+                "channels2": [
+                    {
+                        "channel_name": "SD-7710497",
+                        "channel_id": "7710497"
+                    }
+                ]
+            },
+            {
+                "time": "00:10",
+                "event": "UTR (M) - Melbourne (AUS) : Corey Gaal vs Matthew Scheers",
+                "channels": [],
+                "channels2": [
+                    {
+                        "channel_name": "SD-7713266",
+                        "channel_id": "7713266"
+                    }
+                ]
+            },
+            {
+                "time": "00:10",
+                "event": "Challenger - Morelos (MEX) : J.A.Hernandez Serrano vs Juan Pablo Ficovich",
+                "channels": [],
+                "channels2": [
+                    {
+                        "channel_name": "SD-7723161",
+                        "channel_id": "7723161"
+                    }
+                ]
+            },
+            {
+                "time": "00:10",
+                "event": "ATP - Houston (USA) : Kei Nishikori vs Mitchell Krueger",
+                "channels": [],
+                "channels2": [
+                    {
+                        "channel_name": "SD-7727320",
+                        "channel_id": "7727320"
+                    }
+                ]
+            },
+            {
+                "time": "00:10",
+                "event": "UTR (M) - Melbourne (AUS) : Matthew Hulme vs Jack Bruce Smith",
+                "channels": [],
+                "channels2": [
+                    {
+                        "channel_name": "SD-7713265",
+                        "channel_id": "7713265"
+                    }
+                ]
+            },
+            {
+                "time": "01:00",
+                "event": "WTA - Bogota (COL) : Cristina Bucsa vs Leonie Kung",
+                "channels": [],
+                "channels2": [
+                    {
+                        "channel_name": "SD-7722813",
+                        "channel_id": "7722813"
+                    }
+                ]
+            },
+            {
+                "time": "01:00",
+                "event": "WTA - Bogota (COL) : Julieta Pareja vs Maria Jose Sanchez Uribe",
+                "channels": [],
+                "channels2": [
+                    {
+                        "channel_name": "SD-7728056",
+                        "channel_id": "7728056"
+                    }
+                ]
+            },
+            {
+                "time": "01:10",
+                "event": "UTR (F) - Melbourne (AUS) : Alexandra Irina Anghel vs Kaylah Mcphee",
+                "channels": [],
+                "channels2": [
+                    {
+                        "channel_name": "SD-7710811",
+                        "channel_id": "7710811"
+                    }
+                ]
+            },
+            {
+                "time": "01:10",
+                "event": "UTR (M) - Melbourne (AUS) : Sean van Rensburg vs Oliver Statham",
+                "channels": [],
+                "channels2": [
+                    {
+                        "channel_name": "SD-7710502",
+                        "channel_id": "7710502"
+                    }
+                ]
+            },
+            {
+                "time": "01:30",
+                "event": "UTR (F) - Newport Beach (USA) : Eduarda Piai vs Isid Hernandez",
+                "channels": [],
+                "channels2": [
+                    {
+                        "channel_name": "SD-7715806",
+                        "channel_id": "7715806"
+                    }
+                ]
+            },
+            {
+                "time": "01:30",
+                "event": "UTR (F) - Newport Beach (USA) : Paula Cerda vs Sophia Bursulaya",
+                "channels": [],
+                "channels2": [
+                    {
+                        "channel_name": "SD-7715805",
+                        "channel_id": "7715805"
+                    }
+                ]
+            },
+            {
+                "time": "02:30",
+                "event": "UTR (F) - Melbourne (AUS) : Alana Parnaby vs Olivia Collins",
+                "channels": [],
+                "channels2": [
+                    {
+                        "channel_name": "SD-7713292",
+                        "channel_id": "7713292"
+                    }
+                ]
+            },
+            {
+                "time": "02:30",
+                "event": "UTR (M) - Melbourne (AUS) : Ethan Cook vs Arjun Mehrotra",
+                "channels": [],
+                "channels2": [
+                    {
+                        "channel_name": "SD-7713253",
+                        "channel_id": "7713253"
+                    }
+                ]
+            },
+            {
+                "time": "02:30",
+                "event": "UTR (M) - Melbourne (AUS) : Lev Gorb vs Omar Jasika",
+                "channels": [],
+                "channels2": [
+                    {
+                        "channel_name": "SD-7713256",
+                        "channel_id": "7713256"
+                    }
+                ]
             }
         ],
         "WWE<\/span>": [
@@ -3577,7 +4408,7 @@
                 "channels2": []
             },
             {
-                "time": "14:52",
+                "time": "17:17",
                 "event": "004:10 MLB : New York Mets vs Miami Marlins",
                 "channels": [
                     {
