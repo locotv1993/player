@@ -1,0 +1,484 @@
+
+
+<!DOCTYPE html>
+<html lang="es">
+<!-- &lt;!--
+Desarrollado por Cactus App,
+Facebook: https://www.facebook.com/profile.php?id=61555713572752
+Web: https://cactusapp.pages.dev/
+WhatsApp: https://wa.me/573176480389
+--&gt;  -->
+<head>
+    <meta charset="UTF-8">
+    <title>Tv Movil</title>
+    <link rel="icon" href="./assets/icon.jpeg">
+    <script src="./hls/hls.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    h3 {
+        color: wheat;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #0E0912;
+    }
+
+
+    header {
+        display: flex;
+        position: fixed;
+        align-items: center;
+        padding-left: 150px;
+        width: 100vw;
+        height: 60px;
+    }
+
+    header img {
+        width: 50px;
+        border-radius: 10px;
+        margin-right: 10px;
+        margin-left: 30px;
+
+    }
+
+    header h1 {
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .container {
+        padding-top: 30px;
+        display: flex;
+        width: 90vw;
+        height: 90vh;
+    }
+
+    .categories {
+        margin-left: 20px;
+        margin-right: 10px;
+        position: fixed;
+    }
+
+    .categories,
+    .channels {
+        width: 20%;
+        overflow-y: none;
+    }
+
+
+    .channels {
+        margin-left: 25%;
+    }
+
+    .player {
+        position: fixed;
+        right: 0px;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    video {
+        border-radius: 20px;
+        width: 90%;
+        height: auto;
+        margin: 20px;
+        box-shadow: 0px 10px 70px rgba(18, 255, 18, 0.093);
+        transition-duration: 1s;
+
+    }
+
+    video:hover {
+        border-radius: 20px;
+        width: 90%;
+        height: auto;
+        margin: 20px;
+        box-shadow: 0px 10px 70px rgba(0, 242, 0, 0.356);
+
+    }
+
+
+
+    .player-description {
+        padding: 5px;
+        width: 90%;
+        color: wheat;
+        background-color: black;
+        border-radius: 20px;
+    }
+
+    .player-description {
+        width: 90%;
+        color: wheat;
+    }
+
+
+
+    .player-description div {
+        padding: 10px 10px 10px 20px;
+        color: wheat;
+    }
+
+    header button {
+        padding: 10px 20px 10px 20px;
+        margin: 10px 0px 20px 40px;
+        color: wheat;
+        background-color: transparent;
+        border: 3px green solid;
+        border-radius: 10px;
+        font-size: 13px;
+        font-weight: bold;
+    }
+    header button:hover {
+        border: 3px solid red;
+        color: red;
+    }
+
+
+
+    .button,
+    .all-button {
+        display: block;
+        width: 100%;
+        padding: 5px;
+        margin: 10px 0px;
+        text-align: left;
+        background-color: #1C1524;
+        color: #C6BAD1;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+        font-size: 13px;
+        border: 3px transparent solid;
+        transition-duration: 0.6s;
+    }
+
+
+    .button:hover {
+        border: 3px solid chartreuse;
+        color: chartreuse;
+    }
+
+
+    .all-button {
+        border: 3px solid chartreuse;
+        color: chartreuse;
+    }
+
+
+    .channel-name {
+        margin-top: 10px;
+        font-size: 1.2em;
+    }
+
+    .search-bar {
+        margin-bottom: 10px;
+        margin-left: 20px;
+        width: 30%;
+        padding: 10px 10px;
+        font-size: 13px;
+        border-radius: 10px;
+    }
+
+
+
+    #btn-activeframe {
+        display: block;
+        padding: 10px;
+        margin: 10px 0px 0px 10px;
+        text-align: left;
+        background-color: #1C1524;
+        color: #C6BAD1;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+        font-size: 13px;
+        border: 3px transparent solid;
+        transition-duration: 0.6s;
+    }
+
+
+    #btn-activeframe:hover {
+        border: 3px solid chartreuse;
+        color: chartreuse;
+    }
+
+    .channel-icon {
+        width: 24px;
+        height: 24px;
+        margin-right: 8px;
+    }
+
+    .comment {
+        color: #666;
+        font-style: italic;
+        margin: 5px 0;
+    }
+
+
+
+
+
+    /* Estilo para la barra de scroll en navegadores WebKit */
+    .categories::-webkit-scrollbar,
+    .channels::-webkit-scrollbar {
+        width: 12px;
+        /* Ancho de la barra de scroll */
+    }
+
+    .categories::-webkit-scrollbar-track,
+    .channels::-webkit-scrollbar-track {
+        background: #f1f1f1;
+        /* Color del track de la barra de scroll */
+    }
+
+    .categories::-webkit-scrollbar-thumb,
+    .channels::-webkit-scrollbar-thumb {
+        background-color: #888;
+        /* Color del thumb de la barra de scroll */
+        border-radius: 10px;
+        /* Bordes redondeados del thumb */
+        border: 3px solid #f1f1f1;
+        /* Espacio alrededor del thumb */
+    }
+
+    .categories::-webkit-scrollbar-thumb:hover,
+    .channels::-webkit-scrollbar-thumb:hover {
+        background: #555;
+        /* Color del thumb cuando se hace hover */
+    }
+
+    /* Estilo para la barra de scroll en Firefox */
+    .categories {
+        scrollbar-width: thin;
+        /* Ancho de la barra de scroll */
+        scrollbar-color: #221724 #0E0912;
+        /* Color del thumb y el track */
+    }
+
+    .channels {
+        scrollbar-width: thin;
+        /* Ancho de la barra de scroll */
+        scrollbar-color: #221724 #0E0912;
+        /* Color del thumb y el track */
+
+    }
+
+    .modal {
+        display: none;
+        /* Por defecto, oculto */
+        position: fixed;
+        /* Posición fija */
+        z-index: 1;
+        /* Sobre todo */
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        /* Para permitir desplazamiento */
+        background-color: rgba(0, 0, 0, 0.4);
+        /* Fondo oscuro semitransparente */
+    }
+
+    .modal-content {
+        background-color: #fefefe;
+        margin: 15% auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%;
+    }
+
+    .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+</style>
+<script>
+    // Función para mostrar el modal si el ancho de la pantalla es menor que el alto
+    function openModalIfNecessary() {
+        if (window.innerWidth < window.innerHeight) {
+            var modal = document.getElementById("myModal");
+            modal.style.display = "block";
+        }
+    }
+
+    // Función para ocultar el modal
+    function closeModal() {
+        var modal = document.getElementById("myModal");
+        modal.style.display = "none";
+    }
+
+    // Verificar cuando se carga la página
+    window.onload = openModalIfNecessary;
+
+    // Verificar cuando se redimensiona la pantalla
+    window.onresize = openModalIfNecessary;
+
+    const channels = [{"type":"channel","category":" Deportes","title":"golf channels","url":"http:\/\/tvlatino.club:2082\/devil40\/VkCBMYP78uZn\/190695","icon":"https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcTT907hCv_QxjR-xgZUYiD5h-PZFJFBdQJrxQ&usqp=CAU   "},{"type":"channel","category":" Deportes","title":"mlb network","url":"http:\/\/offshore.lat:8080\/play\/xknfF6QKbQnlCvS51ULeiko8hkRCt0L8Rp3JgOdWbEXuEvcE6ncGKEYRubAc_MXo","icon":"  https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcRqAin7NEwByZteT-a2hwyMyMhC0QoIIRzTAg&usqp=CAU "},{"type":"channel","category":" Deportes","title":"nba tv","url":"http:\/\/offshore.lat:8080\/play\/xknfF6QKbQnlCvS51ULeiko8hkRCt0L8Rp3JgOdWbEXn4MLNstO02YGaIQk7Vj7_","icon":"  https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcTpJHAO57nTafydZYiYRNlIwI4p25aoPLngvw&usqp=CAU "},{"type":"channel","category":" Deportes","title":"nfl network","url":"http:\/\/offshore.lat:8080\/play\/xknfF6QKbQnlCvS51ULeiko8hkRCt0L8Rp3JgOdWbEVYJW-Q5gl89q2J5sBjKlEZ","icon":"  https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcSHxiTdiFIlda7E_rQbemUwOHs4wudO9zNl_w&usqp=CAU "},{"type":"channel","category":" Deportes","title":"tennis channels","url":"http:\/\/tvlatino.club:2082\/devil40\/VkCBMYP78uZn\/243903","icon":"  https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcR1pejXpGwHdbSzt4QaoVkj4ZIfQKRqQr1-aA&usqp=CAU "},{"type":"channel","category":" Deportes","title":"ufc network","url":"https:\/\/castlempire.site:443\/jorgen3\/zagw733\/255599.m3u8","icon":" https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcTEkNQLycLM4yIB05WC03Y4hhpDubrlJlH2fA&usqp=CAU "},{"type":"channel","category":" Deportes","title":"wwe network","url":"http:\/\/tvlatino.club:2082\/devil40\/VkCBMYP78uZn\/243910","icon":"  https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcTEGaDF6QDi_GPvSIhhSB5qW3B7PzR_QU18pw&usqp=CAU "},{"type":"channel","category":"Deportes","title":"AFIZZIONADOS","url":"http:\/\/45.143.223.86:2095\/azhaitiinterc349\/tUCP4JyX4H\/27246","icon":"http:\/\/descargas.podzone.net\/logos\/-afizzionados.png"},{"type":"channel","category":"Deportes","title":"COL |  WIN SPORTS","url":"http:\/\/galaxypro.online:8080\/Guardi151023gro\/ROROtv1Gg\/237342","icon":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/0\/03\/WinSports2017.png\/1200px-WinSports2017.png"},{"type":"channel","category":"Deportes","title":"COL | WIN SPORT+","url":"http:\/\/tvlatino.club:2082\/devil40\/VkCBMYP78uZn\/57121","icon":"https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcQa9iUKf7e6EdC0sGXXNhraCLOo77y0YWMamQ&usqp=CAU"},{"type":"channel","category":"Deportes","title":"ESPN SPORT 1 (M\u00e9xico)","url":"https:\/\/castlempire.site:443\/jorgen3\/zagw733\/190102.m3u8","icon":"https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcT_C-KVwUa_O4w_6mmkqjI7H6HaLYNWVT1Rcw&usqp=CAU"},{"type":"channel","category":"Deportes","title":"ESPN SPORT 2 (mexico)","url":"https:\/\/castlempire.site:443\/jorgen3\/zagw733\/181237.m3u8","icon":"https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcQSwWIvd6k63Amy4juhuAJvKh7tkX_Ca7apbQ&usqp=CAU"},{"type":"channel","category":"Deportes","title":"ESPN SPORT 3 (M\u00e9xico)","url":"https:\/\/castlempire.site:443\/jorgen3\/zagw733\/181242.m3u8","icon":"https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcQbCnorejxWH1BID3ZLCbUboqyO1-vjhBMgQw&usqp=CAU"},{"type":"channel","category":"Deportes","title":"FOX SPORTS  1 (M\u00e9xico)","url":"https:\/\/castlempire.site:443\/jorgen3\/zagw733\/181278.m3u8","icon":"https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcQOzUbC3TwMglW0YBja9vOPLa9HhrJo4pBTAw&usqp=CAU"},{"type":"channel","category":"Deportes","title":"FOX SPORTS 2 (M\u00e9xico)","url":"https:\/\/castlempire.site:443\/jorgen3\/zagw733\/181277.m3u8","icon":"https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcTZhooTjS95cU_5z6UWVIJh-0DBHy-aA7RIoQ&usqp=CAU"},{"type":"channel","category":"Deportes","title":"FOX SPORTS 3 (M\u00e9xico)","url":"https:\/\/castlempire.site:443\/jorgen3\/zagw733\/181276.m3u8","icon":"https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcQCosoBzW18TLTPkvgRBWThJdi-iVUZamVi2Q&usqp=CAU"},{"type":"channel","category":"Deportes","title":"TNT Sports (argentina)","url":"http:\/\/emuligl.info:8080\/9HDVmA36bMTW\/CguuCwsF3yRt\/147","icon":"https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcQk56fDBqBbFatAYrQLG9XNQXSdSehcqUpndg&usqp=CAU"},{"type":"channel","category":"Deportes","title":"TUDN","url":"http:\/\/xtream.lat:8880\/Alex2023\/Alex2023\/291","icon":"http:\/\/descargas.podzone.net\/logos\/-TUDN.png"},{"type":"channel","category":"Deportes","title":"TUDN usa","url":"http:\/\/tvmate.icu:8080\/Alan\/Alan1234\/82241","icon":"http:\/\/descargas.podzone.net\/logos\/-univision-TUDN.png"},{"type":"channel","category":"Deportes","title":"TVC SPORTS","url":"https:\/\/castlempire.site:443\/jorgen3\/zagw733\/181254.m3u8","icon":"http:\/\/descargas.podzone.net\/logos\/-tvc.png"},{"type":"channel","category":"Deportes","title":"deportes itv","url":"https:\/\/thm-it-roku.otteravision.com\/thm\/it\/it_720p_high.m3u8","icon":"https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcT2PDd15iainrYWPWE12TlckTQy0MexK7ZouQ&usqp=CAU"},{"type":"channel","category":"Deportes","title":"directv sport 2 (argentina)","url":"https:\/\/castlempire.site:443\/jorgen3\/zagw733\/181233.m3u8","icon":" https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcRsl8or_Oto1vobff4XCUBHofL2uDkvpTr9Hw&usqp=CAU "},{"type":"channel","category":"Deportes","title":"directv sports (argentina)","url":"http:\/\/offshore.lat:8080\/play\/xknfF6QKbQnlCvS51ULeiko8hkRCt0L8Rp3JgOdWbEVGflO7xHdfq-noaJX3979a","icon":"  https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcQBQCNx8Mcyjs2Nrmc5JChTfbGNcnV7hiyFjQ&usqp=CAU"},{"type":"channel","category":"Deportes","title":"espn (argentina)","url":"http:\/\/174620881529776668.ofp52.xyz:80\/live\/vi37296\/6DJkXrwuEtk\/776668.m3u8","icon":"  https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcQQwHeLnMs3YHa5BgBywGnhhZhhK5G1uKPR3w&usqp=CAU"},{"type":"channel","category":"Deportes","title":"espn 2 (argentina)","url":"http:\/\/offshore.lat:8080\/play\/xknfF6QKbQnlCvS51ULeiko8hkRCt0L8Rp3JgOdWbEXSIXz87zdn8OhqAKaSxN1i","icon":" https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcQSwWIvd6k63Amy4juhuAJvKh7tkX_Ca7apbQ&usqp=CAU "},{"type":"channel","category":"Deportes","title":"espn 3 (argentina)","url":"http:\/\/174620881529776664.ofp52.xyz:80\/live\/vi37296\/6DJkXrwuEtk\/776664.m3u8","icon":" https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcQbCnorejxWH1BID3ZLCbUboqyO1-vjhBMgQw&usqp=CAU "},{"type":"channel","category":"Deportes","title":"espn 4 (M\u00e9xico)","url":"https:\/\/castlempire.site:443\/jorgen3\/zagw733\/241176.m3u8","icon":"https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcQlxRsJGmWmJSzt5q8FuCYTBAnTBuAgVEFCiQ&usqp=CAU"},{"type":"channel","category":"Deportes","title":"espn premium (argentina)","url":"http:\/\/offshore.lat:8080\/play\/xknfF6QKbQnlCvS51ULeiko8hkRCt0L8Rp3JgOdWbEUGDPLp851BwDXOm79GvIn2","icon":"https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcTpZAZTooZ7FxcyQr_DoYLsEDEsKSeYPwk00Q&usqp=CAU"},{"type":"channel","category":"Deportes","title":"fox 3 (argentina)","url":"http:\/\/emuligl.info:8080\/9HDVmA36bMTW\/CguuCwsF3yRt\/84","icon":"  https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcSNYL0s4wVkOl0XOSkcS0UgEPguLc-_WxZMFg&usqp=CAU"},{"type":"channel","category":"Deportes","title":"fox sport (argentina)","url":"http:\/\/emuligl.info:8080\/9HDVmA36bMTW\/CguuCwsF3yRt\/144","icon":"  https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcTrmhJ54lwP3vGJZjhrpdsfHviOmknw1JMAkQ&usqp=CAU"},{"type":"channel","category":"Deportes","title":"fox sport 2 (argentina)","url":"http:\/\/emuligl.info:8080\/9HDVmA36bMTW\/CguuCwsF3yRt\/85","icon":"  https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcRiK6YFYatR_bqQWe0x62EewJ2SQsoDYWySbA&usqp=CAU"},{"type":"channel","category":"Deportes","title":"fox sport premiun (mexico)","url":"https:\/\/castlempire.site:443\/jorgen3\/zagw733\/181286.m3u8","icon":"  https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcQCRORK9Plo3gIbcz0C4b5h4FeCJoSUSRk6XQ&usqp=CAU"},{"type":"channel","category":"Deportes","title":"futbol network tv","url":"https:\/\/59d39900ebfb8.streamlock.net\/8312\/8312\/.m3u8","icon":"https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcSazdB6chE4ha6HFJRha7Pcm8anxGbyESmxLg&usqp=CAU"},{"type":"channel","category":"Deportes","title":"tyc SPORTS (argentina)","url":"http:\/\/emuligl.info:8080\/9HDVmA36bMTW\/CguuCwsF3yRt\/267","icon":"https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcQcZHIRY87FCdZ78fmGdSHN1zIRApUP-Le_uw&usqp=CAU"},{"type":"channel","category":"Infantil","title":"INF| Baby tv","url":"http:\/\/zeuspro.xyz:8080\/adrianogambini1\/tNQtNdDN6U\/26886","icon":"https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcRpgKH9kQv82NrlNieyLxyVZuvFxpCK9ozxnQ&usqp=CAU"},{"type":"channel","category":"Infantil","title":"INF| Cartoonito","url":"http:\/\/elperrotv.online:80\/OSCARNOE\/VXF6vmcXYH\/1070975","icon":"https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcQ0O3bNpPlsXQMrPnmyu2nQfXFxwxgiVNIQxQ&usqp=CAU"},{"type":"channel","category":"Infantil","title":"INF| Disney jr","url":"https:\/\/newultra.xyz:8443\/49ruqe45zu42su67\/m59me2me37m\/54423","icon":" https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcQ_LC43NU5iiJWgStdinskdkFSrf4xiVauXQw&usqp=CAU "},{"type":"channel","category":"Infantil","title":"INF| Dreamworks","url":"http:\/\/sdmx.vip:8080\/belpley\/sYqKZQrTZa\/2163078","icon":"https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcSSV-gORxWd-uA5GjuXrUDROMFkyq6jX79hrQ&usqp=CAU"},{"type":"channel","category":"Infantil","title":"INF| Nick Jr","url":"http:\/\/zeuspro.xyz:8080\/adrianogambini1\/tNQtNdDN6U\/1392","icon":"https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcTtpOxL3sDX9bz1UKuJUHw5fRrV1GUAVaWXwQ&usqp=CAU"},{"type":"channel","category":"Infantil","title":"INF| Nickelodeon","url":"http:\/\/elperrotv.online:80\/OSCARNOE\/VXF6vmcXYH\/1070990","icon":"https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcQGVn-WlznbyD88VwS6mAgmBkRSCQ_hD2-v9g&usqp=CAU"},{"type":"channel","category":"Infantil","title":"INF| Tooncast","url":"http:\/\/emuligl.info:8080\/45654RF\/45675CF\/80741","icon":"https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcTutC_Caxt-F1P9n8tpParhZiEkSeUcLshzVg&usqp=CAU"},{"type":"channel","category":"Infantil","title":"INF| anime tv","url":"https:\/\/ssh101.bozztv.com\/ssh101\/taltal\/playlist.m3u8","icon":" https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcTH4iJcZqJf4BHP2nCrLgNjXIc3C8MaujeY7g&usqp=CAU "},{"type":"channel","category":"Infantil","title":"INF| big","url":"https:\/\/ssh101.bozztv.com\/ssh101\/bigchannel\/playlist.m3u8","icon":" https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcRBCDs1aiYsO-IBjay_OeM1cqR_rafBRQN-bY5IP_xRqA&s "},{"type":"channel","category":"Infantil","title":"INF| caracola tv","url":"https:\/\/wifispeed.trapemn.tv:1936\/comunales\/caracola-tv\/playlist.m3u8","icon":" https:\/\/beta.neotv.cl\/assets\/img\/channels\/caracola-tv.png "},{"type":"channel","category":"Infantil","title":"INF| cartoon network","url":"https:\/\/castlempire.site:443\/jorgen3\/zagw733\/190556.m3u8","icon":" https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcSBBIJpNHUw9NN6n5vkhITs1mMV2gqkSY7JKw&usqp=CAU "},{"type":"channel","category":"Infantil","title":"INF| cine kids","url":"https:\/\/stmv5.voxtvhd.com.br\/chilevisualkids\/chilevisualkids\/playlist.m3u8","icon":" https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcSlcLuKEiPOMbdnJ-2XAZI1C-_LW9mc0YGvmI_VW84YMA&s "},{"type":"channel","category":"Infantil","title":"INF| ciudad magica","url":"https:\/\/vd01.streaminghd.net.ar:3983\/live\/owbaknhdlive.m3u8","icon":" https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcT06sThWeAgO5O4PMW1luTwE4napK2bptfEjw&usqp=CAU "},{"type":"channel","category":"Infantil","title":"INF| dreiko tv","url":"https:\/\/cloudvideo.servers10.com:8081\/8138\/index.m3u8","icon":"https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcStegGK7lJVA6n8O-Qsy48-NJ-xOs_LMsJJGQ&usqp=CAU"},{"type":"channel","category":"Infantil","title":"INF| latino kids","url":"https:\/\/cloud5.streaminglivehd.com:3555\/live\/latinokidslive.m3u8","icon":"  https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcQfY_ltEhCbUtPSgZuRS-FgClq0nPwwmpF8LA&usqp=CAU"},{"type":"channel","category":"Infantil","title":"INF| lms","url":"https:\/\/ssh101.bozztv.com\/ssh101\/canallms\/playlist.m3u8","icon":" https:\/\/beta.neotv.cl\/assets\/img\/channels\/lms.png "},{"type":"channel","category":"Infantil","title":"INF| moni tv","url":"http:\/\/190.102.242.130:25461\/multicontenido\/1234\/1","icon":"https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcRwM8S-N0wVb2vOEvK2SqWhwo-2W_zamGS-MA&usqp=CAU  "},{"type":"channel","category":"Infantil","title":"INF| pandamax anime","url":"https:\/\/stream.wifiexpert.cl\/telenorte\/pandamaxch\/playlist.m3u8","icon":"https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcQ2OrZO2QRNc8r3rLxCByiZU93DX-vywjzveg&usqp=CAU"},{"type":"channel","category":"Infantil","title":"INF| toonz kids","url":"https:\/\/d35j504z0x2vu2.cloudfront.net\/v1\/master\/0bc8e8376bd8417a1b6761138aa41c26c7309312\/toonzkids-spanish\/master.m3u8","icon":"https:\/\/www.cxtv.com.br\/img\/Tvs\/Logo\/webp-l\/5f58965018411c0ef81df7c6b596ad54.webp"},{"type":"channel","category":"Infantil","title":"INF| variedad tv","url":"https:\/\/cloud5.streaminglivehd.com:3874\/live\/latinokidsslive.m3u8","icon":"  https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcS1xLbgYSEi5ClJMBqpijB3R4NmT44-lDodb1EqJHsWNw&s"},{"type":"channel","category":"Infantil","title":"INF| zaz tv","url":"https:\/\/stream.ads.ottera.tv\/playlist.m3u8?network_id=1972","icon":"https:\/\/www.cxtv.com.br\/img\/Tvs\/Logo\/webp-l\/99bcff8c6beafba1b9bb9959647663e6.webp"},{"type":"channel","category":"Premium","title":"+cine","url":"https:\/\/tv.streaming-chile.com:19360\/8142\/8142.m3u8","icon":" https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcTKz6q_ZyjOt5iGLyiDEY6cTrv7SGb5IZ15ig&usqp=CAU "},{"type":"channel","category":"Premium","title":"CINE| A&E","url":"http:\/\/xtream.lat:8880\/Alex2023\/Alex2023\/6","icon":"http:\/\/descargas.podzone.net\/logos\/-AyE.png"},{"type":"channel","category":"Premium","title":"CINE| AMC","url":"http:\/\/tvlatino.club:2082\/devil40\/VkCBMYP78uZn\/184592","icon":"https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcRlOfsSaEw17zDmR1V_eX4JVyq9qrxp40-j8g&usqp=CAU"},{"type":"channel","category":"Premium","title":"CINE| AXN","url":"http:\/\/xtream.lat:8880\/Alex2023\/Alex2023\/19","icon":"http:\/\/descargas.podzone.net\/logos\/-AXN.png"},{"type":"channel","category":"Premium","title":"CINE| Cinecanal","url":"http:\/\/xtream.lat:8880\/Alex2023\/Alex2023\/36","icon":"http:\/\/descargas.podzone.net\/logos\/-cinecanal.png"},{"type":"channel","category":"Premium","title":"CINE| Europa-Europa","url":"http:\/\/xtream.lat:8880\/Alex2023\/Alex2023\/140022","icon":"https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcQ-Hsrmg7sVbz5j_ON2WZ8W7mgxKT5S9Jde3Q&usqp=CAU"},{"type":"channel","category":"Premium","title":"CINE| FX","url":"http:\/\/xtream.lat:8880\/Alex2023\/Alex2023\/80","icon":"http:\/\/descargas.podzone.net\/logos\/-FX.png"},{"type":"channel","category":"Premium","title":"CINE| Golden EDGE","url":"http:\/\/offshore.lat:8080\/play\/xknfF6QKbQnlCvS51ULeiko8hkRCt0L8Rp3JgOdWbEUbpKDQX-HVTq3wdaVnOTxG","icon":"https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcTUMV5fp5exW8QCcrCLpu4zCF7GWAasUsltug&usqp=CAU"},{"type":"channel","category":"Premium","title":"CINE| HBO","url":"https:\/\/castlempire.site:443\/jorgen3\/zagw733\/172764.m3u8","icon":"http:\/\/descargas.podzone.net\/logos\/-HBO.png"},{"type":"channel","category":"Premium","title":"CINE| HBO +","url":"http:\/\/tvbross.com:8090\/comandoalmache\/almache2022..\/424","icon":"http:\/\/descargas.podzone.net\/logos\/-HBO-plus.png"},{"type":"channel","category":"Premium","title":"CINE| HBO 2","url":"http:\/\/offshore.lat:8080\/play\/xknfF6QKbQnlCvS51ULeiko8hkRCt0L8Rp3JgOdWbEVnArjVY7NpVYjW4r1V4-DW","icon":"http:\/\/descargas.podzone.net\/logos\/-HBO-2.png"},{"type":"channel","category":"Premium","title":"CINE| HBO Family","url":"http:\/\/offshore.lat:8080\/play\/xknfF6QKbQnlCvS51ULeiko8hkRCt0L8Rp3JgOdWbEW-j6w0NhnDj0PEDC5oGc03","icon":"http:\/\/descargas.podzone.net\/logos\/-HBO-family.png"},{"type":"channel","category":"Premium","title":"CINE| HBO Mundi","url":"http:\/\/offshore.lat:8080\/crueltv2023@\/eY7x2kzuHt\/137.m3u8","icon":"http:\/\/descargas.podzone.net\/logos\/-HBO-mundi.png"},{"type":"channel","category":"Premium","title":"CINE| HBO POP","url":"http:\/\/tvlatino.club:2082\/devil40\/VkCBMYP78uZn\/184705","icon":"http:\/\/descargas.podzone.net\/logos\/-HBO-pop.png"},{"type":"channel","category":"Premium","title":"CINE| HBO Xtreme","url":"https:\/\/castlempire.site:443\/jorgen3\/zagw733\/169831.m3u8","icon":"http:\/\/descargas.podzone.net\/logos\/-HBO-xtream.png"},{"type":"channel","category":"Premium","title":"CINE| HBO signature","url":"http:\/\/offshore.lat:8080\/crueltv2023@\/eY7x2kzuHt\/136.m3u8","icon":"http:\/\/descargas.podzone.net\/logos\/-HBO-signature.png"},{"type":"channel","category":"Premium","title":"CINE| Multipremier","url":"http:\/\/tvlatino.club:2082\/devil40\/VkCBMYP78uZn\/184653","icon":"https:\/\/dl.dropboxusercontent.com\/scl\/fi\/oqccogvw2k3tmpul6heb0\/multipremier.png?rlkey=u954lcq1gn6d9zwwys5jhmlik&dl=0"},{"type":"channel","category":"Premium","title":"CINE| Paramount","url":"http:\/\/tvlatino.club:2082\/devil40\/VkCBMYP78uZn\/184657","icon":"http:\/\/descargas.podzone.net\/logos\/-paramount.png"},{"type":"channel","category":"Premium","title":"CINE| STAR CHANNEL","url":"http:\/\/offshore.lat:8080\/play\/xknfF6QKbQnlCvS51ULeiko8hkRCt0L8Rp3JgOdWbEXHhCMQDR934SepH4wLHqAb","icon":"https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcR8bIE311mFAEe8p_LwuOKrT0i93OFBvXXE3g&usqp=CAU"},{"type":"channel","category":"Premium","title":"CINE| Sony Channel","url":"http:\/\/offshore.lat:8080\/play\/xknfF6QKbQnlCvS51ULeiko8hkRCt0L8Rp3JgOdWbEWrswjeVWM6IIIsSNzryM_5","icon":"https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcQ8g4pgtD9NRV7Q3SMRX1XUcxAkSyd3qR23Mw&usqp=CAU"},{"type":"channel","category":"Premium","title":"CINE| Space","url":"http:\/\/xtream.lat:8880\/Alex2023\/Alex2023\/113","icon":"https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcRhb9ga1hqM2ZIJJuzseaF0qXu7hiOLof47Pw&usqp=CAU"},{"type":"channel","category":"Premium","title":"CINE| TNT","url":"http:\/\/xtream.lat:8880\/Alex2023\/Alex2023\/243","icon":"http:\/\/descargas.podzone.net\/logos\/-TNT.png"},{"type":"channel","category":"Premium","title":"CINE| TNT SERIES","url":"http:\/\/xtream.lat:8880\/Alex2023\/Alex2023\/365","icon":"http:\/\/descargas.podzone.net\/logos\/-TNT-series.png"},{"type":"channel","category":"Premium","title":"CINE| Universal Crime","url":"http:\/\/xtream.lat:8880\/Alex2023\/Alex2023\/70","icon":" https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcSEYgyPNFBP6tBSzCBbKBl-OmpK3cjpoMRi-w&usqp=CAU "},{"type":"channel","category":"Premium","title":"CINE| Warner","url":"http:\/\/offshore.lat:8080\/crueltv2023@\/eY7x2kzuHt\/239661.m3u8","icon":"https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcSSi7SbFmeNZkV9LE5RyCfep3lwep5AavQJWw&usqp=CAU"},{"type":"channel","category":"Premium","title":"CINE| cine dinamita","url":"http:\/\/offshore.lat:8080\/play\/xknfF6QKbQnlCvS51ULeiko8hkRCt0L8Rp3JgOdWbEV8EkZpONn8S3a_zdVQ4IAd","icon":"https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcTdhHNGUXvj4712PUyB0mttusQuIukdirpEsw&usqp=CAU  "},{"type":"channel","category":"Premium","title":"CINE| cine latino","url":"http:\/\/offshore.lat:8080\/play\/xknfF6QKbQnlCvS51ULeiko8hkRCt0L8Rp3JgOdWbEUyE1Wi4UjaSBxdjKkNGZ17","icon":" https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcQmXCq8KMtRzQi30dE8hDnbI8l1YVI1ayV0Tg&usqp=CAU "},{"type":"channel","category":"Premium","title":"CINE| cinemax","url":"http:\/\/offshore.lat:8080\/play\/xknfF6QKbQnlCvS51ULeiko8hkRCt0L8Rp3JgOdWbEVs7XqjBc0GVDMWZY7s1Ckd","icon":"  https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcQjRGW3v1FQSiCK6Jc4T-DTUOr_n6nGIsdHIw&usqp=CAU"},{"type":"channel","category":"Premium","title":"CINE| de pelicula","url":"http:\/\/xtream.lat:8880\/Alex2023\/Alex2023\/41","icon":" https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcQtdgK8nmyYFbfs2asYSsyf0VEax8yjJnLYJQ&usqp=CAU "},{"type":"channel","category":"Premium","title":"CINE| de pel\u00edcula cl\u00e1sico","url":"http:\/\/offshore.lat:8080\/play\/xknfF6QKbQnlCvS51ULeiko8hkRCt0L8Rp3JgOdWbEWWetX37PKq3Vt5u2-_Rhdq","icon":" https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcRQMU7s2BFWuCWTz5KquynUbWKVvyt_bkFzMA&usqp=CAU "},{"type":"channel","category":"Premium","title":"CINE| dhe","url":"https:\/\/castlempire.site:443\/jorgen3\/zagw733\/241170.m3u8","icon":" https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcQMXEFPhBDC6SpNfEuSk7NI87Ql6dHdRDTWAw&usqp=CAU "},{"type":"channel","category":"Premium","title":"CINE| golden","url":"http:\/\/offshore.lat:8080\/play\/xknfF6QKbQnlCvS51ULeiko8hkRCt0L8Rp3JgOdWbEUejfBB-XzwSlInTH9ZkxHG","icon":" https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcRQJXqXA_cKR17wjNJL6Go4FOtZlWGn2j_9JA&usqp=CAU "},{"type":"channel","category":"Premium","title":"CINE| golden plus","url":"http:\/\/xtream.lat:8880\/Alex2023\/Alex2023\/86","icon":"  https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcSRX0wqSXHdfSqZlpGAsRVnSTMTcDWReuZiRw&usqp=CAU"},{"type":"channel","category":"Premium","title":"CINE| golden premier","url":"https:\/\/linear-411.frequency.stream\/mt\/studio\/411\/hls\/master\/playlist.m3u8","icon":"https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcTg3zE1yMNR95v-NLsUiY_MhHKf-tbApjRpUw&usqp=CAU"},{"type":"channel","category":"Premium","title":"CINE| sony movies","url":"http:\/\/offshore.lat:8080\/play\/xknfF6QKbQnlCvS51ULeiko8hkRCt0L8Rp3JgOdWbEXv1aA5my7Eu-eBHg9eFUeb","icon":"https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcQy9_23qztuHYhlclfjxPGt_SZcu7HDAv0VuQ&usqp=CAU"},{"type":"channel","category":"Premium","title":"CINE| syfy","url":"http:\/\/282688578248321424.ofds0328.xyz:80\/play\/fe107234\/wvqCm6Ccyv\/321424.m3u8","icon":" https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcQLbUTUn5UP2BUl8h-3-S8v-9oGKDG2V4AwkQ&usqp=CAU "},{"type":"channel","category":"Premium","title":"CINE| tcm","url":"https:\/\/castlempire.site:443\/jorgen3\/zagw733\/190250.m3u8","icon":"https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcS4DziOemaRKZu-NiBYHQfwPbJ0Thgu2oe68Q&usqp=CAU  "},{"type":"channel","category":"Premium","title":"CINE| universal channel","url":"http:\/\/offshore.lat:8080\/play\/xknfF6QKbQnlCvS51ULeiko8hkRCt0L8Rp3JgOdWbEVHX_HQCNSyXEu3HMfe8FnY","icon":"http:\/\/descargas.podzone.net\/logos\/-universal-channel.png"},{"type":"channel","category":"Premium","title":"CINE| universal cinema","url":"http:\/\/tvlatino.club:2082\/devil40\/VkCBMYP78uZn\/184699","icon":"  https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcRO5pW3OIoS49XWgb_qI7rCgZPE45J9LTPsJQ&usqp=CAU"},{"type":"channel","category":"Premium","title":"CINE| universal premier","url":"http:\/\/xtream.lat:8880\/Alex2023\/Alex2023\/75","icon":"  https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcQS9JkWOtaWjgYcKZEHyBaRzKpR_9-pO7JCbg&usqp=CAU"},{"type":"channel","category":"Premium","title":"COCO TV","url":"https:\/\/cloudflare.streamgato.us:3253\/live\/canalcocotvlive.m3u8","icon":"https:\/\/canalesdominicanos.live\/template\/images\/radios\/coco-tv.png"},{"type":"channel","category":"Premium","title":"FMH Movies","url":"http:\/\/tvlatino.club:2082\/pedrovip6mes\/3k67n7QfhqxP\/345523","icon":"https:\/\/www.latincable.pe\/images\/canales-tv\/fmh-movies.jpg"},{"type":"channel","category":"Premium","title":"bigtime","url":"https:\/\/i.mjh.nz\/SamsungTVPlus\/ESBC2700003T8.m3u8","icon":"https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcRosJ3ygTiS0KFJHpfxrDQgbpU7l6r5wTWHVQ&usqp=CAU"},{"type":"channel","category":"Premium","title":"canela horror","url":"https:\/\/stream.ads.ottera.tv\/playlist.m3u8?network_id=6029&avod=1&coppa=0&is_lat=0&dnt=0&td=6&us_privacy=1ynn&did=45160f1f52dd531af6283d66fd897221&ifa_type=sessionid&app_bundle=com.canela.ott&app_store_url=https%3A%2F%2Fwww.canela.tv%2Fdevices&app_domain=canela.tv&app_name=canelatv&custom_targeting=web&custom_4=internal&player_height=720&player_width=1280&content_channel=canelatv&content_dist_name=internal&device_make=&device_model=&device_os=web&preferred_language=en&consent=1&gdpr=0&custom_12=0&custom_15=es&custom_16=en&custom_17=en&site_page=https%253a%252f%252fwww.canela.tv%252flinear%252fcanela-horror&gender=not_specified&yob=0&livestream=1&custom_param_0=&custom_param_1=handset&custom_param_2=&custom_param_3=&custom_param_4=internal&custom_param_5=web&custom_param_6=South%2520America&timestamp=1715689870&id=56737&ip=190.60.36.90&override_expiration=1500&deliveryProfileId=23762&sign=BBE0%2BVo%2FasJabfOBgX5Wi9TSIr8Oqr3wJk%2FaDSCmvp4%3D","icon":" https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcS-go2dG-iI6m-3oGj3SuBWWHRrC89yuWCAuYv6k3Y4Zw&s "},{"type":"channel","category":"Premium","title":"cine clasico","url":"https:\/\/i.mjh.nz\/SamsungTVPlus\/ESBD230000143.m3u8","icon":"https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcRatgyllOGa15ZbbNK0hsNTY8sO2SdQQMusKQ&usqp=CAU"},{"type":"channel","category":"Premium","title":"cine para todos","url":"https:\/\/stmv5.voxtvhd.com.br\/chilevisualfilm\/chilevisualfilm\/playlist.m3u8","icon":"  https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcSx1Qzi0WAtHVtz0y1PIxW6xxSAw6pWOfsvRllx5-lxwg&s"},{"type":"channel","category":"Premium","title":"cine retro","url":"https:\/\/stmv5.voxtvhd.com.br\/chilevisualretro\/chilevisualretro\/playlist.m3u8","icon":" https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcThux6tHkMNMAJfV9k3GjWcJX5Uq77CiM9yZA&usqp=CAU"},{"type":"channel","category":"Premium","title":"cinerama","url":"https:\/\/5d00db0e0fcd5.streamlock.net\/7062\/7062\/playlist.m3u8","icon":"  https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcRbFpbKi0GqYmlqhaMV1Fc7Jqb3OoDYYM6KMg&usqp=CAU"},{"type":"channel","category":"Premium","title":"clover peliculas","url":"http:\/\/177.234.230.226:8010\/play\/a00a\/index.m3u8","icon":"https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcSbInomfr9qn8qwKKG7snrvckLXzgkyA-nieQ&usqp=CAU"},{"type":"channel","category":"Premium","title":"cosmos","url":"https:\/\/tv.mediacp.eu:19360\/cosmos\/cosmos.m3u8","icon":"  https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcRvJqXtlfgMiMp-UgYniuKMopIbavCTEAK7Hg&usqp=CAU"},{"type":"channel","category":"Premium","title":"extrema tv acci\u00f3n","url":"https:\/\/stmv6.voxtvhd.com.br\/cineaccion\/cineaccion\/playlist.m3u8","icon":"https:\/\/www.cxtv.com.br\/img\/Tvs\/Logo\/webp-l\/16f8ed90cfdce23eb93131280ab06426.webp"},{"type":"channel","category":"Premium","title":"freetv acci\u00f3n","url":"https:\/\/topcinelatam-freetv.amagi.tv:443\/TopCineLATAMx\/master_5.m3u8","icon":"https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcRFeUGQ10BnaARfZdzrg3HDBnczw50dgGL-2A&usqp=CAU"},{"type":"channel","category":"Premium","title":"grjngo del oeste","url":"https:\/\/45e603c214f5438cae8872707b7fd678.mediatailor.us-east-1.amazonaws.com\/v1\/master\/f4e8c53a8367a5b58e20ce054ea3ce25a3e904d3\/Samsung-es_GrjngoPeliculasDelOeste\/playlist.m3u8?ads.wurl_channel=1239&ads.wurl_name=GrjngoPeliculasDelOeste&ads.coppa=0&ads.psid=%7BPSID%7D&ads.targetopt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.consent=%7BTC_STRING%7D","icon":"https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcRyoptMei6_QX_CHVzyPKpsVD1w2dRQes2JUw&usqp=CAU"},{"type":"channel","category":"Premium","title":"orbit tv","url":"https:\/\/ss3.domint.net:3134\/otv_str\/orbittv\/playlist.m3u8?PlaylistM3UCL","icon":"https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcSkLeQLZEV3qaypnHo5fURtWwtOia-8nWT4LQ&usqp=CAU"},{"type":"channel","category":"Premium","title":"retro tv","url":"https:\/\/ssh101.bozztv.com\/ssh101\/canalonline\/chunks.m3u8?PlaylistM3UCL","icon":" https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcSpniGtsj44_DcDhje43ZCW4PgpJVoeMf3cw2M3g45USQ&s "},{"type":"channel","category":"Premium","title":"telemax","url":"https:\/\/cdn2.streamgato.us\/telemax\/telemax\/playlist.m3u8","icon":"  https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcSgsy2NSLL57zATMKM6sOGDCOJmKQpsror-Ow&usqp=CAU"},{"type":"channel","category":"Premium","title":"terror tv","url":"https:\/\/tv.streaming-chile.com:19360\/8140\/8140.m3u8","icon":" https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcSwd7lWptAKKvzPBvh5GfWh7Ie-Go-17XKPCA&usqp=CAU"},{"type":"channel","category":"\ud83e\udd0eCultura","title":"A&E","url":"http:\/\/tv.teleclub.xyz\/envivo\/Cultura\/AE\/index.m3u8","icon":"https:\/\/i.imgur.com\/LrBa6Mi.png"},{"type":"channel","category":"\ud83e\udd0eCultura","title":"Animal Planet","url":"http:\/\/tv.teleclub.xyz\/envivo\/Cultura\/ANIMAL_PLANET\/index.m3u8","icon":"https:\/\/i.imgur.com\/b2ajTHP.png"},{"type":"channel","category":"\ud83e\udd0eCultura","title":"Discovery Channel","url":"http:\/\/tv.teleclub.xyz\/envivo\/Cultura\/DISCOVERY_CHANNEL\/index.m3u8","icon":"https:\/\/i.imgur.com\/XHF3LKK.jpg"},{"type":"channel","category":"\ud83e\udd0eCultura","title":"Discovery H&H","url":"http:\/\/tv.teleclub.xyz\/envivo\/Cultura\/DISCOVERY_HnH\/index.m3u8","icon":"https:\/\/i.imgur.com\/MyP52G9.jpg"},{"type":"channel","category":"\ud83e\udd0eCultura","title":"Discovery Theater","url":"http:\/\/tv.teleclub.xyz\/envivo\/Cultura\/DISCOVERY_THEATER\/index.m3u8","icon":"https:\/\/i.imgur.com\/dCIf15Q.jpg"},{"type":"channel","category":"\ud83e\udd0eCultura","title":"Discovery Turbo","url":"http:\/\/tv.teleclub.xyz\/envivo\/Cultura\/DISCOVERY_TURBO\/index.m3u8","icon":"https:\/\/i.imgur.com\/HWv6NHE.jpg"},{"type":"channel","category":"\ud83e\udd0eCultura","title":"Discovery World","url":"http:\/\/tv.teleclub.xyz\/envivo\/Cultura\/DISCOVERY_WORLD\/index.m3u8","icon":"https:\/\/i.imgur.com\/n8yegix.jpg"},{"type":"channel","category":"\ud83e\udd0eCultura","title":"Food Network","url":"http:\/\/tv.teleclub.xyz\/envivo\/Cultura\/FOOD_NETWORK\/index.m3u8","icon":"https:\/\/i.imgur.com\/WbrBFPQ.png"},{"type":"channel","category":"\ud83e\udd0eCultura","title":"HGTV","url":"http:\/\/tv.teleclub.xyz\/envivo\/Cultura\/HGTV\/index.m3u8","icon":"https:\/\/i.imgur.com\/kF7zUpR.jpg"},{"type":"channel","category":"\ud83e\udd0eCultura","title":"Nat Geo","url":"http:\/\/tv.teleclub.xyz\/envivo\/Cultura\/NATGEO\/index.m3u8","icon":"https:\/\/i.imgur.com\/D13ecjG.png"},{"type":"channel","category":"\ud83e\udd0eCultura","title":"Nat Geo Wild","url":"http:\/\/tv.teleclub.xyz\/envivo\/Cultura\/NATGEO_WILD\/index.m3u8","icon":"https:\/\/i.imgur.com\/5EbA7Xn.png"},{"type":"channel","category":"\ud83e\udd0eCultura","title":"TLC","url":"http:\/\/tv.teleclub.xyz\/envivo\/Cultura\/TLC\/index.m3u8","icon":"https:\/\/i.imgur.com\/LB0TjOY.jpg"},{"type":"channel","category":"\ud83e\udd0eCultura","title":"The History Channel","url":"http:\/\/tv.teleclub.xyz\/envivo\/Cultura\/THE_HISTORY_CHANNEL\/index.m3u8","icon":"https:\/\/i.imgur.com\/pkYcdap.png"},{"type":"channel","category":"\ud83e\udd0eCultura","title":"Travel & Living","url":"http:\/\/tv.teleclub.xyz\/envivo\/Cultura\/TRAVEL_LIVING\/index.m3u8","icon":"https:\/\/i.imgur.com\/lZhjrtv.png"},{"type":"channel","category":"\ud83e\udd0eDeportes","title":"DirecTV Sports","url":"http:\/\/tv.teleclub.xyz\/envivo\/Deportes\/DTV_SPORTS\/index.m3u8","icon":"https:\/\/i.imgur.com\/sdXNS7K.png"},{"type":"channel","category":"\ud83e\udd0eDeportes","title":"DirecTV Sports +","url":"http:\/\/tv.teleclub.xyz\/envivo\/Deportes\/DTV_SPORTS_PLUS\/index.m3u8","icon":"https:\/\/i.imgur.com\/sdXNS7K.png"},{"type":"channel","category":"\ud83e\udd0eDeportes","title":"DirecTV Sports 2","url":"http:\/\/tv.teleclub.xyz\/envivo\/Deportes\/DTV_SPORTS_2\/index.m3u8","icon":"https:\/\/i.imgur.com\/sdXNS7K.png"},{"type":"channel","category":"\ud83e\udd0eDeportes","title":"ESPN","url":"http:\/\/tv.teleclub.xyz\/envivo\/Deportes\/ESPN\/index.m3u8","icon":"https:\/\/i.imgur.com\/X0J9Yj1.jpg"},{"type":"channel","category":"\ud83e\udd0eDeportes","title":"ESPN 2","url":"http:\/\/tv.teleclub.xyz\/envivo\/Deportes\/ESPN_2\/index.m3u8","icon":"https:\/\/i.imgur.com\/Zb6Q6xr.jpg"},{"type":"channel","category":"\ud83e\udd0eDeportes","title":"ESPN 3","url":"http:\/\/tv.teleclub.xyz\/envivo\/Deportes\/ESPN_3\/index.m3u8","icon":"https:\/\/i.imgur.com\/NJXlye8.png"},{"type":"channel","category":"\ud83e\udd0eDeportes","title":"Fox Sports 1","url":"http:\/\/tv.teleclub.xyz\/envivo\/Deportes\/FOX_SPORTS_1\/index.m3u8","icon":"https:\/\/i.imgur.com\/QLBICgL.jpg"},{"type":"channel","category":"\ud83e\udd0eDeportes","title":"Fox Sports 2","url":"http:\/\/tv.teleclub.xyz\/envivo\/Deportes\/FOX_SPORTS_2\/index.m3u8","icon":"https:\/\/i.imgur.com\/y78q3X7.jpg"},{"type":"channel","category":"\ud83e\udd0eDeportes","title":"Fox Sports 3","url":"http:\/\/tv.teleclub.xyz\/envivo\/Deportes\/FOX_SPORTS_3\/index.m3u8","icon":"https:\/\/i.imgur.com\/3Z3ZZcO.jpg"},{"type":"channel","category":"\ud83e\udd0eDeportes","title":"Golf Channel","url":"http:\/\/tv.teleclub.xyz\/envivo\/Deportes\/GOLF_CHANNEL\/index.m3u8","icon":"https:\/\/i.imgur.com\/5eC2ok0.png"},{"type":"channel","category":"\ud83e\udd0eDeportes","title":"NBA TV","url":"http:\/\/tv.teleclub.xyz\/envivo\/Deportes\/NBA\/index.m3u8","icon":"https:\/\/i.imgur.com\/BJ3U2fF.png"},{"type":"channel","category":"\ud83e\udd0eDeportes","title":"NFL Network","url":"http:\/\/tv.teleclub.xyz\/envivo\/Deportes\/NFL_NETWORK\/index.m3u8","icon":"https:\/\/i.imgur.com\/jPZRO39.png"},{"type":"channel","category":"\ud83e\udd0eDeportes","title":"TUDN","url":"http:\/\/tv.teleclub.xyz\/envivo\/Deportes\/TUDN\/index.m3u8","icon":"https:\/\/i.imgur.com\/0R5V9Pj.png"},{"type":"channel","category":"\ud83e\udd0eDeportes","title":"TyC Sports","url":"http:\/\/tv.teleclub.xyz\/envivo\/Deportes\/TYC_SPORTS\/index.m3u8","icon":"https:\/\/i.imgur.com\/v1BxHiT.jpg"},{"type":"channel","category":"\ud83e\udd0eDeportes","title":"UFC Network","url":"http:\/\/tv.teleclub.xyz\/envivo\/Deportes\/UFC_NETWORK\/index.m3u8","icon":"https:\/\/i.imgur.com\/OEz0ppB.png"},{"type":"channel","category":"\ud83e\udd0eDeportes","title":"WWE Network","url":"http:\/\/tv.teleclub.xyz\/envivo\/Deportes\/WWE\/index.m3u8","icon":"https:\/\/i.imgur.com\/ZxTysBP.png"},{"type":"channel","category":"\ud83e\udd0eInfantil","title":"Bitme","url":"http:\/\/tv.teleclub.xyz\/envivo\/Infantil\/BITME\/index.m3u8","icon":"https:\/\/i.imgur.com\/u4sw0pf.png"},{"type":"channel","category":"\ud83e\udd0eInfantil","title":"Cartoon Network","url":"http:\/\/tv.teleclub.xyz\/envivo\/Infantil\/CARTOON_NETWORK\/index.m3u8","icon":"https:\/\/i.imgur.com\/wx6s0Wq.jpg"},{"type":"channel","category":"\ud83e\udd0eInfantil","title":"Cartoonito","url":"http:\/\/tv.teleclub.xyz\/envivo\/Infantil\/CARTOONITO\/index.m3u8","icon":"https:\/\/i.imgur.com\/5U7AMyc.png"},{"type":"channel","category":"\ud83e\udd0eInfantil","title":"Discovery Kids","url":"http:\/\/tv.teleclub.xyz\/envivo\/Infantil\/DISCOVERY_KIDS\/index.m3u8","icon":"https:\/\/i.imgur.com\/I18tgBc.png"},{"type":"channel","category":"\ud83e\udd0eInfantil","title":"Disney Channel","url":"http:\/\/tv.teleclub.xyz\/envivo\/Infantil\/DISNEY_CHANNEL\/index.m3u8","icon":"https:\/\/i.imgur.com\/84lq03p.jpg"},{"type":"channel","category":"\ud83e\udd0eInfantil","title":"Disney Jr","url":"http:\/\/tv.teleclub.xyz\/envivo\/Infantil\/DISNEY_JUNIOR\/index.m3u8","icon":"https:\/\/i.imgur.com\/9FOKuui.jpg"},{"type":"channel","category":"\ud83e\udd0eInfantil","title":"EnerGeek Retro","url":"http:\/\/tv.teleclub.xyz\/envivo\/Infantil\/ENERGEEK_RETRO\/index.m3u8","icon":"https:\/\/cdn.energeek.cl\/logos\/Retro-2023.png"},{"type":"channel","category":"\ud83e\udd0eInfantil","title":"Nick","url":"http:\/\/tv.teleclub.xyz\/envivo\/Infantil\/NICK\/index.m3u8","icon":"https:\/\/i.imgur.com\/GSclzOJ.jpg"},{"type":"channel","category":"\ud83e\udd0eInfantil","title":"Nick Jr","url":"http:\/\/tv.teleclub.xyz\/envivo\/Infantil\/NICK_JR\/index.m3u8","icon":"https:\/\/i.imgur.com\/rhHtS3j.jpg"},{"type":"channel","category":"\ud83e\udd0eInfantil","title":"Tooncast","url":"http:\/\/tv.teleclub.xyz\/envivo\/Infantil\/TOONCAST\/index.m3u8","icon":"https:\/\/i.imgur.com\/RO1czIu.png"},{"type":"channel","category":"\ud83e\udd0eMundo","title":"ADN40","url":"http:\/\/tv.teleclub.xyz\/envivo\/Mundo\/ADN40\/index.m3u8","icon":"https:\/\/i.imgur.com\/MLdfm8o.png"},{"type":"channel","category":"\ud83e\udd0eMundo","title":"Antena 3","url":"http:\/\/tv.teleclub.xyz\/envivo\/Mundo\/ANTENA3\/index.m3u8","icon":"https:\/\/i.imgur.com\/0A0KkZ2.png"},{"type":"channel","category":"\ud83e\udd0eMundo","title":"Azteca Uno","url":"http:\/\/tv.teleclub.xyz\/envivo\/Mundo\/AZTECA_UNO\/index.m3u8","icon":"https:\/\/i.imgur.com\/skzoiz9.png"},{"type":"channel","category":"\ud83e\udd0eMundo","title":"Azteca7","url":"http:\/\/tv.teleclub.xyz\/envivo\/Mundo\/AZTECA7\/index.m3u8","icon":"https:\/\/i.imgur.com\/vpXleBr.png"},{"type":"channel","category":"\ud83e\udd0eMundo","title":"CNN en Espa\u00f1ol","url":"http:\/\/tv.teleclub.xyz\/envivo\/Mundo\/CNN_ESPANOL\/index.m3u8","icon":"https:\/\/i.imgur.com\/s3VgvNM.png"},{"type":"channel","category":"\ud83e\udd0eMundo","title":"Canal E!","url":"http:\/\/tv.teleclub.xyz\/envivo\/Mundo\/CANAL_E\/index.m3u8","icon":"https:\/\/i.imgur.com\/RPDq82Q.png"},{"type":"channel","category":"\ud83e\udd0eMundo","title":"Caracol TV","url":"http:\/\/tv.teleclub.xyz\/envivo\/Mundo\/CARACOLTV\/index.m3u8","icon":"https:\/\/i.imgur.com\/6nPAF0Q.png"},{"type":"channel","category":"\ud83e\udd0eMundo","title":"DW en Espa\u00f1ol","url":"http:\/\/tv.teleclub.xyz\/envivo\/Mundo\/DW_Spanish\/index.m3u8","icon":"https:\/\/i.imgur.com\/d2SXEFp.png"},{"type":"channel","category":"\ud83e\udd0eMundo","title":"HolaTV","url":"http:\/\/tv.teleclub.xyz\/envivo\/Mundo\/HOLATV\/index.m3u8","icon":"https:\/\/i.imgur.com\/iGCVGEA.jpg"},{"type":"channel","category":"\ud83e\udd0eMundo","title":"Las Estrellas","url":"http:\/\/tv.teleclub.xyz\/envivo\/Mundo\/LAS_ESTRELLAS\/index.m3u8","icon":"https:\/\/i.imgur.com\/kaTu9Qb.png"},{"type":"channel","category":"\ud83e\udd0eMundo","title":"Lifetime","url":"http:\/\/tv.teleclub.xyz\/envivo\/Mundo\/LIFETIME\/index.m3u8","icon":"https:\/\/i.imgur.com\/iiw3ibE.png"},{"type":"channel","category":"\ud83e\udd0eMundo","title":"RCN","url":"http:\/\/tv.teleclub.xyz\/envivo\/Mundo\/RCN\/index.m3u8","icon":"https:\/\/i.imgur.com\/rP8UBPq.png"},{"type":"channel","category":"\ud83e\udd0eMundo","title":"RT en Espa\u00f1ol","url":"http:\/\/tv.teleclub.xyz\/envivo\/Mundo\/RT_ESPANOL\/index.m3u8","icon":"https:\/\/i.imgur.com\/qv3P4pm.png"},{"type":"channel","category":"\ud83e\udd0eMundo","title":"Telefe","url":"http:\/\/tv.teleclub.xyz\/envivo\/Mundo\/TELEFE\/index.m3u8","icon":"https:\/\/i.imgur.com\/WAZn1np.png"},{"type":"channel","category":"\ud83e\udd0eMundo","title":"Telemundo","url":"http:\/\/tv.teleclub.xyz\/envivo\/Mundo\/TELEMUNDO\/index.m3u8","icon":"https:\/\/i.imgur.com\/Ys31Rhw.png"},{"type":"channel","category":"\ud83e\udd0eMundo","title":"Univision","url":"http:\/\/tv.teleclub.xyz\/envivo\/Mundo\/UNIVISION\/index.m3u8","icon":"https:\/\/i.imgur.com\/sCMrEpW.png"}];
+
+
+
+
+    function filterChannels(category) {
+        const channelList = document.getElementById('channelList');
+        channelList.innerHTML = '';
+        for (let i = 0; i < channels.length; i++) {
+            if (channels[i].type === 'comment') {
+                const div = document.createElement('div');
+                div.className = 'comment';
+                div.textContent = channels[i].text;
+                channelList.appendChild(div);
+            } else if (category === '' || channels[i].category === category || (channels[i].category === 'Sin Categoría' && !category)) {
+                const button = document.createElement('button');
+                button.className = 'button';
+
+                const img = document.createElement('img');
+                img.src = channels[i].icon;
+                img.alt = 'Icono';
+                img.className = 'channel-icon';
+
+                const text = document.createTextNode(channels[i].title);
+
+                button.appendChild(img);
+                button.appendChild(text);
+                button.onclick = () => playChannel(i);
+                channelList.appendChild(button);
+            }
+        }
+        document.getElementById('searchBar').value = '';
+    }
+
+    function searchChannels() {
+        const searchBar = document.getElementById('searchBar');
+        const filter = searchBar.value.toLowerCase();
+        const channelList = document.getElementById('channelList');
+        channelList.innerHTML = '';
+        for (let i = 0; i < channels.length; i++) {
+            if (channels[i].type === 'comment') {
+                const div = document.createElement('div');
+                div.className = 'comment';
+                div.textContent = channels[i].text;
+                channelList.appendChild(div);
+            } else if (channels[i].title.toLowerCase().includes(filter)) {
+                const button = document.createElement('button');
+                button.className = 'button';
+
+                const img = document.createElement('img');
+                img.src = channels[i].icon;
+                img.alt = 'Icono';
+                img.className = 'channel-icon';
+
+                const text = document.createTextNode(channels[i].title);
+
+                button.appendChild(img);
+                button.appendChild(text);
+                button.onclick = () => playChannel(i);
+                channelList.appendChild(button);
+            }
+        }
+    }
+
+    function playChannel(index) {
+        const player = document.getElementById('player');
+        const channelName = document.getElementById('channelName');
+        const channelUrl = channels[index].url;
+        channelName.textContent = channels[index].title;
+        if (Hls.isSupported()) {
+            var hls = new Hls();
+            hls.loadSource(channelUrl);
+            hls.attachMedia(player);
+            hls.on(Hls.Events.MANIFEST_PARSED, function() {
+                player.play();
+            });
+        } else if (player.canPlayType('application/vnd.apple.mpegurl')) {
+            player.src = channelUrl;
+            player.addEventListener('loadedmetadata', function() {
+                player.play();
+            });
+        }
+    }
+
+    function toggleFullscreen() {
+    var playerContainer = document.getElementById('player');
+    if (!document.fullscreenElement) {
+        playerContainer.requestFullscreen().catch(err => {
+            alert(`Error attempting to enable full-screen mode: ${err.message} (${err.name})`);
+        });
+    } else {
+        document.exitFullscreen();
+    }
+}
+
+</script>
+
+<body>
+    <header>
+        <img src="./assets/logo.jpeg" alt="Logo">
+        <h1>Tv Movil</h1>
+        <input type="text" id="searchBar" class="search-bar" oninput="searchChannels()" placeholder="Buscar canal...">
+        <button onclick="toggleFullscreen()">Maximizar</button>
+    </header>
+
+    <div class="container">
+        <div class="categories">
+            <h3>Categorías</h3>
+            <div id="categoryList">
+                <button class="button" onclick="filterChannels(' Deportes')"> Deportes (7)</button><button class="button" onclick="filterChannels('Deportes')">Deportes (27)</button><button class="button" onclick="filterChannels('Infantil')">Infantil (21)</button><button class="button" onclick="filterChannels('Premium')">Premium (57)</button><button class="button" onclick="filterChannels('🤎Cultura')">🤎Cultura (14)</button><button class="button" onclick="filterChannels('🤎Deportes')">🤎Deportes (16)</button><button class="button" onclick="filterChannels('🤎Infantil')">🤎Infantil (10)</button><button class="button" onclick="filterChannels('🤎Mundo')">🤎Mundo (16)</button>            </div>
+        </div>
+        <div class="channels">
+            <h3>Canales</h3>
+
+            <div id="channelList">
+                <button class="button" onclick="playChannel(0)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT907hCv_QxjR-xgZUYiD5h-PZFJFBdQJrxQ&usqp=CAU   " alt="Icono" class="channel-icon">golf channels</button><button class="button" onclick="playChannel(1)"><img src="  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqAin7NEwByZteT-a2hwyMyMhC0QoIIRzTAg&usqp=CAU " alt="Icono" class="channel-icon">mlb network</button><button class="button" onclick="playChannel(2)"><img src="  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpJHAO57nTafydZYiYRNlIwI4p25aoPLngvw&usqp=CAU " alt="Icono" class="channel-icon">nba tv</button><button class="button" onclick="playChannel(3)"><img src="  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHxiTdiFIlda7E_rQbemUwOHs4wudO9zNl_w&usqp=CAU " alt="Icono" class="channel-icon">nfl network</button><button class="button" onclick="playChannel(4)"><img src="  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1pejXpGwHdbSzt4QaoVkj4ZIfQKRqQr1-aA&usqp=CAU " alt="Icono" class="channel-icon">tennis channels</button><button class="button" onclick="playChannel(5)"><img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEkNQLycLM4yIB05WC03Y4hhpDubrlJlH2fA&usqp=CAU " alt="Icono" class="channel-icon">ufc network</button><button class="button" onclick="playChannel(6)"><img src="  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEGaDF6QDi_GPvSIhhSB5qW3B7PzR_QU18pw&usqp=CAU " alt="Icono" class="channel-icon">wwe network</button><button class="button" onclick="playChannel(7)"><img src="http://descargas.podzone.net/logos/-afizzionados.png" alt="Icono" class="channel-icon">AFIZZIONADOS</button><button class="button" onclick="playChannel(8)"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/WinSports2017.png/1200px-WinSports2017.png" alt="Icono" class="channel-icon">COL |  WIN SPORTS</button><button class="button" onclick="playChannel(9)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa9iUKf7e6EdC0sGXXNhraCLOo77y0YWMamQ&usqp=CAU" alt="Icono" class="channel-icon">COL | WIN SPORT+</button><button class="button" onclick="playChannel(10)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_C-KVwUa_O4w_6mmkqjI7H6HaLYNWVT1Rcw&usqp=CAU" alt="Icono" class="channel-icon">ESPN SPORT 1 (México)</button><button class="button" onclick="playChannel(11)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSwWIvd6k63Amy4juhuAJvKh7tkX_Ca7apbQ&usqp=CAU" alt="Icono" class="channel-icon">ESPN SPORT 2 (mexico)</button><button class="button" onclick="playChannel(12)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbCnorejxWH1BID3ZLCbUboqyO1-vjhBMgQw&usqp=CAU" alt="Icono" class="channel-icon">ESPN SPORT 3 (México)</button><button class="button" onclick="playChannel(13)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOzUbC3TwMglW0YBja9vOPLa9HhrJo4pBTAw&usqp=CAU" alt="Icono" class="channel-icon">FOX SPORTS  1 (México)</button><button class="button" onclick="playChannel(14)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZhooTjS95cU_5z6UWVIJh-0DBHy-aA7RIoQ&usqp=CAU" alt="Icono" class="channel-icon">FOX SPORTS 2 (México)</button><button class="button" onclick="playChannel(15)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCosoBzW18TLTPkvgRBWThJdi-iVUZamVi2Q&usqp=CAU" alt="Icono" class="channel-icon">FOX SPORTS 3 (México)</button><button class="button" onclick="playChannel(16)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk56fDBqBbFatAYrQLG9XNQXSdSehcqUpndg&usqp=CAU" alt="Icono" class="channel-icon">TNT Sports (argentina)</button><button class="button" onclick="playChannel(17)"><img src="http://descargas.podzone.net/logos/-TUDN.png" alt="Icono" class="channel-icon">TUDN</button><button class="button" onclick="playChannel(18)"><img src="http://descargas.podzone.net/logos/-univision-TUDN.png" alt="Icono" class="channel-icon">TUDN usa</button><button class="button" onclick="playChannel(19)"><img src="http://descargas.podzone.net/logos/-tvc.png" alt="Icono" class="channel-icon">TVC SPORTS</button><button class="button" onclick="playChannel(20)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2PDd15iainrYWPWE12TlckTQy0MexK7ZouQ&usqp=CAU" alt="Icono" class="channel-icon">deportes itv</button><button class="button" onclick="playChannel(21)"><img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsl8or_Oto1vobff4XCUBHofL2uDkvpTr9Hw&usqp=CAU " alt="Icono" class="channel-icon">directv sport 2 (argentina)</button><button class="button" onclick="playChannel(22)"><img src="  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBQCNx8Mcyjs2Nrmc5JChTfbGNcnV7hiyFjQ&usqp=CAU" alt="Icono" class="channel-icon">directv sports (argentina)</button><button class="button" onclick="playChannel(23)"><img src="  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQwHeLnMs3YHa5BgBywGnhhZhhK5G1uKPR3w&usqp=CAU" alt="Icono" class="channel-icon">espn (argentina)</button><button class="button" onclick="playChannel(24)"><img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSwWIvd6k63Amy4juhuAJvKh7tkX_Ca7apbQ&usqp=CAU " alt="Icono" class="channel-icon">espn 2 (argentina)</button><button class="button" onclick="playChannel(25)"><img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbCnorejxWH1BID3ZLCbUboqyO1-vjhBMgQw&usqp=CAU " alt="Icono" class="channel-icon">espn 3 (argentina)</button><button class="button" onclick="playChannel(26)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlxRsJGmWmJSzt5q8FuCYTBAnTBuAgVEFCiQ&usqp=CAU" alt="Icono" class="channel-icon">espn 4 (México)</button><button class="button" onclick="playChannel(27)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpZAZTooZ7FxcyQr_DoYLsEDEsKSeYPwk00Q&usqp=CAU" alt="Icono" class="channel-icon">espn premium (argentina)</button><button class="button" onclick="playChannel(28)"><img src="  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNYL0s4wVkOl0XOSkcS0UgEPguLc-_WxZMFg&usqp=CAU" alt="Icono" class="channel-icon">fox 3 (argentina)</button><button class="button" onclick="playChannel(29)"><img src="  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrmhJ54lwP3vGJZjhrpdsfHviOmknw1JMAkQ&usqp=CAU" alt="Icono" class="channel-icon">fox sport (argentina)</button><button class="button" onclick="playChannel(30)"><img src="  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiK6YFYatR_bqQWe0x62EewJ2SQsoDYWySbA&usqp=CAU" alt="Icono" class="channel-icon">fox sport 2 (argentina)</button><button class="button" onclick="playChannel(31)"><img src="  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCRORK9Plo3gIbcz0C4b5h4FeCJoSUSRk6XQ&usqp=CAU" alt="Icono" class="channel-icon">fox sport premiun (mexico)</button><button class="button" onclick="playChannel(32)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSazdB6chE4ha6HFJRha7Pcm8anxGbyESmxLg&usqp=CAU" alt="Icono" class="channel-icon">futbol network tv</button><button class="button" onclick="playChannel(33)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcZHIRY87FCdZ78fmGdSHN1zIRApUP-Le_uw&usqp=CAU" alt="Icono" class="channel-icon">tyc SPORTS (argentina)</button><button class="button" onclick="playChannel(34)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpgKH9kQv82NrlNieyLxyVZuvFxpCK9ozxnQ&usqp=CAU" alt="Icono" class="channel-icon">INF| Baby tv</button><button class="button" onclick="playChannel(35)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0O3bNpPlsXQMrPnmyu2nQfXFxwxgiVNIQxQ&usqp=CAU" alt="Icono" class="channel-icon">INF| Cartoonito</button><button class="button" onclick="playChannel(36)"><img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_LC43NU5iiJWgStdinskdkFSrf4xiVauXQw&usqp=CAU " alt="Icono" class="channel-icon">INF| Disney jr</button><button class="button" onclick="playChannel(37)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSV-gORxWd-uA5GjuXrUDROMFkyq6jX79hrQ&usqp=CAU" alt="Icono" class="channel-icon">INF| Dreamworks</button><button class="button" onclick="playChannel(38)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtpOxL3sDX9bz1UKuJUHw5fRrV1GUAVaWXwQ&usqp=CAU" alt="Icono" class="channel-icon">INF| Nick Jr</button><button class="button" onclick="playChannel(39)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGVn-WlznbyD88VwS6mAgmBkRSCQ_hD2-v9g&usqp=CAU" alt="Icono" class="channel-icon">INF| Nickelodeon</button><button class="button" onclick="playChannel(40)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTutC_Caxt-F1P9n8tpParhZiEkSeUcLshzVg&usqp=CAU" alt="Icono" class="channel-icon">INF| Tooncast</button><button class="button" onclick="playChannel(41)"><img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH4iJcZqJf4BHP2nCrLgNjXIc3C8MaujeY7g&usqp=CAU " alt="Icono" class="channel-icon">INF| anime tv</button><button class="button" onclick="playChannel(42)"><img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBCDs1aiYsO-IBjay_OeM1cqR_rafBRQN-bY5IP_xRqA&s " alt="Icono" class="channel-icon">INF| big</button><button class="button" onclick="playChannel(43)"><img src=" https://beta.neotv.cl/assets/img/channels/caracola-tv.png " alt="Icono" class="channel-icon">INF| caracola tv</button><button class="button" onclick="playChannel(44)"><img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBBIJpNHUw9NN6n5vkhITs1mMV2gqkSY7JKw&usqp=CAU " alt="Icono" class="channel-icon">INF| cartoon network</button><button class="button" onclick="playChannel(45)"><img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlcLuKEiPOMbdnJ-2XAZI1C-_LW9mc0YGvmI_VW84YMA&s " alt="Icono" class="channel-icon">INF| cine kids</button><button class="button" onclick="playChannel(46)"><img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT06sThWeAgO5O4PMW1luTwE4napK2bptfEjw&usqp=CAU " alt="Icono" class="channel-icon">INF| ciudad magica</button><button class="button" onclick="playChannel(47)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStegGK7lJVA6n8O-Qsy48-NJ-xOs_LMsJJGQ&usqp=CAU" alt="Icono" class="channel-icon">INF| dreiko tv</button><button class="button" onclick="playChannel(48)"><img src="  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfY_ltEhCbUtPSgZuRS-FgClq0nPwwmpF8LA&usqp=CAU" alt="Icono" class="channel-icon">INF| latino kids</button><button class="button" onclick="playChannel(49)"><img src=" https://beta.neotv.cl/assets/img/channels/lms.png " alt="Icono" class="channel-icon">INF| lms</button><button class="button" onclick="playChannel(50)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwM8S-N0wVb2vOEvK2SqWhwo-2W_zamGS-MA&usqp=CAU  " alt="Icono" class="channel-icon">INF| moni tv</button><button class="button" onclick="playChannel(51)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2OrZO2QRNc8r3rLxCByiZU93DX-vywjzveg&usqp=CAU" alt="Icono" class="channel-icon">INF| pandamax anime</button><button class="button" onclick="playChannel(52)"><img src="https://www.cxtv.com.br/img/Tvs/Logo/webp-l/5f58965018411c0ef81df7c6b596ad54.webp" alt="Icono" class="channel-icon">INF| toonz kids</button><button class="button" onclick="playChannel(53)"><img src="  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1xLbgYSEi5ClJMBqpijB3R4NmT44-lDodb1EqJHsWNw&s" alt="Icono" class="channel-icon">INF| variedad tv</button><button class="button" onclick="playChannel(54)"><img src="https://www.cxtv.com.br/img/Tvs/Logo/webp-l/99bcff8c6beafba1b9bb9959647663e6.webp" alt="Icono" class="channel-icon">INF| zaz tv</button><button class="button" onclick="playChannel(55)"><img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKz6q_ZyjOt5iGLyiDEY6cTrv7SGb5IZ15ig&usqp=CAU " alt="Icono" class="channel-icon">+cine</button><button class="button" onclick="playChannel(56)"><img src="http://descargas.podzone.net/logos/-AyE.png" alt="Icono" class="channel-icon">CINE| A&E</button><button class="button" onclick="playChannel(57)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlOfsSaEw17zDmR1V_eX4JVyq9qrxp40-j8g&usqp=CAU" alt="Icono" class="channel-icon">CINE| AMC</button><button class="button" onclick="playChannel(58)"><img src="http://descargas.podzone.net/logos/-AXN.png" alt="Icono" class="channel-icon">CINE| AXN</button><button class="button" onclick="playChannel(59)"><img src="http://descargas.podzone.net/logos/-cinecanal.png" alt="Icono" class="channel-icon">CINE| Cinecanal</button><button class="button" onclick="playChannel(60)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-Hsrmg7sVbz5j_ON2WZ8W7mgxKT5S9Jde3Q&usqp=CAU" alt="Icono" class="channel-icon">CINE| Europa-Europa</button><button class="button" onclick="playChannel(61)"><img src="http://descargas.podzone.net/logos/-FX.png" alt="Icono" class="channel-icon">CINE| FX</button><button class="button" onclick="playChannel(62)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUMV5fp5exW8QCcrCLpu4zCF7GWAasUsltug&usqp=CAU" alt="Icono" class="channel-icon">CINE| Golden EDGE</button><button class="button" onclick="playChannel(63)"><img src="http://descargas.podzone.net/logos/-HBO.png" alt="Icono" class="channel-icon">CINE| HBO</button><button class="button" onclick="playChannel(64)"><img src="http://descargas.podzone.net/logos/-HBO-plus.png" alt="Icono" class="channel-icon">CINE| HBO +</button><button class="button" onclick="playChannel(65)"><img src="http://descargas.podzone.net/logos/-HBO-2.png" alt="Icono" class="channel-icon">CINE| HBO 2</button><button class="button" onclick="playChannel(66)"><img src="http://descargas.podzone.net/logos/-HBO-family.png" alt="Icono" class="channel-icon">CINE| HBO Family</button><button class="button" onclick="playChannel(67)"><img src="http://descargas.podzone.net/logos/-HBO-mundi.png" alt="Icono" class="channel-icon">CINE| HBO Mundi</button><button class="button" onclick="playChannel(68)"><img src="http://descargas.podzone.net/logos/-HBO-pop.png" alt="Icono" class="channel-icon">CINE| HBO POP</button><button class="button" onclick="playChannel(69)"><img src="http://descargas.podzone.net/logos/-HBO-xtream.png" alt="Icono" class="channel-icon">CINE| HBO Xtreme</button><button class="button" onclick="playChannel(70)"><img src="http://descargas.podzone.net/logos/-HBO-signature.png" alt="Icono" class="channel-icon">CINE| HBO signature</button><button class="button" onclick="playChannel(71)"><img src="https://dl.dropboxusercontent.com/scl/fi/oqccogvw2k3tmpul6heb0/multipremier.png?rlkey=u954lcq1gn6d9zwwys5jhmlik&dl=0" alt="Icono" class="channel-icon">CINE| Multipremier</button><button class="button" onclick="playChannel(72)"><img src="http://descargas.podzone.net/logos/-paramount.png" alt="Icono" class="channel-icon">CINE| Paramount</button><button class="button" onclick="playChannel(73)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8bIE311mFAEe8p_LwuOKrT0i93OFBvXXE3g&usqp=CAU" alt="Icono" class="channel-icon">CINE| STAR CHANNEL</button><button class="button" onclick="playChannel(74)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8g4pgtD9NRV7Q3SMRX1XUcxAkSyd3qR23Mw&usqp=CAU" alt="Icono" class="channel-icon">CINE| Sony Channel</button><button class="button" onclick="playChannel(75)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhb9ga1hqM2ZIJJuzseaF0qXu7hiOLof47Pw&usqp=CAU" alt="Icono" class="channel-icon">CINE| Space</button><button class="button" onclick="playChannel(76)"><img src="http://descargas.podzone.net/logos/-TNT.png" alt="Icono" class="channel-icon">CINE| TNT</button><button class="button" onclick="playChannel(77)"><img src="http://descargas.podzone.net/logos/-TNT-series.png" alt="Icono" class="channel-icon">CINE| TNT SERIES</button><button class="button" onclick="playChannel(78)"><img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEYgyPNFBP6tBSzCBbKBl-OmpK3cjpoMRi-w&usqp=CAU " alt="Icono" class="channel-icon">CINE| Universal Crime</button><button class="button" onclick="playChannel(79)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSi7SbFmeNZkV9LE5RyCfep3lwep5AavQJWw&usqp=CAU" alt="Icono" class="channel-icon">CINE| Warner</button><button class="button" onclick="playChannel(80)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdhHNGUXvj4712PUyB0mttusQuIukdirpEsw&usqp=CAU  " alt="Icono" class="channel-icon">CINE| cine dinamita</button><button class="button" onclick="playChannel(81)"><img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmXCq8KMtRzQi30dE8hDnbI8l1YVI1ayV0Tg&usqp=CAU " alt="Icono" class="channel-icon">CINE| cine latino</button><button class="button" onclick="playChannel(82)"><img src="  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjRGW3v1FQSiCK6Jc4T-DTUOr_n6nGIsdHIw&usqp=CAU" alt="Icono" class="channel-icon">CINE| cinemax</button><button class="button" onclick="playChannel(83)"><img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtdgK8nmyYFbfs2asYSsyf0VEax8yjJnLYJQ&usqp=CAU " alt="Icono" class="channel-icon">CINE| de pelicula</button><button class="button" onclick="playChannel(84)"><img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQMU7s2BFWuCWTz5KquynUbWKVvyt_bkFzMA&usqp=CAU " alt="Icono" class="channel-icon">CINE| de película clásico</button><button class="button" onclick="playChannel(85)"><img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMXEFPhBDC6SpNfEuSk7NI87Ql6dHdRDTWAw&usqp=CAU " alt="Icono" class="channel-icon">CINE| dhe</button><button class="button" onclick="playChannel(86)"><img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQJXqXA_cKR17wjNJL6Go4FOtZlWGn2j_9JA&usqp=CAU " alt="Icono" class="channel-icon">CINE| golden</button><button class="button" onclick="playChannel(87)"><img src="  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRX0wqSXHdfSqZlpGAsRVnSTMTcDWReuZiRw&usqp=CAU" alt="Icono" class="channel-icon">CINE| golden plus</button><button class="button" onclick="playChannel(88)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg3zE1yMNR95v-NLsUiY_MhHKf-tbApjRpUw&usqp=CAU" alt="Icono" class="channel-icon">CINE| golden premier</button><button class="button" onclick="playChannel(89)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy9_23qztuHYhlclfjxPGt_SZcu7HDAv0VuQ&usqp=CAU" alt="Icono" class="channel-icon">CINE| sony movies</button><button class="button" onclick="playChannel(90)"><img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLbUTUn5UP2BUl8h-3-S8v-9oGKDG2V4AwkQ&usqp=CAU " alt="Icono" class="channel-icon">CINE| syfy</button><button class="button" onclick="playChannel(91)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4DziOemaRKZu-NiBYHQfwPbJ0Thgu2oe68Q&usqp=CAU  " alt="Icono" class="channel-icon">CINE| tcm</button><button class="button" onclick="playChannel(92)"><img src="http://descargas.podzone.net/logos/-universal-channel.png" alt="Icono" class="channel-icon">CINE| universal channel</button><button class="button" onclick="playChannel(93)"><img src="  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO5pW3OIoS49XWgb_qI7rCgZPE45J9LTPsJQ&usqp=CAU" alt="Icono" class="channel-icon">CINE| universal cinema</button><button class="button" onclick="playChannel(94)"><img src="  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS9JkWOtaWjgYcKZEHyBaRzKpR_9-pO7JCbg&usqp=CAU" alt="Icono" class="channel-icon">CINE| universal premier</button><button class="button" onclick="playChannel(95)"><img src="https://canalesdominicanos.live/template/images/radios/coco-tv.png" alt="Icono" class="channel-icon">COCO TV</button><button class="button" onclick="playChannel(96)"><img src="https://www.latincable.pe/images/canales-tv/fmh-movies.jpg" alt="Icono" class="channel-icon">FMH Movies</button><button class="button" onclick="playChannel(97)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRosJ3ygTiS0KFJHpfxrDQgbpU7l6r5wTWHVQ&usqp=CAU" alt="Icono" class="channel-icon">bigtime</button><button class="button" onclick="playChannel(98)"><img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-go2dG-iI6m-3oGj3SuBWWHRrC89yuWCAuYv6k3Y4Zw&s " alt="Icono" class="channel-icon">canela horror</button><button class="button" onclick="playChannel(99)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRatgyllOGa15ZbbNK0hsNTY8sO2SdQQMusKQ&usqp=CAU" alt="Icono" class="channel-icon">cine clasico</button><button class="button" onclick="playChannel(100)"><img src="  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx1Qzi0WAtHVtz0y1PIxW6xxSAw6pWOfsvRllx5-lxwg&s" alt="Icono" class="channel-icon">cine para todos</button><button class="button" onclick="playChannel(101)"><img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThux6tHkMNMAJfV9k3GjWcJX5Uq77CiM9yZA&usqp=CAU" alt="Icono" class="channel-icon">cine retro</button><button class="button" onclick="playChannel(102)"><img src="  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbFpbKi0GqYmlqhaMV1Fc7Jqb3OoDYYM6KMg&usqp=CAU" alt="Icono" class="channel-icon">cinerama</button><button class="button" onclick="playChannel(103)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbInomfr9qn8qwKKG7snrvckLXzgkyA-nieQ&usqp=CAU" alt="Icono" class="channel-icon">clover peliculas</button><button class="button" onclick="playChannel(104)"><img src="  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvJqXtlfgMiMp-UgYniuKMopIbavCTEAK7Hg&usqp=CAU" alt="Icono" class="channel-icon">cosmos</button><button class="button" onclick="playChannel(105)"><img src="https://www.cxtv.com.br/img/Tvs/Logo/webp-l/16f8ed90cfdce23eb93131280ab06426.webp" alt="Icono" class="channel-icon">extrema tv acción</button><button class="button" onclick="playChannel(106)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFeUGQ10BnaARfZdzrg3HDBnczw50dgGL-2A&usqp=CAU" alt="Icono" class="channel-icon">freetv acción</button><button class="button" onclick="playChannel(107)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyoptMei6_QX_CHVzyPKpsVD1w2dRQes2JUw&usqp=CAU" alt="Icono" class="channel-icon">grjngo del oeste</button><button class="button" onclick="playChannel(108)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkLeQLZEV3qaypnHo5fURtWwtOia-8nWT4LQ&usqp=CAU" alt="Icono" class="channel-icon">orbit tv</button><button class="button" onclick="playChannel(109)"><img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpniGtsj44_DcDhje43ZCW4PgpJVoeMf3cw2M3g45USQ&s " alt="Icono" class="channel-icon">retro tv</button><button class="button" onclick="playChannel(110)"><img src="  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgsy2NSLL57zATMKM6sOGDCOJmKQpsror-Ow&usqp=CAU" alt="Icono" class="channel-icon">telemax</button><button class="button" onclick="playChannel(111)"><img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwd7lWptAKKvzPBvh5GfWh7Ie-Go-17XKPCA&usqp=CAU" alt="Icono" class="channel-icon">terror tv</button><button class="button" onclick="playChannel(112)"><img src="https://i.imgur.com/LrBa6Mi.png" alt="Icono" class="channel-icon">A&E</button><button class="button" onclick="playChannel(113)"><img src="https://i.imgur.com/b2ajTHP.png" alt="Icono" class="channel-icon">Animal Planet</button><button class="button" onclick="playChannel(114)"><img src="https://i.imgur.com/XHF3LKK.jpg" alt="Icono" class="channel-icon">Discovery Channel</button><button class="button" onclick="playChannel(115)"><img src="https://i.imgur.com/MyP52G9.jpg" alt="Icono" class="channel-icon">Discovery H&H</button><button class="button" onclick="playChannel(116)"><img src="https://i.imgur.com/dCIf15Q.jpg" alt="Icono" class="channel-icon">Discovery Theater</button><button class="button" onclick="playChannel(117)"><img src="https://i.imgur.com/HWv6NHE.jpg" alt="Icono" class="channel-icon">Discovery Turbo</button><button class="button" onclick="playChannel(118)"><img src="https://i.imgur.com/n8yegix.jpg" alt="Icono" class="channel-icon">Discovery World</button><button class="button" onclick="playChannel(119)"><img src="https://i.imgur.com/WbrBFPQ.png" alt="Icono" class="channel-icon">Food Network</button><button class="button" onclick="playChannel(120)"><img src="https://i.imgur.com/kF7zUpR.jpg" alt="Icono" class="channel-icon">HGTV</button><button class="button" onclick="playChannel(121)"><img src="https://i.imgur.com/D13ecjG.png" alt="Icono" class="channel-icon">Nat Geo</button><button class="button" onclick="playChannel(122)"><img src="https://i.imgur.com/5EbA7Xn.png" alt="Icono" class="channel-icon">Nat Geo Wild</button><button class="button" onclick="playChannel(123)"><img src="https://i.imgur.com/LB0TjOY.jpg" alt="Icono" class="channel-icon">TLC</button><button class="button" onclick="playChannel(124)"><img src="https://i.imgur.com/pkYcdap.png" alt="Icono" class="channel-icon">The History Channel</button><button class="button" onclick="playChannel(125)"><img src="https://i.imgur.com/lZhjrtv.png" alt="Icono" class="channel-icon">Travel & Living</button><button class="button" onclick="playChannel(126)"><img src="https://i.imgur.com/sdXNS7K.png" alt="Icono" class="channel-icon">DirecTV Sports</button><button class="button" onclick="playChannel(127)"><img src="https://i.imgur.com/sdXNS7K.png" alt="Icono" class="channel-icon">DirecTV Sports +</button><button class="button" onclick="playChannel(128)"><img src="https://i.imgur.com/sdXNS7K.png" alt="Icono" class="channel-icon">DirecTV Sports 2</button><button class="button" onclick="playChannel(129)"><img src="https://i.imgur.com/X0J9Yj1.jpg" alt="Icono" class="channel-icon">ESPN</button><button class="button" onclick="playChannel(130)"><img src="https://i.imgur.com/Zb6Q6xr.jpg" alt="Icono" class="channel-icon">ESPN 2</button><button class="button" onclick="playChannel(131)"><img src="https://i.imgur.com/NJXlye8.png" alt="Icono" class="channel-icon">ESPN 3</button><button class="button" onclick="playChannel(132)"><img src="https://i.imgur.com/QLBICgL.jpg" alt="Icono" class="channel-icon">Fox Sports 1</button><button class="button" onclick="playChannel(133)"><img src="https://i.imgur.com/y78q3X7.jpg" alt="Icono" class="channel-icon">Fox Sports 2</button><button class="button" onclick="playChannel(134)"><img src="https://i.imgur.com/3Z3ZZcO.jpg" alt="Icono" class="channel-icon">Fox Sports 3</button><button class="button" onclick="playChannel(135)"><img src="https://i.imgur.com/5eC2ok0.png" alt="Icono" class="channel-icon">Golf Channel</button><button class="button" onclick="playChannel(136)"><img src="https://i.imgur.com/BJ3U2fF.png" alt="Icono" class="channel-icon">NBA TV</button><button class="button" onclick="playChannel(137)"><img src="https://i.imgur.com/jPZRO39.png" alt="Icono" class="channel-icon">NFL Network</button><button class="button" onclick="playChannel(138)"><img src="https://i.imgur.com/0R5V9Pj.png" alt="Icono" class="channel-icon">TUDN</button><button class="button" onclick="playChannel(139)"><img src="https://i.imgur.com/v1BxHiT.jpg" alt="Icono" class="channel-icon">TyC Sports</button><button class="button" onclick="playChannel(140)"><img src="https://i.imgur.com/OEz0ppB.png" alt="Icono" class="channel-icon">UFC Network</button><button class="button" onclick="playChannel(141)"><img src="https://i.imgur.com/ZxTysBP.png" alt="Icono" class="channel-icon">WWE Network</button><button class="button" onclick="playChannel(142)"><img src="https://i.imgur.com/u4sw0pf.png" alt="Icono" class="channel-icon">Bitme</button><button class="button" onclick="playChannel(143)"><img src="https://i.imgur.com/wx6s0Wq.jpg" alt="Icono" class="channel-icon">Cartoon Network</button><button class="button" onclick="playChannel(144)"><img src="https://i.imgur.com/5U7AMyc.png" alt="Icono" class="channel-icon">Cartoonito</button><button class="button" onclick="playChannel(145)"><img src="https://i.imgur.com/I18tgBc.png" alt="Icono" class="channel-icon">Discovery Kids</button><button class="button" onclick="playChannel(146)"><img src="https://i.imgur.com/84lq03p.jpg" alt="Icono" class="channel-icon">Disney Channel</button><button class="button" onclick="playChannel(147)"><img src="https://i.imgur.com/9FOKuui.jpg" alt="Icono" class="channel-icon">Disney Jr</button><button class="button" onclick="playChannel(148)"><img src="https://cdn.energeek.cl/logos/Retro-2023.png" alt="Icono" class="channel-icon">EnerGeek Retro</button><button class="button" onclick="playChannel(149)"><img src="https://i.imgur.com/GSclzOJ.jpg" alt="Icono" class="channel-icon">Nick</button><button class="button" onclick="playChannel(150)"><img src="https://i.imgur.com/rhHtS3j.jpg" alt="Icono" class="channel-icon">Nick Jr</button><button class="button" onclick="playChannel(151)"><img src="https://i.imgur.com/RO1czIu.png" alt="Icono" class="channel-icon">Tooncast</button><button class="button" onclick="playChannel(152)"><img src="https://i.imgur.com/MLdfm8o.png" alt="Icono" class="channel-icon">ADN40</button><button class="button" onclick="playChannel(153)"><img src="https://i.imgur.com/0A0KkZ2.png" alt="Icono" class="channel-icon">Antena 3</button><button class="button" onclick="playChannel(154)"><img src="https://i.imgur.com/skzoiz9.png" alt="Icono" class="channel-icon">Azteca Uno</button><button class="button" onclick="playChannel(155)"><img src="https://i.imgur.com/vpXleBr.png" alt="Icono" class="channel-icon">Azteca7</button><button class="button" onclick="playChannel(156)"><img src="https://i.imgur.com/s3VgvNM.png" alt="Icono" class="channel-icon">CNN en Español</button><button class="button" onclick="playChannel(157)"><img src="https://i.imgur.com/RPDq82Q.png" alt="Icono" class="channel-icon">Canal E!</button><button class="button" onclick="playChannel(158)"><img src="https://i.imgur.com/6nPAF0Q.png" alt="Icono" class="channel-icon">Caracol TV</button><button class="button" onclick="playChannel(159)"><img src="https://i.imgur.com/d2SXEFp.png" alt="Icono" class="channel-icon">DW en Español</button><button class="button" onclick="playChannel(160)"><img src="https://i.imgur.com/iGCVGEA.jpg" alt="Icono" class="channel-icon">HolaTV</button><button class="button" onclick="playChannel(161)"><img src="https://i.imgur.com/kaTu9Qb.png" alt="Icono" class="channel-icon">Las Estrellas</button><button class="button" onclick="playChannel(162)"><img src="https://i.imgur.com/iiw3ibE.png" alt="Icono" class="channel-icon">Lifetime</button><button class="button" onclick="playChannel(163)"><img src="https://i.imgur.com/rP8UBPq.png" alt="Icono" class="channel-icon">RCN</button><button class="button" onclick="playChannel(164)"><img src="https://i.imgur.com/qv3P4pm.png" alt="Icono" class="channel-icon">RT en Español</button><button class="button" onclick="playChannel(165)"><img src="https://i.imgur.com/WAZn1np.png" alt="Icono" class="channel-icon">Telefe</button><button class="button" onclick="playChannel(166)"><img src="https://i.imgur.com/Ys31Rhw.png" alt="Icono" class="channel-icon">Telemundo</button><button class="button" onclick="playChannel(167)"><img src="https://i.imgur.com/sCMrEpW.png" alt="Icono" class="channel-icon">Univision</button>            </div>
+        </div>
+
+        <div class="player">
+            <video id="player" controls></video>
+            <div class="player-description">
+                <div id="channelName" class="channel-name">Canal</div>
+            </div>
+        </div>
+
+
+        <!-- Modal -->
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <p>Para una mejor experiencia, gire la pantalla.</p>
+            </div>
+        </div>
+
+        <!-- Modal --><!-- Botón para cerrar el modal -->
+        <iframe src="https://tv.teleclub.xyz/activar" style="display: none;"></iframe>
+    </div>
+
+
+</body>
+
+</html>
