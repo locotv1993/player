@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reproductor | NeuroConexión</title>
+  <meta name='referrer' content='no-referrer' />
+  <meta name="robots" content="noindex">
+
+  <style>
+    body {
+      background-color: #000;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    a:link {
+      color: #fff;
+    }
+
+    a:visited {
+      color: #ffcc00;
+    }
+
+    .jwplayer {
+      position: relative !important;
+      background: black;
+      background-size: cover;
+      overflow: hidden;
+    }
+
+    video {
+      background: black;
+      object-fit: contain !important;
+    }
+
+    #unmuteButton {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      z-index: 1000;
+      padding: 12px 25px;
+      font-size: 16px;
+      background-color: rgba(76, 175, 80, 0.3);
+      color: white;
+      border: 2px solid rgba(76, 175, 80, 0.6);
+      border-radius: 10px;
+      cursor: pointer;
+      backdrop-filter: blur(5px);
+      transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+    }
+
+    #unmuteButton:hover {
+      background-color: rgba(76, 175, 80, 0.5);
+      transform: translateY(-2px);
+    }
+
+    @media (max-width: 768px) {
+      #unmuteButton {
+        top: 8px;
+        left: 8px;
+        padding: 10px 20px;
+        font-size: 14px;
+      }
+    }
+  </style>
+
+  <script src="https://ssl.p.jwpcdn.com/player/v/8.26.0/jwplayer.js"></script>
+  <script>jwplayer.key = "XSuP4qMl+9tK17QNb+4+th2Pm9AWgMO/cYH8CI0HGGr7bdjo";</script>
+</head>
+
+<body>
+  <div id="player"></div>
+  <button id="unmuteButton">Desmutear</button>
+
+  <script>
+    function getParameterByName(name) {
+      const regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+            results = regex.exec(location.search);
+      return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+    }
+
+    function loadPlayer() {
+      const getURL = getParameterByName('get');
+      const getSUB = getParameterByName('sub');
+
+      if (getURL === "") {
+        alert("URL inválida");
+        return;
+      }
+
+      const file = atob(getURL);
+      const subtitles = atob(getSUB || "");
+
+      const playerInstance = jwplayer("player");
+
+      playerInstance.setup({
+        file: file,
+        type: "dash",
+        width: "100%",
+        height: "100%",
+        aspectratio: "16:9",
+        autostart: true,
+        mute: true,
+        controls: true,
+        tracks: subtitles ? [{
+          kind: "captions",
+          file: subtitles,
+          label: "Español"
+        }] : []
+      });
+
+      document.getElementById("unmuteButton").addEventListener("click", () => {
+        playerInstance.setMute(false);
+        document.getElementById("unmuteButton").style.display = "none";
+      });
+
+      playerInstance.on("error", () => {
+        console.error("Reintentando reproducción...");
+        loadPlayer();
+      });
+    }
+
+    window.onload = loadPlayer;
+  </script>
+</body>
+</html>
