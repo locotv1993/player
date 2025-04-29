@@ -66,7 +66,7 @@
     }
   ],
   "ads": {
-    "ad_status": false,
+    "ad_status": true,
     "main_ads": "admob",
     "backup_ads": "none",
     "admob_publisher_id": "pub-6139780386408281",
