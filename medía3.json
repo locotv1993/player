@@ -1,0 +1,20 @@
+{
+  "urls": [
+    {
+      "pattern": "newkso.ru",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 MobileSafari/537.36",
+        "Referer": "https://andrenalynrushplay.cfd/",
+        "Origin": "https://andrenalynrushplay.cfd"
+      }
+    },
+    {
+      "pattern": "embedstreams.top",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 MobileSafari/537.36",
+        "Referer": "https://embedstreams.top/",
+        "Origin": "https://embedstreams.top"
+      }
+    }
+  ]
+}
