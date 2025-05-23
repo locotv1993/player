@@ -1,0 +1,20 @@
+{
+  "urls": [
+    {
+      "pattern": "thedaddy.to",
+      "headers": {
+        "User-Agent": "Mozilla/5.0",
+        "Referer": "https://thedaddy.to/",
+        "Origin": "https://thedaddy.to"
+      }
+    },
+    {
+      "pattern": "embedstreams.top",
+      "headers": {
+        "User-Agent": "Mozilla/5.0",
+        "Referer": "https://embedstreams.top/",
+        "Origin": "https://embedstreams.top"
+      }
+    }
+  ]
+}
