@@ -48,7 +48,14 @@
         "Origin": "https://live.vkvideo.ru"
       }
     },
-
+{
+      "domain": "elverruca.tech",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+        "Referer": "https://elverruca.tech/",
+        "Origin": "https://elverruca.tech"
+      }
+    },
     {
       "domain": "dssott.com",
       "headers": {
