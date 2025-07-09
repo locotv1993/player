@@ -17,6 +17,14 @@
         "Origin": "https://streamtp4.com"
       }
     },
+    {
+      "domain": "tv.apple.com",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+        "Referer": "https://linear.tv.apple.com/",
+        "Origin": "https://linear.tv.apple.com"
+      }
+    },
       {
       "domain": "izzigo.tv",
       "headers": {
