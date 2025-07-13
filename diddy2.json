@@ -1,207 +1,29 @@
 {
-    "Saturday 12th July 2025 - Schedule Time UK GMT": {
+    "Sunday 13th July 2025 - Schedule Time UK GMT": {
         "Soccer": [
             {
-                "time": "10:00",
-                "event": "Soccer : PSV vs Elversberg",
+                "time": "12:00",
+                "event": "Soccer : Slavia Praha vs Dynamo Dresden",
                 "channels": [
                     {
                         "channel_name": "Extra Stream",
-                        "channel_id": "389"
+                        "channel_id": "372"
                     }
                 ]
             },
             {
-                "time": "10:24",
-                "event": "Soccer : Japan vs China",
+                "time": "12:00",
+                "event": "Soccer : GAIS vs Hammarby",
                 "channels": [
                     {
                         "channel_name": "Extra Stream",
-                        "channel_id": "310"
+                        "channel_id": "376"
                     }
                 ]
             },
             {
-                "time": "13:00",
-                "event": "Soccer : Feyenoord vs Union Saint-Gilloise",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "389"
-                    }
-                ]
-            },
-            {
-                "time": "13:00",
-                "event": "Soccer : Panathinaikos vs Sporting Braga",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "323"
-                    }
-                ]
-            },
-            {
-                "time": "13:00",
-                "event": "Soccer : Ajax vs AGF",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "388"
-                    }
-                ]
-            },
-            {
-                "time": "14:00",
-                "event": "Soccer : K\u00f8benhavn vs Hamburger SV",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "312"
-                    }
-                ]
-            },
-            {
-                "time": "14:00",
-                "event": "Soccer : Bodo\/Glimt vs Sandefjord",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "71"
-                    }
-                ]
-            },
-            {
-                "time": "14:00",
-                "event": "Soccer : LASK Linz vs Tren\u010d\u00edn",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "373"
-                    }
-                ]
-            },
-            {
-                "time": "16:00",
-                "event": "Soccer : Fredrikstad vs Molde",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "72"
-                    }
-                ]
-            },
-            {
-                "time": "16:15",
-                "event": "Soccer : Hearts vs Dunfermline Athletic",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "341"
-                    }
-                ]
-            },
-            {
-                "time": "17:30",
-                "event": "Soccer : Wilrijk vs Beerschot",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "386"
-                    }
-                ]
-            },
-            {
-                "time": "18:30",
-                "event": "Soccer : FCSB vs Hermannstadt",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "3755"
-                    }
-                ]
-            },
-            {
-                "time": "19:00",
-                "event": "Soccer : Poland W vs Denmark W",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "330"
-                    },
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "381"
-                    }
-                ]
-            },
-            {
-                "time": "19:00",
-                "event": "Soccer : Sweden W vs Germany W",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "317"
-                    },
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "304"
-                    }
-                ]
-            },
-            {
-                "time": "19:00",
-                "event": "Soccer : Atl. Ottawa vs Forge",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "383"
-                    }
-                ]
-            },
-            {
-                "time": "19:00",
-                "event": "Soccer : Novorizontino vs America MG",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "76"
-                    }
-                ]
-            },
-            {
-                "time": "19:00",
-                "event": "Soccer : Morocco W vs Senegal W",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "77"
-                    }
-                ]
-            },
-            {
-                "time": "19:00",
-                "event": "Soccer : Zambia W vs D.R. Congo W",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "78"
-                    }
-                ]
-            },
-            {
-                "time": "19:00",
-                "event": "Soccer : Birmingham City vs Sevilla",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "386"
-                    }
-                ]
-            },
-            {
-                "time": "19:30",
-                "event": "Soccer : Flamengo RJ vs Sao Paulo",
+                "time": "12:30",
+                "event": "Soccer : Bryne vs Valerenga",
                 "channels": [
                     {
                         "channel_name": "Extra Stream",
@@ -210,8 +32,18 @@
                 ]
             },
             {
-                "time": "19:30",
-                "event": "Soccer : Internacional vs Vitoria",
+                "time": "13:00",
+                "event": "Soccer : Slovan Bratislava vs Midtjylland",
+                "channels": [
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "373"
+                    }
+                ]
+            },
+            {
+                "time": "13:00",
+                "event": "Soccer : Iran W vs Bhutan W",
                 "channels": [
                     {
                         "channel_name": "Extra Stream",
@@ -220,82 +52,26 @@
                 ]
             },
             {
-                "time": "20:00",
-                "event": "Soccer : Alianza Atletico vs Sport Boys",
+                "time": "14:00",
+                "event": "Soccer : Preston North End vs Liverpool",
                 "channels": [
                     {
                         "channel_name": "Extra Stream",
-                        "channel_id": "3"
-                    }
-                ]
-            },
-            {
-                "time": "20:00",
-                "event": "Soccer : Deportivo Binacional vs Melgar",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "4"
-                    }
-                ]
-            },
-            {
-                "time": "20:00",
-                "event": "Soccer : Universitario vs Los Chankas",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "5"
-                    }
-                ]
-            },
-            {
-                "time": "20:00",
-                "event": "Soccer : UTC vs Alianza Lima",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "6"
-                    }
-                ]
-            },
-            {
-                "time": "21:00",
-                "event": "Soccer : Peru vs Chile",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "381"
-                    }
-                ]
-            },
-            {
-                "time": "23:30",
-                "event": "Soccer : Toronto FC vs Atlanta United",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "334"
-                    }
-                ]
-            },
-            {
-                "time": "23:30",
-                "event": "Soccer : Inter Miami vs Nashville SC",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "381"
+                        "channel_id": "319"
                     },
                     {
                         "channel_name": "Extra Stream",
-                        "channel_id": "387"
+                        "channel_id": "306"
+                    },
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "307"
                     }
                 ]
             },
             {
-                "time": "23:45",
-                "event": "Soccer : Racing Club vs Barracas Central",
+                "time": "14:00",
+                "event": "Soccer : Red Star Belgrade vs Pusk\u00e1s Akad\u00e9mia",
                 "channels": [
                     {
                         "channel_name": "Extra Stream",
@@ -304,8 +80,326 @@
                 ]
             },
             {
+                "time": "15:00",
+                "event": "Soccer : Haugesund vs KFUM Oslo",
+                "channels": [
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "3"
+                    }
+                ]
+            },
+            {
+                "time": "15:00",
+                "event": "Soccer : Kristiansund BK vs Sarpsborg FK",
+                "channels": [
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "4"
+                    }
+                ]
+            },
+            {
+                "time": "15:00",
+                "event": "Soccer : Rosenborg vs Hamarkameratene",
+                "channels": [
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "5"
+                    }
+                ]
+            },
+            {
+                "time": "15:00",
+                "event": "Soccer : Stromsgodset vs Tromso",
+                "channels": [
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "369"
+                    }
+                ]
+            },
+            {
+                "time": "15:00",
+                "event": "Soccer : Admira vs Be\u015fikta\u015f",
+                "channels": [
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "391"
+                    }
+                ]
+            },
+            {
+                "time": "15:30",
+                "event": "Soccer : Rijeka vs G\u00f6ztepe",
+                "channels": [
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "370"
+                    }
+                ]
+            },
+            {
+                "time": "16:00",
+                "event": "Soccer : Sporting Cristal vs Atletico Grau",
+                "channels": [
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "6"
+                    }
+                ]
+            },
+            {
+                "time": "16:00",
+                "event": "Soccer : Jordan W vs Singapore W",
+                "channels": [
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "7"
+                    }
+                ]
+            },
+            {
+                "time": "16:00",
+                "event": "Soccer : POLAND Super Cup Final: Lech Poznan vs Legia",
+                "channels": [
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "360"
+                    }
+                ]
+            },
+            {
+                "time": "17:15",
+                "event": "Soccer : SK Brann vs Viking FK",
+                "channels": [
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "8"
+                    }
+                ]
+            },
+            {
+                "time": "18:15",
+                "event": "Soccer : Ayacucho FC vs Cienciano del Cusco",
+                "channels": [
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "9"
+                    }
+                ]
+            },
+            {
+                "time": "19:00",
+                "event": "Soccer : England W vs Wales W",
+                "channels": [
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "381"
+                    },
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "317"
+                    }
+                ]
+            },
+            {
+                "time": "19:00",
+                "event": "Soccer : Netherlands W vs France W",
+                "channels": [
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "382"
+                    },
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "352"
+                    }
+                ]
+            },
+            {
+                "time": "19:00",
+                "event": "Soccer : San Antonio Bulo Bulo vs Bolivar",
+                "channels": [
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "10"
+                    }
+                ]
+            },
+            {
+                "time": "19:00",
+                "event": "Soccer : Nigeria W vs Algeria W",
+                "channels": [
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "384"
+                    },
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "385"
+                    }
+                ]
+            },
+            {
+                "time": "19:00",
+                "event": "Soccer : Tunisia W vs Botswana W",
+                "channels": [
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "11"
+                    }
+                ]
+            },
+            {
+                "time": "19:00",
+                "event": "Soccer : FIFA Club World Cup Final: Chelsea vs Paris Saint-Germain",
+                "channels": [
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "304"
+                    },
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "305"
+                    },
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "351"
+                    },
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "330"
+                    },
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "328"
+                    },
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "307"
+                    },
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "325"
+                    },
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "346"
+                    },
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "321"
+                    }
+                ]
+            },
+            {
+                "time": "21:00",
+                "event": "Soccer : Pittsburgh Riverhounds vs Loudoun United",
+                "channels": [
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "310"
+                    }
+                ]
+            },
+            {
+                "time": "21:00",
+                "event": "Soccer : Bolivia vs Paraguay",
+                "channels": [
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "381"
+                    }
+                ]
+            },
+            {
+                "time": "21:45",
+                "event": "Soccer : Argentinos Juniors vs Boca Juniors",
+                "channels": [
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "326"
+                    }
+                ]
+            },
+            {
+                "time": "22:00",
+                "event": "Soccer : York United vs Valour",
+                "channels": [
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "383"
+                    }
+                ]
+            },
+            {
+                "time": "23:00",
+                "event": "Soccer : Atl\u00e9tico San Luis vs Guadalajara",
+                "channels": [
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "328"
+                    }
+                ]
+            },
+            {
+                "time": "23:00",
+                "event": "Soccer : St. Louis City vs Portland Timbers",
+                "channels": [
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "329"
+                    }
+                ]
+            },
+            {
+                "time": "23:00",
+                "event": "Soccer : Pachuca vs Monterrey",
+                "channels": [
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "330"
+                    }
+                ]
+            },
+            {
                 "time": "00:00",
-                "event": "Soccer : Ecuador vs Uruguay",
+                "event": "Soccer : River Plate vs Platense",
+                "channels": [
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "327"
+                    },
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "319"
+                    }
+                ]
+            },
+            {
+                "time": "00:00",
+                "event": "Soccer : Brazil vs Venezuela",
+                "channels": [
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "381"
+                    }
+                ]
+            },
+            {
+                "time": "01:00",
+                "event": "Soccer : Le\u00f3n vs Atl\u00e9tico San Luis",
+                "channels": [
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "330"
+                    }
+                ]
+            },
+            {
+                "time": "01:00",
+                "event": "Soccer : Vancouver FC vs Cavalry",
                 "channels": [
                     {
                         "channel_name": "Extra Stream",
@@ -315,161 +409,11 @@
             },
             {
                 "time": "01:00",
-                "event": "Soccer : Santos Laguna vs Pumas UNAM",
+                "event": "Soccer : Tigres UANL vs Toluca",
                 "channels": [
                     {
                         "channel_name": "Extra Stream",
-                        "channel_id": "330"
-                    }
-                ]
-            },
-            {
-                "time": "02:30",
-                "event": "Soccer : LA Galaxy vs DC United",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "335"
-                    }
-                ]
-            },
-            {
-                "time": "03:05",
-                "event": "Soccer : Cruz Azul vs Mazatl\u00e1n",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "330"
-                    }
-                ]
-            },
-            {
-                "time": "23:30",
-                "event": "Soccer : MLS Charlotte vs New York City",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "62"
-                    }
-                ]
-            },
-            {
-                "time": "23:30",
-                "event": "Soccer : FC Cincinnati vs Columbus Crew",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "63"
-                    }
-                ]
-            },
-            {
-                "time": "23:30",
-                "event": "Soccer : Inter Miami vs Nashville SC",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "64"
-                    }
-                ]
-            },
-            {
-                "time": "23:30",
-                "event": "Soccer : Orlando City vs CF Montreal",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "65"
-                    }
-                ]
-            },
-            {
-                "time": "23:30",
-                "event": "Soccer : Philadelphia Union vs New York Red Bulls",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "66"
-                    }
-                ]
-            },
-            {
-                "time": "23:30",
-                "event": "Soccer : Toronto FC vs Atlanta Utd",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "67"
-                    }
-                ]
-            },
-            {
-                "time": "00:30",
-                "event": "Soccer : Austin FC vs New England Revolution",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "68"
-                    }
-                ]
-            },
-            {
-                "time": "00:30",
-                "event": "Soccer : Chicago Fire vs San Diego FC",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "69"
-                    }
-                ]
-            },
-            {
-                "time": "00:30",
-                "event": "Soccer : Minnesota United vs San Jose Earthquakes",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "70"
-                    }
-                ]
-            },
-            {
-                "time": "00:30",
-                "event": "Soccer : Sporting Kansas City vs Seattle Sounders",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "71"
-                    }
-                ]
-            },
-            {
-                "time": "01:00",
-                "event": "Soccer : Santos vs Pumas UNAM",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "72"
-                    }
-                ]
-            },
-            {
-                "time": "01:30",
-                "event": "Soccer : Colorado Rapids vs Vancouver Whitecaps",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "73"
-                    }
-                ]
-            },
-            {
-                "time": "01:30",
-                "event": "Soccer : Real Salt Lake vs Houston Dynamo",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "74"
+                        "channel_id": "387"
                     }
                 ]
             }
@@ -481,17 +425,27 @@
                 "channels": [
                     {
                         "channel_name": "Extra Stream",
-                        "channel_id": "7"
+                        "channel_id": "12"
                     }
                 ]
             },
             {
-                "time": "17:35",
-                "event": "England W vs India W",
+                "time": "13:30",
+                "event": "Sri Lanka vs Bangladesh",
                 "channels": [
                     {
                         "channel_name": "Extra Stream",
-                        "channel_id": "8"
+                        "channel_id": "13"
+                    }
+                ]
+            },
+            {
+                "time": "14:00",
+                "event": "Hobart Hurricanes vs Rangpur Riders",
+                "channels": [
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "14"
                     }
                 ]
             },
@@ -501,12 +455,42 @@
                 "channels": [
                     {
                         "channel_name": "Extra Stream",
-                        "channel_id": "9"
+                        "channel_id": "15"
+                    }
+                ]
+            },
+            {
+                "time": "23:00",
+                "event": "Guyana Amazon Warriors vs Dubai Capitals",
+                "channels": [
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "16"
+                    }
+                ]
+            },
+            {
+                "time": "00:00",
+                "event": "MLC Final: Washington Freedom vs MI New York",
+                "channels": [
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "17"
                     }
                 ]
             }
         ],
         "Motorsport": [
+            {
+                "time": "05:00",
+                "event": "V8 Supercars Tounsville 400",
+                "channels": [
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "302"
+                    }
+                ]
+            },
             {
                 "time": "06:40",
                 "event": "MotoGP : German Grand Prix",
@@ -526,28 +510,8 @@
                 ]
             },
             {
-                "time": "07:00",
-                "event": "Formula E Berlin E-Prix",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "304"
-                    }
-                ]
-            },
-            {
-                "time": "08:00",
-                "event": "FIM Superbike World Championship",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "303"
-                    }
-                ]
-            },
-            {
                 "time": "09:30",
-                "event": "FIM Superbike World Championship",
+                "event": "World Superbike",
                 "channels": [
                     {
                         "channel_name": "Extra Stream",
@@ -557,7 +521,7 @@
             },
             {
                 "time": "12:15",
-                "event": "FIM Superbike World Championship",
+                "event": "World Superbike",
                 "channels": [
                     {
                         "channel_name": "Extra Stream",
@@ -566,158 +530,20 @@
                 ]
             },
             {
-                "time": "14:00",
-                "event": "Formula E Berlin E-Prix",
+                "time": "18:00",
+                "event": "Chevrolet Grand Prix Race",
                 "channels": [
                     {
                         "channel_name": "Extra Stream",
-                        "channel_id": "334"
-                    }
-                ]
-            },
-            {
-                "time": "16:00",
-                "event": "Synk 275 Qualifying",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "381"
-                    }
-                ]
-            },
-            {
-                "time": "17:30",
-                "event": "Indy NXT Series Iowa",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "381"
-                    }
-                ]
-            },
-            {
-                "time": "17:35",
-                "event": "NASCAR Cup Series",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "333"
+                        "channel_id": "332"
                     }
                 ]
             }
         ],
         "WWE\/MMA\/BOXING": [
             {
-                "time": "12:00",
-                "event": "RWS: Khunsueklek vs Jomhod",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "10"
-                    }
-                ]
-            },
-            {
-                "time": "13:00",
-                "event": "GCW: Boss of All Bosses 2025",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "11"
-                    }
-                ]
-            },
-            {
-                "time": "15:30",
-                "event": "SENSHI 27",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "12"
-                    }
-                ]
-            },
-            {
-                "time": "17:00",
-                "event": "Cage Warriors 192: Prelims",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "363"
-                    },
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "13"
-                    }
-                ]
-            },
-            {
-                "time": "17:00",
-                "event": "Brave CF 97 - Burgas, Bulgaria",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "14"
-                    }
-                ]
-            },
-            {
-                "time": "18:00",
-                "event": "Great American Bash 2025",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "15"
-                    }
-                ]
-            },
-            {
-                "time": "19:00",
-                "event": "Cage Warriors 192",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "351"
-                    },
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "309"
-                    }
-                ]
-            },
-            {
-                "time": "21:00",
-                "event": "AEW: All In Texas 2025",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "16"
-                    }
-                ]
-            },
-            {
-                "time": "22:00",
-                "event": "RING III: Edgar Berlanga vs Hamzah Sheeraz",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "305"
-                    }
-                ]
-            },
-            {
-                "time": "23:00",
-                "event": "UFC Fight Night: Prelims",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "17"
-                    }
-                ]
-            },
-            {
-                "time": "00:00",
-                "event": "BKFC 78: Leonardo Perdomo vs Arnold Adams",
+                "time": "15:00",
+                "event": "TNT: Project X 2022",
                 "channels": [
                     {
                         "channel_name": "Extra Stream",
@@ -726,8 +552,8 @@
                 ]
             },
             {
-                "time": "00:00",
-                "event": "Vladimir Hernandez vs Francisco Veron",
+                "time": "21:00",
+                "event": "WWE Evolution 2025",
                 "channels": [
                     {
                         "channel_name": "Extra Stream",
@@ -736,34 +562,12 @@
                 ]
             },
             {
-                "time": "00:00",
-                "event": "Saturday Night's Main Event",
+                "time": "02:00",
+                "event": "WWE Evolution 2025 Post-Show",
                 "channels": [
                     {
                         "channel_name": "Extra Stream",
                         "channel_id": "20"
-                    }
-                ]
-            },
-            {
-                "time": "01:00",
-                "event": "UFC Fight Night: Derrick Lewis vs Tallison Teixeira",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "306"
-                    },
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "353"
-                    },
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "386"
-                    },
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "301"
                     }
                 ]
             }
@@ -771,7 +575,7 @@
         "Golf": [
             {
                 "time": "08:00",
-                "event": "2025 The Amundi Evian Championship Third Round",
+                "event": "2025 The Amundi Evian Championship Final Round",
                 "channels": [
                     {
                         "channel_name": "Extra Stream",
@@ -780,8 +584,8 @@
                 ]
             },
             {
-                "time": "08:15",
-                "event": "Genesis Scottish Open: Featured Groups (Third Round)",
+                "time": "09:30",
+                "event": "Andalucia Round Three FS1",
                 "channels": [
                     {
                         "channel_name": "Extra Stream",
@@ -790,8 +594,8 @@
                 ]
             },
             {
-                "time": "09:15",
-                "event": "Genesis Scottish Open: Featured Groups (Third Round)",
+                "time": "14:00",
+                "event": "Genesis Scottish Open Final Round",
                 "channels": [
                     {
                         "channel_name": "Extra Stream",
@@ -800,8 +604,8 @@
                 ]
             },
             {
-                "time": "11:00",
-                "event": "Andalucia Round Two FS1",
+                "time": "16:00",
+                "event": "Genesis Scottish Open Final Round CBS",
                 "channels": [
                     {
                         "channel_name": "Extra Stream",
@@ -810,8 +614,8 @@
                 ]
             },
             {
-                "time": "13:00",
-                "event": "Andalucia Round Two FOX",
+                "time": "18:00",
+                "event": "DICK'S Open Final Round",
                 "channels": [
                     {
                         "channel_name": "Extra Stream",
@@ -820,8 +624,8 @@
                 ]
             },
             {
-                "time": "14:00",
-                "event": "Genesis Scottish Open Third Round",
+                "time": "18:30",
+                "event": "American Century Championship Final Round NBC",
                 "channels": [
                     {
                         "channel_name": "Extra Stream",
@@ -830,8 +634,8 @@
                 ]
             },
             {
-                "time": "16:00",
-                "event": "Genesis Scottish Open Third Round CBS",
+                "time": "18:30",
+                "event": "American Century Champ: Rd. 3",
                 "channels": [
                     {
                         "channel_name": "Extra Stream",
@@ -840,42 +644,12 @@
                 ]
             },
             {
-                "time": "18:00",
-                "event": "DICK'S Open Second Round",
+                "time": "21:00",
+                "event": "ISCO Championship Final Round",
                 "channels": [
                     {
                         "channel_name": "Extra Stream",
                         "channel_id": "28"
-                    }
-                ]
-            },
-            {
-                "time": "18:30",
-                "event": "American Century Championship Second Round NBC",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "29"
-                    }
-                ]
-            },
-            {
-                "time": "18:30",
-                "event": "American Century Champ: Rd. 2",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "30"
-                    }
-                ]
-            },
-            {
-                "time": "21:00",
-                "event": "ISCO Championship Third Round",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "31"
                     }
                 ]
             }
@@ -883,77 +657,19 @@
         "Cycling": [
             {
                 "time": "10:30",
-                "event": "Tour de France: Stage 8",
+                "event": "Tour de France: Stage 9",
                 "channels": [
                     {
                         "channel_name": "Extra Stream",
-                        "channel_id": "32"
-                    }
-                ]
-            },
-            {
-                "time": "16:00",
-                "event": "THEMOVE: Stage 8",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "33"
+                        "channel_id": "29"
                     }
                 ]
             }
         ],
-        "Darts": [
+        "Am. Football": [
             {
-                "time": "11:00",
-                "event": "Baltic Sea Darts Open | Day 2 (Session 1)",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "318"
-                    },
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "34"
-                    }
-                ]
-            },
-            {
-                "time": "17:00",
-                "event": "Baltic Sea Darts Open | Day 2 (Session 2)",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "35"
-                    }
-                ]
-            }
-        ],
-        "Snooker": [
-            {
-                "time": "11:00",
-                "event": "CLS Stage 2 | Day 6 (Session 1)",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "36"
-                    }
-                ]
-            },
-            {
-                "time": "16:00",
-                "event": "CLS Stage 2 | Day 6 (Session 2)",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "37"
-                    }
-                ]
-            }
-        ],
-        "American Football": [
-            {
-                "time": "00:00",
-                "event": "CFL : Hamilton Tiger-Cats vs Ottawa Redblacks",
+                "time": "01:00",
+                "event": "CFL : Edmonton Elks vs BC Lions",
                 "channels": [
                     {
                         "channel_name": "Extra Stream",
@@ -964,22 +680,92 @@
         ],
         "Baseball": [
             {
-                "time": "17:05",
-                "event": "MLB : New York Yankees vs Chicago Cubs",
+                "time": "17:35",
+                "event": "MLB : Baltimore Orioles vs Miami Marlins",
                 "channels": [
                     {
                         "channel_name": "Extra Stream",
-                        "channel_id": "1618"
+                        "channel_id": "1602"
                     }
                 ]
             },
             {
-                "time": "17:10",
+                "time": "17:35",
+                "event": "MLB : Boston Red Sox vs Tampa Bay Rays",
+                "channels": [
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "1603"
+                    }
+                ]
+            },
+            {
+                "time": "17:35",
+                "event": "MLB : New York Yankees vs Chicago Cubs",
+                "channels": [
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "30"
+                    }
+                ]
+            },
+            {
+                "time": "17:40",
+                "event": "MLB : Cincinnati Reds vs Colorado Rockies",
+                "channels": [
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "1606"
+                    }
+                ]
+            },
+            {
+                "time": "17:40",
                 "event": "MLB : Detroit Tigers vs Seattle Mariners",
                 "channels": [
                     {
                         "channel_name": "Extra Stream",
-                        "channel_id": "1609"
+                        "channel_id": "31"
+                    }
+                ]
+            },
+            {
+                "time": "18:10",
+                "event": "MLB : Chicago White Sox vs Cleveland Guardians",
+                "channels": [
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "1605"
+                    }
+                ]
+            },
+            {
+                "time": "18:10",
+                "event": "MLB : Houston Astros vs Texas Rangers",
+                "channels": [
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "1610"
+                    }
+                ]
+            },
+            {
+                "time": "18:10",
+                "event": "MLB : Kansas City Royals vs New York Mets",
+                "channels": [
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "1611"
+                    }
+                ]
+            },
+            {
+                "time": "18:10",
+                "event": "MLB : Milwaukee Brewers vs Washington Nationals",
+                "channels": [
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "1615"
                     }
                 ]
             },
@@ -1005,11 +791,11 @@
             },
             {
                 "time": "20:05",
-                "event": "MLB : Baltimore Orioles vs Miami Marlins",
+                "event": "MLB : Athletics vs Toronto Blue Jays",
                 "channels": [
                     {
                         "channel_name": "Extra Stream",
-                        "channel_id": "1602"
+                        "channel_id": "1619"
                     }
                 ]
             },
@@ -1024,77 +810,7 @@
                 ]
             },
             {
-                "time": "20:10",
-                "event": "MLB : Boston Red Sox vs Tampa Bay Rays",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "1603"
-                    }
-                ]
-            },
-            {
-                "time": "20:10",
-                "event": "MLB : Chicago White Sox vs Cleveland Guardians",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "1605"
-                    }
-                ]
-            },
-            {
-                "time": "20:10",
-                "event": "MLB : Cincinnati Reds vs Colorado Rockies",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "1606"
-                    }
-                ]
-            },
-            {
-                "time": "20:10",
-                "event": "MLB : Kansas City Royals vs New York Mets",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "1611"
-                    }
-                ]
-            },
-            {
-                "time": "20:10",
-                "event": "MLB : Milwaukee Brewers vs Washington Nationals",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "1615"
-                    }
-                ]
-            },
-            {
-                "time": "23:35",
-                "event": "MLB : Houston Astros vs Texas Rangers",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "1610"
-                    }
-                ]
-            },
-            {
-                "time": "23:35",
-                "event": "MLB : San Diego Padres vs Philadelphia Phillies",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "1622"
-                    }
-                ]
-            },
-            {
-                "time": "01:38",
+                "time": "20:05",
                 "event": "MLB : Los Angeles Angels vs Arizona Diamondbacks",
                 "channels": [
                     {
@@ -1104,34 +820,90 @@
                 ]
             },
             {
-                "time": "02:05",
-                "event": "MLB : Athletics vs Toronto Blue Jays",
+                "time": "20:07",
+                "event": "MLB : San Diego Padres vs Philadelphia Phillies",
                 "channels": [
                     {
                         "channel_name": "Extra Stream",
-                        "channel_id": "1619"
+                        "channel_id": "1622"
+                    }
+                ]
+            },
+            {
+                "time": "22:00",
+                "event": "MLB : 2025 MLB Draft",
+                "channels": [
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "32"
                     }
                 ]
             }
         ],
         "Basketball": [
             {
-                "time": "17:00",
-                "event": "WNBA : Chicago Sky W vs Minnesota Lynx W",
+                "time": "05:30",
+                "event": "Japan W vs Lebanon W",
                 "channels": [
                     {
                         "channel_name": "Extra Stream",
-                        "channel_id": "305"
-                    },
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "303"
+                        "channel_id": "33"
                     }
                 ]
             },
             {
-                "time": "20:00",
-                "event": "NBA : Milwaukee Bucks vs Cleveland Cavaliers",
+                "time": "08:30",
+                "event": "Australia W vs Philippines W",
+                "channels": [
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "34"
+                    }
+                ]
+            },
+            {
+                "time": "11:30",
+                "event": "China W vs Indonesia W",
+                "channels": [
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "35"
+                    }
+                ]
+            },
+            {
+                "time": "17:00",
+                "event": "WNBA : Indiana Fever W vs Dallas Wings W",
+                "channels": [
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "310"
+                    }
+                ]
+            },
+            {
+                "time": "19:00",
+                "event": "WNBA : New York Liberty W vs Atlanta Dream W",
+                "channels": [
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "336"
+                    }
+                ]
+            },
+            {
+                "time": "19:00",
+                "event": "Miami 305 vs Trilogy",
+                "channels": [
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "36"
+                    }
+                ]
+            },
+            {
+                "time": "19:30",
+                "event": "NBA : Atlanta Hawks vs Phoenix Suns",
                 "channels": [
                     {
                         "channel_name": "Extra Stream",
@@ -1141,7 +913,27 @@
             },
             {
                 "time": "20:00",
-                "event": "WNBA : Las Vegas Aces W vs Golden State Valkyries W",
+                "event": "NBA : Houston Rockets vs Detroit Pistons",
+                "channels": [
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "309"
+                    }
+                ]
+            },
+            {
+                "time": "20:00",
+                "event": "Triplets vs Power",
+                "channels": [
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "37"
+                    }
+                ]
+            },
+            {
+                "time": "21:00",
+                "event": "LA Riot vs Ball Hogs",
                 "channels": [
                     {
                         "channel_name": "Extra Stream",
@@ -1151,7 +943,37 @@
             },
             {
                 "time": "21:30",
-                "event": "NBA : San Antonio Spurs vs Dallas Mavericks",
+                "event": "NBA : Boston Celtics vs New York Knicks",
+                "channels": [
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "308"
+                    }
+                ]
+            },
+            {
+                "time": "22:00",
+                "event": "WNBA : Los Angeles Sparks W vs Connecticut Sun W",
+                "channels": [
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "304"
+                    }
+                ]
+            },
+            {
+                "time": "22:00",
+                "event": "WNBA : Seattle Storm W vs Washington Mystics W",
+                "channels": [
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "303"
+                    }
+                ]
+            },
+            {
+                "time": "22:00",
+                "event": "NBA : Orlando Magic vs Toronto Raptors",
                 "channels": [
                     {
                         "channel_name": "Extra Stream",
@@ -1160,18 +982,8 @@
                 ]
             },
             {
-                "time": "22:30",
-                "event": "NBA : Oklahoma City Thunder vs Indiana Pacers",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "308"
-                    }
-                ]
-            },
-            {
-                "time": "00:00",
-                "event": "NBA : Philadelphia 76ers vs Charlotte Hornets",
+                "time": "23:30",
+                "event": "NBA : Cleveland Cavaliers vs Miami Heat",
                 "channels": [
                     {
                         "channel_name": "Extra Stream",
@@ -1180,18 +992,62 @@
                 ]
             },
             {
-                "time": "00:30",
-                "event": "NBA : Chicago Bulls vs Sacramento Kings",
+                "time": "00:00",
+                "event": "NBA : Washington Wizards vs Brooklyn Nets",
                 "channels": [
                     {
                         "channel_name": "Extra Stream",
-                        "channel_id": "308"
+                        "channel_id": "307"
+                    }
+                ]
+            },
+            {
+                "time": "01:30",
+                "event": "NBA : Los Angeles Clippers vs Milwaukee Bucks",
+                "channels": [
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "305"
                     }
                 ]
             },
             {
                 "time": "02:00",
-                "event": "NBA : New Orleans Pelicans vs Los Angeles Lakers",
+                "event": "NBA : Utah Jazz vs Golden State Warriors",
+                "channels": [
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "307"
+                    }
+                ]
+            }
+        ],
+        "Rugby": [
+            {
+                "time": "08:15",
+                "event": "Gold Coast Titans vs Brisbane Broncos",
+                "channels": [
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "382"
+                    }
+                ]
+            },
+            {
+                "time": "14:00",
+                "event": "Salford vs Castleford",
+                "channels": [
+                    {
+                        "channel_name": "Extra Stream",
+                        "channel_id": "383"
+                    }
+                ]
+            }
+        ],
+        "Volleyball": [
+            {
+                "time": "10:20",
+                "event": "Japan W vs Brazil W",
                 "channels": [
                     {
                         "channel_name": "Extra Stream",
@@ -1200,30 +1056,8 @@
                 ]
             },
             {
-                "time": "02:30",
-                "event": "NBA : Denver Nuggets vs Minnesota Timberwolves",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "308"
-                    }
-                ]
-            },
-            {
-                "time": "03:00",
-                "event": "NBA : Portland Trail Blazers vs Memphis Grizzlies",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "309"
-                    }
-                ]
-            }
-        ],
-        "Volleyball": [
-            {
-                "time": "06:30",
-                "event": ": South Korea W vs Bulgaria W",
+                "time": "13:30",
+                "event": "Czech Republic W vs Belgium W",
                 "channels": [
                     {
                         "channel_name": "Extra Stream",
@@ -1232,8 +1066,8 @@
                 ]
             },
             {
-                "time": "10:20",
-                "event": ": Japan W vs Poland W",
+                "time": "14:00",
+                "event": "Netherlands W vs Italy W",
                 "channels": [
                     {
                         "channel_name": "Extra Stream",
@@ -1242,8 +1076,8 @@
                 ]
             },
             {
-                "time": "13:00",
-                "event": ": Czech Republic W vs Netherlands W",
+                "time": "16:30",
+                "event": "Germany W vs Dominican Republic W",
                 "channels": [
                     {
                         "channel_name": "Extra Stream",
@@ -1252,8 +1086,8 @@
                 ]
             },
             {
-                "time": "17:00",
-                "event": ": Turkey W vs Italy W",
+                "time": "18:00",
+                "event": "Serbia W vs Turkey W",
                 "channels": [
                     {
                         "channel_name": "Extra Stream",
@@ -1262,8 +1096,8 @@
                 ]
             },
             {
-                "time": "21:00",
-                "event": ": Germany W vs China W",
+                "time": "20:00",
+                "event": "Thailand W vs Canada W",
                 "channels": [
                     {
                         "channel_name": "Extra Stream",
@@ -1272,172 +1106,20 @@
                 ]
             },
             {
-                "time": "00:30",
-                "event": ": Canada W vs USA W",
+                "time": "00:00",
+                "event": "China W vs USA W",
                 "channels": [
                     {
                         "channel_name": "Extra Stream",
                         "channel_id": "45"
                     }
                 ]
-            },
-            {
-                "time": "02:00",
-                "event": ": South Korea W vs France W",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "46"
-                    }
-                ]
-            }
-        ],
-        "Rugby": [
-            {
-                "time": "07:05",
-                "event": ": New Zealand vs France",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "350"
-                    },
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "328"
-                    },
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "306"
-                    }
-                ]
-            },
-            {
-                "time": "10:00",
-                "event": ": Invitational AU & NZ vs British & Irish Lions",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "306"
-                    }
-                ]
-            },
-            {
-                "time": "11:30",
-                "event": ": South Africa W vs Canada W",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "47"
-                    }
-                ]
-            },
-            {
-                "time": "14:00",
-                "event": ": Leigh vs Hull KR",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "383"
-                    }
-                ]
-            },
-            {
-                "time": "15:10",
-                "event": ": South Africa vs Italy",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "352"
-                    },
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "337"
-                    },
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "321"
-                    }
-                ]
-            },
-            {
-                "time": "17:00",
-                "event": ": Catalans Dragons vs Warrington",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "383"
-                    }
-                ]
-            },
-            {
-                "time": "18:00",
-                "event": ": Portugal vs Ireland",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "322"
-                    }
-                ]
-            },
-            {
-                "time": "18:00",
-                "event": ": Uruguay vs Romania",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "48"
-                    }
-                ]
-            },
-            {
-                "time": "19:40",
-                "event": ": Argentina vs England",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "352"
-                    },
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "326"
-                    }
-                ]
-            },
-            {
-                "time": "21:00",
-                "event": ": South Africa vs. Canada",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "332"
-                    }
-                ]
-            },
-            {
-                "time": "23:00",
-                "event": ": Canada vs Belgium",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "49"
-                    }
-                ]
-            },
-            {
-                "time": "23:30",
-                "event": ": USA vs Spain",
-                "channels": [
-                    {
-                        "channel_name": "Extra Stream",
-                        "channel_id": "50"
-                    }
-                ]
             }
         ],
         "Waterpolo": [
             {
-                "time": "07:00",
-                "event": "World Championship : Spain vs Japan",
+                "time": "08:00",
+                "event": "Spain W vs France W",
                 "channels": [
                     {
                         "channel_name": "Extra Stream",
@@ -1446,8 +1128,8 @@
                 ]
             },
             {
-                "time": "11:00",
-                "event": "Montenegro vs Greece",
+                "time": "09:30",
+                "event": "Australia W vs Italy W",
                 "channels": [
                     {
                         "channel_name": "Extra Stream",
@@ -1456,8 +1138,8 @@
                 ]
             },
             {
-                "time": "11:45",
-                "event": "Romania vs Italy",
+                "time": "12:45",
+                "event": "Netherlands W vs USA W",
                 "channels": [
                     {
                         "channel_name": "Extra Stream",
