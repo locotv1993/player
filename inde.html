@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="robots" content="none">
+    <meta name="referrer" content="no-referrer">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta http-equiv="Cache-control" content="public, max-age=604800, immutable"/>
+    <meta charset="UTF-8">
+    <script src="https://cdn.jsdelivr.net/npm/@clappr/player@0.4.0/dist/clappr.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mux.js@5.6.7/dist/mux.min.js"></script>
+    <script src='https://cdn.jsdelivr.net/npm/level-selector@latest/dist/level-selector.min.js'></script>
+    <script src='https://cdn.jsdelivr.net/npm/clappr-chromecast-plugin@latest/dist/clappr-chromecast-plugin.min.js'></script>
+    <script src='https://cdn.jsdelivr.net/npm/clappr-pip@latest/dist/clappr-pip.min.js'></script>
+    <script src='https://cdn.jsdelivr.net/npm/clappr-playback-rate-plugin@latest/dist/clappr-playback-rate-plugin.min.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/shaka-player@2.5.10/dist/shaka-player.compiled.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/clappr/dash-shaka-playback@latest/dist/dash-shaka-playback.external.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/cdnbye-shaka@latest"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+    <style type="text/css">
+        body {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            background-color: #000;
+            margin: 0;
+        }
+        #video {
+            width: 100vw;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            background-color: #000;
+            right: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="video"></div>
+
+    <script>
+        // Obtener parÃ¡metro 'get' de la URL
+        function getParameterByName(name) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(name);
+        }
+
+        // Cargar JSON dinÃ¡micamente
+        async function loadStream() {
+            try {
+                const response = await fetch('https://app.competenciadeportiva.com/local_json/file/my_max.json');
+                const data = await response.json();
+                
+                // Obtener el valor del parÃ¡metro 'get' (por ejemplo, MAX1)
+                const streamName = getParameterByName('get');
+                
+                // Encontrar el stream en el JSON que coincida con el parÃ¡metro
+                const streamData = data.find(stream => stream.nombre === streamName);
+                
+                if (!streamData) {
+                    console.error('Stream no encontrado');
+                    return;
+                }
+
+                // Configurar el reproductor con los datos del stream
+                var player = new Clappr.Player({
+                    autoPlay: false,
+                    parentId: "#video",
+                    poster: streamData.img, 
+                    source: streamData.source,
+                    plugins: [LevelSelector, DashShakaPlayback, ChromecastPlugin, ClapprPip.PipButton, ClapprPip.PipPlugin, Clappr.MediaControl, PlaybackRatePlugin],
+                    events: {
+                        onReady: function() {
+                            var plugin = this.getPlugin('click_to_pause');
+                            plugin && plugin.disable();
+                        }
+                    },
+                    autoplay: false,
+                    width: '100%',
+                    height: '100%',
+                    strings: {
+                        'en': {'live': 'LIVE:JSTREAM'},
+                        'es': {'live': 'En Vivo:JSTREAM'}
+                    },
+                    shakaConfiguration: {
+                        drm: {
+                            clearKeys: streamData.drm.clearKeys
+                        }
+                    }
+                });
+            } catch (error) {
+                console.error('Error al cargar el JSON', error);
+            }
+        }
+
+        // Llamar a la funciÃ³n para cargar y configurar el stream
+        loadStream();
+ 
+    </script>
+</body>
+</html>
