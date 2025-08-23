@@ -1,162 +1,402 @@
 [
     {
-        "hora": "12:15",
-        "evento": "MotoGP: Hungary Practice",
-        "link": "https://sportzonline.si/channels/hd/hd2.php"
+        "hora": "11:45",
+        "evento": "Moto2/3: Hungary Qualifying",
+        "link": "https://sportzonline.site/channels/pt/sporttv4.php"
     },
     {
-        "hora": "12:15",
-        "evento": "MotoGP: Hungary Practice",
-        "link": "https://sportzonline.si/channels/pt/sporttv4.php"
+        "hora": "11:45",
+        "evento": "Moto2/3: Hungary Qualifying",
+        "link": "https://sportzonline.site/channels/bra/br6.php"
     },
     {
-        "hora": "12:15",
-        "evento": "MotoGP: Hungary Practice",
-        "link": "https://sportzonline.si/channels/bra/br6.php"
+        "hora": "12:00",
+        "evento": "Paderborn x Fortuna Düsseldorf",
+        "link": "https://sportzonline.site/channels/pt/eleven2.php"
+    },
+    {
+        "hora": "12:30",
+        "evento": "Manchester City x Tottenham Hotspur",
+        "link": "https://sportzonline.site/channels/hd/hd1.php"
+    },
+    {
+        "hora": "12:30",
+        "evento": "Manchester City x Tottenham Hotspur",
+        "link": "https://sportzonline.site/channels/pt/eleven1.php"
+    },
+    {
+        "hora": "12:30",
+        "evento": "Manchester City x Tottenham Hotspur",
+        "link": "https://sportzonline.site/channels/bra/br2.php"
+    },
+    {
+        "hora": "12:30",
+        "evento": "Charlton Athletic x Leicester City",
+        "link": "https://sportzonline.site/channels/hd/hd2.php"
+    },
+    {
+        "hora": "12:30",
+        "evento": "Charlton Athletic x Leicester City",
+        "link": "https://sportzonline.site/channels/pt/sporttv2.php"
     },
     {
         "hora": "13:00",
-        "evento": "DP World Tour: Betfred British Masters - D2",
-        "link": "https://sportzonline.si/channels/pt/sporttv3.php"
+        "evento": "Al-Nassr x Al-Ahli",
+        "link": "https://sportzonline.site/channels/hd/hd5.php"
+    },
+    {
+        "hora": "13:00",
+        "evento": "Al-Nassr x Al-Ahli",
+        "link": "https://sportzonline.site/channels/hd/hd6.php"
+    },
+    {
+        "hora": "13:00",
+        "evento": "Al-Nassr x Al-Ahli",
+        "link": "https://sportzonline.site/channels/pt/sporttv3.php"
+    },
+    {
+        "hora": "13:00",
+        "evento": "Al-Nassr x Al-Ahli",
+        "link": "https://sportzonline.site/channels/bra/br4.php"
+    },
+    {
+        "hora": "13:45",
+        "evento": "MotoGP: Hungary Sprint Race",
+        "link": "https://sportzonline.site/channels/pt/sporttv4.php"
+    },
+    {
+        "hora": "13:45",
+        "evento": "MotoGP: Hungary Sprint Race",
+        "link": "https://sportzonline.site/channels/bra/br6.php"
+    },
+    {
+        "hora": "14:30",
+        "evento": "Bayer Leverkusen x Hoffenheim",
+        "link": "https://sportzonline.site/channels/hd/hd3.php"
+    },
+    {
+        "hora": "14:30",
+        "evento": "Bayer Leverkusen x Hoffenheim",
+        "link": "https://sportzonline.site/channels/pt/eleven3.php"
+    },
+    {
+        "hora": "14:30",
+        "evento": "Bayer Leverkusen x Hoffenheim",
+        "link": "https://sportzonline.site/channels/bra/br1.php"
+    },
+    {
+        "hora": "14:30",
+        "evento": "Union Berlin x Stuttgart",
+        "link": "https://sportzonline.site/channels/hd/hd11.php"
+    },
+    {
+        "hora": "15:00",
+        "evento": "Brentford x Aston Villa",
+        "link": "https://sportzonline.site/channels/hd/hd1.php"
+    },
+    {
+        "hora": "15:00",
+        "evento": "Brentford x Aston Villa",
+        "link": "https://sportzonline.site/channels/pt/eleven2.php"
+    },
+    {
+        "hora": "15:00",
+        "evento": "Brentford x Aston Villa",
+        "link": "https://sportzonline.site/channels/bra/br2.php"
+    },
+    {
+        "hora": "15:00",
+        "evento": "AFC Bournemouth x Wolverhampton Wanderers",
+        "link": "https://sportzonline.site/channels/hd/hd2.php"
+    },
+    {
+        "hora": "15:00",
+        "evento": "AFC Bournemouth x Wolverhampton Wanderers",
+        "link": "https://sportzonline.site/channels/pt/eleven1.php"
+    },
+    {
+        "hora": "15:00",
+        "evento": "Burnley x Sunderland",
+        "link": "https://sportzonline.site/channels/hd/hd5.php"
+    },
+    {
+        "hora": "15:00",
+        "evento": "Norwich City x Middlesbrough",
+        "link": "https://sportzonline.site/channels/pt/sporttv1.php"
+    },
+    {
+        "hora": "15:00",
+        "evento": "Celtic x Livingston",
+        "link": "https://sportzonline.site/channels/hd/hd9.php"
+    },
+    {
+        "hora": "15:30",
+        "evento": "Torreense x Académico",
+        "link": "https://sportzonline.site/channels/pt/sporttv2.php"
+    },
+    {
+        "hora": "16:00",
+        "evento": "Olympique Marseille x Paris",
+        "link": "https://sportzonline.site/channels/hd/hd4.php"
+    },
+    {
+        "hora": "16:00",
+        "evento": "Olympique Marseille x Paris",
+        "link": "https://sportzonline.site/channels/pt/sporttv3.php"
+    },
+    {
+        "hora": "16:00",
+        "evento": "Mallorca x Celta de Vigo",
+        "link": "https://sportzonline.site/channels/hd/hd6.php"
+    },
+    {
+        "hora": "16:00",
+        "evento": "Mallorca x Celta de Vigo",
+        "link": "https://sportzonline.site/channels/bra/br6.php"
     },
     {
         "hora": "17:30",
-        "evento": "Elversberg x Kaiserslautern",
-        "link": "https://sportzonline.si/channels/hd/hd10.php"
+        "evento": "Arsenal x Leeds United",
+        "link": "https://sportzonline.site/channels/hd/hd1.php"
     },
     {
         "hora": "17:30",
-        "evento": "Elversberg x Kaiserslautern",
-        "link": "https://sportzonline.si/channels/pt/eleven1.php"
+        "evento": "Arsenal x Leeds United",
+        "link": "https://sportzonline.site/channels/pt/eleven1.php"
     },
     {
         "hora": "17:30",
-        "evento": "Preußen Münster x Nürnberg",
-        "link": "https://sportzonline.si/channels/hd/hd9.php"
+        "evento": "Arsenal x Leeds United",
+        "link": "https://sportzonline.site/channels/bra/br5.php"
+    },
+    {
+        "hora": "17:30",
+        "evento": "Genoa x Lecce",
+        "link": "https://sportzonline.site/channels/hd/hd8.php"
+    },
+    {
+        "hora": "17:30",
+        "evento": "Genoa x Lecce",
+        "link": "https://sportzonline.site/channels/pt/sporttv5.php"
+    },
+    {
+        "hora": "17:30",
+        "evento": "Sassuolo x Napoli",
+        "link": "https://sportzonline.site/channels/hd/hd5.php"
+    },
+    {
+        "hora": "17:30",
+        "evento": "Sassuolo x Napoli",
+        "link": "https://sportzonline.site/channels/hd/hd7.php"
+    },
+    {
+        "hora": "17:30",
+        "evento": "Sassuolo x Napoli",
+        "link": "https://sportzonline.site/channels/pt/sporttv4.php"
+    },
+    {
+        "hora": "17:30",
+        "evento": "Sassuolo x Napoli",
+        "link": "https://sportzonline.site/channels/bra/br2.php"
+    },
+    {
+        "hora": "17:30",
+        "evento": "St. Pauli x Borussia Dortmund",
+        "link": "https://sportzonline.site/channels/hd/hd3.php"
+    },
+    {
+        "hora": "17:30",
+        "evento": "St. Pauli x Borussia Dortmund",
+        "link": "https://sportzonline.site/channels/pt/eleven3.php"
+    },
+    {
+        "hora": "17:45",
+        "evento": "PSV x Groningen",
+        "link": "https://sportzonline.site/channels/hd/hd9.php"
+    },
+    {
+        "hora": "18:00",
+        "evento": "Nice x Auxerre",
+        "link": "https://sportzonline.site/channels/hd/hd4.php"
+    },
+    {
+        "hora": "18:00",
+        "evento": "Nice x Auxerre",
+        "link": "https://sportzonline.site/channels/pt/sporttv3.php"
+    },
+    {
+        "hora": "18:00",
+        "evento": "Nacional x Sporting CP",
+        "link": "https://sportzonline.site/channels/pt/sporttv1.php"
+    },
+    {
+        "hora": "18:00",
+        "evento": "Olympiakos Piraeus x Asteras Tripolis",
+        "link": "https://sportzonline.site/channels/hd/hd10.php"
+    },
+    {
+        "hora": "18:30",
+        "evento": "Atlético Madrid x Elche",
+        "link": "https://sportzonline.site/channels/hd/hd2.php"
+    },
+    {
+        "hora": "18:30",
+        "evento": "Atlético Madrid x Elche",
+        "link": "https://sportzonline.site/channels/hd/hd6.php"
+    },
+    {
+        "hora": "18:30",
+        "evento": "Atlético Madrid x Elche",
+        "link": "https://sportzonline.site/channels/pt/eleven2.php"
     },
     {
         "hora": "19:30",
-        "evento": "Bayern München x RB Leipzig",
-        "link": "https://sportzonline.si/channels/hd/hd5.php"
+        "evento": "Schalke 04 x Bochum",
+        "link": "https://sportzonline.site/channels/hd/hd3.php"
     },
     {
         "hora": "19:30",
-        "evento": "Bayern München x RB Leipzig",
-        "link": "https://sportzonline.si/channels/hd/hd3.php"
+        "evento": "Flamengo U20 x Barcelona U20",
+        "link": "https://sportzonline.site/channels/hd/hd5.php"
     },
     {
         "hora": "19:30",
-        "evento": "Bayern München x RB Leipzig",
-        "link": "https://sportzonline.si/channels/pt/eleven1.php"
-    },
-    {
-        "hora": "19:30",
-        "evento": "Bayern München x RB Leipzig",
-        "link": "https://sportzonline.si/channels/bra/br1.php"
-    },
-    {
-        "hora": "19:30",
-        "evento": "Pescara x Cesena",
-        "link": "https://sportzonline.si/channels/hd/hd7.php"
-    },
-    {
-        "hora": "19:30",
-        "evento": "Fatih Karagümrük x Göztepe",
-        "link": "https://sportzonline.si/channels/hd/hd8.php"
+        "evento": "Flamengo U20 x Barcelona U20",
+        "link": "https://sportzonline.site/channels/bra/br1.php"
     },
     {
         "hora": "19:45",
-        "evento": "PSG x Angers SCO",
-        "link": "https://sportzonline.si/channels/hd/hd4.php"
+        "evento": "Roma x Bologna",
+        "link": "https://sportzonline.site/channels/hd/hd8.php"
     },
     {
         "hora": "19:45",
-        "evento": "PSG x Angers SCO",
-        "link": "https://sportzonline.si/channels/pt/sporttv2.php"
+        "evento": "Roma x Bologna",
+        "link": "https://sportzonline.site/channels/pt/sporttv5.php"
+    },
+    {
+        "hora": "19:45",
+        "evento": "Milan x Cremonese",
+        "link": "https://sportzonline.site/channels/hd/hd7.php"
+    },
+    {
+        "hora": "19:45",
+        "evento": "Milan x Cremonese",
+        "link": "https://sportzonline.site/channels/pt/sporttv4.php"
+    },
+    {
+        "hora": "19:45",
+        "evento": "Milan x Cremonese",
+        "link": "https://sportzonline.site/channels/bra/br6.php"
+    },
+    {
+        "hora": "19:30",
+        "evento": "Fenerbahçe x Kocaelispor",
+        "link": "https://sportzonline.site/channels/hd/hd11.php"
     },
     {
         "hora": "20:00",
-        "evento": "West Ham United x Chelsea",
-        "link": "https://sportzonline.si/channels/hd/hd1.php"
+        "evento": "Coritiba x Remo",
+        "link": "https://sportzonline.site/channels/bra/br2.php"
     },
     {
         "hora": "20:00",
-        "evento": "West Ham United x Chelsea",
-        "link": "https://sportzonline.si/channels/pt/eleven2.php"
+        "evento": "RB Bragantino x Fluminense",
+        "link": "https://sportzonline.site/channels/bra/br3.php"
     },
     {
         "hora": "20:00",
-        "evento": "West Ham United x Chelsea",
-        "link": "https://sportzonline.si/channels/bra/br2.php"
+        "evento": "Telstar x Volendam",
+        "link": "https://sportzonline.site/channels/hd/hd9.php"
     },
     {
-        "hora": "20:00",
-        "evento": "Derby County x Bristol City",
-        "link": "https://sportzonline.si/channels/hd/hd11.php"
+        "hora": "20:05",
+        "evento": "Olympique Lyonnais x Metz",
+        "link": "https://sportzonline.site/channels/hd/hd4.php"
     },
     {
-        "hora": "20:00",
-        "evento": "Derby County x Bristol City",
-        "link": "https://sportzonline.si/channels/pt/sporttv3.php"
-    },
-    {
-        "hora": "20:10",
-        "evento": "Chaves x Felgueiras",
-        "link": "https://sportzonline.si/channels/pt/sporttv1.php"
+        "hora": "20:05",
+        "evento": "Olympique Lyonnais x Metz",
+        "link": "https://sportzonline.site/channels/pt/sporttv3.php"
     },
     {
         "hora": "20:30",
-        "evento": "Real Betis x Deportivo Alavés",
-        "link": "https://sportzonline.si/channels/hd/hd2.php"
+        "evento": "Levante x Barcelona",
+        "link": "https://sportzonline.site/channels/hd/hd2.php"
     },
     {
         "hora": "20:30",
-        "evento": "Real Betis x Deportivo Alavés",
-        "link": "https://sportzonline.si/channels/hd/hd6.php"
+        "evento": "Levante x Barcelona",
+        "link": "https://sportzonline.site/channels/hd/hd6.php"
     },
     {
         "hora": "20:30",
-        "evento": "Real Betis x Deportivo Alavés",
-        "link": "https://sportzonline.si/channels/pt/eleven3.php"
+        "evento": "Levante x Barcelona",
+        "link": "https://sportzonline.site/channels/pt/eleven1.php"
     },
     {
         "hora": "20:30",
-        "evento": "Real Betis x Deportivo Alavés",
-        "link": "https://sportzonline.si/channels/bra/br6.php"
+        "evento": "Levante x Barcelona",
+        "link": "https://sportzonline.site/channels/bra/br5.php"
     },
     {
-        "hora": "23:00",
-        "evento": "Athletic x Chapecoense",
-        "link": "https://sportzonline.si/channels/bra/br2.php"
+        "hora": "20:30",
+        "evento": "Benfica x Tondela",
+        "link": "https://sportzonline.site/channels/pt/btv.php"
+    },
+    {
+        "hora": "20:30",
+        "evento": "Arouca x Rio Ave",
+        "link": "https://sportzonline.site/channels/pt/sporttv2.php"
+    },
+    {
+        "hora": "21:30",
+        "evento": "Rosario Central x Newell's Old Boys",
+        "link": "https://sportzonline.site/channels/pt/sporttv1.php"
+    },
+    {
+        "hora": "22:00",
+        "evento": "ATP World Tour 250: Winston-Salem - Final",
+        "link": "https://sportzonline.site/channels/pt/sporttv4.php"
+    },
+    {
+        "hora": "22:30",
+        "evento": "Cruzeiro x Internacional",
+        "link": "https://sportzonline.site/channels/bra/br3.php"
+    },
+    {
+        "hora": "00:30",
+        "evento": "DC United x Inter Miami",
+        "link": "https://sportzonline.site/channels/hd/hd1.php"
+    },
+    {
+        "hora": "00:30",
+        "evento": "CF Montréal x Austin",
+        "link": "https://sportzonline.site/channels/hd/hd9.php"
+    },
+    {
+        "hora": "00:30",
+        "evento": "NASCAR Cup Series: Coke Zero Sugar 400",
+        "link": "https://sportzonline.site/channels/pt/sporttv4.php"
+    },
+    {
+        "hora": "01:00",
+        "evento": "Grêmio x Ceará",
+        "link": "https://sportzonline.site/channels/bra/br1.php"
     },
     {
         "hora": "02:00",
-        "evento": "Juárez x Santos Laguna",
-        "link": "https://sportzonline.si/channels/hd/hd11.php"
+        "evento": "Monterrey x Necaxa",
+        "link": "https://sportzonline.site/channels/hd/hd11.php"
     },
     {
-        "hora": "02:00",
-        "evento": "Juárez x Santos Laguna",
-        "link": "https://sportzonline.si/channels/hd/hd10.php"
+        "hora": "02:30",
+        "evento": "Vancouver Whitecaps x St. Louis City",
+        "link": "https://sportzonline.site/channels/hd/hd9.php"
     },
     {
-        "hora": "02:00",
-        "evento": "Querétaro x Atlético San Luis",
-        "link": "https://sportzonline.si/channels/hd/hd9.php"
-    },
-    {
-        "hora": "02:05",
-        "evento": "Pacific Nations Cup: Canada x USA",
-        "link": "https://sportzonline.si/channels/pt/sporttv2.php"
-    },
-    {
-        "hora": "02:10",
-        "evento": "Llaneros x Deportivo Pasto",
-        "link": "https://sportzonline.si/channels/hd/hd8.php"
-    },
-    {
-        "hora": "02:50",
-        "evento": "Pacific Nations Cup: Tonga x Samoa",
-        "link": "https://sportzonline.si/channels/pt/sporttv3.php"
+        "hora": "04:05",
+        "evento": "Cruz Azul x Toluca",
+        "link": "https://sportzonline.site/channels/hd/hd11.php"
     }
 ]
