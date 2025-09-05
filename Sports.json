@@ -1,242 +1,177 @@
 [
     {
-        "hora": "08:00",
-        "evento": "DP World Tour: Amgen Irish Open - D1",
-        "link": "https://sportzonline.site/channels/pt/sporttv3.php"
-    },
-    {
-        "hora": "14:00",
-        "evento": "Chad x Ghana",
-        "link": "https://sportzonline.site/channels/hd/hd5.php"
-    },
-    {
-        "hora": "15:00",
-        "evento": "Kazakhstan x Wales",
-        "link": "https://sportzonline.site/channels/hd/hd1.php"
-    },
-    {
-        "hora": "15:00",
-        "evento": "Kazakhstan x Wales",
+        "hora": "15:35",
+        "evento": "Formula 1: Italian Grand Prix: Practice 2",
         "link": "https://sportzonline.site/channels/hd/hd2.php"
     },
     {
-        "hora": "15:00",
-        "evento": "Kazakhstan x Wales",
-        "link": "https://sportzonline.site/channels/pt/sporttv2.php"
+        "hora": "15:35",
+        "evento": "Formula 1: Italian Grand Prix: Practice 2",
+        "link": "https://sportzonline.site/channels/hd/hd7.php"
     },
     {
-        "hora": "15:00",
-        "evento": "Kazakhstan x Wales",
-        "link": "https://sportzonline.site/channels/bra/br6.php"
-    },
-    {
-        "hora": "17:00",
-        "evento": "Georgia x Turkey",
-        "link": "https://sportzonline.site/channels/hd/hd1.php"
+        "hora": "15:35",
+        "evento": "Formula 1: Italian Grand Prix: Practice 2",
+        "link": "https://sportzonline.site/channels/bra/br4.php"
     },
     {
         "hora": "17:00",
-        "evento": "Georgia x Turkey",
+        "evento": "Lesotho x South Africa",
+        "link": "https://sportzonline.site/channels/hd/hd5.php"
+    },
+    {
+        "hora": "17:00",
+        "evento": "Lesotho x South Africa",
+        "link": "https://sportzonline.site/channels/hd/hd3.php"
+    },
+    {
+        "hora": "17:00",
+        "evento": "Lesotho x South Africa",
         "link": "https://sportzonline.site/channels/hd/hd11.php"
     },
     {
         "hora": "17:00",
-        "evento": "Georgia x Turkey",
+        "evento": "Uganda x Mozambique",
         "link": "https://sportzonline.site/channels/pt/sporttv1.php"
     },
     {
-        "hora": "17:00",
-        "evento": "Lithuania x Malta",
-        "link": "https://sportzonline.site/channels/hd/hd10.php"
-    },
-    {
-        "hora": "17:00",
-        "evento": "Angola x Libya",
-        "link": "https://sportzonline.site/channels/hd/hd5.php"
-    },
-    {
-        "hora": "17:00",
-        "evento": "Guinea-Bissau x Sierra Leone",
-        "link": "https://sportzonline.site/channels/pt/sporttv2.php"
-    },
-    {
-        "hora": "17:00",
-        "evento": "Mauritius x Cape Verde Islands",
-        "link": "https://sportzonline.site/channels/hd/hd4.php"
-    },
-    {
-        "hora": "17:00",
-        "evento": "Mauritius x Cape Verde Islands",
-        "link": "https://sportzonline.site/channels/pt/sporttv4.php"
-    },
-    {
-        "hora": "17:00",
-        "evento": "Sao Tome e Principe x Equatorial Guinea",
-        "link": "https://sportzonline.site/channels/pt/sporttv5.php"
-    },
-    {
-        "hora": "17:00",
-        "evento": "Norway x Finland",
-        "link": "https://sportzonline.site/channels/pt/sporttv3.php"
-    },
-    {
-        "hora": "17:00",
-        "evento": "Norway x Finland",
-        "link": "https://sportzonline.site/channels/bra/br6.php"
-    },
-    {
         "hora": "19:00",
-        "evento": "Barcelona U18 x River Plate U18",
-        "link": "https://sportzonline.site/channels/bra/br6.php"
-    },
-    {
-        "hora": "19:45",
-        "evento": "Bulgaria x Spain",
-        "link": "https://sportzonline.site/channels/hd/hd1.php"
-    },
-    {
-        "hora": "19:45",
-        "evento": "Bulgaria x Spain",
+        "evento": "Atletico Madrid W x Real Madrid W",
         "link": "https://sportzonline.site/channels/hd/hd6.php"
     },
     {
         "hora": "19:45",
-        "evento": "Bulgaria x Spain",
-        "link": "https://sportzonline.site/channels/pt/sporttv1.php"
-    },
-    {
-        "hora": "19:45",
-        "evento": "Bulgaria x Spain",
-        "link": "https://sportzonline.site/channels/bra/br1.php"
-    },
-    {
-        "hora": "19:45",
-        "evento": "Netherlands x Poland",
-        "link": "https://sportzonline.site/channels/hd/hd9.php"
-    },
-    {
-        "hora": "19:45",
-        "evento": "Netherlands x Poland",
-        "link": "https://sportzonline.site/channels/hd/hd4.php"
-    },
-    {
-        "hora": "19:45",
-        "evento": "Netherlands x Poland",
-        "link": "https://sportzonline.site/channels/pt/sporttv2.php"
-    },
-    {
-        "hora": "19:45",
-        "evento": "Netherlands x Poland",
-        "link": "https://sportzonline.site/channels/bra/br2.php"
-    },
-    {
-        "hora": "19:45",
-        "evento": "Liechtenstein x Belgium",
-        "link": "https://sportzonline.site/channels/hd/hd11.php"
-    },
-    {
-        "hora": "19:45",
-        "evento": "Liechtenstein x Belgium",
-        "link": "https://sportzonline.site/channels/pt/sporttv4.php"
-    },
-    {
-        "hora": "19:45",
-        "evento": "Luxembourg x Northern Ireland",
-        "link": "https://sportzonline.site/channels/hd/hd2.php"
-    },
-    {
-        "hora": "19:45",
-        "evento": "Slovakia x Germany",
+        "evento": "Switzerland x Kosovo",
         "link": "https://sportzonline.site/channels/hd/hd3.php"
     },
     {
         "hora": "19:45",
-        "evento": "Slovakia x Germany",
-        "link": "https://sportzonline.site/channels/pt/sporttv3.php"
-    },
-    {
-        "hora": "20:00",
-        "evento": "Algeria x Botswana",
-        "link": "https://sportzonline.site/channels/hd/hd5.php"
-    },
-    {
-        "hora": "20:00",
-        "evento": "Cameroon x Eswatini",
-        "link": "https://sportzonline.site/channels/hd/hd10.php"
-    },
-    {
-        "hora": "21:00",
-        "evento": "Real Madrid U18 x Palmeiras U18",
-        "link": "https://sportzonline.site/channels/bra/br6.php"
-    },
-    {
-        "hora": "22:30",
-        "evento": "Suriname x Panama",
-        "link": "https://sportzonline.site/channels/hd/hd5.php"
-    },
-    {
-        "hora": "00:30",
-        "evento": "Argentina x Venezuela",
-        "link": "https://sportzonline.site/channels/hd/hd2.php"
-    },
-    {
-        "hora": "00:30",
-        "evento": "Argentina x Venezuela",
-        "link": "https://sportzonline.site/channels/hd/hd6.php"
-    },
-    {
-        "hora": "00:30",
-        "evento": "Argentina x Venezuela",
-        "link": "https://sportzonline.site/channels/pt/sporttv2.php"
-    },
-    {
-        "hora": "00:30",
-        "evento": "Colombia x Bolivia",
-        "link": "https://sportzonline.site/channels/hd/hd8.php"
-    },
-    {
-        "hora": "00:30",
-        "evento": "Paraguay x Ecuador",
-        "link": "https://sportzonline.site/channels/hd/hd10.php"
-    },
-    {
-        "hora": "00:30",
-        "evento": "Uruguay x Peru",
+        "evento": "Greece x Belarus",
         "link": "https://sportzonline.site/channels/hd/hd11.php"
     },
     {
-        "hora": "01:00",
-        "evento": "Boxing: Osleys Iglesias vs Vladimir Shishkin",
-        "link": "https://sportzonline.site/channels/bra/br6.php"
+        "hora": "19:45",
+        "evento": "Denmark x Scotland",
+        "link": "https://sportzonline.site/channels/hd/hd2.php"
     },
     {
-        "hora": "01:30",
-        "evento": "Brazil x Chile",
+        "hora": "19:45",
+        "evento": "Denmark x Scotland",
+        "link": "https://sportzonline.site/channels/pt/sporttv3.php"
+    },
+    {
+        "hora": "19:45",
+        "evento": "Denmark x Scotland",
+        "link": "https://sportzonline.site/channels/bra/br3.php"
+    },
+    {
+        "hora": "19:45",
+        "evento": "Ukraine x France",
         "link": "https://sportzonline.site/channels/hd/hd1.php"
     },
     {
-        "hora": "01:30",
-        "evento": "Brazil x Chile",
-        "link": "https://sportzonline.site/channels/hd/hd9.php"
+        "hora": "19:45",
+        "evento": "Ukraine x France",
+        "link": "https://sportzonline.site/channels/hd/hd4.php"
     },
     {
-        "hora": "01:30",
-        "evento": "Brazil x Chile",
+        "hora": "19:45",
+        "evento": "Ukraine x France",
         "link": "https://sportzonline.site/channels/pt/sporttv1.php"
     },
     {
-        "hora": "01:30",
-        "evento": "Brazil x Chile",
-        "link": "https://sportzonline.site/channels/bra/br5.php"
+        "hora": "19:45",
+        "evento": "Ukraine x France",
+        "link": "https://sportzonline.site/channels/bra/br2.php"
     },
     {
-        "hora": "01:30",
-        "evento": "Brazil x Chile",
+        "hora": "19:45",
+        "evento": "Italy x Estonia",
+        "link": "https://sportzonline.site/channels/hd/hd7.php"
+    },
+    {
+        "hora": "19:45",
+        "evento": "Italy x Estonia",
+        "link": "https://sportzonline.site/channels/pt/sporttv2.php"
+    },
+    {
+        "hora": "19:45",
+        "evento": "Italy x Estonia",
         "link": "https://sportzonline.site/channels/bra/br1.php"
     },
     {
-        "hora": "03:00",
-        "evento": "Guatemala x El Salvador",
+        "hora": "19:45",
+        "evento": "Slovenia x Sweden",
+        "link": "https://sportzonline.site/channels/pt/sporttv4.php"
+    },
+    {
+        "hora": "19:45",
+        "evento": "Slovenia x Sweden",
+        "link": "https://sportzonline.site/channels/bra/br6.php"
+    },
+    {
+        "hora": "19:45",
+        "evento": "Moldova x Israel",
+        "link": "https://sportzonline.site/channels/hd/hd10.php"
+    },
+    {
+        "hora": "19:45",
+        "evento": "Faroe Islands x Croatia",
+        "link": "https://sportzonline.site/channels/hd/hd8.php"
+    },
+    {
+        "hora": "20:00",
+        "evento": "Senegal x Sudan",
+        "link": "https://sportzonline.site/channels/hd/hd3.php"
+    },
+    {
+        "hora": "20:00",
+        "evento": "Egypt x Ethiopia",
         "link": "https://sportzonline.site/channels/hd/hd5.php"
+    },
+    {
+        "hora": "20:00",
+        "evento": "Egypt x Ethiopia",
+        "link": "https://sportzonline.site/channels/pt/sporttv5.php"
+    },
+    {
+        "hora": "20:00",
+        "evento": "Morocco x Niger",
+        "link": "https://sportzonline.site/channels/hd/hd9.php"
+    },
+    {
+        "hora": "23:00",
+        "evento": "Bermuda x Jamaica",
+        "link": "https://sportzonline.site/channels/hd/hd11.php"
+    },
+    {
+        "hora": "23:00",
+        "evento": "Paysandu x Volta Redonda",
+        "link": "https://sportzonline.site/channels/bra/br2.php"
+    },
+    {
+        "hora": "01:00",
+        "evento": "Trinidad and Tobago x Curaçao",
+        "link": "https://sportzonline.site/channels/hd/hd4.php"
+    },
+    {
+        "hora": "01:00",
+        "evento": "Haiti x Honduras",
+        "link": "https://sportzonline.site/channels/hd/hd6.php"
+    },
+    {
+        "hora": "01:00",
+        "evento": "NFL: Kansas City Chiefs x Los Angeles Chargers",
+        "link": "https://sportzonline.site/channels/bra/br1.php"
+    },
+    {
+        "hora": "01:10",
+        "evento": "Tigre x Independiente Rivadavia",
+        "link": "https://sportzonline.site/channels/pt/sporttv1.php"
+    },
+    {
+        "hora": "03:00",
+        "evento": "Nicaragua x Costa Rica",
+        "link": "https://sportzonline.site/channels/hd/hd6.php"
     }
 ]
