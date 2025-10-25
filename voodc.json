@@ -1,6 +1,6 @@
 {
   "events": [
-   
+    
     {
       "date": "",
       "time": "09:00 UTC -5",
@@ -908,14 +908,6 @@
     {
       "date": "",
       "time": "12:00 UTC -5",
-      "category": "MOTORSPORT",
-      "info": "NASCAR",
-      "title": "NASCAR Xfinity Series Practice",
-      "url": "https://voodc.com/embed/85818c92a0889a8a847a859aa58e9885857d.html"
-    },
-    {
-      "date": "",
-      "time": "12:00 UTC -5",
       "category": "SOCCER",
       "info": "Egypt",
       "title": "Modern Sport - Arab Contractors",
@@ -1192,14 +1184,6 @@
       "info": "NCAA",
       "title": "The Citadel vs. Furman",
       "url": "https://voodc.com/embed/85818c92a0889e86847a8598a18d98858b7d.html"
-    },
-    {
-      "date": "",
-      "time": "13:00 UTC -5",
-      "category": "MOTORSPORT",
-      "info": "NASCAR",
-      "title": "NASCAR Xfinity Series Qualifying",
-      "url": "https://voodc.com/embed/85818c92a0889e86847a859aa58e98858a80.html"
     },
     {
       "date": "",
@@ -2064,6 +2048,182 @@
       "info": "Liga Portugal",
       "title": "Estrela - Rio Ave",
       "url": "https://voodc.com/embed/85818c92a089998a847a8599a28998868a83.html"
+    },
+    {
+      "date": "",
+      "time": "15:00 UTC -5",
+      "category": "AMERICAN FOOTBALL",
+      "info": "NCAA",
+      "title": "Baylor vs. #21 Cincinnati",
+      "url": "https://voodc.com/embed/85818c92a0899b88847a8599a28a98868b7d.html"
+    },
+    {
+      "date": "",
+      "time": "15:00 UTC -5",
+      "category": "AMERICAN FOOTBALL",
+      "info": "NCAA",
+      "title": "Oklahoma State vs. #14 Texas Tech",
+      "url": "https://voodc.com/embed/85818c92a0899b88847a8599a28b98868b81.html"
+    },
+    {
+      "date": "",
+      "time": "15:00 UTC -5",
+      "category": "AMERICAN FOOTBALL",
+      "info": "NCAA",
+      "title": "Indiana State vs. North Dakota",
+      "url": "https://voodc.com/embed/85818c92a0899b88847a8599a28c98868b7e.html"
+    },
+    {
+      "date": "",
+      "time": "15:00 UTC -5",
+      "category": "AMERICAN FOOTBALL",
+      "info": "NCAA",
+      "title": "McNeese vs. Nicholls",
+      "url": "https://voodc.com/embed/85818c92a0899b88847a8599a28d98868b7f.html"
+    },
+    {
+      "date": "",
+      "time": "15:00 UTC -5",
+      "category": "AMERICAN FOOTBALL",
+      "info": "NCAA",
+      "title": "North Alabama vs. Austin Peay",
+      "url": "https://voodc.com/embed/85818c92a0899b88847a8599a28e98868b80.html"
+    },
+    {
+      "date": "",
+      "time": "15:00 UTC -5",
+      "category": "AMERICAN FOOTBALL",
+      "info": "NCAA",
+      "title": "Portland State vs. Idaho",
+      "url": "https://voodc.com/embed/85818c92a0899b88847a8599a28f98868b82.html"
+    },
+    {
+      "date": "",
+      "time": "15:00 UTC -5",
+      "category": "SOCCER",
+      "info": "Brazil Serie C",
+      "title": "Ponte Preta - Londrina",
+      "url": "https://voodc.com/embed/85818c92a0899b88847a8599a29098868b83.html"
+    },
+    {
+      "date": "",
+      "time": "15:00 UTC -5",
+      "category": "SOCCER",
+      "info": "Colombia Primera A",
+      "title": "Deportes Tolima - Deportivo Cali",
+      "url": "https://voodc.com/embed/85818c92a0899b88847a8599a38798868c7a.html"
+    },
+    {
+      "date": "",
+      "time": "15:00 UTC -5",
+      "category": "SOCCER",
+      "info": "Colombia Primera B",
+      "title": "Bogota - Leones",
+      "url": "https://voodc.com/embed/85818c92a0899b88847a8599a38898868c7b.html"
+    },
+    {
+      "date": "",
+      "time": "15:00 UTC -5",
+      "category": "HOCKEY",
+      "info": "AHL",
+      "title": "Toronto Marlies - Belleville Senators",
+      "url": "https://voodc.com/embed/85818c92a0899b88847a8599a38998868b7b.html"
+    },
+    {
+      "date": "",
+      "time": "15:00 UTC -5",
+      "category": "HOCKEY",
+      "info": "NCAA",
+      "title": "Army Black Knights - Holy Cross Crusaders",
+      "url": "https://voodc.com/embed/85818c92a0899b88847a8599a38a98868b7c.html"
+    },
+    {
+      "date": "",
+      "time": "15:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "Brazil NBB",
+      "title": "Brasilia FC - Rio Claro",
+      "url": "https://voodc.com/embed/85818c92a0899b88847a8599a38b98868b7a.html"
+    },
+    {
+      "date": "",
+      "time": "15:00 UTC -5",
+      "category": "TENNIS",
+      "info": "WTA",
+      "title": "WTA Florianopolis Martins/Pigossi - Burillo Escorihuela/Gorgodze",
+      "url": "https://voodc.com/embed/85818c92a0899b88847a859aa58798868d7b.html"
+    },
+    {
+      "date": "",
+      "time": "15:15 UTC -5",
+      "category": "AMERICAN FOOTBALL",
+      "info": "NCAA",
+      "title": "#22 Texas vs. Mississippi State",
+      "url": "https://voodc.com/embed/85818c92a0899c87847a8599a38c98868c7d.html"
+    },
+    {
+      "date": "",
+      "time": "15:15 UTC -5",
+      "category": "SOCCER",
+      "info": "Peru",
+      "title": "Alianza Atletico - Cienciano",
+      "url": "https://voodc.com/embed/85818c92a0899c87847a8599a38d98868c7e.html"
+    },
+    {
+      "date": "",
+      "time": "15:15 UTC -5",
+      "category": "CYCLING",
+      "info": "UCI",
+      "title": "UCI Track Cycling World Championship: Santiago",
+      "url": "https://voodc.com/embed/85818c92a0899c87847a8599a38e98868c7c.html"
+    },
+    {
+      "date": "",
+      "time": "15:30 UTC -5",
+      "category": "MOTORSPORT",
+      "info": "NASCAR",
+      "title": "NASCAR Cup Series Practice",
+      "url": "https://voodc.com/embed/85818c92a0899d86847a8599a38f98868c81.html"
+    },
+    {
+      "date": "",
+      "time": "15:30 UTC -5",
+      "category": "SOCCER",
+      "info": "Brazil Serie A",
+      "title": "Fluminense - Internacional",
+      "url": "https://voodc.com/embed/85818c92a0899d86847a8599a39098868c82.html"
+    },
+    {
+      "date": "",
+      "time": "15:30 UTC -5",
+      "category": "SOCCER",
+      "info": "Chile Primera A",
+      "title": "Huachipato - Deportes Iquique",
+      "url": "https://voodc.com/embed/85818c92a0899d86847a8599a48798868c83.html"
+    },
+    {
+      "date": "",
+      "time": "15:30 UTC -5",
+      "category": "SOCCER",
+      "info": "Paraguay",
+      "title": "Atletico Tembetary - Sportivo Luqueno",
+      "url": "https://voodc.com/embed/85818c92a0899d86847a8599a48898868d7a.html"
+    },
+    {
+      "date": "",
+      "time": "15:30 UTC -5",
+      "category": "HOCKEY",
+      "info": "ECHL",
+      "title": "Kalamazoo Wings - Iowa Heartlanders",
+      "url": "https://voodc.com/embed/85818c92a0899d86847a8599a48998868c80.html"
+    },
+    {
+      "date": "",
+      "time": "15:30 UTC -5",
+      "category": "GOLF",
+      "info": "PGA Tour",
+      "title": "Bank of Utah Championship",
+      "url": "https://voodc.com/embed/85818c92a0899d86847a8599a48a98868c7f.html"
     }
   ]
 }
