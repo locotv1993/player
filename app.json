@@ -1,93 +1,208 @@
 {
-  "events": [
+  "domains": [
+
+    {
+      "domain": "covoslivechannels2dash.clarovideo.com",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+        "Referer": "https://covoslivechannels2dash.clarovideo.com/",
+        "Origin": "https://covoslivechannels2dash.clarovideo.com"
+      }
+    },
     
     {
-      "date": "",
-      "time": "05:30 UTC -5",
-      "category": "TENNIS",
-      "info": "ATP",
-      "title": "ATP Finals Turin Arevalo/Pavic - Salisbury/Skupski",
-      "url": "https://voodc.com/embed/85818c93a38e998a847a859aa487988584.html"
+      "domain": "crackstreamslivehd.com",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+        "Referer": "https://streamtp4.com/",
+        "Origin": "https://streamtp4.com"
+      }
     },
     {
-      "date": "",
-      "time": "07:30 UTC -5",
-      "category": "SOCCER",
-      "info": "FIFA World Cup",
-      "title": "South Korea U17 - Ivory Coast U17",
-      "url": "https://voodc.com/embed/85818c93a38ea08c847a859a9c879885.html"
+      "domain": "calisports",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+        "Referer": "https://caliente.tv/",
+        "Origin": "https://caliente.tv"
+      }
     },
     {
-      "date": "",
-      "time": "07:30 UTC -5",
-      "category": "SOCCER",
-      "info": "FIFA World Cup",
-      "title": "Switzerland U17 - Mexico U17 [english]",
-      "url": "https://voodc.com/embed/85818c93a38ea08c847a859a9c889886.html"
+      "domain": "teaganapvw.fsizelearnw0y0qedge.shop",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+        "Referer": "https://teaganapvw.fsizelearnw0y0qedge.shop/es/football.html/",
+        "Origin": "https://teaganapvw.fsizelearnw0y0qedge.shop/es/football.html"
+      }
+    },
+    
+    {
+      "domain": "tv.apple.com",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Mobile Safari/537.36",
+        "Referer": "https://tv.apple.com/",
+        "Origin": "https://tv.apple.com"
+      }
     },
     {
-      "date": "",
-      "time": "07:30 UTC -5",
-      "category": "SOCCER",
-      "info": "FIFA World Cup",
-      "title": "Switzerland U17 - Mexico U17 [spanish]",
-      "url": "https://voodc.com/embed/85818c93a38ea08c847a859a9c899887.html"
+      "domain": "jjo2.dbcast.live",     
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+        "Referer": "https://voodc.com/",
+        "Origin": "https://voodc.com"
+      }
+    },
+      {
+      "domain": "izzigo.tv",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+        "Referer": "https://www.izzigo.tv/",
+        "Origin": "https://www.izzigo.tv"
+      }
     },
     {
-      "date": "",
-      "time": "08:00 UTC -5",
-      "category": "TENNIS",
-      "info": "ATP",
-      "title": "ATP Finals Turin Musetti - Fritz",
-      "url": "https://voodc.com/embed/85818c93a38ea28a847a859aa487988585.html"
+      "domain": "manifest.googlevideo.com",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+        "Referer": "https://www.youtube.com/",
+        "Origin": "https://www.youtube.com"
+      }
     },
     {
-      "date": "",
-      "time": "08:00 UTC -5",
-      "category": "BILLIARD",
-      "info": "Snooker",
-      "title": "Champion of Champions",
-      "url": "https://voodc.com/embed/85818c93a38ea28a847a85979c879888.html"
+      "domain": "okcdn.ru",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+        "Referer": "https://live.vkvideo.ru/",
+        "Origin": "https://live.vkvideo.ru"
+      }
+    },
+{
+      "domain": "ghppkiet.s3.eu-west-1.amazonaws.com",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+        "Referer": "https://elverruca.tech/",
+        "Origin": "https://elverruca.tech"
+      }
     },
     {
-      "date": "",
-      "time": "08:30 UTC -5",
-      "category": "SOCCER",
-      "info": "FIFA World Cup",
-      "title": "Colombia U17 - North Korea U17",
-      "url": "https://voodc.com/embed/85818c93a38f9a88847a859a9c8a988a.html"
+      "domain": "https://bb.jeinzmacias.pe/",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+        "Referer": "https://elverruca.tech/",
+        "Origin": "https://elverruca.tech"
+      }
+    },
+    
+    {
+      "domain": "dssott.com",
+      "headers": {
+        "Referer": "https://disneyplus.com/",
+        "Origin": "https://disneyplus.com",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 10; Pixel 3 XL Build/QP1A.190711.019; wv) VersionS/2.4 AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.157 Mobile Safari/537.36",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "GET, POST, PUT, OPTIONS, HEAD, DELETE, PATCH",
+        "Access-Control-Allow-Headers": "Origin, Content-Type, Accept, date"
+      }
     },
     {
-      "date": "",
-      "time": "08:30 UTC -5",
-      "category": "SOCCER",
-      "info": "FIFA World Cup",
-      "title": "El Salvador U17 - Germany U17",
-      "url": "https://voodc.com/embed/85818c93a38f9a88847a859a9c8b988b.html"
+      "domain": "xn--cl-ci4a5dyczam8p.xyz",
+      "headers": {
+        "Referer": "https://meuplayeronlinehd.com/",
+        "Origin": "https://meuplayeronlinehd.com",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 10; Pixel 3 XL Build/QP1A.190711.019; wv) VersionS/2.4 AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.157 Mobile Safari/537.36",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "GET, POST, PUT, OPTIONS, HEAD, DELETE, PATCH",
+        "Access-Control-Allow-Headers": "Origin, Content-Type, Accept, date"
+      }
     },
     {
-      "date": "",
-      "time": "08:30 UTC -5",
-      "category": "HOCKEY",
-      "info": "KHL",
-      "title": "Avangard Omsk - SKA St. Petersburg",
-      "url": "https://voodc.com/embed/85818c93a38f9a88847a859a9c8c9889.html"
+      "domain": "max.com",
+      "headers": {
+        "Referer": "https://play.max.com/",
+        "Origin": "https://play.max.com",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 10; Pixel 3 XL Build/QP1A.190711.019; wv) VersionS/2.4 AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.157 Mobile Safari/537.36",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "GET, POST, PUT, OPTIONS, HEAD, DELETE, PATCH",
+        "Access-Control-Allow-Headers": "Origin, Content-Type, Accept, date"
+      }
     },
     {
-      "date": "",
-      "time": "09:00 UTC -5",
-      "category": "HOCKEY",
-      "info": "KHL",
-      "title": "Salavat Ufa - HC Lada",
-      "url": "https://voodc.com/embed/85818c93a38f9c86847a859a9c8d988c.html"
+      "domain": "vix.com",
+      "headers": {
+        "Referer": "https://vix.com/",
+        "Origin": "https://vix.com",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "GET, POST, PUT, OPTIONS, HEAD, DELETE, PATCH",
+        "Access-Control-Allow-Headers": "Origin, Content-Type, Accept, date"
+      }
     },
     {
-      "date": "",
-      "time": "09:45 UTC -5",
-      "category": "SOCCER",
-      "info": "FIFA World Cup",
-      "title": "Zambia U17 - Brazil U17",
-      "url": "https://voodc.com/embed/85818c93a38f9e8d847a859a9c87988d.html"
+      "domain": "x.com",
+      "headers": {
+        "accept": "*/*",
+        "accept-language": "es,en;q=0.9,pt;q=0.8",
+        "origin": "https://x.com",
+        "priority": "u=1, i",
+        "referer": "https://x.com/",
+        "sec-ch-ua": "\"Google Chrome\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "cross-site",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+      }
+    },
+    {
+      "domain": "twitter.com",
+      "headers": {
+        "accept": "*/*",
+        "accept-language": "es,en;q=0.9,pt;q=0.8",
+        "origin": "https://x.com",
+        "priority": "u=1, i",
+        "referer": "https://x.com/",
+        "sec-ch-ua": "\"Google Chrome\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "cross-site",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+      }
+    },
+    {
+      "domain": "pscp.tv",
+      "headers": {
+        "accept": "*/*",
+        "accept-language": "es,en;q=0.9,pt;q=0.8",
+        "origin": "https://x.com",
+        "priority": "u=1, i",
+        "referer": "https://x.com/",
+        "sec-ch-ua": "\"Google Chrome\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "cross-site",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+      }
+    },
+    {
+      "domain": "prod-fastly-us-east-1.video.pscp.tv",
+      "headers": {
+        "accept": "*/*",
+        "accept-language": "es,en;q=0.9,pt;q=0.8",
+        "origin": "https://x.com",
+        "priority": "u=1, i",
+        "referer": "https://x.com/",
+        "sec-ch-ua": "\"Google Chrome\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "cross-site",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+      }
     }
   ]
 }
