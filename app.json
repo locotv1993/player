@@ -1,6 +1,6 @@
 {
   "events": [
-
+    
     {
       "date": "",
       "time": "23:30 UTC -5",
@@ -8,38 +8,6 @@
       "info": "FIVB",
       "title": "FIVB Beach Volleyball World Championships",
       "url": "https://voodc.com/embed/85818c94a48e9b86847a85979d899885.html"
-    },
-    {
-      "date": "",
-      "time": "04:30 UTC -5",
-      "category": "BILLIARD",
-      "info": "Snooker",
-      "title": "UK Championship Qualifier - Table 1",
-      "url": "https://voodc.com/embed/85818c94a4909986847a85979c87988687.html"
-    },
-    {
-      "date": "",
-      "time": "04:30 UTC -5",
-      "category": "BILLIARD",
-      "info": "Snooker",
-      "title": "UK Championship Qualifier - Table 2",
-      "url": "https://voodc.com/embed/85818c94a4909986847a85979c88988688.html"
-    },
-    {
-      "date": "",
-      "time": "04:30 UTC -5",
-      "category": "BILLIARD",
-      "info": "Snooker",
-      "title": "UK Championship Qualifier - Table 3",
-      "url": "https://voodc.com/embed/85818c94a4909986847a85979c89988689.html"
-    },
-    {
-      "date": "",
-      "time": "04:30 UTC -5",
-      "category": "BILLIARD",
-      "info": "Snooker",
-      "title": "UK Championship Qualifier - Table 4",
-      "url": "https://voodc.com/embed/85818c94a4909986847a85979c8a98868a.html"
     },
     {
       "date": "",
@@ -208,6 +176,182 @@
       "info": "ATP",
       "title": "Davis Cup Italy - Spain",
       "url": "https://voodc.com/embed/85818c94a5879f85847a859aa48c988686.html"
+    },
+    {
+      "date": "",
+      "time": "09:00 UTC -5",
+      "category": "SOCCER",
+      "info": "EPL",
+      "title": "Leeds - Aston Villa [english]",
+      "url": "https://voodc.com/embed/85818c94a5879f88847a85979c8b988787.html"
+    },
+    {
+      "date": "",
+      "time": "09:00 UTC -5",
+      "category": "SOCCER",
+      "info": "EPL",
+      "title": "Leeds - Aston Villa [spanish]",
+      "url": "https://voodc.com/embed/85818c94a5879f88847a85979c8c98888b.html"
+    },
+    {
+      "date": "",
+      "time": "09:00 UTC -5",
+      "category": "SOCCER",
+      "info": "Ligue 1",
+      "title": "Auxerre - Lyon [english]",
+      "url": "https://voodc.com/embed/85818c94a5879f88847a85979c8d988788.html"
+    },
+    {
+      "date": "",
+      "time": "09:00 UTC -5",
+      "category": "SOCCER",
+      "info": "Ligue 1",
+      "title": "Auxerre - Lyon [spanish]",
+      "url": "https://voodc.com/embed/85818c94a5879f88847a85979c8e988789.html"
+    },
+    {
+      "date": "",
+      "time": "09:00 UTC -5",
+      "category": "SOCCER",
+      "info": "Serie A",
+      "title": "Cremonese - AS Roma [english]",
+      "url": "https://voodc.com/embed/85818c94a5879f88847a85979c8f98878a.html"
+    },
+    {
+      "date": "",
+      "time": "09:00 UTC -5",
+      "category": "SOCCER",
+      "info": "Serie A",
+      "title": "Cremonese - AS Roma [spanish]",
+      "url": "https://voodc.com/embed/85818c94a5879f88847a85979c9098878b.html"
+    },
+    {
+      "date": "",
+      "time": "09:00 UTC -5",
+      "category": "HOCKEY",
+      "info": "KHL",
+      "title": "Cherepovets - HC Lada",
+      "url": "https://voodc.com/embed/85818c94a5879f88847a85979d87988784.html"
+    },
+    {
+      "date": "",
+      "time": "09:00 UTC -5",
+      "category": "HOCKEY",
+      "info": "KHL",
+      "title": "Shanghai - Ak Bars Kazan",
+      "url": "https://voodc.com/embed/85818c94a5879f88847a85979d88988785.html"
+    },
+    {
+      "date": "",
+      "time": "09:00 UTC -5",
+      "category": "HOCKEY",
+      "info": "Slovak Extraliga",
+      "title": "Poprad - Liptovsky Mikulas",
+      "url": "https://voodc.com/embed/85818c94a5879f88847a85979d89988786.html"
+    },
+    {
+      "date": "",
+      "time": "09:30 UTC -5",
+      "category": "SOCCER",
+      "info": "Bundesliga",
+      "title": "RB Leipzig - Werder Bremen",
+      "url": "https://voodc.com/embed/85818c94a587a186847a85979d8a988886.html"
+    },
+    {
+      "date": "",
+      "time": "09:30 UTC -5",
+      "category": "SOCCER",
+      "info": "Bundesliga Women",
+      "title": "Hoffenheim W - Bayern Munich W",
+      "url": "https://voodc.com/embed/85818c94a587a186847a85979d8b988885.html"
+    },
+    {
+      "date": "",
+      "time": "09:30 UTC -5",
+      "category": "SOCCER",
+      "info": "Czech Republic",
+      "title": "FK Baumit Jablonec - Viktoria Plzen",
+      "url": "https://voodc.com/embed/85818c94a587a186847a85979d8c988887.html"
+    },
+    {
+      "date": "",
+      "time": "09:30 UTC -5",
+      "category": "SOCCER",
+      "info": "Russia",
+      "title": "Dynamo Moscow - Dynamo Makhachkala",
+      "url": "https://voodc.com/embed/85818c94a587a186847a85979d8d988888.html"
+    },
+    {
+      "date": "",
+      "time": "09:30 UTC -5",
+      "category": "SOCCER",
+      "info": "Serie A Women",
+      "title": "AC Milan W - Sassuolo W",
+      "url": "https://voodc.com/embed/85818c94a587a186847a85979d8e988889.html"
+    },
+    {
+      "date": "",
+      "time": "09:30 UTC -5",
+      "category": "SOCCER",
+      "info": "Slovakia",
+      "title": "Michalovce - Ruzomberok",
+      "url": "https://voodc.com/embed/85818c94a587a186847a85979d8f98888a.html"
+    },
+    {
+      "date": "",
+      "time": "09:30 UTC -5",
+      "category": "HOCKEY",
+      "info": "ICEHL",
+      "title": "Black Wings Linz - HK Olimpija",
+      "url": "https://voodc.com/embed/85818c94a587a186847a85979d9098878d.html"
+    },
+    {
+      "date": "",
+      "time": "09:30 UTC -5",
+      "category": "HOCKEY",
+      "info": "Slovak Extraliga",
+      "title": "Dukla Trencin - HC Kosice",
+      "url": "https://voodc.com/embed/85818c94a587a186847a85979e87988884.html"
+    },
+    {
+      "date": "",
+      "time": "09:30 UTC -5",
+      "category": "BASKETBALL",
+      "info": "Argentina Liga A",
+      "title": "Instituto de Cordoba - Obras Sanitarias",
+      "url": "https://voodc.com/embed/85818c94a587a186847a85979e8898878c.html"
+    },
+    {
+      "date": "",
+      "time": "09:30 UTC -5",
+      "category": "BILLIARD",
+      "info": "Snooker",
+      "title": "UK Championship Qualifier - Table 1",
+      "url": "https://voodc.com/embed/85818c94a587a186847a85979c87988687.html"
+    },
+    {
+      "date": "",
+      "time": "09:30 UTC -5",
+      "category": "BILLIARD",
+      "info": "Snooker",
+      "title": "UK Championship Qualifier - Table 2",
+      "url": "https://voodc.com/embed/85818c94a587a186847a85979c88988688.html"
+    },
+    {
+      "date": "",
+      "time": "09:30 UTC -5",
+      "category": "BILLIARD",
+      "info": "Snooker",
+      "title": "UK Championship Qualifier - Table 3",
+      "url": "https://voodc.com/embed/85818c94a587a186847a85979c89988689.html"
+    },
+    {
+      "date": "",
+      "time": "09:30 UTC -5",
+      "category": "BILLIARD",
+      "info": "Snooker",
+      "title": "UK Championship Qualifier - Table 4",
+      "url": "https://voodc.com/embed/85818c94a587a186847a85979c8a98868a.html"
     }
   ]
 }
