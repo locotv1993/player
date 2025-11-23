@@ -1,224 +1,213 @@
 {
-  "domains": [
+  "events": [
 
     {
-      "domain": "covoslivechannels2dash.clarovideo.com",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
-        "Referer": "https://covoslivechannels2dash.clarovideo.com/",
-        "Origin": "https://covoslivechannels2dash.clarovideo.com"
-      }
-    },
-    
-    {
-      "domain": "crackstreamslivehd.com",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
-        "Referer": "https://streamtp4.com/",
-        "Origin": "https://streamtp4.com"
-      }
+      "date": "",
+      "time": "23:30 UTC -5",
+      "category": "BEACH VOLLEYBALL",
+      "info": "FIVB",
+      "title": "FIVB Beach Volleyball World Championships",
+      "url": "https://voodc.com/embed/85818c94a48e9b86847a85979d899885.html"
     },
     {
-      "domain": "cdn03.gigared.com.ar",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
-        "Referer": "https://www.gigared.com.ar/",
-        "Origin": "https://www.gigared.com.ar"
-      }
+      "date": "",
+      "time": "04:30 UTC -5",
+      "category": "BILLIARD",
+      "info": "Snooker",
+      "title": "UK Championship Qualifier - Table 1",
+      "url": "https://voodc.com/embed/85818c94a4909986847a85979c87988687.html"
     },
     {
-      "domain": "tv-mgmt.gtd.cl",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
-        "Referer": "https://www.gtd.cl/gtd-tv/",
-        "Origin": "https://www.gtd.cl/gtd-tv"
-      }
+      "date": "",
+      "time": "04:30 UTC -5",
+      "category": "BILLIARD",
+      "info": "Snooker",
+      "title": "UK Championship Qualifier - Table 2",
+      "url": "https://voodc.com/embed/85818c94a4909986847a85979c88988688.html"
     },
     {
-      "domain": "calisports",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
-        "Referer": "https://caliente.tv/",
-        "Origin": "https://caliente.tv"
-      }
+      "date": "",
+      "time": "04:30 UTC -5",
+      "category": "BILLIARD",
+      "info": "Snooker",
+      "title": "UK Championship Qualifier - Table 3",
+      "url": "https://voodc.com/embed/85818c94a4909986847a85979c89988689.html"
     },
     {
-      "domain": "teaganapvw.fsizelearnw0y0qedge.shop",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
-        "Referer": "https://teaganapvw.fsizelearnw0y0qedge.shop/es/football.html/",
-        "Origin": "https://teaganapvw.fsizelearnw0y0qedge.shop/es/football.html"
-      }
-    },
-    
-    {
-      "domain": "tv.apple.com",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Mobile Safari/537.36",
-        "Referer": "https://tv.apple.com/",
-        "Origin": "https://tv.apple.com"
-      }
+      "date": "",
+      "time": "04:30 UTC -5",
+      "category": "BILLIARD",
+      "info": "Snooker",
+      "title": "UK Championship Qualifier - Table 4",
+      "url": "https://voodc.com/embed/85818c94a4909986847a85979c8a98868a.html"
     },
     {
-      "domain": "jjo2.dbcast.live",     
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
-        "Referer": "https://voodc.com/",
-        "Origin": "https://voodc.com"
-      }
-    },
-      {
-      "domain": "izzigo.tv",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
-        "Referer": "https://www.izzigo.tv/",
-        "Origin": "https://www.izzigo.tv"
-      }
+      "date": "",
+      "time": "05:00 UTC -5",
+      "category": "WINTER SPORTS",
+      "info": "Bobsleigh",
+      "title": "IBSF Bobsleigh & Skeleton Women's World Cup: Cortina",
+      "url": "https://voodc.com/embed/85818c94a4909b84847a85979f8f98868b.html"
     },
     {
-      "domain": "manifest.googlevideo.com",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
-        "Referer": "https://www.youtube.com/",
-        "Origin": "https://www.youtube.com"
-      }
+      "date": "",
+      "time": "06:00 UTC -5",
+      "category": "SOCCER",
+      "info": "Denmark",
+      "title": "FC Copenhagen - Brondby",
+      "url": "https://voodc.com/embed/85818c94a4909e8a847a859a9c879889.html"
     },
     {
-      "domain": "okcdn.ru",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
-        "Referer": "https://live.vkvideo.ru/",
-        "Origin": "https://live.vkvideo.ru"
-      }
-    },
-{
-      "domain": "ghppkiet.s3.eu-west-1.amazonaws.com",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
-        "Referer": "https://elverruca.tech/",
-        "Origin": "https://elverruca.tech"
-      }
+      "date": "",
+      "time": "06:00 UTC -5",
+      "category": "HOCKEY",
+      "info": "KHL",
+      "title": "Niznekamsk - Salavat Ufa",
+      "url": "https://voodc.com/embed/85818c94a4909e8a847a859a9c889888.html"
     },
     {
-      "domain": "https://bb.jeinzmacias.pe/",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
-        "Referer": "https://elverruca.tech/",
-        "Origin": "https://elverruca.tech"
-      }
-    },
-    
-    {
-      "domain": "dssott.com",
-      "headers": {
-        "Referer": "https://disneyplus.com/",
-        "Origin": "https://disneyplus.com",
-        "User-Agent": "Mozilla/5.0 (Linux; Android 10; Pixel 3 XL Build/QP1A.190711.019; wv) VersionS/2.4 AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.157 Mobile Safari/537.36",
-        "Access-Control-Allow-Origin": "*",
-        "Access-Control-Allow-Methods": "GET, POST, PUT, OPTIONS, HEAD, DELETE, PATCH",
-        "Access-Control-Allow-Headers": "Origin, Content-Type, Accept, date"
-      }
+      "date": "",
+      "time": "06:15 UTC -5",
+      "category": "SOCCER",
+      "info": "Ekstraklasa",
+      "title": "Jagiellonia Bialystok - GKS Katowice",
+      "url": "https://voodc.com/embed/85818c94a4909f89847a859a9c89988a.html"
     },
     {
-      "domain": "xn--cl-ci4a5dyczam8p.xyz",
-      "headers": {
-        "Referer": "https://meuplayeronlinehd.com/",
-        "Origin": "https://meuplayeronlinehd.com",
-        "User-Agent": "Mozilla/5.0 (Linux; Android 10; Pixel 3 XL Build/QP1A.190711.019; wv) VersionS/2.4 AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.157 Mobile Safari/537.36",
-        "Access-Control-Allow-Origin": "*",
-        "Access-Control-Allow-Methods": "GET, POST, PUT, OPTIONS, HEAD, DELETE, PATCH",
-        "Access-Control-Allow-Headers": "Origin, Content-Type, Accept, date"
-      }
+      "date": "",
+      "time": "06:30 UTC -5",
+      "category": "SOCCER",
+      "info": "Serie A",
+      "title": "Verona - Parma",
+      "url": "https://voodc.com/embed/85818c94a490a088847a859a9c8a988b.html"
     },
     {
-      "domain": "max.com",
-      "headers": {
-        "Referer": "https://play.max.com/",
-        "Origin": "https://play.max.com",
-        "User-Agent": "Mozilla/5.0 (Linux; Android 10; Pixel 3 XL Build/QP1A.190711.019; wv) VersionS/2.4 AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.157 Mobile Safari/537.36",
-        "Access-Control-Allow-Origin": "*",
-        "Access-Control-Allow-Methods": "GET, POST, PUT, OPTIONS, HEAD, DELETE, PATCH",
-        "Access-Control-Allow-Headers": "Origin, Content-Type, Accept, date"
-      }
+      "date": "",
+      "time": "07:00 UTC -5",
+      "category": "SOCCER",
+      "info": "Czech Republic",
+      "title": "Karvina - Hradec Kralove",
+      "url": "https://voodc.com/embed/85818c94a490a286847a859a9c8b988c.html"
     },
     {
-      "domain": "vix.com",
-      "headers": {
-        "Referer": "https://vix.com/",
-        "Origin": "https://vix.com",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-        "Access-Control-Allow-Origin": "*",
-        "Access-Control-Allow-Methods": "GET, POST, PUT, OPTIONS, HEAD, DELETE, PATCH",
-        "Access-Control-Allow-Headers": "Origin, Content-Type, Accept, date"
-      }
+      "date": "",
+      "time": "07:00 UTC -5",
+      "category": "SOCCER",
+      "info": "England Championship",
+      "title": "Sheffield Wednesday - Sheffield United",
+      "url": "https://voodc.com/embed/85818c94a490a286847a859a9c8c988d.html"
     },
     {
-      "domain": "x.com",
-      "headers": {
-        "accept": "*/*",
-        "accept-language": "es,en;q=0.9,pt;q=0.8",
-        "origin": "https://x.com",
-        "priority": "u=1, i",
-        "referer": "https://x.com/",
-        "sec-ch-ua": "\"Google Chrome\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\"",
-        "sec-ch-ua-mobile": "?0",
-        "sec-ch-ua-platform": "\"Windows\"",
-        "sec-fetch-dest": "empty",
-        "sec-fetch-mode": "cors",
-        "sec-fetch-site": "cross-site",
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
-      }
+      "date": "",
+      "time": "07:30 UTC -5",
+      "category": "SOCCER",
+      "info": "Belgium 1A",
+      "title": "Genk - KV Mechelen",
+      "url": "https://voodc.com/embed/85818c94a5879a84847a859a9c8e988585.html"
     },
     {
-      "domain": "twitter.com",
-      "headers": {
-        "accept": "*/*",
-        "accept-language": "es,en;q=0.9,pt;q=0.8",
-        "origin": "https://x.com",
-        "priority": "u=1, i",
-        "referer": "https://x.com/",
-        "sec-ch-ua": "\"Google Chrome\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\"",
-        "sec-ch-ua-mobile": "?0",
-        "sec-ch-ua-platform": "\"Windows\"",
-        "sec-fetch-dest": "empty",
-        "sec-fetch-mode": "cors",
-        "sec-fetch-site": "cross-site",
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
-      }
+      "date": "",
+      "time": "07:30 UTC -5",
+      "category": "WINTER SPORTS",
+      "info": "Bobsleigh",
+      "title": "IBSF Bobsleigh & Skeleton Men's World Cup: Cortina",
+      "url": "https://voodc.com/embed/85818c94a5879a84847a85979f8f98868c.html"
     },
     {
-      "domain": "pscp.tv",
-      "headers": {
-        "accept": "*/*",
-        "accept-language": "es,en;q=0.9,pt;q=0.8",
-        "origin": "https://x.com",
-        "priority": "u=1, i",
-        "referer": "https://x.com/",
-        "sec-ch-ua": "\"Google Chrome\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\"",
-        "sec-ch-ua-mobile": "?0",
-        "sec-ch-ua-platform": "\"Windows\"",
-        "sec-fetch-dest": "empty",
-        "sec-fetch-mode": "cors",
-        "sec-fetch-site": "cross-site",
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
-      }
+      "date": "",
+      "time": "07:45 UTC -5",
+      "category": "DARTS",
+      "info": "PDC",
+      "title": "Players Championship Finals",
+      "url": "https://voodc.com/embed/85818c94a5879a8d847a859aa48d988685.html"
     },
     {
-      "domain": "prod-fastly-us-east-1.video.pscp.tv",
-      "headers": {
-        "accept": "*/*",
-        "accept-language": "es,en;q=0.9,pt;q=0.8",
-        "origin": "https://x.com",
-        "priority": "u=1, i",
-        "referer": "https://x.com/",
-        "sec-ch-ua": "\"Google Chrome\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\"",
-        "sec-ch-ua-mobile": "?0",
-        "sec-ch-ua-platform": "\"Windows\"",
-        "sec-fetch-dest": "empty",
-        "sec-fetch-mode": "cors",
-        "sec-fetch-site": "cross-site",
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
-      }
+      "date": "",
+      "time": "08:00 UTC -5",
+      "category": "SOCCER",
+      "info": "CAF Champions League",
+      "title": "Simba - Petro Atletico",
+      "url": "https://voodc.com/embed/85818c94a5879b8c847a859a9c8f988587.html"
+    },
+    {
+      "date": "",
+      "time": "08:00 UTC -5",
+      "category": "SOCCER",
+      "info": "CAF Confederation Cup",
+      "title": "Maniema - Azam",
+      "url": "https://voodc.com/embed/85818c94a5879b8c847a859a9c90988588.html"
+    },
+    {
+      "date": "",
+      "time": "08:00 UTC -5",
+      "category": "SOCCER",
+      "info": "CAF Confederation Cup",
+      "title": "Stellenbosch - Otoho d'Oyo",
+      "url": "https://voodc.com/embed/85818c94a5879b8c847a859a9d87988589.html"
+    },
+    {
+      "date": "",
+      "time": "08:00 UTC -5",
+      "category": "SOCCER",
+      "info": "Denmark",
+      "title": "Viborg - Vejle",
+      "url": "https://voodc.com/embed/85818c94a5879b8c847a859a9d8898858a.html"
+    },
+    {
+      "date": "",
+      "time": "08:00 UTC -5",
+      "category": "SOCCER",
+      "info": "LaLiga",
+      "title": "Oviedo - Rayo Vallecano",
+      "url": "https://voodc.com/embed/85818c94a5879b8c847a859a9d8998858b.html"
+    },
+    {
+      "date": "",
+      "time": "08:00 UTC -5",
+      "category": "SOCCER",
+      "info": "LaLiga2",
+      "title": "Deportivo La Coruna - Ceuta",
+      "url": "https://voodc.com/embed/85818c94a5879b8c847a859a9d8a98858c.html"
+    },
+    {
+      "date": "",
+      "time": "08:00 UTC -5",
+      "category": "SOCCER",
+      "info": "Swiss Super League",
+      "title": "FC Sion - FC Zurich",
+      "url": "https://voodc.com/embed/85818c94a5879b8c847a859a9d8b98858d.html"
+    },
+    {
+      "date": "",
+      "time": "08:00 UTC -5",
+      "category": "HOCKEY",
+      "info": "DEL",
+      "title": "ERC Ingolstadt - Fischtown Pinguins",
+      "url": "https://voodc.com/embed/85818c94a5879b8c847a859a9d8c988586.html"
+    },
+    {
+      "date": "",
+      "time": "08:05 UTC -5",
+      "category": "WINTER SPORTS",
+      "info": "Speed Skating",
+      "title": "ISU Short Track Speed Skating World Tour: Gdansk",
+      "url": "https://voodc.com/embed/85818c94a5879c85847a859a9c8d98868d.html"
+    },
+    {
+      "date": "",
+      "time": "08:45 UTC -5",
+      "category": "SOCCER",
+      "info": "Ekstraklasa",
+      "title": "Lech Poznan - Radomiak Radom",
+      "url": "https://voodc.com/embed/85818c94a5879e89847a859a9c89988684.html"
+    },
+    {
+      "date": "",
+      "time": "08:55 UTC -5",
+      "category": "TENNIS",
+      "info": "ATP",
+      "title": "Davis Cup Italy - Spain",
+      "url": "https://voodc.com/embed/85818c94a5879f85847a859aa48c988686.html"
     }
   ]
 }
