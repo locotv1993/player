@@ -1,685 +1,224 @@
 {
-  "events": [
+  "domains": [
+
+    {
+      "domain": "covoslivechannels2dash.clarovideo.com",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+        "Referer": "https://covoslivechannels2dash.clarovideo.com/",
+        "Origin": "https://covoslivechannels2dash.clarovideo.com"
+      }
+    },
     
     {
-      "date": "",
-      "time": "06:00 UTC -5",
-      "category": "SOCCER",
-      "info": "Denmark",
-      "title": "FC Copenhagen - Brondby",
-      "url": "https://voodc.com/embed/85818c94a4909e8a847a859a9c879889.html"
-    },
-    {
-      "date": "",
-      "time": "06:00 UTC -5",
-      "category": "HOCKEY",
-      "info": "KHL",
-      "title": "Niznekamsk - Salavat Ufa",
-      "url": "https://voodc.com/embed/85818c94a4909e8a847a859a9c889888.html"
-    },
-    {
-      "date": "",
-      "time": "06:30 UTC -5",
-      "category": "SOCCER",
-      "info": "Serie A",
-      "title": "Verona - Parma",
-      "url": "https://voodc.com/embed/85818c94a490a088847a859a9c8a988b.html"
-    },
-    {
-      "date": "",
-      "time": "07:00 UTC -5",
-      "category": "SOCCER",
-      "info": "Czech Republic",
-      "title": "Karvina - Hradec Kralove",
-      "url": "https://voodc.com/embed/85818c94a490a286847a859a9c8b988c.html"
-    },
-    {
-      "date": "",
-      "time": "07:00 UTC -5",
-      "category": "SOCCER",
-      "info": "England Championship",
-      "title": "Sheffield Wednesday - Sheffield United",
-      "url": "https://voodc.com/embed/85818c94a490a286847a859a9c8c988d.html"
-    },
-    {
-      "date": "",
-      "time": "07:30 UTC -5",
-      "category": "SOCCER",
-      "info": "Belgium 1A",
-      "title": "Genk - KV Mechelen",
-      "url": "https://voodc.com/embed/85818c94a5879a84847a859a9c8e988585.html"
-    },
-    {
-      "date": "",
-      "time": "07:45 UTC -5",
-      "category": "DARTS",
-      "info": "PDC",
-      "title": "Players Championship Finals",
-      "url": "https://voodc.com/embed/85818c94a5879a8d847a859aa48d988685.html"
-    },
-    {
-      "date": "",
-      "time": "08:00 UTC -5",
-      "category": "SOCCER",
-      "info": "CAF Champions League",
-      "title": "Simba - Petro Atletico",
-      "url": "https://voodc.com/embed/85818c94a5879b8c847a859a9c8f988587.html"
-    },
-    {
-      "date": "",
-      "time": "08:00 UTC -5",
-      "category": "SOCCER",
-      "info": "CAF Confederation Cup",
-      "title": "Maniema - Azam",
-      "url": "https://voodc.com/embed/85818c94a5879b8c847a859a9c90988588.html"
-    },
-    {
-      "date": "",
-      "time": "08:00 UTC -5",
-      "category": "SOCCER",
-      "info": "CAF Confederation Cup",
-      "title": "Stellenbosch - Otoho d'Oyo",
-      "url": "https://voodc.com/embed/85818c94a5879b8c847a859a9d87988589.html"
-    },
-    {
-      "date": "",
-      "time": "08:00 UTC -5",
-      "category": "SOCCER",
-      "info": "Denmark",
-      "title": "Viborg - Vejle",
-      "url": "https://voodc.com/embed/85818c94a5879b8c847a859a9d8898858a.html"
-    },
-    {
-      "date": "",
-      "time": "08:00 UTC -5",
-      "category": "SOCCER",
-      "info": "LaLiga",
-      "title": "Oviedo - Rayo Vallecano",
-      "url": "https://voodc.com/embed/85818c94a5879b8c847a859a9d8998858b.html"
-    },
-    {
-      "date": "",
-      "time": "08:00 UTC -5",
-      "category": "SOCCER",
-      "info": "LaLiga2",
-      "title": "Deportivo La Coruna - Ceuta",
-      "url": "https://voodc.com/embed/85818c94a5879b8c847a859a9d8a98858c.html"
-    },
-    {
-      "date": "",
-      "time": "08:00 UTC -5",
-      "category": "SOCCER",
-      "info": "Swiss Super League",
-      "title": "FC Sion - FC Zurich",
-      "url": "https://voodc.com/embed/85818c94a5879b8c847a859a9d8b98858d.html"
-    },
-    {
-      "date": "",
-      "time": "08:00 UTC -5",
-      "category": "HOCKEY",
-      "info": "DEL",
-      "title": "ERC Ingolstadt - Fischtown Pinguins",
-      "url": "https://voodc.com/embed/85818c94a5879b8c847a859a9d8c988586.html"
-    },
-    {
-      "date": "",
-      "time": "08:05 UTC -5",
-      "category": "WINTER SPORTS",
-      "info": "Speed Skating",
-      "title": "ISU Short Track Speed Skating World Tour: Gdansk",
-      "url": "https://voodc.com/embed/85818c94a5879c85847a859a9c8d98868d.html"
-    },
-    {
-      "date": "",
-      "time": "08:45 UTC -5",
-      "category": "SOCCER",
-      "info": "Ekstraklasa",
-      "title": "Lech Poznan - Radomiak Radom",
-      "url": "https://voodc.com/embed/85818c94a5879e89847a859a9c89988684.html"
-    },
-    {
-      "date": "",
-      "time": "08:55 UTC -5",
-      "category": "TENNIS",
-      "info": "ATP",
-      "title": "Davis Cup Italy - Spain",
-      "url": "https://voodc.com/embed/85818c94a5879f85847a859aa48c988686.html"
-    },
-    {
-      "date": "",
-      "time": "09:00 UTC -5",
-      "category": "SOCCER",
-      "info": "EPL",
-      "title": "Leeds - Aston Villa [english]",
-      "url": "https://voodc.com/embed/85818c94a5879f88847a85979c8b988787.html"
-    },
-    {
-      "date": "",
-      "time": "09:00 UTC -5",
-      "category": "SOCCER",
-      "info": "EPL",
-      "title": "Leeds - Aston Villa [spanish]",
-      "url": "https://voodc.com/embed/85818c94a5879f88847a85979c8c98888b.html"
-    },
-    {
-      "date": "",
-      "time": "09:00 UTC -5",
-      "category": "SOCCER",
-      "info": "Ligue 1",
-      "title": "Auxerre - Lyon [english]",
-      "url": "https://voodc.com/embed/85818c94a5879f88847a85979c8d988788.html"
-    },
-    {
-      "date": "",
-      "time": "09:00 UTC -5",
-      "category": "SOCCER",
-      "info": "Ligue 1",
-      "title": "Auxerre - Lyon [spanish]",
-      "url": "https://voodc.com/embed/85818c94a5879f88847a85979c8e988789.html"
-    },
-    {
-      "date": "",
-      "time": "09:00 UTC -5",
-      "category": "SOCCER",
-      "info": "Serie A",
-      "title": "Cremonese - AS Roma [english]",
-      "url": "https://voodc.com/embed/85818c94a5879f88847a85979c8f98878a.html"
-    },
-    {
-      "date": "",
-      "time": "09:00 UTC -5",
-      "category": "SOCCER",
-      "info": "Serie A",
-      "title": "Cremonese - AS Roma [spanish]",
-      "url": "https://voodc.com/embed/85818c94a5879f88847a85979c9098878b.html"
-    },
-    {
-      "date": "",
-      "time": "09:00 UTC -5",
-      "category": "HOCKEY",
-      "info": "KHL",
-      "title": "Cherepovets - HC Lada",
-      "url": "https://voodc.com/embed/85818c94a5879f88847a85979d87988784.html"
-    },
-    {
-      "date": "",
-      "time": "09:00 UTC -5",
-      "category": "HOCKEY",
-      "info": "KHL",
-      "title": "Shanghai - Ak Bars Kazan",
-      "url": "https://voodc.com/embed/85818c94a5879f88847a85979d88988785.html"
-    },
-    {
-      "date": "",
-      "time": "09:00 UTC -5",
-      "category": "HOCKEY",
-      "info": "Slovak Extraliga",
-      "title": "Poprad - Liptovsky Mikulas",
-      "url": "https://voodc.com/embed/85818c94a5879f88847a85979d89988786.html"
-    },
-    {
-      "date": "",
-      "time": "09:30 UTC -5",
-      "category": "SOCCER",
-      "info": "Bundesliga",
-      "title": "RB Leipzig - Werder Bremen",
-      "url": "https://voodc.com/embed/85818c94a587a186847a85979d8a988886.html"
-    },
-    {
-      "date": "",
-      "time": "09:30 UTC -5",
-      "category": "SOCCER",
-      "info": "Bundesliga Women",
-      "title": "Hoffenheim W - Bayern Munich W",
-      "url": "https://voodc.com/embed/85818c94a587a186847a85979d8b988885.html"
-    },
-    {
-      "date": "",
-      "time": "09:30 UTC -5",
-      "category": "SOCCER",
-      "info": "Czech Republic",
-      "title": "FK Baumit Jablonec - Viktoria Plzen",
-      "url": "https://voodc.com/embed/85818c94a587a186847a85979d8c988887.html"
-    },
-    {
-      "date": "",
-      "time": "09:30 UTC -5",
-      "category": "SOCCER",
-      "info": "Russia",
-      "title": "Dynamo Moscow - Dynamo Makhachkala",
-      "url": "https://voodc.com/embed/85818c94a587a186847a85979d8d988888.html"
-    },
-    {
-      "date": "",
-      "time": "09:30 UTC -5",
-      "category": "SOCCER",
-      "info": "Serie A Women",
-      "title": "AC Milan W - Sassuolo W",
-      "url": "https://voodc.com/embed/85818c94a587a186847a85979d8e988889.html"
-    },
-    {
-      "date": "",
-      "time": "09:30 UTC -5",
-      "category": "SOCCER",
-      "info": "Slovakia",
-      "title": "Michalovce - Ruzomberok",
-      "url": "https://voodc.com/embed/85818c94a587a186847a85979d8f98888a.html"
-    },
-    {
-      "date": "",
-      "time": "09:30 UTC -5",
-      "category": "HOCKEY",
-      "info": "ICEHL",
-      "title": "Black Wings Linz - HK Olimpija",
-      "url": "https://voodc.com/embed/85818c94a587a186847a85979d9098878d.html"
-    },
-    {
-      "date": "",
-      "time": "09:30 UTC -5",
-      "category": "HOCKEY",
-      "info": "Slovak Extraliga",
-      "title": "Dukla Trencin - HC Kosice",
-      "url": "https://voodc.com/embed/85818c94a587a186847a85979e87988884.html"
-    },
-    {
-      "date": "",
-      "time": "09:30 UTC -5",
-      "category": "BASKETBALL",
-      "info": "Argentina Liga A",
-      "title": "Instituto de Cordoba - Obras Sanitarias",
-      "url": "https://voodc.com/embed/85818c94a587a186847a85979e8898878c.html"
-    },
-    {
-      "date": "",
-      "time": "09:30 UTC -5",
-      "category": "BILLIARD",
-      "info": "Snooker",
-      "title": "UK Championship Qualifier - Table 1",
-      "url": "https://voodc.com/embed/85818c94a587a186847a85979c87988687.html"
-    },
-    {
-      "date": "",
-      "time": "09:30 UTC -5",
-      "category": "BILLIARD",
-      "info": "Snooker",
-      "title": "UK Championship Qualifier - Table 2",
-      "url": "https://voodc.com/embed/85818c94a587a186847a85979c88988688.html"
-    },
-    {
-      "date": "",
-      "time": "09:30 UTC -5",
-      "category": "BILLIARD",
-      "info": "Snooker",
-      "title": "UK Championship Qualifier - Table 3",
-      "url": "https://voodc.com/embed/85818c94a587a186847a85979c89988689.html"
-    },
-    {
-      "date": "",
-      "time": "09:30 UTC -5",
-      "category": "BILLIARD",
-      "info": "Snooker",
-      "title": "UK Championship Qualifier - Table 4",
-      "url": "https://voodc.com/embed/85818c94a587a186847a85979c8a98868a.html"
-    },
-    {
-      "date": "",
-      "time": "10:00 UTC -5",
-      "category": "SOCCER",
-      "info": "Belgium 1A",
-      "title": "Antwerp - Dender",
-      "url": "https://voodc.com/embed/85818c94a5889984847a85979e89988a86.html"
-    },
-    {
-      "date": "",
-      "time": "10:00 UTC -5",
-      "category": "SOCCER",
-      "info": "Belgium 1B",
-      "title": "OC Charleroi - Beerschot VA",
-      "url": "https://voodc.com/embed/85818c94a5889984847a85979e8a988a87.html"
-    },
-    {
-      "date": "",
-      "time": "10:00 UTC -5",
-      "category": "SOCCER",
-      "info": "Belgium 1B",
-      "title": "Patro Eisden - RWDM Brussels",
-      "url": "https://voodc.com/embed/85818c94a5889984847a85979e8b988a88.html"
-    },
-    {
-      "date": "",
-      "time": "10:00 UTC -5",
-      "category": "SOCCER",
-      "info": "Bulgaria",
-      "title": "Montana - Levski Sofia",
-      "url": "https://voodc.com/embed/85818c94a5889984847a85979e8c988a89.html"
-    },
-    {
-      "date": "",
-      "time": "10:00 UTC -5",
-      "category": "SOCCER",
-      "info": "Croatia HNL",
-      "title": "NK Osijek - NK Lokomotiva Zagreb",
-      "url": "https://voodc.com/embed/85818c94a5889984847a85979e8d988a8a.html"
-    },
-    {
-      "date": "",
-      "time": "10:00 UTC -5",
-      "category": "SOCCER",
-      "info": "Denmark",
-      "title": "Nordsjaelland - Fredericia",
-      "url": "https://voodc.com/embed/85818c94a5889984847a85979e8e988a8b.html"
-    },
-    {
-      "date": "",
-      "time": "10:00 UTC -5",
-      "category": "SOCCER",
-      "info": "Greece",
-      "title": "Panserraikos - Panathinaikos",
-      "url": "https://voodc.com/embed/85818c94a5889984847a85979e8f988a8c.html"
-    },
-    {
-      "date": "",
-      "time": "10:00 UTC -5",
-      "category": "SOCCER",
-      "info": "Scotland",
-      "title": "Aberdeen - Hearts",
-      "url": "https://voodc.com/embed/85818c94a5889984847a85979e90988a8d.html"
-    },
-    {
-      "date": "",
-      "time": "10:00 UTC -5",
-      "category": "SOCCER",
-      "info": "Serbia",
-      "title": "Javor - Crvena zvezda",
-      "url": "https://voodc.com/embed/85818c94a5889984847a85979f87988b84.html"
-    },
-    {
-      "date": "",
-      "time": "10:00 UTC -5",
-      "category": "SOCCER",
-      "info": "Spain Liga F",
-      "title": "Real Madrid W - Eibar W",
-      "url": "https://voodc.com/embed/85818c94a5889984847a85979f88988b85.html"
-    },
-    {
-      "date": "",
-      "time": "10:00 UTC -5",
-      "category": "HOCKEY",
-      "info": "CZ Extraliga",
-      "title": "HC Vitkovice Steel - Dynamo Pardubice",
-      "url": "https://voodc.com/embed/85818c94a5889984847a85979f89988987.html"
-    },
-    {
-      "date": "",
-      "time": "10:00 UTC -5",
-      "category": "HOCKEY",
-      "info": "CZ Extraliga",
-      "title": "Karlovy Vary - HC Kometa Brno",
-      "url": "https://voodc.com/embed/85818c94a5889984847a85979f8a988988.html"
-    },
-    {
-      "date": "",
-      "time": "10:00 UTC -5",
-      "category": "HOCKEY",
-      "info": "CZ Extraliga",
-      "title": "Kladno - Sparta Prague",
-      "url": "https://voodc.com/embed/85818c94a5889984847a85979f8b988989.html"
-    },
-    {
-      "date": "",
-      "time": "10:00 UTC -5",
-      "category": "HOCKEY",
-      "info": "CZ Extraliga",
-      "title": "Mlada Boleslav - Viktoria Plzen",
-      "url": "https://voodc.com/embed/85818c94a5889984847a85979f8c98898a.html"
-    },
-    {
-      "date": "",
-      "time": "10:00 UTC -5",
-      "category": "HOCKEY",
-      "info": "CZ Extraliga",
-      "title": "Slovan Liberec - Mountfield HK",
-      "url": "https://voodc.com/embed/85818c94a5889984847a85979f8d98898b.html"
-    },
-    {
-      "date": "",
-      "time": "10:00 UTC -5",
-      "category": "HOCKEY",
-      "info": "ICEHL",
-      "title": "Graz99ers - Bolzano",
-      "url": "https://voodc.com/embed/85818c94a5889984847a85979f8e98898c.html"
-    },
-    {
-      "date": "",
-      "time": "10:00 UTC -5",
-      "category": "HOCKEY",
-      "info": "Polish Hockey League",
-      "title": "Jastrzebie - Katowice",
-      "url": "https://voodc.com/embed/85818c94a5889984847a85979f8f98898d.html"
-    },
-    {
-      "date": "",
-      "time": "10:00 UTC -5",
-      "category": "HOCKEY",
-      "info": "Slovak Extraliga",
-      "title": "Presov - Zvolen",
-      "url": "https://voodc.com/embed/85818c94a5889984847a85979f90988a84.html"
-    },
-    {
-      "date": "",
-      "time": "10:00 UTC -5",
-      "category": "HOCKEY",
-      "info": "Slovak Extraliga",
-      "title": "Slovan Bratislava - Michalovce",
-      "url": "https://voodc.com/embed/85818c94a5889984847a8597a087988a85.html"
-    },
-    {
-      "date": "",
-      "time": "10:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "Lega A",
-      "title": "Trieste - Olimpia Milano",
-      "url": "https://voodc.com/embed/85818c94a5889984847a8597a08898888c.html"
-    },
-    {
-      "date": "",
-      "time": "10:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "Poland Basket Liga",
-      "title": "Basket 25 Bydgoszcz W - Gorzow W",
-      "url": "https://voodc.com/embed/85818c94a5889984847a8597a08998888d.html"
-    },
-    {
-      "date": "",
-      "time": "10:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "Turkey Basketball Super Lig",
-      "title": "Tofas - Anadolu Efes",
-      "url": "https://voodc.com/embed/85818c94a5889984847a8597a08a988984.html"
-    },
-    {
-      "date": "",
-      "time": "10:00 UTC -5",
-      "category": "VOLLEYBALL",
-      "info": "Italy Serie A1",
-      "title": "San Giovanni W - Vero Volley W",
-      "url": "https://voodc.com/embed/85818c94a5889984847a8597a08b988b86.html"
-    },
-    {
-      "date": "",
-      "time": "10:00 UTC -5",
-      "category": "VOLLEYBALL",
-      "info": "Italy SuperLega",
-      "title": "Cuneo Volley - Modena",
-      "url": "https://voodc.com/embed/85818c94a5889984847a8597a08c988b87.html"
-    },
-    {
-      "date": "",
-      "time": "10:00 UTC -5",
-      "category": "HANDBALL",
-      "info": "Poland Superliga",
-      "title": "Legionowo - Kielce",
-      "url": "https://voodc.com/embed/85818c94a5889984847a8597a08d988985.html"
-    },
-    {
-      "date": "",
-      "time": "10:00 UTC -5",
-      "category": "HANDBALL",
-      "info": "Poland Superliga",
-      "title": "Wybrzeze Gdansk - Zaglebie Lubin",
-      "url": "https://voodc.com/embed/85818c94a5889984847a8597a08e988986.html"
-    },
-    {
-      "date": "",
-      "time": "10:15 UTC -5",
-      "category": "SOCCER",
-      "info": "LaLiga",
-      "title": "Real Betis - Girona [english]",
-      "url": "https://voodc.com/embed/85818c94a588998d847a8597a08f988b88.html"
-    },
-    {
-      "date": "",
-      "time": "10:15 UTC -5",
-      "category": "SOCCER",
-      "info": "LaLiga",
-      "title": "Real Betis - Girona [spanish]",
-      "url": "https://voodc.com/embed/85818c94a588998d847a8597a090988b89.html"
-    },
-    {
-      "date": "",
-      "time": "10:15 UTC -5",
-      "category": "SOCCER",
-      "info": "LaLiga2",
-      "title": "Cadiz CF - Cultural Leonesa",
-      "url": "https://voodc.com/embed/85818c94a588998d847a8597a187988b8a.html"
-    },
-    {
-      "date": "",
-      "time": "10:15 UTC -5",
-      "category": "SOCCER",
-      "info": "LaLiga2",
-      "title": "Huesca - Sporting Gijon",
-      "url": "https://voodc.com/embed/85818c94a588998d847a8597a188988b8b.html"
-    },
-    {
-      "date": "",
-      "time": "10:30 UTC -5",
-      "category": "SOCCER",
-      "info": "3. Liga",
-      "title": "Aue - Stuttgart II",
-      "url": "https://voodc.com/embed/85818c94a5889a8c847a8597a189988c8b.html"
-    },
-    {
-      "date": "",
-      "time": "10:30 UTC -5",
-      "category": "SOCCER",
-      "info": "Romania",
-      "title": "Otelul - Farul Constanta",
-      "url": "https://voodc.com/embed/85818c94a5889a8c847a8597a18a988c8c.html"
-    },
-    {
-      "date": "",
-      "time": "10:30 UTC -5",
-      "category": "SOCCER",
-      "info": "Serbia",
-      "title": "Radnicki 1923 - Novi Pazar",
-      "url": "https://voodc.com/embed/85818c94a5889a8c847a8597a18b988c8d.html"
-    },
-    {
-      "date": "",
-      "time": "10:30 UTC -5",
-      "category": "SOCCER",
-      "info": "Swiss Super League",
-      "title": "Grasshoppers - Basel",
-      "url": "https://voodc.com/embed/85818c94a5889a8c847a8597a18c988d84.html"
-    },
-    {
-      "date": "",
-      "time": "10:30 UTC -5",
-      "category": "SOCCER",
-      "info": "Swiss Super League",
-      "title": "St. Gallen - Lausanne",
-      "url": "https://voodc.com/embed/85818c94a5889a8c847a8597a18d988d85.html"
-    },
-    {
-      "date": "",
-      "time": "10:30 UTC -5",
-      "category": "HOCKEY",
-      "info": "CZ Extraliga",
-      "title": "HC Litvinov - HC Ocelari Trinec",
-      "url": "https://voodc.com/embed/85818c94a5889a8c847a8597a18e988c86.html"
-    },
-    {
-      "date": "",
-      "time": "10:30 UTC -5",
-      "category": "HOCKEY",
-      "info": "DEL",
-      "title": "Augsburger Panther - Red Bull Munchen",
-      "url": "https://voodc.com/embed/85818c94a5889a8c847a8597a18f988c87.html"
-    },
-    {
-      "date": "",
-      "time": "10:30 UTC -5",
-      "category": "HOCKEY",
-      "info": "DEL",
-      "title": "Nurnberg Ice Tigers - Frankfurt Lowen",
-      "url": "https://voodc.com/embed/85818c94a5889a8c847a8597a190988c88.html"
-    },
-    {
-      "date": "",
-      "time": "10:30 UTC -5",
-      "category": "HOCKEY",
-      "info": "DEL",
-      "title": "Straubing Tigers - Eisbaren Berlin",
-      "url": "https://voodc.com/embed/85818c94a5889a8c847a8597a287988c89.html"
-    },
-    {
-      "date": "",
-      "time": "10:30 UTC -5",
-      "category": "HOCKEY",
-      "info": "Maxa liga",
-      "title": "Vysocina Jihlava - Pirati Chomutov",
-      "url": "https://voodc.com/embed/85818c94a5889a8c847a8597a288988c8a.html"
-    },
-    {
-      "date": "",
-      "time": "10:30 UTC -5",
-      "category": "BASKETBALL",
-      "info": "BBL",
-      "title": "Ulm - Bayern Munich",
-      "url": "https://voodc.com/embed/85818c94a5889a8c847a8597a289988b8c.html"
-    },
-    {
-      "date": "",
-      "time": "10:30 UTC -5",
-      "category": "BASKETBALL",
-      "info": "Lega A",
-      "title": "Varese - Udine",
-      "url": "https://voodc.com/embed/85818c94a5889a8c847a8597a28a988b8d.html"
-    },
-    {
-      "date": "",
-      "time": "10:30 UTC -5",
-      "category": "HANDBALL",
-      "info": "Bundesliga",
-      "title": "Hamburg - Erlangen",
-      "url": "https://voodc.com/embed/85818c94a5889a8c847a8597a28b988c84.html"
-    },
-    {
-      "date": "",
-      "time": "10:30 UTC -5",
-      "category": "HANDBALL",
-      "info": "France Starligue",
-      "title": "Nantes - Provence Aix",
-      "url": "https://voodc.com/embed/85818c94a5889a8c847a8597a28c988c85.html"
-    },
-    {
-      "date": "",
-      "time": "10:45 UTC -5",
-      "category": "SOCCER",
-      "info": "Eredivisie",
-      "title": "FC Groningen - PEC Zwolle",
-      "url": "https://voodc.com/embed/85818c94a5889b8b847a8597a28d988d86.html"
+      "domain": "crackstreamslivehd.com",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+        "Referer": "https://streamtp4.com/",
+        "Origin": "https://streamtp4.com"
+      }
+    },
+    {
+      "domain": "cdn03.gigared.com.ar",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+        "Referer": "https://www.gigared.com.ar/",
+        "Origin": "https://www.gigared.com.ar"
+      }
+    },
+    {
+      "domain": "tv-mgmt.gtd.cl",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+        "Referer": "https://www.gtd.cl/gtd-tv/",
+        "Origin": "https://www.gtd.cl/gtd-tv"
+      }
+    },
+    {
+      "domain": "calisports",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+        "Referer": "https://caliente.tv/",
+        "Origin": "https://caliente.tv"
+      }
+    },
+    {
+      "domain": "teaganapvw.fsizelearnw0y0qedge.shop",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+        "Referer": "https://teaganapvw.fsizelearnw0y0qedge.shop/es/football.html/",
+        "Origin": "https://teaganapvw.fsizelearnw0y0qedge.shop/es/football.html"
+      }
+    },
+    
+    {
+      "domain": "tv.apple.com",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Mobile Safari/537.36",
+        "Referer": "https://tv.apple.com/",
+        "Origin": "https://tv.apple.com"
+      }
+    },
+    {
+      "domain": "jjo2.dbcast.live",     
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+        "Referer": "https://voodc.com/",
+        "Origin": "https://voodc.com"
+      }
+    },
+      {
+      "domain": "izzigo.tv",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+        "Referer": "https://www.izzigo.tv/",
+        "Origin": "https://www.izzigo.tv"
+      }
+    },
+    {
+      "domain": "manifest.googlevideo.com",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+        "Referer": "https://www.youtube.com/",
+        "Origin": "https://www.youtube.com"
+      }
+    },
+    {
+      "domain": "okcdn.ru",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+        "Referer": "https://live.vkvideo.ru/",
+        "Origin": "https://live.vkvideo.ru"
+      }
+    },
+{
+      "domain": "ghppkiet.s3.eu-west-1.amazonaws.com",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+        "Referer": "https://elverruca.tech/",
+        "Origin": "https://elverruca.tech"
+      }
+    },
+    {
+      "domain": "https://bb.jeinzmacias.pe/",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+        "Referer": "https://elverruca.tech/",
+        "Origin": "https://elverruca.tech"
+      }
+    },
+    
+    {
+      "domain": "dssott.com",
+      "headers": {
+        "Referer": "https://disneyplus.com/",
+        "Origin": "https://disneyplus.com",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 10; Pixel 3 XL Build/QP1A.190711.019; wv) VersionS/2.4 AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.157 Mobile Safari/537.36",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "GET, POST, PUT, OPTIONS, HEAD, DELETE, PATCH",
+        "Access-Control-Allow-Headers": "Origin, Content-Type, Accept, date"
+      }
+    },
+    {
+      "domain": "xn--cl-ci4a5dyczam8p.xyz",
+      "headers": {
+        "Referer": "https://meuplayeronlinehd.com/",
+        "Origin": "https://meuplayeronlinehd.com",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 10; Pixel 3 XL Build/QP1A.190711.019; wv) VersionS/2.4 AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.157 Mobile Safari/537.36",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "GET, POST, PUT, OPTIONS, HEAD, DELETE, PATCH",
+        "Access-Control-Allow-Headers": "Origin, Content-Type, Accept, date"
+      }
+    },
+    {
+      "domain": "max.com",
+      "headers": {
+        "Referer": "https://play.max.com/",
+        "Origin": "https://play.max.com",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 10; Pixel 3 XL Build/QP1A.190711.019; wv) VersionS/2.4 AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.157 Mobile Safari/537.36",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "GET, POST, PUT, OPTIONS, HEAD, DELETE, PATCH",
+        "Access-Control-Allow-Headers": "Origin, Content-Type, Accept, date"
+      }
+    },
+    {
+      "domain": "vix.com",
+      "headers": {
+        "Referer": "https://vix.com/",
+        "Origin": "https://vix.com",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "GET, POST, PUT, OPTIONS, HEAD, DELETE, PATCH",
+        "Access-Control-Allow-Headers": "Origin, Content-Type, Accept, date"
+      }
+    },
+    {
+      "domain": "x.com",
+      "headers": {
+        "accept": "*/*",
+        "accept-language": "es,en;q=0.9,pt;q=0.8",
+        "origin": "https://x.com",
+        "priority": "u=1, i",
+        "referer": "https://x.com/",
+        "sec-ch-ua": "\"Google Chrome\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "cross-site",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+      }
+    },
+    {
+      "domain": "twitter.com",
+      "headers": {
+        "accept": "*/*",
+        "accept-language": "es,en;q=0.9,pt;q=0.8",
+        "origin": "https://x.com",
+        "priority": "u=1, i",
+        "referer": "https://x.com/",
+        "sec-ch-ua": "\"Google Chrome\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "cross-site",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+      }
+    },
+    {
+      "domain": "pscp.tv",
+      "headers": {
+        "accept": "*/*",
+        "accept-language": "es,en;q=0.9,pt;q=0.8",
+        "origin": "https://x.com",
+        "priority": "u=1, i",
+        "referer": "https://x.com/",
+        "sec-ch-ua": "\"Google Chrome\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "cross-site",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+      }
+    },
+    {
+      "domain": "prod-fastly-us-east-1.video.pscp.tv",
+      "headers": {
+        "accept": "*/*",
+        "accept-language": "es,en;q=0.9,pt;q=0.8",
+        "origin": "https://x.com",
+        "priority": "u=1, i",
+        "referer": "https://x.com/",
+        "sec-ch-ua": "\"Google Chrome\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "cross-site",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+      }
     }
   ]
 }
