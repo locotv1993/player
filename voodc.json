@@ -3,787 +3,899 @@
     
     {
       "date": "",
-      "time": "11:30 UTC -5",
+      "time": "03:30 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NBL",
+      "title": "Illawarra Hawks - South East Melbourne",
+      "url": "https://voodc.com/embed/85818c95a48aa084847a8596a28b9885.html"
+    },
+    {
+      "date": "",
+      "time": "04:00 UTC -5",
+      "category": "GOLF",
+      "info": "DP World Tour",
+      "title": "Nedbank Golf Challenge",
+      "url": "https://voodc.com/embed/85818c95a48aa18c847a8597a58d9886.html"
+    },
+    {
+      "date": "",
+      "time": "04:15 UTC -5",
+      "category": "HOCKEY",
+      "info": "KHL",
+      "title": "Khabarovsk - Lokomotiv Yaroslavl",
+      "url": "https://voodc.com/embed/85818c95a48aa28b847a859a9c879887.html"
+    },
+    {
+      "date": "",
+      "time": "04:30 UTC -5",
+      "category": "HOCKEY",
+      "info": "KHL",
+      "title": "Admiral Vladivostok - SKA St. Petersburg",
+      "url": "https://voodc.com/embed/85818c95a48b998a847a859a9c889888.html"
+    },
+    {
+      "date": "",
+      "time": "05:00 UTC -5",
+      "category": "SOCCER",
+      "info": "K League 1",
+      "title": "Bucheon FC 1995 - Suwon FC",
+      "url": "https://voodc.com/embed/85818c95a48b9b88847a859a9c89988a.html"
+    },
+    {
+      "date": "",
+      "time": "05:00 UTC -5",
+      "category": "SOCCER",
+      "info": "Turkish Cup",
+      "title": "Yesil Yalova FK - Gaziantep",
+      "url": "https://voodc.com/embed/85818c95a48b9b88847a859a9c8a988b.html"
+    },
+    {
+      "date": "",
+      "time": "05:00 UTC -5",
+      "category": "HANDBALL",
+      "info": "World Championship",
+      "title": "Croatia W - Iran W",
+      "url": "https://voodc.com/embed/85818c95a48b9b88847a859a9c8b9889.html"
+    },
+    {
+      "date": "",
+      "time": "05:30 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NBL",
+      "title": "Perth Wildcats - Melbourne United",
+      "url": "https://voodc.com/embed/85818c95a48b9d86847a8596a28b988c.html"
+    },
+    {
+      "date": "",
+      "time": "06:00 UTC -5",
+      "category": "SOCCER",
+      "info": "Bulgaria",
+      "title": "Dobrudzha - Ludogorets",
+      "url": "https://voodc.com/embed/85818c95a48b9f84847a859a9c8d988d.html"
+    },
+    {
+      "date": "",
+      "time": "07:30 UTC -5",
+      "category": "SOCCER",
+      "info": "Turkish Cup",
+      "title": "Igdir FK - Orduspor 1967",
+      "url": "https://voodc.com/embed/85818c95a48c9a88847a859a9c8a988585.html"
+    },
+    {
+      "date": "",
+      "time": "07:30 UTC -5",
+      "category": "HANDBALL",
+      "info": "World Championship",
+      "title": "Uruguay W - Paraguay W",
+      "url": "https://voodc.com/embed/85818c95a48c9a88847a859a9c8e988584.html"
+    },
+    {
+      "date": "",
+      "time": "08:00 UTC -5",
       "category": "SOCCER",
       "info": "Polish Cup",
-      "title": "Slask Wroclaw - Rakow",
-      "url": "https://voodc.com/embed/85818c95a38ea288847a85979e88988989.html"
+      "title": "Chojniczanka - Korona Kielce",
+      "url": "https://voodc.com/embed/85818c95a48c9c86847a859a9c90988587.html"
+    },
+    {
+      "date": "",
+      "time": "08:30 UTC -5",
+      "category": "SOCCER",
+      "info": "Bulgaria",
+      "title": "Botev Vratsa - Spartak Varna",
+      "url": "https://voodc.com/embed/85818c95a48c9e84847a859a9d87988588.html"
+    },
+    {
+      "date": "",
+      "time": "09:15 UTC -5",
+      "category": "SOCCER",
+      "info": "Romanian Cup",
+      "title": "Sepsi Sf. Gheorghe - U. Cluj",
+      "url": "https://voodc.com/embed/85818c95a48ca08b847a859a9d88988589.html"
+    },
+    {
+      "date": "",
+      "time": "09:30 UTC -5",
+      "category": "HANDBALL",
+      "info": "World Championship",
+      "title": "Argentina W - Poland W",
+      "url": "https://voodc.com/embed/85818c95a48ca18a847a859a9d8998858a.html"
+    },
+    {
+      "date": "",
+      "time": "09:30 UTC -5",
+      "category": "HANDBALL",
+      "info": "World Championship",
+      "title": "Serbia W - Faroe Islands W",
+      "url": "https://voodc.com/embed/85818c95a48ca18a847a859a9d8a98858b.html"
+    },
+    {
+      "date": "",
+      "time": "10:00 UTC -5",
+      "category": "SOCCER",
+      "info": "Croatia Prva NL",
+      "title": "Cibalia - Sesvete",
+      "url": "https://voodc.com/embed/85818c95a48d9988847a859a9d8b98858d.html"
+    },
+    {
+      "date": "",
+      "time": "10:00 UTC -5",
+      "category": "SOCCER",
+      "info": "Greek Cup",
+      "title": "Iraklis 1908 - Panetolikos",
+      "url": "https://voodc.com/embed/85818c95a48d9988847a859a9d8c988684.html"
+    },
+    {
+      "date": "",
+      "time": "10:00 UTC -5",
+      "category": "SOCCER",
+      "info": "Liga BiH",
+      "title": "Posusje - Sloga Doboj",
+      "url": "https://voodc.com/embed/85818c95a48d9988847a859a9d8d988685.html"
+    },
+    {
+      "date": "",
+      "time": "10:00 UTC -5",
+      "category": "SOCCER",
+      "info": "Turkish Cup",
+      "title": "Silifke - Antalyaspor",
+      "url": "https://voodc.com/embed/85818c95a48d9988847a859a9c8a988686.html"
+    },
+    {
+      "date": "",
+      "time": "10:00 UTC -5",
+      "category": "HANDBALL",
+      "info": "World Championship",
+      "title": "Egypt W - China W",
+      "url": "https://voodc.com/embed/85818c95a48d9988847a859a9d8e98858c.html"
+    },
+    {
+      "date": "",
+      "time": "11:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NCAAW",
+      "title": "Towson (W) - Loyola Maryland (W)",
+      "url": "https://voodc.com/embed/85818c95a48d9d84847a85979c8b98868d.html"
+    },
+    {
+      "date": "",
+      "time": "11:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NCAAW",
+      "title": "Xavier (W) - Providence (W)",
+      "url": "https://voodc.com/embed/85818c95a48d9d84847a85979c8c988784.html"
+    },
+    {
+      "date": "",
+      "time": "11:00 UTC -5",
+      "category": "SOCCER",
+      "info": "Bulgaria",
+      "title": "Slavia Sofia - Levski Sofia",
+      "url": "https://voodc.com/embed/85818c95a48d9d84847a85979c8d988785.html"
+    },
+    {
+      "date": "",
+      "time": "11:00 UTC -5",
+      "category": "SOCCER",
+      "info": "Ekstraklasa",
+      "title": "Wisla Plock - Cracovia Krakow",
+      "url": "https://voodc.com/embed/85818c95a48d9d84847a85979c8e988786.html"
+    },
+    {
+      "date": "",
+      "time": "11:00 UTC -5",
+      "category": "SOCCER",
+      "info": "Polish Cup",
+      "title": "GKS Katowice - Jagiellonia Bialystok",
+      "url": "https://voodc.com/embed/85818c95a48d9d84847a85979c8f988787.html"
+    },
+    {
+      "date": "",
+      "time": "11:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "Eurocup",
+      "title": "Bahcesehir Koleji - Neptunas",
+      "url": "https://voodc.com/embed/85818c95a48d9d84847a85979c9098868c.html"
+    },
+    {
+      "date": "",
+      "time": "11:05 UTC -5",
+      "category": "TENNIS",
+      "info": "WTA",
+      "title": "WTA Quito - Court 1 Zolotareva - Papamichail",
+      "url": "https://voodc.com/embed/85818c95a48d9d87847a859aa490988887.html"
     },
     {
       "date": "",
       "time": "11:30 UTC -5",
       "category": "SOCCER",
       "info": "Romanian Cup",
-      "title": "Farul Constanta - Dinamo Bucuresti",
-      "url": "https://voodc.com/embed/85818c95a38ea288847a85979e8998898a.html"
-    },
-    {
-      "date": "",
-      "time": "11:30 UTC -5",
-      "category": "SOCCER",
-      "info": "Serbia",
-      "title": "Mladost - Radnicki 1923",
-      "url": "https://voodc.com/embed/85818c95a38ea288847a85979e8a98898b.html"
-    },
-    {
-      "date": "",
-      "time": "11:30 UTC -5",
-      "category": "SOCCER",
-      "info": "Slovak Cup",
-      "title": "Dunajska Streda - Michalovce",
-      "url": "https://voodc.com/embed/85818c95a38ea288847a85979e8b98898c.html"
-    },
-    {
-      "date": "",
-      "time": "11:30 UTC -5",
-      "category": "HOCKEY",
-      "info": "CHL",
-      "title": "Lukko Rauma - EV Zug [english]",
-      "url": "https://voodc.com/embed/85818c95a38ea288847a85979e8c98878d.html"
-    },
-    {
-      "date": "",
-      "time": "11:30 UTC -5",
-      "category": "HOCKEY",
-      "info": "CHL",
-      "title": "Lukko Rauma - EV Zug [polish]",
-      "url": "https://voodc.com/embed/85818c95a38ea288847a85979e8d988884.html"
-    },
-    {
-      "date": "",
-      "time": "11:30 UTC -5",
-      "category": "HOCKEY",
-      "info": "CHL",
-      "title": "Lukko Rauma - EV Zug [serbian]",
-      "url": "https://voodc.com/embed/85818c95a38ea288847a85979e8e988885.html"
-    },
-    {
-      "date": "",
-      "time": "11:30 UTC -5",
-      "category": "HOCKEY",
-      "info": "CZ Extraliga",
-      "title": "HC Vitkovice Steel - HC Olomouc",
-      "url": "https://voodc.com/embed/85818c95a38ea288847a85979e8f988886.html"
-    },
-    {
-      "date": "",
-      "time": "11:30 UTC -5",
-      "category": "HOCKEY",
-      "info": "ECHL",
-      "title": "Allen Americans - Utah Grizzlies",
-      "url": "https://voodc.com/embed/85818c95a38ea288847a85979e90988887.html"
-    },
-    {
-      "date": "",
-      "time": "11:30 UTC -5",
-      "category": "HOCKEY",
-      "info": "KHL",
-      "title": "CSKA Moscow - Nizhny Novgorod",
-      "url": "https://voodc.com/embed/85818c95a38ea288847a85979f87988888.html"
-    },
-    {
-      "date": "",
-      "time": "11:30 UTC -5",
-      "category": "HOCKEY",
-      "info": "KHL",
-      "title": "Shanghai - Salavat Ufa",
-      "url": "https://voodc.com/embed/85818c95a38ea288847a85979f88988889.html"
+      "title": "Metaloglobus Bucharest - CFR Cluj",
+      "url": "https://voodc.com/embed/85818c95a48d9e8c847a85979d87988884.html"
     },
     {
       "date": "",
       "time": "11:30 UTC -5",
       "category": "HOCKEY",
       "info": "Liiga",
-      "title": "IFK Helsinki - Assat",
-      "url": "https://voodc.com/embed/85818c95a38ea288847a85979f8998888a.html"
+      "title": "Ilves - Hameenlinna",
+      "url": "https://voodc.com/embed/85818c95a48d9e8c847a85979d88988789.html"
     },
     {
       "date": "",
       "time": "11:30 UTC -5",
       "category": "HOCKEY",
       "info": "Liiga",
-      "title": "Pelicans - KooKoo",
-      "url": "https://voodc.com/embed/85818c95a38ea288847a85979f8a98888b.html"
+      "title": "KalPa Kuopio - Vaasan Sport",
+      "url": "https://voodc.com/embed/85818c95a48d9e8c847a85979d8998878a.html"
     },
     {
       "date": "",
       "time": "11:30 UTC -5",
       "category": "HOCKEY",
-      "info": "Liiga",
-      "title": "Tappara Tampere - JYP",
-      "url": "https://voodc.com/embed/85818c95a38ea288847a85979f8b98888d.html"
+      "info": "Mestis",
+      "title": "Hermes - Kiekko-Pojat",
+      "url": "https://voodc.com/embed/85818c95a48d9e8c847a85979d8a98878b.html"
     },
     {
       "date": "",
       "time": "11:30 UTC -5",
       "category": "HOCKEY",
-      "info": "Liiga",
-      "title": "TPS Turku - Kiekko-Espoo",
-      "url": "https://voodc.com/embed/85818c95a38ea288847a85979f8c98888c.html"
+      "info": "Mestis",
+      "title": "KeuPa - K-Vantaa",
+      "url": "https://voodc.com/embed/85818c95a48d9e8c847a85979d8b98878c.html"
     },
     {
       "date": "",
       "time": "11:30 UTC -5",
       "category": "HOCKEY",
-      "info": "Maxa liga",
-      "title": "Vsetin - Poruba",
-      "url": "https://voodc.com/embed/85818c95a38ea288847a85979f8d988984.html"
+      "info": "Mestis",
+      "title": "Pyry - IPK",
+      "url": "https://voodc.com/embed/85818c95a48d9e8c847a85979d8c98878d.html"
     },
     {
       "date": "",
       "time": "11:30 UTC -5",
       "category": "BASKETBALL",
       "info": "King Mindaugas Cup",
-      "title": "Juventus - Nevezis",
-      "url": "https://voodc.com/embed/85818c95a38ea288847a85979f8e98878c.html"
-    },
-    {
-      "date": "",
-      "time": "11:30 UTC -5",
-      "category": "VOLLEYBALL",
-      "info": "CEV Cup",
-      "title": "Galatasaray W - FC Porto W",
-      "url": "https://voodc.com/embed/85818c95a38ea288847a85979f8f98898d.html"
+      "title": "Jonava - Gargzdai",
+      "url": "https://voodc.com/embed/85818c95a48d9e8c847a85979d8d988788.html"
     },
     {
       "date": "",
       "time": "11:30 UTC -5",
       "category": "VOLLEYBALL",
       "info": "Poland",
-      "title": "Lublin - Gdansk",
-      "url": "https://voodc.com/embed/85818c95a38ea288847a85979f90988a84.html"
-    },
-    {
-      "date": "",
-      "time": "11:30 UTC -5",
-      "category": "TENNIS",
-      "info": "WTA",
-      "title": "WTA Quito - Center Court Nahimana - Jeanjean",
-      "url": "https://voodc.com/embed/85818c95a38ea288847a859aa48f988a85.html"
+      "title": "Kedzierzyn-Kozle - Slepsk Suwalki",
+      "url": "https://voodc.com/embed/85818c95a48d9e8c847a85979d8e988885.html"
     },
     {
       "date": "",
       "time": "12:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Arkansas-Pine Bluff vs. UIC",
-      "url": "https://voodc.com/embed/85818c95a38f9a86847a8597a087988b87.html"
-    },
-    {
-      "date": "",
-      "time": "12:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Tennessee Tech vs. Lipscomb",
-      "url": "https://voodc.com/embed/85818c95a38f9a86847a8597a088988b88.html"
+      "category": "COMBAT SPORT",
+      "info": "MMA",
+      "title": "EFC 130",
+      "url": "https://voodc.com/embed/85818c95a48da08a847a85979d8f98888b.html"
     },
     {
       "date": "",
       "time": "12:00 UTC -5",
       "category": "BASKETBALL",
       "info": "NCAAW",
-      "title": "Drake (W) - Lindenwood (W)",
-      "url": "https://voodc.com/embed/85818c95a38f9a86847a8597a089988b89.html"
+      "title": "Alabama A&M (W) - Tuskegee (W)",
+      "url": "https://voodc.com/embed/85818c95a48da08a847a85979d9098888c.html"
     },
     {
       "date": "",
       "time": "12:00 UTC -5",
       "category": "BASKETBALL",
       "info": "NCAAW",
-      "title": "St. Thomas-Minnesota (W) - Northern Arizona (W)",
-      "url": "https://voodc.com/embed/85818c95a38f9a86847a8597a08a988b8a.html"
+      "title": "Tennessee Tech (W) - Samford (W)",
+      "url": "https://voodc.com/embed/85818c95a48da08a847a85979e8798888d.html"
+    },
+    {
+      "date": "",
+      "time": "12:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NCAAW",
+      "title": "Western Illinois (W) - St. Francis (IL) (W)",
+      "url": "https://voodc.com/embed/85818c95a48da08a847a85979e88988984.html"
     },
     {
       "date": "",
       "time": "12:00 UTC -5",
       "category": "SOCCER",
       "info": "Coppa Italia",
-      "title": "Napoli - Cagliari [english]",
-      "url": "https://voodc.com/embed/85818c95a38f9a86847a8597a08c988b8c.html"
+      "title": "Bologna - Parma [english]",
+      "url": "https://voodc.com/embed/85818c95a48da08a847a85979e89988985.html"
     },
     {
       "date": "",
       "time": "12:00 UTC -5",
       "category": "SOCCER",
       "info": "Coppa Italia",
-      "title": "Napoli - Cagliari [italian]",
-      "url": "https://voodc.com/embed/85818c95a38f9a86847a8597a08d988b8d.html"
+      "title": "Bologna - Parma [italian]",
+      "url": "https://voodc.com/embed/85818c95a48da08a847a85979e8a988986.html"
     },
     {
       "date": "",
       "time": "12:00 UTC -5",
       "category": "SOCCER",
       "info": "Coppa Italia",
-      "title": "Napoli - Cagliari [spanish]",
-      "url": "https://voodc.com/embed/85818c95a38f9a86847a8597a08e988c84.html"
-    },
-    {
-      "date": "",
-      "time": "12:00 UTC -5",
-      "category": "SOCCER",
-      "info": "DFB Pokal",
-      "title": "Bochum - Stuttgart [english]",
-      "url": "https://voodc.com/embed/85818c95a38f9a86847a8597a08f988c85.html"
-    },
-    {
-      "date": "",
-      "time": "12:00 UTC -5",
-      "category": "SOCCER",
-      "info": "DFB Pokal",
-      "title": "Bochum - Stuttgart [spanish]",
-      "url": "https://voodc.com/embed/85818c95a38f9a86847a8597a090988c86.html"
-    },
-    {
-      "date": "",
-      "time": "12:00 UTC -5",
-      "category": "SOCCER",
-      "info": "DFB Pokal",
-      "title": "SC Freiburg - Darmstadt",
-      "url": "https://voodc.com/embed/85818c95a38f9a86847a8597a187988c87.html"
-    },
-    {
-      "date": "",
-      "time": "12:00 UTC -5",
-      "category": "SOCCER",
-      "info": "Landspokal Cup",
-      "title": "Esbjerg - FC Copenhagen",
-      "url": "https://voodc.com/embed/85818c95a38f9a86847a8597a188988c88.html"
-    },
-    {
-      "date": "",
-      "time": "12:00 UTC -5",
-      "category": "SOCCER",
-      "info": "MOL Cup",
-      "title": "Artis Brno - Sparta Prague",
-      "url": "https://voodc.com/embed/85818c95a38f9a86847a8597a189988c89.html"
-    },
-    {
-      "date": "",
-      "time": "12:00 UTC -5",
-      "category": "SOCCER",
-      "info": "Slovakia",
-      "title": "Podbrezova - Trnava",
-      "url": "https://voodc.com/embed/85818c95a38f9a86847a8597a18a988c8a.html"
-    },
-    {
-      "date": "",
-      "time": "12:00 UTC -5",
-      "category": "SOCCER",
-      "info": "Slovakia",
-      "title": "Slovan Bratislava - Ruzomberok",
-      "url": "https://voodc.com/embed/85818c95a38f9a86847a8597a18b988c8b.html"
+      "title": "Bologna - Parma [spanish]",
+      "url": "https://voodc.com/embed/85818c95a48da08a847a85979e8b988987.html"
     },
     {
       "date": "",
       "time": "12:00 UTC -5",
       "category": "SOCCER",
       "info": "Slovenian Cup",
-      "title": "Mura - Nafta",
-      "url": "https://voodc.com/embed/85818c95a38f9a86847a8597a18c988c8c.html"
-    },
-    {
-      "date": "",
-      "time": "12:00 UTC -5",
-      "category": "HOCKEY",
-      "info": "Maxa liga",
-      "title": "Kolin - Prerov",
-      "url": "https://voodc.com/embed/85818c95a38f9a86847a8597a18d988a8d.html"
-    },
-    {
-      "date": "",
-      "time": "12:00 UTC -5",
-      "category": "HOCKEY",
-      "info": "Maxa liga",
-      "title": "Pardubice B - Pirati Chomutov",
-      "url": "https://voodc.com/embed/85818c95a38f9a86847a8597a18e988b84.html"
-    },
-    {
-      "date": "",
-      "time": "12:00 UTC -5",
-      "category": "HOCKEY",
-      "info": "Maxa liga",
-      "title": "Slavia Prague - Trebic",
-      "url": "https://voodc.com/embed/85818c95a38f9a86847a8597a18f988b85.html"
-    },
-    {
-      "date": "",
-      "time": "12:00 UTC -5",
-      "category": "HOCKEY",
-      "info": "Maxa liga",
-      "title": "Sokolov - Tabor",
-      "url": "https://voodc.com/embed/85818c95a38f9a86847a8597a190988b86.html"
-    },
-    {
-      "date": "",
-      "time": "12:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "ENBL",
-      "title": "Opava - Dinamo Zagreb",
-      "url": "https://voodc.com/embed/85818c95a38f9a86847a8597a287988a87.html"
+      "title": "Olimpija Ljubljana - NK Celje",
+      "url": "https://voodc.com/embed/85818c95a48da08a847a85979e8c988988.html"
     },
     {
       "date": "",
       "time": "12:00 UTC -5",
       "category": "BASKETBALL",
       "info": "Poland Basket Liga",
-      "title": "AZS Poznan W - Polonia Warszawa W",
-      "url": "https://voodc.com/embed/85818c95a38f9a86847a8597a288988a88.html"
+      "title": "Krosno - Gdynia",
+      "url": "https://voodc.com/embed/85818c95a48da08a847a85979e8d988888.html"
     },
     {
       "date": "",
       "time": "12:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "Poland Basket Liga",
-      "title": "Basket 25 Bydgoszcz W - Wisla Krakow W",
-      "url": "https://voodc.com/embed/85818c95a38f9a86847a8597a289988a89.html"
+      "category": "VOLLEYBALL",
+      "info": "CEV Champions League",
+      "title": "Novara W - Fenerbahce W",
+      "url": "https://voodc.com/embed/85818c95a48da08a847a85979e8e988989.html"
     },
     {
       "date": "",
       "time": "12:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "Poland Basket Liga",
-      "title": "Bochnia W - Lublin W",
-      "url": "https://voodc.com/embed/85818c95a38f9a86847a8597a28a988a8a.html"
-    },
-    {
-      "date": "",
-      "time": "12:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "Poland Basket Liga",
-      "title": "Sleza Wroclaw W - Sosnowiec W",
-      "url": "https://voodc.com/embed/85818c95a38f9a86847a8597a28b988a8b.html"
-    },
-    {
-      "date": "",
-      "time": "12:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "Poland Basket Liga",
-      "title": "VBW Gdynia W - Gorzow W",
-      "url": "https://voodc.com/embed/85818c95a38f9a86847a8597a28c988a8c.html"
+      "category": "HANDBALL",
+      "info": "Poland Superliga",
+      "title": "Chrobry Glogow - Legionowo",
+      "url": "https://voodc.com/embed/85818c95a48da08a847a8596a590988b87.html"
     },
     {
       "date": "",
       "time": "12:00 UTC -5",
       "category": "HANDBALL",
       "info": "World Championship",
-      "title": "Brazil W - South Korea W",
-      "url": "https://voodc.com/embed/85818c95a38f9a86847a8596a58f988d8c.html"
+      "title": "France W - Austria W",
+      "url": "https://voodc.com/embed/85818c95a48da08a847a85979e8f988889.html"
     },
     {
       "date": "",
       "time": "12:00 UTC -5",
       "category": "HANDBALL",
       "info": "World Championship",
-      "title": "Hungary W - Romania W",
-      "url": "https://voodc.com/embed/85818c95a38f9a86847a8596a590988d8d.html"
+      "title": "Montenegro W - Germany W",
+      "url": "https://voodc.com/embed/85818c95a48da08a847a85979e9098888a.html"
+    },
+    {
+      "date": "",
+      "time": "12:15 UTC -5",
+      "category": "BASKETBALL",
+      "info": "EuroLeague",
+      "title": "Anadolu Efes - Real Madrid [english]",
+      "url": "https://voodc.com/embed/85818c95a48da189847a85979f8798898a.html"
+    },
+    {
+      "date": "",
+      "time": "12:15 UTC -5",
+      "category": "BASKETBALL",
+      "info": "EuroLeague",
+      "title": "Anadolu Efes - Real Madrid [spanish]",
+      "url": "https://voodc.com/embed/85818c95a48da189847a85979f8898898b.html"
     },
     {
       "date": "",
       "time": "12:30 UTC -5",
       "category": "SOCCER",
-      "info": "Greek Cup",
-      "title": "Panathinaikos - Kifisia",
-      "url": "https://voodc.com/embed/85818c95a38f9c84847a8597a28d988d85.html"
-    },
-    {
-      "date": "",
-      "time": "12:30 UTC -5",
-      "category": "SOCCER",
-      "info": "Israel Ligat ha'Al",
-      "title": "Maccabi Netanya - SC Ashdod",
-      "url": "https://voodc.com/embed/85818c95a38f9c84847a8597a28e988d86.html"
-    },
-    {
-      "date": "",
-      "time": "12:30 UTC -5",
-      "category": "SOCCER",
-      "info": "Italy Serie C",
-      "title": "Dolomiti Bellunesi - Inter U23",
-      "url": "https://voodc.com/embed/85818c95a38f9c84847a8597a28f988d87.html"
-    },
-    {
-      "date": "",
-      "time": "12:30 UTC -5",
-      "category": "SOCCER",
-      "info": "Liga BiH",
-      "title": "Zeljeznicar - Siroki Brijeg",
-      "url": "https://voodc.com/embed/85818c95a38f9c84847a8597a290988d88.html"
+      "info": "Swiss Cup",
+      "title": "Grand-Saconnex - Basel",
+      "url": "https://voodc.com/embed/85818c95a48da288847a85979f89988a8a.html"
     },
     {
       "date": "",
       "time": "12:30 UTC -5",
       "category": "SOCCER",
       "info": "Turkish Cup",
-      "title": "Trabzonspor - Vanspor FK",
-      "url": "https://voodc.com/embed/85818c95a38f9c84847a8597a387988d89.html"
+      "title": "Corum - Alanyaspor",
+      "url": "https://voodc.com/embed/85818c95a48da288847a85979f8a988a8b.html"
     },
     {
       "date": "",
       "time": "12:30 UTC -5",
       "category": "HOCKEY",
-      "info": "ICEHL",
-      "title": "Ferencvaros - FC Salzburg",
-      "url": "https://voodc.com/embed/85818c95a38f9c84847a8597a388988c8d.html"
+      "info": "Norway EHL",
+      "title": "Lillehammer - Nidaros",
+      "url": "https://voodc.com/embed/85818c95a48da288847a85979f8b988a86.html"
     },
     {
       "date": "",
       "time": "12:30 UTC -5",
       "category": "HOCKEY",
-      "info": "ICEHL",
-      "title": "Graz99ers - Vienna Capitals",
-      "url": "https://voodc.com/embed/85818c95a38f9c84847a8597a389988d84.html"
+      "info": "Norway EHL",
+      "title": "Narvik - Stavanger Oilers",
+      "url": "https://voodc.com/embed/85818c95a48da288847a85979f8c988a87.html"
+    },
+    {
+      "date": "",
+      "time": "12:30 UTC -5",
+      "category": "HOCKEY",
+      "info": "Norway EHL",
+      "title": "Sparta Sarpsborg - Lorenskog",
+      "url": "https://voodc.com/embed/85818c95a48da288847a85979f8d988a88.html"
+    },
+    {
+      "date": "",
+      "time": "12:30 UTC -5",
+      "category": "HOCKEY",
+      "info": "Norway EHL",
+      "title": "Stjernen - Storhamar Hamar",
+      "url": "https://voodc.com/embed/85818c95a48da288847a85979f8e988a89.html"
+    },
+    {
+      "date": "",
+      "time": "12:30 UTC -5",
+      "category": "BASKETBALL",
+      "info": "Eurocup",
+      "title": "Cedevita Olimpija - Slask Wroclaw",
+      "url": "https://voodc.com/embed/85818c95a48da288847a85979f8f98898c.html"
+    },
+    {
+      "date": "",
+      "time": "12:30 UTC -5",
+      "category": "BASKETBALL",
+      "info": "Montenegro Prva A Liga",
+      "title": "Studentski Centar - Sutjeska",
+      "url": "https://voodc.com/embed/85818c95a48da288847a85979f9098898d.html"
+    },
+    {
+      "date": "",
+      "time": "12:30 UTC -5",
+      "category": "HANDBALL",
+      "info": "Denmark Herre Handbold Ligaen",
+      "title": "Ribe-Esbjerg - Mors",
+      "url": "https://voodc.com/embed/85818c95a48da288847a8597a087988a84.html"
+    },
+    {
+      "date": "",
+      "time": "12:30 UTC -5",
+      "category": "HANDBALL",
+      "info": "World Championship",
+      "title": "Cuba W - Kazakhstan W",
+      "url": "https://voodc.com/embed/85818c95a48da288847a8597a088988a85.html"
     },
     {
       "date": "",
       "time": "12:30 UTC -5",
       "category": "TENNIS",
       "info": "WTA",
-      "title": "WTA Angers Monnot - Sonmez",
-      "url": "https://voodc.com/embed/85818c95a38f9c84847a859aa48c988d8b.html"
-    },
-    {
-      "date": "",
-      "time": "12:45 UTC -5",
-      "category": "SOCCER",
-      "info": "Israel Ligat ha'Al",
-      "title": "Ironi Tiberias - Beitar Jerusalem",
-      "url": "https://voodc.com/embed/85818c95a38f9c8d847a8597a38a988d8a.html"
+      "title": "WTA Angers Paquet - Salkova",
+      "url": "https://voodc.com/embed/85818c95a48da288847a859aa48c988b86.html"
     },
     {
       "date": "",
       "time": "12:45 UTC -5",
       "category": "HANDBALL",
       "info": "Champions League",
-      "title": "Dinamo Bucuresti - AaB Aalborg",
-      "url": "https://voodc.com/embed/85818c95a38f9c8d847a8597a38b9885847a.html"
+      "title": "Kolstad - Fuchse Berlin",
+      "url": "https://voodc.com/embed/85818c95a48e9987847a8597a089988a8c.html"
     },
     {
       "date": "",
       "time": "12:45 UTC -5",
       "category": "HANDBALL",
       "info": "Champions League",
-      "title": "RK Zagreb - Eurofarm Pelister",
-      "url": "https://voodc.com/embed/85818c95a38f9c8d847a8597a38c9885847b.html"
+      "title": "Veszprem - Sporting Lisbon",
+      "url": "https://voodc.com/embed/85818c95a48e9987847a8597a08a988a8d.html"
+    },
+    {
+      "date": "",
+      "time": "12:45 UTC -5",
+      "category": "HANDBALL",
+      "info": "Champions League",
+      "title": "Wisla Plock - GOG [danish]",
+      "url": "https://voodc.com/embed/85818c95a48e9987847a8597a08b988b84.html"
+    },
+    {
+      "date": "",
+      "time": "12:45 UTC -5",
+      "category": "HANDBALL",
+      "info": "Champions League",
+      "title": "Wisla Plock - GOG [polish]",
+      "url": "https://voodc.com/embed/85818c95a48e9987847a8597a08c988b85.html"
+    },
+    {
+      "date": "",
+      "time": "12:45 UTC -5",
+      "category": "WINTER SPORTS",
+      "info": "Skiing",
+      "title": "FIS Alpine Skiing Men's World Cup:eaver Creek",
+      "url": "https://voodc.com/embed/85818c95a48e9987847a8597a08d988b88.html"
+    },
+    {
+      "date": "",
+      "time": "13:00 UTC -5",
+      "category": "SOCCER",
+      "info": "Copa del Rey",
+      "title": "Baleares - Espanyol [english]",
+      "url": "https://voodc.com/embed/85818c95a48e9a86847a8597a08e98868b7d.html"
+    },
+    {
+      "date": "",
+      "time": "13:00 UTC -5",
+      "category": "SOCCER",
+      "info": "Copa del Rey",
+      "title": "Baleares - Espanyol [spanish]",
+      "url": "https://voodc.com/embed/85818c95a48e9a86847a8597a08f98868b7e.html"
+    },
+    {
+      "date": "",
+      "time": "13:00 UTC -5",
+      "category": "SOCCER",
+      "info": "Copa del Rey",
+      "title": "Leganes - Albacete",
+      "url": "https://voodc.com/embed/85818c95a48e9a86847a8597a09098868b7f.html"
+    },
+    {
+      "date": "",
+      "time": "13:00 UTC -5",
+      "category": "SOCCER",
+      "info": "Copa del Rey",
+      "title": "Real Avila - Rayo Vallecano",
+      "url": "https://voodc.com/embed/85818c95a48e9a86847a8597a18798868b80.html"
+    },
+    {
+      "date": "",
+      "time": "13:00 UTC -5",
+      "category": "SOCCER",
+      "info": "Copa del Rey",
+      "title": "Sabadell - Deportivo La Coruna",
+      "url": "https://voodc.com/embed/85818c95a48e9a86847a8597a18898868b81.html"
+    },
+    {
+      "date": "",
+      "time": "13:00 UTC -5",
+      "category": "SOCCER",
+      "info": "Landspokal Cup",
+      "title": "Midtjylland - Nordsjaelland",
+      "url": "https://voodc.com/embed/85818c95a48e9a86847a8597a18998868b82.html"
+    },
+    {
+      "date": "",
+      "time": "13:00 UTC -5",
+      "category": "SOCCER",
+      "info": "Serbia",
+      "title": "Crvena zvezda - Cukaricki",
+      "url": "https://voodc.com/embed/85818c95a48e9a86847a8597a18a98868b83.html"
+    },
+    {
+      "date": "",
+      "time": "13:00 UTC -5",
+      "category": "HOCKEY",
+      "info": "Metal Ligaen",
+      "title": "Esbjerg - AaB Aalborg",
+      "url": "https://voodc.com/embed/85818c95a48e9a86847a8597a18b98868a7e.html"
+    },
+    {
+      "date": "",
+      "time": "13:00 UTC -5",
+      "category": "HOCKEY",
+      "info": "Norway EHL",
+      "title": "Valerenga - Frisk Asker",
+      "url": "https://voodc.com/embed/85818c95a48e9a86847a8597a18c98868a7f.html"
+    },
+    {
+      "date": "",
+      "time": "13:00 UTC -5",
+      "category": "HOCKEY",
+      "info": "SHL",
+      "title": "Frolunda Gothenburg - Djurgarden",
+      "url": "https://voodc.com/embed/85818c95a48e9a86847a8597a18d98868a80.html"
+    },
+    {
+      "date": "",
+      "time": "13:00 UTC -5",
+      "category": "HOCKEY",
+      "info": "SHL",
+      "title": "HV71 Jonkoping - Skelleftea AIK",
+      "url": "https://voodc.com/embed/85818c95a48e9a86847a8597a18e98868a81.html"
+    },
+    {
+      "date": "",
+      "time": "13:00 UTC -5",
+      "category": "HOCKEY",
+      "info": "SHL",
+      "title": "Leksand - Brynas",
+      "url": "https://voodc.com/embed/85818c95a48e9a86847a8597a18f98868a82.html"
+    },
+    {
+      "date": "",
+      "time": "13:00 UTC -5",
+      "category": "HOCKEY",
+      "info": "SHL",
+      "title": "Lulea Hockey - Vaxjo Lakers",
+      "url": "https://voodc.com/embed/85818c95a48e9a86847a8597a19098868a83.html"
+    },
+    {
+      "date": "",
+      "time": "13:00 UTC -5",
+      "category": "HOCKEY",
+      "info": "SHL",
+      "title": "Malmo - Linkoping",
+      "url": "https://voodc.com/embed/85818c95a48e9a86847a8597a28798868b7a.html"
+    },
+    {
+      "date": "",
+      "time": "13:00 UTC -5",
+      "category": "HOCKEY",
+      "info": "SHL",
+      "title": "Orebro - Farjestad",
+      "url": "https://voodc.com/embed/85818c95a48e9a86847a8597a28898868b7b.html"
+    },
+    {
+      "date": "",
+      "time": "13:00 UTC -5",
+      "category": "HOCKEY",
+      "info": "SHL",
+      "title": "Rogle - Timra",
+      "url": "https://voodc.com/embed/85818c95a48e9a86847a8597a28998868b7c.html"
     },
     {
       "date": "",
       "time": "13:00 UTC -5",
       "category": "BASKETBALL",
-      "info": "NCAAW",
-      "title": "Boston College (W) - Quinnipiac (W)",
-      "url": "https://voodc.com/embed/85818c95a38f9d8c847a8597a38d9885857a.html"
-    },
-    {
-      "date": "",
-      "time": "13:00 UTC -5",
-      "category": "SOCCER",
-      "info": "Egypt",
-      "title": "Kahrabaa Ismailia - Pyramids",
-      "url": "https://voodc.com/embed/85818c95a38f9d8c847a8597a38e9885857b.html"
-    },
-    {
-      "date": "",
-      "time": "13:00 UTC -5",
-      "category": "SOCCER",
-      "info": "Israel Ligat ha'Al",
-      "title": "Maccabi Tel Aviv - Hapoel Haifa",
-      "url": "https://voodc.com/embed/85818c95a38f9d8c847a8597a38f9885857c.html"
-    },
-    {
-      "date": "",
-      "time": "13:00 UTC -5",
-      "category": "SOCCER",
-      "info": "LaLiga",
-      "title": "Athletic Bilbao - Real Madrid [english]",
-      "url": "https://voodc.com/embed/85818c95a38f9d8c847a8597a3909885857d.html"
-    },
-    {
-      "date": "",
-      "time": "13:00 UTC -5",
-      "category": "SOCCER",
-      "info": "LaLiga",
-      "title": "Athletic Bilbao - Real Madrid [spanish]",
-      "url": "https://voodc.com/embed/85818c95a38f9d8c847a8597a4879885857e.html"
-    },
-    {
-      "date": "",
-      "time": "13:00 UTC -5",
-      "category": "SOCCER",
-      "info": "LaLiga",
-      "title": "Athletic Bilbao - Real Madrid [portuguese]",
-      "url": "https://voodc.com/embed/85818c95a38f9d8c847a8597a4889885857f.html"
-    },
-    {
-      "date": "",
-      "time": "13:00 UTC -5",
-      "category": "SOCCER",
-      "info": "Serbian Cup",
-      "title": "Borac 1926 - Jedinstvo U.",
-      "url": "https://voodc.com/embed/85818c95a38f9d8c847a8597a48998858580.html"
-    },
-    {
-      "date": "",
-      "time": "13:00 UTC -5",
-      "category": "HOCKEY",
-      "info": "HockeyAllsvenskan",
-      "title": "AIK - Mora",
-      "url": "https://voodc.com/embed/85818c95a38f9d8c847a8597a48a9885847d.html"
-    },
-    {
-      "date": "",
-      "time": "13:00 UTC -5",
-      "category": "HOCKEY",
-      "info": "HockeyAllsvenskan",
-      "title": "BIK Karlskoga - Vimmerby",
-      "url": "https://voodc.com/embed/85818c95a38f9d8c847a8597a48b9885847e.html"
-    },
-    {
-      "date": "",
-      "time": "13:00 UTC -5",
-      "category": "HOCKEY",
-      "info": "HockeyAllsvenskan",
-      "title": "IF Bjorkloven - Vasteras",
-      "url": "https://voodc.com/embed/85818c95a38f9d8c847a8597a48c9885847f.html"
-    },
-    {
-      "date": "",
-      "time": "13:00 UTC -5",
-      "category": "HOCKEY",
-      "info": "HockeyAllsvenskan",
-      "title": "Kalmar - Ostersund",
-      "url": "https://voodc.com/embed/85818c95a38f9d8c847a8597a48d98858480.html"
-    },
-    {
-      "date": "",
-      "time": "13:00 UTC -5",
-      "category": "HOCKEY",
-      "info": "HockeyAllsvenskan",
-      "title": "Nybro - Sodertalje",
-      "url": "https://voodc.com/embed/85818c95a38f9d8c847a8597a48e98858481.html"
-    },
-    {
-      "date": "",
-      "time": "13:00 UTC -5",
-      "category": "HOCKEY",
-      "info": "HockeyAllsvenskan",
-      "title": "Oskarshamn - Almtuna",
-      "url": "https://voodc.com/embed/85818c95a38f9d8c847a8597a48f98858482.html"
-    },
-    {
-      "date": "",
-      "time": "13:00 UTC -5",
-      "category": "HOCKEY",
-      "info": "HockeyAllsvenskan",
-      "title": "Troja/Ljungby - Modo",
-      "url": "https://voodc.com/embed/85818c95a38f9d8c847a8597a49098858483.html"
+      "info": "Eurocup",
+      "title": "Aris - Cluj-Napoca",
+      "url": "https://voodc.com/embed/85818c95a48e9a86847a8597a28a98868982.html"
     },
     {
       "date": "",
       "time": "13:00 UTC -5",
       "category": "BASKETBALL",
-      "info": "Poland Basket Liga",
-      "title": "Torun W - Jelenia Gora W",
-      "url": "https://voodc.com/embed/85818c95a38f9d8c847a8597a5879885847c.html"
+      "info": "Eurocup",
+      "title": "Chemnitz - Turk Telekom",
+      "url": "https://voodc.com/embed/85818c95a48e9a86847a8597a28b98868983.html"
     },
     {
       "date": "",
       "time": "13:00 UTC -5",
-      "category": "VOLLEYBALL",
-      "info": "CEV Champions League",
-      "title": "Zeleznicar W - Vero Volley W",
-      "url": "https://voodc.com/embed/85818c95a38f9d8c847a8597a58898858581.html"
+      "category": "BASKETBALL",
+      "info": "Eurocup",
+      "title": "Lietkabelis - London Lions",
+      "url": "https://voodc.com/embed/85818c95a48e9a86847a8597a28c98868a7a.html"
     },
     {
       "date": "",
-      "time": "13:15 UTC -5",
-      "category": "HOCKEY",
-      "info": "ICEHL",
-      "title": "Black Wings Linz - TWK Innsbruck",
-      "url": "https://voodc.com/embed/85818c95a38f9e8b847a8597a58998858582.html"
+      "time": "13:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "Eurocup",
+      "title": "Ulm - Trento",
+      "url": "https://voodc.com/embed/85818c95a48e9a86847a8597a28d98868a7b.html"
     },
     {
       "date": "",
-      "time": "13:15 UTC -5",
-      "category": "HOCKEY",
-      "info": "ICEHL",
-      "title": "Fehervar AV19 - HK Olimpija",
-      "url": "https://voodc.com/embed/85818c95a38f9e8b847a8597a58a98858583.html"
+      "time": "13:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "EuroLeague",
+      "title": "Zalgiris Kaunas - Maccabi Tel Aviv [english]",
+      "url": "https://voodc.com/embed/85818c95a48e9a86847a8597a28e9886897f.html"
     },
     {
       "date": "",
-      "time": "13:15 UTC -5",
-      "category": "HOCKEY",
-      "info": "ICEHL",
-      "title": "Villach - Bolzano",
-      "url": "https://voodc.com/embed/85818c95a38f9e8b847a8597a58b9885867a.html"
+      "time": "13:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "EuroLeague",
+      "title": "Zalgiris Kaunas - Maccabi Tel Aviv [hebrew]",
+      "url": "https://voodc.com/embed/85818c95a48e9a86847a8597a28f98868980.html"
+    },
+    {
+      "date": "",
+      "time": "13:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "EuroLeague",
+      "title": "Zalgiris Kaunas - Maccabi Tel Aviv [spanish]",
+      "url": "https://voodc.com/embed/85818c95a48e9a86847a8597a29098868981.html"
+    },
+    {
+      "date": "",
+      "time": "13:00 UTC -5",
+      "category": "HANDBALL",
+      "info": "Bundesliga",
+      "title": "Lemgo - SG Flensburg-Handewit",
+      "url": "https://voodc.com/embed/85818c95a48e9a86847a8597a38798868a7c.html"
+    },
+    {
+      "date": "",
+      "time": "13:00 UTC -5",
+      "category": "HANDBALL",
+      "info": "Bundesliga",
+      "title": "Stuttgart - HSG Wetzlar",
+      "url": "https://voodc.com/embed/85818c95a48e9a86847a8597a38898868a7d.html"
+    },
+    {
+      "date": "",
+      "time": "13:00 UTC -5",
+      "category": "TENNIS",
+      "info": "WTA",
+      "title": "WTA Quito - Center Court Erjavec - Pigossi",
+      "url": "https://voodc.com/embed/85818c95a48e9a86847a859aa48f98888981.html"
     },
     {
       "date": "",
       "time": "13:30 UTC -5",
-      "category": "TENNIS",
-      "info": "WTA",
-      "title": "WTA Quito - Center Court Lepchenko - Kalieva",
-      "url": "https://voodc.com/embed/85818c95a38f9f8a847a859aa48f9885867f.html"
+      "category": "SOCCER",
+      "info": "Serie B",
+      "title": "Juve Stabia - Bari",
+      "url": "https://voodc.com/embed/85818c95a48e9c84847a8597a38998868c7e.html"
     },
     {
       "date": "",
-      "time": "13:45 UTC -5",
+      "time": "13:30 UTC -5",
       "category": "HOCKEY",
-      "info": "ICEHL",
-      "title": "Val Pusteria - KAC Klagenfurt",
-      "url": "https://voodc.com/embed/85818c95a38fa089847a85989c879885867b.html"
+      "info": "DEL",
+      "title": "Augsburger Panther - Dresdner Eislowen",
+      "url": "https://voodc.com/embed/85818c95a48e9c84847a8597a38a98868c7d.html"
+    },
+    {
+      "date": "",
+      "time": "13:30 UTC -5",
+      "category": "BASKETBALL",
+      "info": "EuroLeague",
+      "title": "Monaco - Paris [english]",
+      "url": "https://voodc.com/embed/85818c95a48e9c84847a8597a38b98868c7a.html"
+    },
+    {
+      "date": "",
+      "time": "13:30 UTC -5",
+      "category": "BASKETBALL",
+      "info": "EuroLeague",
+      "title": "Monaco - Paris [spanish]",
+      "url": "https://voodc.com/embed/85818c95a48e9c84847a8597a38c98868c7b.html"
+    },
+    {
+      "date": "",
+      "time": "13:30 UTC -5",
+      "category": "GOLF",
+      "info": "PGA Tour",
+      "title": "Hero World Challenge",
+      "url": "https://voodc.com/embed/85818c95a48e9c84847a8597a58d98868c7c.html"
     },
     {
       "date": "",
       "time": "13:45 UTC -5",
       "category": "HOCKEY",
       "info": "Swiss National League",
-      "title": "Fribourg-Gotteron - Rapperswil-Jona",
-      "url": "https://voodc.com/embed/85818c95a38fa089847a85989c889885867c.html"
-    },
-    {
-      "date": "",
-      "time": "13:45 UTC -5",
-      "category": "HOCKEY",
-      "info": "Swiss National League",
-      "title": "HC Davos - Geneve-Servette",
-      "url": "https://voodc.com/embed/85818c95a38fa089847a85989c899885867d.html"
-    },
-    {
-      "date": "",
-      "time": "13:45 UTC -5",
-      "category": "HOCKEY",
-      "info": "Swiss National League",
-      "title": "SC Bern - Biel",
-      "url": "https://voodc.com/embed/85818c95a38fa089847a85989c8a9885867e.html"
+      "title": "Ambri-Piotta - Geneve-Servette",
+      "url": "https://voodc.com/embed/85818c95a48e9c8d847a8597a38d98868c7f.html"
     },
     {
       "date": "",
       "time": "14:00 UTC -5",
       "category": "BASKETBALL",
       "info": "NCAAW",
-      "title": "Idaho (W) - Oral Roberts (W)",
-      "url": "https://voodc.com/embed/85818c95a38fa188847a85989c8b98858680.html"
-    },
-    {
-      "date": "",
-      "time": "14:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAAW",
-      "title": "San Diego (W) - Binghamton (W)",
-      "url": "https://voodc.com/embed/85818c95a38fa188847a85989c8c98858681.html"
+      "title": "Southern Utah (W) - New Mexico State (W)",
+      "url": "https://voodc.com/embed/85818c95a48e9d8c847a8597a38e98868c82.html"
     },
     {
       "date": "",
       "time": "14:00 UTC -5",
       "category": "SOCCER",
       "info": "Bolivia",
-      "title": "Blooming - Academia del Balompie",
-      "url": "https://voodc.com/embed/85818c95a38fa188847a85989c8d98858682.html"
+      "title": "Always Ready - Aurora",
+      "url": "https://voodc.com/embed/85818c95a48e9d8c847a8597a38f98868c83.html"
     },
     {
       "date": "",
       "time": "14:00 UTC -5",
       "category": "SOCCER",
       "info": "Copa del Rey",
-      "title": "CF Talavera - Malaga",
-      "url": "https://voodc.com/embed/85818c95a38fa188847a85989c8e98858683.html"
+      "title": "Ponferradina - Racing Santander",
+      "url": "https://voodc.com/embed/85818c95a48e9d8c847a8597a39098868d7a.html"
     },
     {
       "date": "",
       "time": "14:00 UTC -5",
       "category": "SOCCER",
-      "info": "Copa del Rey",
-      "title": "Cultural Leonesa - Andorra",
-      "url": "https://voodc.com/embed/85818c95a38fa188847a85989c8f9885877a.html"
+      "info": "Copa do Brasil",
+      "title": "Sao Paulo U20 - Atletico-MG U20",
+      "url": "https://voodc.com/embed/85818c95a48e9d8c847a8597a48798868d7b.html"
     },
     {
       "date": "",
       "time": "14:00 UTC -5",
       "category": "SOCCER",
-      "info": "Copa del Rey",
-      "title": "Eldense - Almeria",
-      "url": "https://voodc.com/embed/85818c95a38fa188847a85989c909885877b.html"
+      "info": "Costa Rica Liga de Ascenso",
+      "title": "Quepos Cambute - Inter San Carlos",
+      "url": "https://voodc.com/embed/85818c95a48e9d8c847a8597a48898868d7c.html"
     },
     {
       "date": "",
       "time": "14:00 UTC -5",
       "category": "SOCCER",
-      "info": "Copa del Rey",
-      "title": "Mirandes - Sporting Gijon",
-      "url": "https://voodc.com/embed/85818c95a38fa188847a85989d879885877c.html"
-    },
-    {
-      "date": "",
-      "time": "14:00 UTC -5",
-      "category": "SOCCER",
-      "info": "Copa del Rey",
-      "title": "Murcia - Cadiz CF",
-      "url": "https://voodc.com/embed/85818c95a38fa188847a85989d889885877d.html"
-    },
-    {
-      "date": "",
-      "time": "14:00 UTC -5",
-      "category": "SOCCER",
-      "info": "EFL Trophy",
-      "title": "Crewe - Stockport County",
-      "url": "https://voodc.com/embed/85818c95a38fa188847a85989d899885877e.html"
-    },
-    {
-      "date": "",
-      "time": "14:00 UTC -5",
-      "category": "SOCCER",
-      "info": "KNVB Beker",
-      "title": "PEC Zwolle - AZ Alkmaar",
-      "url": "https://voodc.com/embed/85818c95a38fa188847a85989d8a9885877f.html"
+      "info": "Eerste Divisie",
+      "title": "Vitesse - De Graafschap",
+      "url": "https://voodc.com/embed/85818c95a48e9d8c847a8597a48998868d7d.html"
     },
     {
       "date": "",
       "time": "14:00 UTC -5",
       "category": "SOCCER",
       "info": "Romanian Cup",
-      "title": "UTA Arad - FCSB",
-      "url": "https://voodc.com/embed/85818c95a38fa188847a85989d8b98858780.html"
+      "title": "Petrolul - Universitatea Craiova",
+      "url": "https://voodc.com/embed/85818c95a48e9d8c847a8597a48a98868d7e.html"
     },
     {
       "date": "",
       "time": "14:00 UTC -5",
-      "category": "SOCCER",
-      "info": "Swiss Cup",
-      "title": "Zug - Luzern",
-      "url": "https://voodc.com/embed/85818c95a38fa188847a85989d8c98858781.html"
+      "category": "BASKETBALL",
+      "info": "Eurocup",
+      "title": "Hapoel Jerusalem - Venezia [english]",
+      "url": "https://voodc.com/embed/85818c95a48e9d8c847a8597a48b98868c80.html"
+    },
+    {
+      "date": "",
+      "time": "14:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "Eurocup",
+      "title": "Hapoel Jerusalem - Venezia [hebrew]",
+      "url": "https://voodc.com/embed/85818c95a48e9d8c847a8597a48c98868c81.html"
     },
     {
       "date": "",
       "time": "14:00 UTC -5",
       "category": "VOLLEYBALL",
       "info": "CEV Champions League",
-      "title": "Benfica W - Budowlani Lodz W",
-      "url": "https://voodc.com/embed/85818c95a38fa188847a85989d8d98858782.html"
+      "title": "Levallois Paris SC W - Rzeszow W",
+      "url": "https://voodc.com/embed/85818c95a48e9d8c847a8597a48d98868d7f.html"
     },
     {
       "date": "",
       "time": "14:00 UTC -5",
       "category": "VOLLEYBALL",
-      "info": "CEV Champions League",
-      "title": "Le Cannet W - Scandicci W",
-      "url": "https://voodc.com/embed/85818c95a38fa188847a85989d8e98858783.html"
-    },
-    {
-      "date": "",
-      "time": "14:00 UTC -5",
-      "category": "VOLLEYBALL",
-      "info": "Poland",
-      "title": "Belchatow - Zawiercie",
-      "url": "https://voodc.com/embed/85818c95a38fa188847a85989d8f9885887a.html"
+      "info": "Poland I. Liga",
+      "title": "Swidnik - Bedzin",
+      "url": "https://voodc.com/embed/85818c95a48e9d8c847a8597a48e98868d80.html"
     },
     {
       "date": "",
       "time": "14:00 UTC -5",
       "category": "TENNIS",
       "info": "WTA",
-      "title": "WTA Angers Podrez - Ruzic",
-      "url": "https://voodc.com/embed/85818c95a38fa188847a859aa48c98878d7a.html"
+      "title": "WTA Angers Zhang - Barthel",
+      "url": "https://voodc.com/embed/85818c95a48e9d8c847a859aa48c98888982.html"
+    },
+    {
+      "date": "",
+      "time": "14:00 UTC -5",
+      "category": "TENNIS",
+      "info": "WTA",
+      "title": "WTA Quito - Court 1 Lepchenko/Samson - Strakhova/Tikhonova",
+      "url": "https://voodc.com/embed/85818c95a48e9d8c847a859aa49098888983.html"
     },
     {
       "date": "",
@@ -791,7 +903,7 @@
       "category": "BILLIARD",
       "info": "Snooker",
       "title": "UK Championship - Table 1",
-      "url": "https://voodc.com/embed/85818c95a38fa188847a85979c8798878c82.html"
+      "url": "https://voodc.com/embed/85818c95a48e9d8c847a85979c87988687.html"
     },
     {
       "date": "",
@@ -799,1991 +911,1311 @@
       "category": "BILLIARD",
       "info": "Snooker",
       "title": "UK Championship - Table 2",
-      "url": "https://voodc.com/embed/85818c95a38fa188847a85979c8898878c83.html"
+      "url": "https://voodc.com/embed/85818c95a48e9d8c847a85979c88988688.html"
     },
     {
       "date": "",
-      "time": "14:15 UTC -5",
-      "category": "SOCCER",
-      "info": "Landspokal Cup",
-      "title": "Viborg - Vejle",
-      "url": "https://voodc.com/embed/85818c95a38fa287847a85989d909885887d.html"
+      "time": "14:05 UTC -5",
+      "category": "BASKETBALL",
+      "info": "EuroLeague",
+      "title": "Hapoel Tel-Aviv - Lyon-Villeurbanne [english]",
+      "url": "https://voodc.com/embed/85818c95a48e9e85847a8597a48f98868d81.html"
     },
     {
       "date": "",
-      "time": "14:15 UTC -5",
-      "category": "SOCCER",
-      "info": "Swiss Cup",
-      "title": "Rapperswil-Jona - St. Gallen",
-      "url": "https://voodc.com/embed/85818c95a38fa287847a85989e879885887e.html"
+      "time": "14:05 UTC -5",
+      "category": "BASKETBALL",
+      "info": "EuroLeague",
+      "title": "Hapoel Tel-Aviv - Lyon-Villeurbanne [hebrew]",
+      "url": "https://voodc.com/embed/85818c95a48e9e85847a8597a49098868d82.html"
+    },
+    {
+      "date": "",
+      "time": "14:05 UTC -5",
+      "category": "BASKETBALL",
+      "info": "EuroLeague",
+      "title": "Hapoel Tel-Aviv - Lyon-Villeurbanne [spanish]",
+      "url": "https://voodc.com/embed/85818c95a48e9e85847a8597a58798868d83.html"
     },
     {
       "date": "",
       "time": "14:15 UTC -5",
       "category": "BASKETBALL",
-      "info": "Iceland",
-      "title": "Grindavik W - Hamar W",
-      "url": "https://voodc.com/embed/85818c95a38fa287847a85989e889885887b.html"
+      "info": "EuroLeague",
+      "title": "Olympiacos - Fenerbahce",
+      "url": "https://voodc.com/embed/85818c95a48e9e8b847a8597a5889887847a.html"
     },
     {
       "date": "",
       "time": "14:15 UTC -5",
       "category": "BASKETBALL",
-      "info": "Iceland",
-      "title": "Njardvik W - Stjarnan W",
-      "url": "https://voodc.com/embed/85818c95a38fa287847a85989e899885887c.html"
-    },
-    {
-      "date": "",
-      "time": "14:30 UTC -5",
-      "category": "SOCCER",
-      "info": "Austria Bundesliga",
-      "title": "Sturm Graz - Tirol",
-      "url": "https://voodc.com/embed/85818c95a3909986847a85989e8a98858881.html"
+      "info": "Poland Basket Liga",
+      "title": "Ostrow Wielkopolski - Anwil Wloclawek",
+      "url": "https://voodc.com/embed/85818c95a48e9e8b847a8597a5899887847b.html"
     },
     {
       "date": "",
       "time": "14:30 UTC -5",
       "category": "SOCCER",
       "info": "Belgian Cup",
-      "title": "Antwerp - Sint-Truidense",
-      "url": "https://voodc.com/embed/85818c95a3909986847a85989e8b98858882.html"
+      "title": "Charleroi - KV Mechelen",
+      "url": "https://voodc.com/embed/85818c95a48e9f8a847a85989c879887847e.html"
     },
     {
       "date": "",
       "time": "14:30 UTC -5",
       "category": "SOCCER",
       "info": "Belgian Cup",
-      "title": "Cercle Brugge KSV - Gent",
-      "url": "https://voodc.com/embed/85818c95a3909986847a85989e8c98858883.html"
-    },
-    {
-      "date": "",
-      "time": "14:30 UTC -5",
-      "category": "SOCCER",
-      "info": "Belgian Cup",
-      "title": "OH Leuven - Club Brugge KV",
-      "url": "https://voodc.com/embed/85818c95a3909986847a85989e8d9885897a.html"
-    },
-    {
-      "date": "",
-      "time": "14:30 UTC -5",
-      "category": "SOCCER",
-      "info": "Belgian Cup",
-      "title": "Royale Union SG - Zulte-Waregem",
-      "url": "https://voodc.com/embed/85818c95a3909986847a85989e8e9885897b.html"
-    },
-    {
-      "date": "",
-      "time": "14:30 UTC -5",
-      "category": "SOCCER",
-      "info": "EPL",
-      "title": "Arsenal - Brentford [english]",
-      "url": "https://voodc.com/embed/85818c95a3909986847a85989e8f9885897c.html"
-    },
-    {
-      "date": "",
-      "time": "14:30 UTC -5",
-      "category": "SOCCER",
-      "info": "EPL",
-      "title": "Arsenal - Brentford [spanish]",
-      "url": "https://voodc.com/embed/85818c95a3909986847a85989e909885897d.html"
-    },
-    {
-      "date": "",
-      "time": "14:30 UTC -5",
-      "category": "SOCCER",
-      "info": "EPL",
-      "title": "Brighton - Aston Villa",
-      "url": "https://voodc.com/embed/85818c95a3909986847a85989f879885897e.html"
-    },
-    {
-      "date": "",
-      "time": "14:30 UTC -5",
-      "category": "SOCCER",
-      "info": "EPL",
-      "title": "Burnley - Crystal Palace [english]",
-      "url": "https://voodc.com/embed/85818c95a3909986847a85989f889885897f.html"
-    },
-    {
-      "date": "",
-      "time": "14:30 UTC -5",
-      "category": "SOCCER",
-      "info": "EPL",
-      "title": "Burnley - Crystal Palace [spanish]",
-      "url": "https://voodc.com/embed/85818c95a3909986847a85989f8998858980.html"
-    },
-    {
-      "date": "",
-      "time": "14:30 UTC -5",
-      "category": "SOCCER",
-      "info": "EPL",
-      "title": "Wolves - Nottingham Forest [english]",
-      "url": "https://voodc.com/embed/85818c95a3909986847a85989f8a98858981.html"
-    },
-    {
-      "date": "",
-      "time": "14:30 UTC -5",
-      "category": "SOCCER",
-      "info": "EPL",
-      "title": "Wolves - Nottingham Forest [spanish]",
-      "url": "https://voodc.com/embed/85818c95a3909986847a85989f8b98858982.html"
-    },
-    {
-      "date": "",
-      "time": "14:30 UTC -5",
-      "category": "SOCCER",
-      "info": "Greek Cup",
-      "title": "Aris - PAOK",
-      "url": "https://voodc.com/embed/85818c95a3909986847a85989f8c98858983.html"
-    },
-    {
-      "date": "",
-      "time": "14:30 UTC -5",
-      "category": "SOCCER",
-      "info": "Polish Cup",
-      "title": "Piast Gliwice - Lech Poznan",
-      "url": "https://voodc.com/embed/85818c95a3909986847a85989f8d98858a7a.html"
+      "title": "Genk - Anderlecht",
+      "url": "https://voodc.com/embed/85818c95a48e9f8a847a85989c889887847f.html"
     },
     {
       "date": "",
       "time": "14:30 UTC -5",
       "category": "SOCCER",
       "info": "Swiss Cup",
-      "title": "Yverdon - Lausanne",
-      "url": "https://voodc.com/embed/85818c95a3909986847a85989f8e98858a7b.html"
+      "title": "Aarau - FC Sion",
+      "url": "https://voodc.com/embed/85818c95a48e9f8a847a85989c8998878480.html"
     },
     {
       "date": "",
       "time": "14:30 UTC -5",
       "category": "VOLLEYBALL",
       "info": "CEV Cup",
-      "title": "Sporting W - Vandoeuvre W",
-      "url": "https://voodc.com/embed/85818c95a3909986847a85989f8f98858a7c.html"
-    },
-    {
-      "date": "",
-      "time": "14:30 UTC -5",
-      "category": "VOLLEYBALL",
-      "info": "Italy SuperLega",
-      "title": "Grottazzolina - Perugia",
-      "url": "https://voodc.com/embed/85818c95a3909986847a85989f9098858a7d.html"
-    },
-    {
-      "date": "",
-      "time": "14:30 UTC -5",
-      "category": "VOLLEYBALL",
-      "info": "Italy SuperLega",
-      "title": "Piacenza - Padova",
-      "url": "https://voodc.com/embed/85818c95a3909986847a8598a08798858a7e.html"
-    },
-    {
-      "date": "",
-      "time": "14:30 UTC -5",
-      "category": "VOLLEYBALL",
-      "info": "Italy SuperLega",
-      "title": "Trentino - Modena",
-      "url": "https://voodc.com/embed/85818c95a3909986847a8598a08898858a7f.html"
-    },
-    {
-      "date": "",
-      "time": "14:30 UTC -5",
-      "category": "VOLLEYBALL",
-      "info": "Italy SuperLega",
-      "title": "Verona - Cisterna",
-      "url": "https://voodc.com/embed/85818c95a3909986847a8598a08998858a80.html"
+      "title": "Bielsko-Biala W - Dinamo Zagreb W",
+      "url": "https://voodc.com/embed/85818c95a48e9f8a847a85989c8a98878481.html"
     },
     {
       "date": "",
       "time": "14:30 UTC -5",
       "category": "HANDBALL",
       "info": "World Championship",
-      "title": "Denmark W - Senegal W",
-      "url": "https://voodc.com/embed/85818c95a3909986847a8598a08a9885887f.html"
+      "title": "Iceland W - Spain W",
+      "url": "https://voodc.com/embed/85818c95a48e9f8a847a85989c8b9887847c.html"
     },
     {
       "date": "",
       "time": "14:30 UTC -5",
       "category": "HANDBALL",
       "info": "World Championship",
-      "title": "Norway W - Sweden W",
-      "url": "https://voodc.com/embed/85818c95a3909986847a8598a08b98858880.html"
+      "title": "Netherlands W - Tunisia W",
+      "url": "https://voodc.com/embed/85818c95a48e9f8a847a85989c8c9887847d.html"
+    },
+    {
+      "date": "",
+      "time": "14:30 UTC -5",
+      "category": "TENNIS",
+      "info": "WTA",
+      "title": "WTA Quito - Center Court Casares/Varela-Alvarado - Akli/Fossa Huergo",
+      "url": "https://voodc.com/embed/85818c95a48e9f8a847a859aa48f98888a7a.html"
     },
     {
       "date": "",
       "time": "14:45 UTC -5",
       "category": "SOCCER",
-      "info": "DFB Pokal",
-      "title": "Hamburger SV - Holstein Kiel",
-      "url": "https://voodc.com/embed/85818c95a3909a85847a8598a08c98858a82.html"
+      "info": "Polish Cup",
+      "title": "Zawisza - Wisla Krakow",
+      "url": "https://voodc.com/embed/85818c95a48ea089847a85989c8d9887857c.html"
     },
     {
       "date": "",
       "time": "14:45 UTC -5",
-      "category": "SOCCER",
-      "info": "DFB Pokal",
-      "title": "Union Berlin - Bayern Munich [english]",
-      "url": "https://voodc.com/embed/85818c95a3909a85847a8598a08d98858a83.html"
+      "category": "BASKETBALL",
+      "info": "EuroLeague",
+      "title": "Partizan Mozzart Bet - Bayern Munich [english]",
+      "url": "https://voodc.com/embed/85818c95a48ea089847a85989c8e98878482.html"
     },
     {
       "date": "",
       "time": "14:45 UTC -5",
-      "category": "SOCCER",
-      "info": "DFB Pokal",
-      "title": "Union Berlin - Bayern Munich [german]",
-      "url": "https://voodc.com/embed/85818c95a3909a85847a8598a08e98858b7a.html"
-    },
-    {
-      "date": "",
-      "time": "14:45 UTC -5",
-      "category": "SOCCER",
-      "info": "DFB Pokal",
-      "title": "Union Berlin - Bayern Munich [spanish]",
-      "url": "https://voodc.com/embed/85818c95a3909a85847a8598a08f98858b7b.html"
-    },
-    {
-      "date": "",
-      "time": "14:45 UTC -5",
-      "category": "SOCCER",
-      "info": "Scotland",
-      "title": "Aberdeen - St. Mirren",
-      "url": "https://voodc.com/embed/85818c95a3909a85847a8598a09098858b7c.html"
-    },
-    {
-      "date": "",
-      "time": "14:45 UTC -5",
-      "category": "SOCCER",
-      "info": "Scotland",
-      "title": "Celtic - Dundee FC",
-      "url": "https://voodc.com/embed/85818c95a3909a85847a8598a18798858b7d.html"
-    },
-    {
-      "date": "",
-      "time": "14:45 UTC -5",
-      "category": "SOCCER",
-      "info": "Scotland",
-      "title": "Dundee United - Rangers",
-      "url": "https://voodc.com/embed/85818c95a3909a85847a8598a18898858b7e.html"
-    },
-    {
-      "date": "",
-      "time": "14:45 UTC -5",
-      "category": "SOCCER",
-      "info": "Scotland",
-      "title": "Falkirk - Motherwell",
-      "url": "https://voodc.com/embed/85818c95a3909a85847a8598a18998858b7f.html"
-    },
-    {
-      "date": "",
-      "time": "14:45 UTC -5",
-      "category": "SOCCER",
-      "info": "Scotland",
-      "title": "Hearts - Kilmarnock",
-      "url": "https://voodc.com/embed/85818c95a3909a85847a8598a18a98858b80.html"
+      "category": "BASKETBALL",
+      "info": "EuroLeague",
+      "title": "Partizan Mozzart Bet - Bayern Munich [spanish]",
+      "url": "https://voodc.com/embed/85818c95a48ea089847a85989c8f98878483.html"
     },
     {
       "date": "",
       "time": "14:45 UTC -5",
       "category": "VOLLEYBALL",
       "info": "Italy SuperLega",
-      "title": "Monza - Lube Civitanova",
-      "url": "https://voodc.com/embed/85818c95a3909a85847a8598a18b98858b81.html"
+      "title": "Cuneo Volley - Milano",
+      "url": "https://voodc.com/embed/85818c95a48ea089847a85989c909887857d.html"
     },
     {
       "date": "",
       "time": "14:45 UTC -5",
       "category": "HANDBALL",
       "info": "Champions League",
-      "title": "Barcelona - PSG",
-      "url": "https://voodc.com/embed/85818c95a3909a85847a8598a18c98858a81.html"
+      "title": "Nantes - Kielce",
+      "url": "https://voodc.com/embed/85818c95a48ea089847a85989d879887857a.html"
+    },
+    {
+      "date": "",
+      "time": "14:45 UTC -5",
+      "category": "HANDBALL",
+      "info": "Champions League",
+      "title": "SC Magdeburg - Szeged",
+      "url": "https://voodc.com/embed/85818c95a48ea089847a85989d889887857b.html"
     },
     {
       "date": "",
       "time": "15:00 UTC -5",
       "category": "SOCCER",
       "info": "Copa del Rey",
-      "title": "Antoniano - Villarreal [english]",
-      "url": "https://voodc.com/embed/85818c95a3909b84847a8598a18d98858b82.html"
+      "title": "CD Extremadura - Sevilla [english]",
+      "url": "https://voodc.com/embed/85818c95a48ea188847a85989d899887857f.html"
     },
     {
       "date": "",
       "time": "15:00 UTC -5",
       "category": "SOCCER",
       "info": "Copa del Rey",
-      "title": "Antoniano - Villarreal [spanish]",
-      "url": "https://voodc.com/embed/85818c95a3909b84847a8598a18e98858b83.html"
+      "title": "CD Extremadura - Sevilla [spanish]",
+      "url": "https://voodc.com/embed/85818c95a48ea188847a85989d8a98878580.html"
     },
     {
       "date": "",
       "time": "15:00 UTC -5",
       "category": "SOCCER",
       "info": "Copa del Rey",
-      "title": "Ciudad Cieza - Levante",
-      "url": "https://voodc.com/embed/85818c95a3909b84847a8598a18f98858c7a.html"
+      "title": "FC Cartagena SAD - Valencia",
+      "url": "https://voodc.com/embed/85818c95a48ea188847a85989d8b98878581.html"
     },
     {
       "date": "",
       "time": "15:00 UTC -5",
       "category": "SOCCER",
       "info": "Copa del Rey",
-      "title": "Ourense CF - Girona",
-      "url": "https://voodc.com/embed/85818c95a3909b84847a8598a19098858c7b.html"
+      "title": "Real Zaragoza - Burgos CF",
+      "url": "https://voodc.com/embed/85818c95a48ea188847a85989d8c98878582.html"
     },
     {
       "date": "",
       "time": "15:00 UTC -5",
       "category": "SOCCER",
       "info": "Copa del Rey",
-      "title": "Pontevedra - Eibar",
-      "url": "https://voodc.com/embed/85818c95a3909b84847a8598a28798858c7c.html"
-    },
-    {
-      "date": "",
-      "time": "15:00 UTC -5",
-      "category": "SOCCER",
-      "info": "Copa del Rey",
-      "title": "Quintanar del Rey - Elche",
-      "url": "https://voodc.com/embed/85818c95a3909b84847a8598a28898858c7d.html"
-    },
-    {
-      "date": "",
-      "time": "15:00 UTC -5",
-      "category": "SOCCER",
-      "info": "Copa del Rey",
-      "title": "Reus FCR - Real Sociedad",
-      "url": "https://voodc.com/embed/85818c95a3909b84847a8598a28998858c7e.html"
-    },
-    {
-      "date": "",
-      "time": "15:00 UTC -5",
-      "category": "SOCCER",
-      "info": "Copa del Rey",
-      "title": "Torrent - Real Betis",
-      "url": "https://voodc.com/embed/85818c95a3909b84847a8598a28a98858c7f.html"
+      "title": "Sant Andreu - Celta Vigo",
+      "url": "https://voodc.com/embed/85818c95a48ea188847a85989d8d98878583.html"
     },
     {
       "date": "",
       "time": "15:00 UTC -5",
       "category": "SOCCER",
       "info": "Coppa Italia",
-      "title": "Inter - Venezia [english]",
-      "url": "https://voodc.com/embed/85818c95a3909b84847a8598a28b98858c80.html"
+      "title": "Lazio - AC Milan [english]",
+      "url": "https://voodc.com/embed/85818c95a48ea188847a85989d8e9887867a.html"
     },
     {
       "date": "",
       "time": "15:00 UTC -5",
       "category": "SOCCER",
       "info": "Coppa Italia",
-      "title": "Inter - Venezia [italian]",
-      "url": "https://voodc.com/embed/85818c95a3909b84847a8598a28c98858c81.html"
+      "title": "Lazio - AC Milan [italian]",
+      "url": "https://voodc.com/embed/85818c95a48ea188847a85989d8f9887867b.html"
     },
     {
       "date": "",
       "time": "15:00 UTC -5",
       "category": "SOCCER",
       "info": "Coppa Italia",
-      "title": "Inter - Venezia [spanish]",
-      "url": "https://voodc.com/embed/85818c95a3909b84847a8598a28d98858c82.html"
+      "title": "Lazio - AC Milan [spanish]",
+      "url": "https://voodc.com/embed/85818c95a48ea188847a85989d909887867c.html"
     },
     {
       "date": "",
       "time": "15:00 UTC -5",
-      "category": "TENNIS",
-      "info": "WTA",
-      "title": "WTA Quito - Center Court Herrero Linana/Pigossi - Reasco Gonzalez/Romero",
-      "url": "https://voodc.com/embed/85818c95a3909b84847a859aa48f98878d7b.html"
+      "category": "SOCCER",
+      "info": "EPL",
+      "title": "Manchester United - West Ham [english]",
+      "url": "https://voodc.com/embed/85818c95a48ea188847a85989e879887867d.html"
+    },
+    {
+      "date": "",
+      "time": "15:00 UTC -5",
+      "category": "SOCCER",
+      "info": "EPL",
+      "title": "Manchester United - West Ham [spanish]",
+      "url": "https://voodc.com/embed/85818c95a48ea188847a85989e889887867e.html"
+    },
+    {
+      "date": "",
+      "time": "15:00 UTC -5",
+      "category": "SOCCER",
+      "info": "EPL",
+      "title": "Manchester United - West Ham [spanish alt]",
+      "url": "https://voodc.com/embed/85818c95a48ea188847a85989e899887867f.html"
+    },
+    {
+      "date": "",
+      "time": "15:00 UTC -5",
+      "category": "RUGBY",
+      "info": "Pro D2",
+      "title": "Colomiers - Grenoble FC",
+      "url": "https://voodc.com/embed/85818c95a48ea188847a85989e8a9887857e.html"
+    },
+    {
+      "date": "",
+      "time": "15:00 UTC -5",
+      "category": "VOLLEYBALL",
+      "info": "NCAA Tournament",
+      "title": "American University vs. #5 Colorado W",
+      "url": "https://voodc.com/embed/85818c95a48ea188847a85989e8b98878680.html"
     },
     {
       "date": "",
       "time": "15:15 UTC -5",
       "category": "SOCCER",
-      "info": "EPL",
-      "title": "Leeds - Chelsea [english]",
-      "url": "https://voodc.com/embed/85818c95a3909b8d847a8598a28e98858c83.html"
-    },
-    {
-      "date": "",
-      "time": "15:15 UTC -5",
-      "category": "SOCCER",
-      "info": "EPL",
-      "title": "Leeds - Chelsea [spanish]",
-      "url": "https://voodc.com/embed/85818c95a3909b8d847a8598a28f98858d7a.html"
-    },
-    {
-      "date": "",
-      "time": "15:15 UTC -5",
-      "category": "SOCCER",
-      "info": "EPL",
-      "title": "Liverpool - Sunderland [english]",
-      "url": "https://voodc.com/embed/85818c95a3909b8d847a8598a29098858d7b.html"
-    },
-    {
-      "date": "",
-      "time": "15:15 UTC -5",
-      "category": "SOCCER",
-      "info": "EPL",
-      "title": "Liverpool - Sunderland [spanish]",
-      "url": "https://voodc.com/embed/85818c95a3909b8d847a8598a38798858d7c.html"
+      "info": "Taca da Liga",
+      "title": "FC Porto - Vitoria Guimaraes",
+      "url": "https://voodc.com/embed/85818c95a48ea287847a85989e8c98878681.html"
     },
     {
       "date": "",
       "time": "16:00 UTC -5",
       "category": "BASKETBALL",
-      "info": "NCAAW",
-      "title": "BYU (W) - Washington State (W)",
-      "url": "https://voodc.com/embed/85818c95a3909e8a847a8598a38898858d7e.html"
+      "info": "NCAA",
+      "title": "Manor College vs. Fairleigh Dickinson",
+      "url": "https://voodc.com/embed/85818c95a48f9b84847a85989e8d98878682.html"
     },
     {
       "date": "",
       "time": "16:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAAW",
-      "title": "Northeastern (W) - Massachusetts (W)",
-      "url": "https://voodc.com/embed/85818c95a3909e8a847a8598a38998858d7f.html"
+      "category": "SOCCER",
+      "info": "Copa del Rey",
+      "title": "Tenerife - Granada CF",
+      "url": "https://voodc.com/embed/85818c95a48f9b84847a85989e8e98878683.html"
     },
     {
       "date": "",
       "time": "16:00 UTC -5",
       "category": "SOCCER",
       "info": "Honduras",
-      "title": "Genesis - Juticalpa",
-      "url": "https://voodc.com/embed/85818c95a3909e8a847a8598a38a98858d80.html"
+      "title": "Marathon - UPNFM",
+      "url": "https://voodc.com/embed/85818c95a48f9b84847a85989e8f9887877a.html"
     },
     {
       "date": "",
-      "time": "16:00 UTC -5",
+      "time": "16:30 UTC -5",
+      "category": "VOLLEYBALL",
+      "info": "NCAA Tournament",
+      "title": "Arkansas State vs. #6 Baylor W",
+      "url": "https://voodc.com/embed/85818c95a48f9c8c847a85989e909887877b.html"
+    },
+    {
+      "date": "",
+      "time": "16:30 UTC -5",
+      "category": "VOLLEYBALL",
+      "info": "NCAA Tournament",
+      "title": "Georgia Tech vs. #8 UCLA W",
+      "url": "https://voodc.com/embed/85818c95a48f9c8c847a85989f879887877c.html"
+    },
+    {
+      "date": "",
+      "time": "17:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NCAAW",
+      "title": "Virginia Tech (W) - Florida (W)",
+      "url": "https://voodc.com/embed/85818c95a48f9e8a847a85989f889887877e.html"
+    },
+    {
+      "date": "",
+      "time": "17:00 UTC -5",
+      "category": "SOCCER",
+      "info": "Bolivia",
+      "title": "Universitario de Vinto - The Strongest",
+      "url": "https://voodc.com/embed/85818c95a48f9e8a847a85989f899887877f.html"
+    },
+    {
+      "date": "",
+      "time": "17:00 UTC -5",
+      "category": "SOCCER",
+      "info": "Brazil Paulista",
+      "title": "Palmeiras W - Ferroviaria W",
+      "url": "https://voodc.com/embed/85818c95a48f9e8a847a85989f8a98878780.html"
+    },
+    {
+      "date": "",
+      "time": "17:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "Brazil NBB",
+      "title": "Paulistano - Botafogo",
+      "url": "https://voodc.com/embed/85818c95a48f9e8a847a85989f8b9887877d.html"
+    },
+    {
+      "date": "",
+      "time": "17:00 UTC -5",
+      "category": "VOLLEYBALL",
+      "info": "Brazil SuperLiga",
+      "title": "Osasco W - Minas W",
+      "url": "https://voodc.com/embed/85818c95a48f9e8a847a85989f8c98878781.html"
+    },
+    {
+      "date": "",
+      "time": "17:00 UTC -5",
+      "category": "VOLLEYBALL",
+      "info": "Brazil SuperLiga",
+      "title": "Tijuca W - Barueri W",
+      "url": "https://voodc.com/embed/85818c95a48f9e8a847a85989f8d98878782.html"
+    },
+    {
+      "date": "",
+      "time": "17:00 UTC -5",
+      "category": "VOLLEYBALL",
+      "info": "NCAA Tournament",
+      "title": "The 5th Set: NCAA Tournament Whiparound",
+      "url": "https://voodc.com/embed/85818c95a48f9e8a847a85989f8e98878783.html"
+    },
+    {
+      "date": "",
+      "time": "17:00 UTC -5",
+      "category": "VOLLEYBALL",
+      "info": "NCAA Tournament",
+      "title": "Tulsa W - Miami W",
+      "url": "https://voodc.com/embed/85818c95a48f9e8a847a85989f8f9887887a.html"
+    },
+    {
+      "date": "",
+      "time": "17:30 UTC -5",
+      "category": "SOCCER",
+      "info": "Brazil Serie A",
+      "title": "Cruzeiro - Botafogo RJ",
+      "url": "https://voodc.com/embed/85818c95a48fa088847a85989f909887887b.html"
+    },
+    {
+      "date": "",
+      "time": "17:30 UTC -5",
+      "category": "VOLLEYBALL",
+      "info": "NCAA Tournament",
+      "title": "North Carolina W - UTEP W",
+      "url": "https://voodc.com/embed/85818c95a48fa088847a8598a0879887887c.html"
+    },
+    {
+      "date": "",
+      "time": "17:30 UTC -5",
+      "category": "VOLLEYBALL",
+      "info": "NCAA Tournament",
+      "title": "Toledo W - Indiana W",
+      "url": "https://voodc.com/embed/85818c95a48fa088847a8598a0889887887d.html"
+    },
+    {
+      "date": "",
+      "time": "17:30 UTC -5",
+      "category": "VOLLEYBALL",
+      "info": "NCAA Tournament",
+      "title": "Utah W - Northern Iowa W",
+      "url": "https://voodc.com/embed/85818c95a48fa088847a8598a0899887887e.html"
+    },
+    {
+      "date": "",
+      "time": "18:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NCAAW",
+      "title": "Georgia Southern (W) - North Florida (W)",
+      "url": "https://voodc.com/embed/85818c95a48fa286847a8598a08a9887887f.html"
+    },
+    {
+      "date": "",
+      "time": "18:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NCAAW",
+      "title": "Northern Kentucky (W) - Green Bay (W)",
+      "url": "https://voodc.com/embed/85818c95a48fa286847a8598a08b98878880.html"
+    },
+    {
+      "date": "",
+      "time": "18:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NCAAW",
+      "title": "Pennsylvania (W) - Maine (W)",
+      "url": "https://voodc.com/embed/85818c95a48fa286847a8598a08c98878881.html"
+    },
+    {
+      "date": "",
+      "time": "18:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NCAAW",
+      "title": "Radford (W) - Navy (W)",
+      "url": "https://voodc.com/embed/85818c95a48fa286847a8598a08d98878882.html"
+    },
+    {
+      "date": "",
+      "time": "18:15 UTC -5",
+      "category": "BASKETBALL",
+      "info": "Brazil NBB",
+      "title": "Brasilia FC - Cearense",
+      "url": "https://voodc.com/embed/85818c95a4909985847a8598a08e98878883.html"
+    },
+    {
+      "date": "",
+      "time": "18:30 UTC -5",
+      "category": "SOCCER",
+      "info": "Colombia Primera A",
+      "title": "Atletico Nacional - Independiente Medellin",
+      "url": "https://voodc.com/embed/85818c95a4909a84847a8598a08f9887897a.html"
+    },
+    {
+      "date": "",
+      "time": "18:30 UTC -5",
+      "category": "VOLLEYBALL",
+      "info": "NCAA Tournament",
+      "title": "Utah State W - Tennessee W",
+      "url": "https://voodc.com/embed/85818c95a4909a84847a8598a0909887897b.html"
+    },
+    {
+      "date": "",
+      "time": "19:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NBA",
+      "title": "Boston Celtics vs. Washington Wizards [away feed]",
+      "url": "https://voodc.com/embed/85818c95a4909b8c847a85959c879887897f.html"
+    },
+    {
+      "date": "",
+      "time": "19:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NBA",
+      "title": "Boston Celtics vs. Washington Wizards [home feed]",
+      "url": "https://voodc.com/embed/85818c95a4909b8c847a85959c8898878980.html"
+    },
+    {
+      "date": "",
+      "time": "19:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NBA",
+      "title": "Golden State Warriors vs. Philadelphia 76ers [away feed]",
+      "url": "https://voodc.com/embed/85818c95a4909b8c847a85959c8998878981.html"
+    },
+    {
+      "date": "",
+      "time": "19:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NBA",
+      "title": "Golden State Warriors vs. Philadelphia 76ers [home feed]",
+      "url": "https://voodc.com/embed/85818c95a4909b8c847a85959c8a98878982.html"
+    },
+    {
+      "date": "",
+      "time": "19:00 UTC -5",
+      "category": "HOCKEY",
+      "info": "NHL",
+      "title": "NHL Coast to Coast",
+      "url": "https://voodc.com/embed/85818c95a4909b8c847a85959c8b98878b82.html"
+    },
+    {
+      "date": "",
+      "time": "19:00 UTC -5",
+      "category": "HOCKEY",
+      "info": "NHL",
+      "title": "Colorado Avalanche vs. New York Islanders [away feed]",
+      "url": "https://voodc.com/embed/85818c95a4909b8c847a85959c8c98878b80.html"
+    },
+    {
+      "date": "",
+      "time": "19:00 UTC -5",
+      "category": "HOCKEY",
+      "info": "NHL",
+      "title": "Colorado Avalanche vs. New York Islanders [home feed]",
+      "url": "https://voodc.com/embed/85818c95a4909b8c847a85959c8d98878b81.html"
+    },
+    {
+      "date": "",
+      "time": "19:00 UTC -5",
+      "category": "HOCKEY",
+      "info": "NHL",
+      "title": "Nashville Predators vs. Florida Panthers [away feed]",
+      "url": "https://voodc.com/embed/85818c95a4909b8c847a85959c8e98878b83.html"
+    },
+    {
+      "date": "",
+      "time": "19:00 UTC -5",
+      "category": "HOCKEY",
+      "info": "NHL",
+      "title": "Nashville Predators vs. Florida Panthers [home feed]",
+      "url": "https://voodc.com/embed/85818c95a4909b8c847a85959c8f98878c7a.html"
+    },
+    {
+      "date": "",
+      "time": "19:00 UTC -5",
+      "category": "HOCKEY",
+      "info": "NHL",
+      "title": "New York Rangers vs. Ottawa Senators [away feed]",
+      "url": "https://voodc.com/embed/85818c95a4909b8c847a85959c9098878c7b.html"
+    },
+    {
+      "date": "",
+      "time": "19:00 UTC -5",
+      "category": "HOCKEY",
+      "info": "NHL",
+      "title": "New York Rangers vs. Ottawa Senators [home feed]",
+      "url": "https://voodc.com/embed/85818c95a4909b8c847a85959d8798878c7d.html"
+    },
+    {
+      "date": "",
+      "time": "19:00 UTC -5",
+      "category": "HOCKEY",
+      "info": "NHL",
+      "title": "New York Rangers vs. Ottawa Senators [french]",
+      "url": "https://voodc.com/embed/85818c95a4909b8c847a85959d8898878c7c.html"
+    },
+    {
+      "date": "",
+      "time": "19:00 UTC -5",
+      "category": "HOCKEY",
+      "info": "NHL",
+      "title": "Pittsburgh Penguins vs. Tampa Bay Lightning [away feed]",
+      "url": "https://voodc.com/embed/85818c95a4909b8c847a85959d8998878c7e.html"
+    },
+    {
+      "date": "",
+      "time": "19:00 UTC -5",
+      "category": "HOCKEY",
+      "info": "NHL",
+      "title": "Pittsburgh Penguins vs. Tampa Bay Lightning [home feed]",
+      "url": "https://voodc.com/embed/85818c95a4909b8c847a85959d8a98878c80.html"
+    },
+    {
+      "date": "",
+      "time": "19:00 UTC -5",
+      "category": "HOCKEY",
+      "info": "NHL",
+      "title": "Pittsburgh Penguins vs. Tampa Bay Lightning [french]",
+      "url": "https://voodc.com/embed/85818c95a4909b8c847a85959d8b98878c7f.html"
+    },
+    {
+      "date": "",
+      "time": "19:00 UTC -5",
+      "category": "HOCKEY",
+      "info": "NHL",
+      "title": "St. Louis Blues vs. Boston Bruins [away feed]",
+      "url": "https://voodc.com/embed/85818c95a4909b8c847a85959d8c98878c81.html"
+    },
+    {
+      "date": "",
+      "time": "19:00 UTC -5",
+      "category": "HOCKEY",
+      "info": "NHL",
+      "title": "St. Louis Blues vs. Boston Bruins [home feed]",
+      "url": "https://voodc.com/embed/85818c95a4909b8c847a85959d8d98878c82.html"
+    },
+    {
+      "date": "",
+      "time": "19:00 UTC -5",
+      "category": "HOCKEY",
+      "info": "NHL",
+      "title": "Toronto Maple Leafs vs. Carolina Hurricanes [away feed]",
+      "url": "https://voodc.com/embed/85818c95a4909b8c847a85959d8e98878c83.html"
+    },
+    {
+      "date": "",
+      "time": "19:00 UTC -5",
+      "category": "HOCKEY",
+      "info": "NHL",
+      "title": "Toronto Maple Leafs vs. Carolina Hurricanes [home feed]",
+      "url": "https://voodc.com/embed/85818c95a4909b8c847a85959d8f98878d7a.html"
+    },
+    {
+      "date": "",
+      "time": "19:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NCAA",
+      "title": "Rider vs. Merrimack",
+      "url": "https://voodc.com/embed/85818c95a4909b8c847a85959d9098878983.html"
+    },
+    {
+      "date": "",
+      "time": "19:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NCAA",
+      "title": "Robert Morris vs. Green Bay",
+      "url": "https://voodc.com/embed/85818c95a4909b8c847a85959e8798878a7a.html"
+    },
+    {
+      "date": "",
+      "time": "19:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NCAA",
+      "title": "The Citadel vs. Davidson",
+      "url": "https://voodc.com/embed/85818c95a4909b8c847a85959e8898878a7b.html"
+    },
+    {
+      "date": "",
+      "time": "19:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NCAA",
+      "title": "Utah State vs. South Florida",
+      "url": "https://voodc.com/embed/85818c95a4909b8c847a85959e8998878a7c.html"
+    },
+    {
+      "date": "",
+      "time": "19:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NCAA",
+      "title": "Warren Wilson vs. Charleston Southern",
+      "url": "https://voodc.com/embed/85818c95a4909b8c847a85959e8a98878a7d.html"
+    },
+    {
+      "date": "",
+      "time": "19:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NCAAW",
+      "title": "#22 Louisville (W) - #3 South Carolina (W)",
+      "url": "https://voodc.com/embed/85818c95a4909b8c847a85959e8b98878a7f.html"
+    },
+    {
+      "date": "",
+      "time": "19:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NCAAW",
+      "title": "#2 Texas (W) - #11 North Carolina (W)",
+      "url": "https://voodc.com/embed/85818c95a4909b8c847a85959e8c98878a7e.html"
+    },
+    {
+      "date": "",
+      "time": "19:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NCAAW",
+      "title": "Alabama (W) - Clemson (W)",
+      "url": "https://voodc.com/embed/85818c95a4909b8c847a85959e8d98878a80.html"
+    },
+    {
+      "date": "",
+      "time": "19:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NCAAW",
+      "title": "SMU (W) - Arkansas (W)",
+      "url": "https://voodc.com/embed/85818c95a4909b8c847a85959e8e98878b7d.html"
+    },
+    {
+      "date": "",
+      "time": "19:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NCAAW",
+      "title": "Mississippi State (W) - Pittsburgh (W)",
+      "url": "https://voodc.com/embed/85818c95a4909b8c847a85959e8f98878b7b.html"
+    },
+    {
+      "date": "",
+      "time": "19:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NCAAW",
+      "title": "Georgetown (W) - Villanova (W)",
+      "url": "https://voodc.com/embed/85818c95a4909b8c847a85959e9098878a83.html"
+    },
+    {
+      "date": "",
+      "time": "19:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NCAAW",
+      "title": "Detroit Mercy (W) - Cleveland State (W)",
+      "url": "https://voodc.com/embed/85818c95a4909b8c847a85959f8798878a81.html"
+    },
+    {
+      "date": "",
+      "time": "19:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NCAAW",
+      "title": "Gardner-Webb (W) - Wofford (W)",
+      "url": "https://voodc.com/embed/85818c95a4909b8c847a85959f8898878a82.html"
+    },
+    {
+      "date": "",
+      "time": "19:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NCAAW",
+      "title": "Lipscomb (W) - UT Martin (W)",
+      "url": "https://voodc.com/embed/85818c95a4909b8c847a85959f8998878b7a.html"
+    },
+    {
+      "date": "",
+      "time": "19:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NCAAW",
+      "title": "Seton Hall (W) - Butler (W)",
+      "url": "https://voodc.com/embed/85818c95a4909b8c847a85959f8a98878b7e.html"
+    },
+    {
+      "date": "",
+      "time": "19:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NCAAW",
+      "title": "SIU Edwardsville (W) - Calumet College Of St. Joseph (W)",
+      "url": "https://voodc.com/embed/85818c95a4909b8c847a85959f8b98878b7c.html"
+    },
+    {
+      "date": "",
+      "time": "19:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NCAAW",
+      "title": "St. John's (W) - Creighton (W)",
+      "url": "https://voodc.com/embed/85818c95a4909b8c847a85959f8c98878b7f.html"
+    },
+    {
+      "date": "",
+      "time": "19:00 UTC -5",
+      "category": "SOCCER",
+      "info": "Bolivia",
+      "title": "Bolivar - Nacional Potosi",
+      "url": "https://voodc.com/embed/85818c95a4909b8c847a85959f8d98878d7b.html"
+    },
+    {
+      "date": "",
+      "time": "19:00 UTC -5",
+      "category": "HOCKEY",
+      "info": "AHL",
+      "title": "Cleveland Monsters - Syracuse Crunch",
+      "url": "https://voodc.com/embed/85818c95a4909b8c847a85959f8e9887897d.html"
+    },
+    {
+      "date": "",
+      "time": "19:00 UTC -5",
+      "category": "HOCKEY",
+      "info": "PWHL",
+      "title": "Toronto Sceptres W - Ottawa Charge W",
+      "url": "https://voodc.com/embed/85818c95a4909b8c847a85959f8f9887897e.html"
+    },
+    {
+      "date": "",
+      "time": "19:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NBA G League",
+      "title": "Grand Rapids Gold - Iowa Wolves",
+      "url": "https://voodc.com/embed/85818c95a4909b8c847a85959f909887897c.html"
+    },
+    {
+      "date": "",
+      "time": "19:00 UTC -5",
+      "category": "VOLLEYBALL",
+      "info": "NCAA Tournament",
+      "title": "Wofford W - Kentucky W",
+      "url": "https://voodc.com/embed/85818c95a4909b8c847a8595a08798878d7c.html"
+    },
+    {
+      "date": "",
+      "time": "19:00 UTC -5",
+      "category": "VOLLEYBALL",
+      "info": "NCAA Tournament",
+      "title": "Wright State W - Purdue W",
+      "url": "https://voodc.com/embed/85818c95a4909b8c847a8595a08898878d7d.html"
+    },
+    {
+      "date": "",
+      "time": "19:00 UTC -5",
+      "category": "TENNIS",
+      "info": "WTA",
+      "title": "Charlotte Invitational Williams - Keys",
+      "url": "https://voodc.com/embed/85818c95a4909b8c847a859aa48798888a7b.html"
+    },
+    {
+      "date": "",
+      "time": "19:30 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NBA",
+      "title": "Los Angeles Lakers vs. Toronto Raptors [away feed]",
+      "url": "https://voodc.com/embed/85818c95a4909d8a847a8595a08998878d7f.html"
+    },
+    {
+      "date": "",
+      "time": "19:30 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NBA",
+      "title": "Los Angeles Lakers vs. Toronto Raptors [home feed]",
+      "url": "https://voodc.com/embed/85818c95a4909d8a847a8595a08a98878d81.html"
+    },
+    {
+      "date": "",
+      "time": "19:30 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NBA",
+      "title": "Los Angeles Lakers vs. Toronto Raptors [spanish]",
+      "url": "https://voodc.com/embed/85818c95a4909d8a847a8595a08b98878d80.html"
+    },
+    {
+      "date": "",
+      "time": "19:30 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NBA",
+      "title": "Los Angeles Lakers vs. Toronto Raptors [spanish lakers]",
+      "url": "https://voodc.com/embed/85818c95a4909d8a847a8595a08c98878d82.html"
+    },
+    {
+      "date": "",
+      "time": "19:30 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NBA",
+      "title": "Utah Jazz vs. Brooklyn Nets [away feed]",
+      "url": "https://voodc.com/embed/85818c95a4909d8a847a8595a08d98878d83.html"
+    },
+    {
+      "date": "",
+      "time": "19:30 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NBA",
+      "title": "Utah Jazz vs. Brooklyn Nets [home feed]",
+      "url": "https://voodc.com/embed/85818c95a4909d8a847a8595a08e9888847a.html"
+    },
+    {
+      "date": "",
+      "time": "19:30 UTC -5",
+      "category": "HOCKEY",
+      "info": "NHL",
+      "title": "Detroit Red Wings vs. Columbus Blue Jackets [away feed]",
+      "url": "https://voodc.com/embed/85818c95a4909d8a847a8595a08f9888847e.html"
+    },
+    {
+      "date": "",
+      "time": "19:30 UTC -5",
+      "category": "HOCKEY",
+      "info": "NHL",
+      "title": "Detroit Red Wings vs. Columbus Blue Jackets [home feed]",
+      "url": "https://voodc.com/embed/85818c95a4909d8a847a8595a0909888847f.html"
+    },
+    {
+      "date": "",
+      "time": "19:30 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NCAAW",
+      "title": "Louisiana Tech (W) - South Alabama (W)",
+      "url": "https://voodc.com/embed/85818c95a4909d8a847a8595a1879888847b.html"
+    },
+    {
+      "date": "",
+      "time": "19:30 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NCAAW",
+      "title": "Tulane (W) - Missouri State (W)",
+      "url": "https://voodc.com/embed/85818c95a4909d8a847a8595a1889888847c.html"
+    },
+    {
+      "date": "",
+      "time": "19:30 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NCAAW",
+      "title": "Tulsa (W) - Mississippi Valley State (W)",
+      "url": "https://voodc.com/embed/85818c95a4909d8a847a8595a1899888847d.html"
+    },
+    {
+      "date": "",
+      "time": "19:30 UTC -5",
+      "category": "SOCCER",
+      "info": "Brazil Paulista",
+      "title": "Corinthians W - Sao Paulo W",
+      "url": "https://voodc.com/embed/85818c95a4909d8a847a8595a18a98888480.html"
+    },
+    {
+      "date": "",
+      "time": "19:30 UTC -5",
+      "category": "HOCKEY",
+      "info": "NCAA",
+      "title": "Ohio State Buckeyes - Minnesota Golden Gophers",
+      "url": "https://voodc.com/embed/85818c95a4909d8a847a8595a18b98878d7e.html"
+    },
+    {
+      "date": "",
+      "time": "19:30 UTC -5",
+      "category": "VOLLEYBALL",
+      "info": "NCAA Tournament",
+      "title": "High Point W - Kansas W",
+      "url": "https://voodc.com/embed/85818c95a4909d8a847a8595a18c98888481.html"
+    },
+    {
+      "date": "",
+      "time": "20:00 UTC -5",
+      "category": "COMBAT SPORT",
+      "info": "TNA",
+      "title": "IMPACT Wrestling",
+      "url": "https://voodc.com/embed/85818c95a4909f88847a8595a18d9888857c.html"
+    },
+    {
+      "date": "",
+      "time": "20:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NBA",
+      "title": "Minnesota Timberwolves vs. New Orleans Pelicans [away feed]",
+      "url": "https://voodc.com/embed/85818c95a4909f88847a8595a18e9888857a.html"
+    },
+    {
+      "date": "",
+      "time": "20:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NBA",
+      "title": "Minnesota Timberwolves vs. New Orleans Pelicans [home feed]",
+      "url": "https://voodc.com/embed/85818c95a4909f88847a8595a18f9888857b.html"
+    },
+    {
+      "date": "",
+      "time": "20:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NBA G League",
+      "title": "Oklahoma City Blue - Osceola Magic",
+      "url": "https://voodc.com/embed/85818c95a4909f88847a8595a19098888482.html"
+    },
+    {
+      "date": "",
+      "time": "20:00 UTC -5",
+      "category": "VOLLEYBALL",
+      "info": "NCAA Tournament",
+      "title": "Cal Poly W - BYU W",
+      "url": "https://voodc.com/embed/85818c95a4909f88847a8595a2879888857d.html"
+    },
+    {
+      "date": "",
+      "time": "20:00 UTC -5",
+      "category": "VOLLEYBALL",
+      "info": "NCAA Tournament",
+      "title": "Eastern Illinois W - Wisconsin W",
+      "url": "https://voodc.com/embed/85818c95a4909f88847a8595a2889888857e.html"
+    },
+    {
+      "date": "",
+      "time": "20:00 UTC -5",
+      "category": "VOLLEYBALL",
+      "info": "NCAA Tournament",
+      "title": "Northern Colorado W - Creighton W",
+      "url": "https://voodc.com/embed/85818c95a4909f88847a8595a2899888857f.html"
+    },
+    {
+      "date": "",
+      "time": "20:00 UTC -5",
       "category": "GOLF",
       "info": "DP World Tour",
       "title": "Crown Australian Open",
-      "url": "https://voodc.com/embed/85818c95a3909e8a847a8598a38b98858d7d.html"
+      "url": "https://voodc.com/embed/85818c95a4909f88847a8597a58d98888483.html"
     },
     {
       "date": "",
-      "time": "16:30 UTC -5",
+      "time": "20:00 UTC -5",
+      "category": "WINTER SPORTS",
+      "info": "Snowboarding",
+      "title": "The Snow League Finals: China",
+      "url": "https://voodc.com/embed/85818c95a4909f88847a8595a28a98888580.html"
+    },
+    {
+      "date": "",
+      "time": "20:15 UTC -5",
+      "category": "AMERICAN FOOTBALL",
+      "info": "NFL",
+      "title": "Dallas Cowboys vs. Detroit Lions [english]",
+      "url": "https://voodc.com/embed/85818c95a490a087847a8595a28b98888581.html"
+    },
+    {
+      "date": "",
+      "time": "20:15 UTC -5",
+      "category": "AMERICAN FOOTBALL",
+      "info": "NFL",
+      "title": "Dallas Cowboys vs. Detroit Lions [spanish]",
+      "url": "https://voodc.com/embed/85818c95a490a087847a8595a28c98888582.html"
+    },
+    {
+      "date": "",
+      "time": "20:15 UTC -5",
+      "category": "AMERICAN FOOTBALL",
+      "info": "NFL",
+      "title": "Dallas Cowboys vs. Detroit Lions [portuguese]",
+      "url": "https://voodc.com/embed/85818c95a490a087847a8595a28d98888583.html"
+    },
+    {
+      "date": "",
+      "time": "20:30 UTC -5",
       "category": "BASKETBALL",
       "info": "NCAAW",
-      "title": "Yale (W) - Bryant (W)",
-      "url": "https://voodc.com/embed/85818c95a390a088847a8598a38c98858d81.html"
+      "title": "Colorado State (W) - Utah (W)",
+      "url": "https://voodc.com/embed/85818c95a490a186847a8595a28e9888867a.html"
     },
     {
       "date": "",
-      "time": "16:30 UTC -5",
-      "category": "VOLLEYBALL",
-      "info": "Brazil SuperLiga",
-      "title": "Monte Carmelo - Sesi",
-      "url": "https://voodc.com/embed/85818c95a390a088847a8598a38d98858d82.html"
+      "time": "20:30 UTC -5",
+      "category": "TENNIS",
+      "info": "ATP",
+      "title": "Charlotte Invitational Tiafoe - Fritz",
+      "url": "https://voodc.com/embed/85818c95a490a186847a859aa48798888a7c.html"
     },
     {
       "date": "",
-      "time": "17:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAAW",
-      "title": "Miami (W) - #17 Kentucky (W)",
-      "url": "https://voodc.com/embed/85818c95a390a286847a8598a38e9886847b.html"
-    },
-    {
-      "date": "",
-      "time": "17:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAAW",
-      "title": "Florida State (W) - Georgia (W)",
-      "url": "https://voodc.com/embed/85818c95a390a286847a8598a38f9886847a.html"
-    },
-    {
-      "date": "",
-      "time": "17:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAAW",
-      "title": "#15 Vanderbilt (W) - Virginia (W)",
-      "url": "https://voodc.com/embed/85818c95a390a286847a8598a39098858d83.html"
-    },
-    {
-      "date": "",
-      "time": "17:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAAW",
-      "title": "Syracuse (W) - Auburn (W)",
-      "url": "https://voodc.com/embed/85818c95a390a286847a8598a4879886847d.html"
-    },
-    {
-      "date": "",
-      "time": "17:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAAW",
-      "title": "Monmouth (W) - NJIT (W)",
-      "url": "https://voodc.com/embed/85818c95a390a286847a8598a4889886847c.html"
-    },
-    {
-      "date": "",
-      "time": "17:00 UTC -5",
-      "category": "SOCCER",
-      "info": "Bolivia",
-      "title": "Tomayapo - Oriente Petrolero",
-      "url": "https://voodc.com/embed/85818c95a390a286847a8598a4899886847e.html"
-    },
-    {
-      "date": "",
-      "time": "17:00 UTC -5",
-      "category": "SOCCER",
-      "info": "Brazil Serie A",
-      "title": "Bragantino - Vitoria",
-      "url": "https://voodc.com/embed/85818c95a390a286847a8598a48a9886847f.html"
-    },
-    {
-      "date": "",
-      "time": "17:00 UTC -5",
-      "category": "SOCCER",
-      "info": "Brazil Serie A",
-      "title": "Fortaleza - Corinthians",
-      "url": "https://voodc.com/embed/85818c95a390a286847a8598a48b98868480.html"
-    },
-    {
-      "date": "",
-      "time": "17:00 UTC -5",
-      "category": "VOLLEYBALL",
-      "info": "Brazil SuperLiga",
-      "title": "JF Volei - Minas",
-      "url": "https://voodc.com/embed/85818c95a390a286847a8598a48c98868481.html"
-    },
-    {
-      "date": "",
-      "time": "17:30 UTC -5",
-      "category": "SOCCER",
-      "info": "Argentina Liga Profesional",
-      "title": "Boca Juniors 2 - Gimnasia L.P. 2",
-      "url": "https://voodc.com/embed/85818c95a4879a84847a8598a48d98868483.html"
-    },
-    {
-      "date": "",
-      "time": "17:30 UTC -5",
-      "category": "SOCCER",
-      "info": "Brazil Serie A",
-      "title": "Juventude - Santos",
-      "url": "https://voodc.com/embed/85818c95a4879a84847a8598a48e9886857a.html"
-    },
-    {
-      "date": "",
-      "time": "17:30 UTC -5",
-      "category": "BASKETBALL",
-      "info": "Brazil NBB",
-      "title": "Franca - Corinthians Paulista",
-      "url": "https://voodc.com/embed/85818c95a4879a84847a8598a48f98868482.html"
-    },
-    {
-      "date": "",
-      "time": "18:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Northeastern vs. Holy Cross",
-      "url": "https://voodc.com/embed/85818c95a4879b8c847a8598a4909886857c.html"
-    },
-    {
-      "date": "",
-      "time": "18:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Vermont State - Johnson vs. Boston University",
-      "url": "https://voodc.com/embed/85818c95a4879b8c847a8598a5879886857d.html"
-    },
-    {
-      "date": "",
-      "time": "18:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAAW",
-      "title": "Indiana (W) - Western Michigan (W)",
-      "url": "https://voodc.com/embed/85818c95a4879b8c847a8598a5889886857f.html"
-    },
-    {
-      "date": "",
-      "time": "18:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAAW",
-      "title": "Drexel (W) - American University (W)",
-      "url": "https://voodc.com/embed/85818c95a4879b8c847a8598a5899886857e.html"
-    },
-    {
-      "date": "",
-      "time": "18:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAAW",
-      "title": "Lehigh (W) - Cornell (W)",
-      "url": "https://voodc.com/embed/85818c95a4879b8c847a8598a58a98868580.html"
-    },
-    {
-      "date": "",
-      "time": "18:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAAW",
-      "title": "Siena (W) - New Haven (W)",
-      "url": "https://voodc.com/embed/85818c95a4879b8c847a8598a58b98868581.html"
-    },
-    {
-      "date": "",
-      "time": "18:00 UTC -5",
-      "category": "SOCCER",
-      "info": "Brazil Serie A",
-      "title": "EC Bahia - Sport Recife",
-      "url": "https://voodc.com/embed/85818c95a4879b8c847a8598a58c98868582.html"
-    },
-    {
-      "date": "",
-      "time": "18:00 UTC -5",
-      "category": "SOCCER",
-      "info": "Brazil Serie A",
-      "title": "Sao Paulo - Internacional",
-      "url": "https://voodc.com/embed/85818c95a4879b8c847a8598a58d98868583.html"
-    },
-    {
-      "date": "",
-      "time": "18:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "Brazil NBB",
-      "title": "Pinheiros - Flamengo",
-      "url": "https://voodc.com/embed/85818c95a4879b8c847a8598a58e9886857b.html"
-    },
-    {
-      "date": "",
-      "time": "18:20 UTC -5",
+      "time": "20:35 UTC -5",
       "category": "SOCCER",
       "info": "Colombia Primera A",
-      "title": "Fortaleza - Independiente Santa Fe",
-      "url": "https://voodc.com/embed/85818c95a4879d84847a8598a58f9886867a.html"
+      "title": "Deportivo Junior - America De Cali",
+      "url": "https://voodc.com/embed/85818c95a490a189847a8595a28f9888867b.html"
     },
     {
       "date": "",
-      "time": "18:30 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Virginia-Lynchburg vs. App State",
-      "url": "https://voodc.com/embed/85818c95a4879d8a847a8598a5909886867b.html"
-    },
-    {
-      "date": "",
-      "time": "18:30 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Wright State vs. Youngstown State",
-      "url": "https://voodc.com/embed/85818c95a4879d8a847a85999c879886867c.html"
-    },
-    {
-      "date": "",
-      "time": "19:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NBA",
-      "title": "Denver Nuggets vs. Indiana Pacers [away feed]",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a85959c879886877a.html"
-    },
-    {
-      "date": "",
-      "time": "19:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NBA",
-      "title": "Denver Nuggets vs. Indiana Pacers [home feed]",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a85959c889886877b.html"
-    },
-    {
-      "date": "",
-      "time": "19:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NBA",
-      "title": "Portland Trail Blazers vs. Cleveland Cavaliers [away feed]",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a85959c899886877c.html"
-    },
-    {
-      "date": "",
-      "time": "19:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NBA",
-      "title": "Portland Trail Blazers vs. Cleveland Cavaliers [home feed]",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a85959c8a9886877d.html"
-    },
-    {
-      "date": "",
-      "time": "19:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NBA",
-      "title": "San Antonio Spurs vs. Orlando Magic [away feed]",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a85959c8b9886877e.html"
-    },
-    {
-      "date": "",
-      "time": "19:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NBA",
-      "title": "San Antonio Spurs vs. Orlando Magic [home feed]",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a85959c8c98868780.html"
-    },
-    {
-      "date": "",
-      "time": "19:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NBA",
-      "title": "San Antonio Spurs vs. Orlando Magic [spanish]",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a85959c8d9886877f.html"
-    },
-    {
-      "date": "",
-      "time": "19:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NBA",
-      "title": "San Antonio Spurs vs. Orlando Magic [portuguese]",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a85959c8e98868781.html"
-    },
-    {
-      "date": "",
-      "time": "19:00 UTC -5",
+      "time": "21:00 UTC -5",
       "category": "HOCKEY",
       "info": "NHL",
-      "title": "Dallas Stars vs. New Jersey Devils [away feed]",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a85959c8f98868c7a.html"
+      "title": "Minnesota Wild vs. Calgary Flames",
+      "url": "https://voodc.com/embed/85818c95a5879984847a8595a2909888877e.html"
     },
     {
       "date": "",
-      "time": "19:00 UTC -5",
+      "time": "21:00 UTC -5",
       "category": "HOCKEY",
       "info": "NHL",
-      "title": "Dallas Stars vs. New Jersey Devils [home feed]",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a85959c9098868c7b.html"
+      "title": "Seattle Kraken vs. Edmonton Oilers [away feed]",
+      "url": "https://voodc.com/embed/85818c95a5879984847a8595a3879888877f.html"
     },
     {
       "date": "",
-      "time": "19:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "#22 Indiana vs. Minnesota",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a85959d8798868782.html"
-    },
-    {
-      "date": "",
-      "time": "19:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Austin Peay vs. Kent State",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a85959d8898868783.html"
-    },
-    {
-      "date": "",
-      "time": "19:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Bloomsburg vs. St. Bonaventure",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a85959d899886887a.html"
-    },
-    {
-      "date": "",
-      "time": "19:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Bucknell vs. Akron",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a85959d8a9886887b.html"
-    },
-    {
-      "date": "",
-      "time": "19:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Central Connecticut vs. Seton Hall",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a85959d8b9886887c.html"
-    },
-    {
-      "date": "",
-      "time": "19:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Cleveland State vs. Northern Kentucky",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a85959d8c9886887d.html"
-    },
-    {
-      "date": "",
-      "time": "19:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Coastal Carolina vs. South Carolina Upstate",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a85959d8d9886887e.html"
-    },
-    {
-      "date": "",
-      "time": "19:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Coppin State vs. West Virginia",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a85959d8e9886887f.html"
-    },
-    {
-      "date": "",
-      "time": "19:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Drexel vs. American University",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a85959d8f98868881.html"
-    },
-    {
-      "date": "",
-      "time": "19:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Florida Gulf Coast vs. Florida International",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a85959d9098868882.html"
-    },
-    {
-      "date": "",
-      "time": "19:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Gardner-Webb vs. Queens University",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a85959e879886897a.html"
-    },
-    {
-      "date": "",
-      "time": "19:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Harvard vs. Massachusetts",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a85959e889886897b.html"
-    },
-    {
-      "date": "",
-      "time": "19:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Hofstra vs. Columbia",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a85959e899886897c.html"
-    },
-    {
-      "date": "",
-      "time": "19:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "IU Indianapolis vs. Detroit Mercy",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a85959e8a9886897d.html"
-    },
-    {
-      "date": "",
-      "time": "19:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Louisiana Tech vs. Georgia Southern",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a85959e8b9886897e.html"
-    },
-    {
-      "date": "",
-      "time": "19:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Louisiana vs. Lamar",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a85959e8c9886897f.html"
-    },
-    {
-      "date": "",
-      "time": "19:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Maine vs. Ohio",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a85959e8d98868981.html"
-    },
-    {
-      "date": "",
-      "time": "19:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Midway University vs. Bellarmine",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a85959e8e98868983.html"
-    },
-    {
-      "date": "",
-      "time": "19:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Navy vs. Delaware State",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a85959e8f98868a7a.html"
-    },
-    {
-      "date": "",
-      "time": "19:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "New Hampshire vs. Dartmouth",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a85959e9098868a7b.html"
-    },
-    {
-      "date": "",
-      "time": "19:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "North Carolina Central vs. James Madison",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a85959f8798868a7c.html"
-    },
-    {
-      "date": "",
-      "time": "19:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Pfeiffer vs. Longwood",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a85959f8898868a7e.html"
-    },
-    {
-      "date": "",
-      "time": "19:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Presbyterian vs. Wofford",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a85959f8998868a7f.html"
-    },
-    {
-      "date": "",
-      "time": "19:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Purdue Fort Wayne vs. Oakland",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a85959f8a98868a80.html"
-    },
-    {
-      "date": "",
-      "time": "19:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Sacred Heart vs. Mount St. Mary's",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a85959f8b98868a81.html"
-    },
-    {
-      "date": "",
-      "time": "19:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Southern Illinois vs. High Point",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a85959f8c98868a82.html"
-    },
-    {
-      "date": "",
-      "time": "19:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Southern Indiana vs. Western Michigan",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a85959f8d98868a83.html"
-    },
-    {
-      "date": "",
-      "time": "19:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Southern Miss vs. Radford",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a85959f8e98868b7a.html"
-    },
-    {
-      "date": "",
-      "time": "19:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "UT Rio Grande Valley vs. Stephen F. Austin",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a85959f8f98868b7b.html"
-    },
-    {
-      "date": "",
-      "time": "19:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Cornell vs. Towson",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a85959f9098868880.html"
-    },
-    {
-      "date": "",
-      "time": "19:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Furman vs. Elon",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a8595a08798868883.html"
-    },
-    {
-      "date": "",
-      "time": "19:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Loyola Maryland vs. Hampton",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a8595a08898868980.html"
-    },
-    {
-      "date": "",
-      "time": "19:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Marshall vs. UNC Wilmington",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a8595a08998868982.html"
-    },
-    {
-      "date": "",
-      "time": "19:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Penn State-Shenango vs. Saint Francis",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a8595a08a98868a7d.html"
-    },
-    {
-      "date": "",
-      "time": "19:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAAW",
-      "title": "#6 Michigan (W) - Central Michigan (W)",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a8595a08b98868b7c.html"
-    },
-    {
-      "date": "",
-      "time": "19:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAAW",
-      "title": "#7 Maryland (W) - Mount St. Mary's (W)",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a8595a08c98868b7d.html"
-    },
-    {
-      "date": "",
-      "time": "19:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAAW",
-      "title": "North Texas (W) - #24 Oklahoma State (W)",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a8595a08d98868b81.html"
-    },
-    {
-      "date": "",
-      "time": "19:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAAW",
-      "title": "Purdue (W) - Evansville (W)",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a8595a08e98868b82.html"
-    },
-    {
-      "date": "",
-      "time": "19:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAAW",
-      "title": "Texas Tech (W) - Wichita State (W)",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a8595a08f98868b83.html"
-    },
-    {
-      "date": "",
-      "time": "19:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAAW",
-      "title": "Campbell (W) - Mercer (W)",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a8595a09098868b7e.html"
-    },
-    {
-      "date": "",
-      "time": "19:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAAW",
-      "title": "Iona (W) - UMass Lowell (W)",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a8595a18798868b7f.html"
-    },
-    {
-      "date": "",
-      "time": "19:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAAW",
-      "title": "Manhattan (W) - Columbia (W)",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a8595a18898868b80.html"
-    },
-    {
-      "date": "",
-      "time": "19:00 UTC -5",
-      "category": "SOCCER",
-      "info": "Bolivia",
-      "title": "Wilstermann - Real Oruro",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a8595a18998868c7c.html"
-    },
-    {
-      "date": "",
-      "time": "19:00 UTC -5",
-      "category": "SOCCER",
-      "info": "Copa Ecuador",
-      "title": "LDU Quito - Emelec",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a8595a18a98868c7d.html"
-    },
-    {
-      "date": "",
-      "time": "19:00 UTC -5",
+      "time": "21:00 UTC -5",
       "category": "HOCKEY",
-      "info": "AHL",
-      "title": "Belleville Senators - Toronto Marlies",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a8595a18b9886867f.html"
+      "info": "NHL",
+      "title": "Seattle Kraken vs. Edmonton Oilers [home feed]",
+      "url": "https://voodc.com/embed/85818c95a5879984847a8595a38898888781.html"
     },
     {
       "date": "",
-      "time": "19:00 UTC -5",
+      "time": "21:00 UTC -5",
       "category": "HOCKEY",
-      "info": "AHL",
-      "title": "Grand Rapids Griffins - Cleveland Monsters",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a8595a18c98868680.html"
+      "info": "NHL",
+      "title": "Seattle Kraken vs. Edmonton Oilers [french JIP after penguins]",
+      "url": "https://voodc.com/embed/85818c95a5879984847a8595a38998888780.html"
     },
     {
       "date": "",
-      "time": "19:00 UTC -5",
-      "category": "HOCKEY",
-      "info": "ECHL",
-      "title": "Jacksonville IceMen - South Carolina Stingrays",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a8595a18d98868681.html"
-    },
-    {
-      "date": "",
-      "time": "19:00 UTC -5",
-      "category": "HOCKEY",
-      "info": "ECHL",
-      "title": "Reading Royals - Wheeling Nailers",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a8595a18e98868682.html"
-    },
-    {
-      "date": "",
-      "time": "19:00 UTC -5",
-      "category": "HOCKEY",
-      "info": "PWHL",
-      "title": "Boston Fleet W - Vancouver Goldeneyes W",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a8595a18f98868683.html"
-    },
-    {
-      "date": "",
-      "time": "19:00 UTC -5",
+      "time": "21:00 UTC -5",
       "category": "BASKETBALL",
-      "info": "Argentina Liga A",
-      "title": "Atenas - Independiente de Oliva",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a8595a1909886867d.html"
+      "info": "NCAA",
+      "title": "Long Beach State vs. UC Santa Barbara",
+      "url": "https://voodc.com/embed/85818c95a5879984847a8595a38a9888867d.html"
     },
     {
       "date": "",
-      "time": "19:00 UTC -5",
+      "time": "21:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NCAAW",
+      "title": "Duke (W) - #5 LSU (W)",
+      "url": "https://voodc.com/embed/85818c95a5879984847a8595a38b98888681.html"
+    },
+    {
+      "date": "",
+      "time": "21:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NCAAW",
+      "title": "#13 Ole Miss (W) - #18 Notre Dame (W)",
+      "url": "https://voodc.com/embed/85818c95a5879984847a8595a38c9888867e.html"
+    },
+    {
+      "date": "",
+      "time": "21:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NCAAW",
+      "title": "Missouri (W) - California (W)",
+      "url": "https://voodc.com/embed/85818c95a5879984847a8595a38d9888877a.html"
+    },
+    {
+      "date": "",
+      "time": "21:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NCAAW",
+      "title": "DePaul (W) - Marquette (W)",
+      "url": "https://voodc.com/embed/85818c95a5879984847a8595a38e98888680.html"
+    },
+    {
+      "date": "",
+      "time": "21:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NCAAW",
+      "title": "Cal Poly (W) - Cal State Fullerton (W)",
+      "url": "https://voodc.com/embed/85818c95a5879984847a8595a38f9888867f.html"
+    },
+    {
+      "date": "",
+      "time": "21:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NCAAW",
+      "title": "Gonzaga (W) - Grand Canyon (W)",
+      "url": "https://voodc.com/embed/85818c95a5879984847a8595a39098888682.html"
+    },
+    {
+      "date": "",
+      "time": "21:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NCAAW",
+      "title": "Long Beach State (W) - UC Santa Barbara (W)",
+      "url": "https://voodc.com/embed/85818c95a5879984847a8595a48798888683.html"
+    },
+    {
+      "date": "",
+      "time": "21:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NCAAW",
+      "title": "Pacific (W) - Sacramento State (W)",
+      "url": "https://voodc.com/embed/85818c95a5879984847a8595a4889888877b.html"
+    },
+    {
+      "date": "",
+      "time": "21:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NCAAW",
+      "title": "UC Davis (W) - Hawaii (W)",
+      "url": "https://voodc.com/embed/85818c95a5879984847a8595a4899888877c.html"
+    },
+    {
+      "date": "",
+      "time": "21:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NCAAW",
+      "title": "UC Riverside (W) - UC Irvine (W)",
+      "url": "https://voodc.com/embed/85818c95a5879984847a8595a48a9888877d.html"
+    },
+    {
+      "date": "",
+      "time": "21:00 UTC -5",
       "category": "BASKETBALL",
       "info": "NBA G League",
-      "title": "Cleveland Charge - Noblesville Boom",
-      "url": "https://voodc.com/embed/85818c95a4879f88847a8595a2879886867e.html"
+      "title": "Rip City Remix - San Diego Clippers",
+      "url": "https://voodc.com/embed/85818c95a5879984847a8595a48b9888867c.html"
     },
     {
       "date": "",
-      "time": "19:05 UTC -5",
-      "category": "HOCKEY",
-      "info": "AHL",
-      "title": "Rochester Americans - Utica Comets",
-      "url": "https://voodc.com/embed/85818c95a4879f8b847a8595a28898868c7e.html"
-    },
-    {
-      "date": "",
-      "time": "19:15 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "#6 Louisville vs. #25 Arkansas",
-      "url": "https://voodc.com/embed/85818c95a487a087847a8595a28998868c7f.html"
-    },
-    {
-      "date": "",
-      "time": "19:15 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Clemson vs. #12 Alabama",
-      "url": "https://voodc.com/embed/85818c95a487a087847a8595a28a98868c80.html"
-    },
-    {
-      "date": "",
-      "time": "19:15 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "LSU vs. Boston College",
-      "url": "https://voodc.com/embed/85818c95a487a087847a8595a28b98868c81.html"
-    },
-    {
-      "date": "",
-      "time": "19:15 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAAW",
-      "title": "#9 Oklahoma (W) - NC State (W)",
-      "url": "https://voodc.com/embed/85818c95a487a087847a8595a28c98868c82.html"
-    },
-    {
-      "date": "",
-      "time": "19:15 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAAW",
-      "title": "Texas A&M (W) - Georgia Tech (W)",
-      "url": "https://voodc.com/embed/85818c95a487a087847a8595a28d98868c83.html"
-    },
-    {
-      "date": "",
-      "time": "19:30 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NBA",
-      "title": "Charlotte Hornets vs. New York Knicks [away feed]",
-      "url": "https://voodc.com/embed/85818c95a487a186847a8595a28e98868d7c.html"
-    },
-    {
-      "date": "",
-      "time": "19:30 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NBA",
-      "title": "Charlotte Hornets vs. New York Knicks [home feed]",
-      "url": "https://voodc.com/embed/85818c95a487a186847a8595a28f98868d7d.html"
-    },
-    {
-      "date": "",
-      "time": "19:30 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NBA",
-      "title": "Los Angeles Clippers vs. Atlanta Hawks [away feed]",
-      "url": "https://voodc.com/embed/85818c95a487a186847a8595a29098868d7e.html"
-    },
-    {
-      "date": "",
-      "time": "19:30 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NBA",
-      "title": "Los Angeles Clippers vs. Atlanta Hawks [home feed]",
-      "url": "https://voodc.com/embed/85818c95a487a186847a8595a38798868d7f.html"
-    },
-    {
-      "date": "",
-      "time": "19:30 UTC -5",
-      "category": "HOCKEY",
-      "info": "NHL",
-      "title": "Buffalo Sabres vs. Philadelphia Flyers",
-      "url": "https://voodc.com/embed/85818c95a487a186847a8595a3889887847b.html"
-    },
-    {
-      "date": "",
-      "time": "19:30 UTC -5",
-      "category": "HOCKEY",
-      "info": "NHL",
-      "title": "Winnipeg Jets vs. Montreal Canadiens",
-      "url": "https://voodc.com/embed/85818c95a487a186847a8595a3899887847c.html"
-    },
-    {
-      "date": "",
-      "time": "19:30 UTC -5",
-      "category": "HOCKEY",
-      "info": "NHL",
-      "title": "Winnipeg Jets vs. Montreal Canadiens [french]",
-      "url": "https://voodc.com/embed/85818c95a487a186847a8595a38a9887847d.html"
-    },
-    {
-      "date": "",
-      "time": "19:30 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Brandeis vs. Yale",
-      "url": "https://voodc.com/embed/85818c95a487a186847a8595a38b98868d80.html"
-    },
-    {
-      "date": "",
-      "time": "19:30 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Little Rock vs. Central Arkansas",
-      "url": "https://voodc.com/embed/85818c95a487a186847a8595a38c98868d81.html"
-    },
-    {
-      "date": "",
-      "time": "19:30 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Mississippi Valley State vs. UL Monroe",
-      "url": "https://voodc.com/embed/85818c95a487a186847a8595a38d98868d82.html"
-    },
-    {
-      "date": "",
-      "time": "19:30 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Richmond vs. Belmont",
-      "url": "https://voodc.com/embed/85818c95a487a186847a8595a38e98868d83.html"
-    },
-    {
-      "date": "",
-      "time": "19:30 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAAW",
-      "title": "#8 TCU (W) - Incarnate Word (W)",
-      "url": "https://voodc.com/embed/85818c95a487a186847a8595a38f9887847a.html"
-    },
-    {
-      "date": "",
-      "time": "19:30 UTC -5",
-      "category": "SOCCER",
-      "info": "Brazil Serie A",
-      "title": "Atletico-MG - Palmeiras",
-      "url": "https://voodc.com/embed/85818c95a487a186847a8595a3909887847e.html"
-    },
-    {
-      "date": "",
-      "time": "19:30 UTC -5",
-      "category": "SOCCER",
-      "info": "Brazil Serie A",
-      "title": "Flamengo RJ - Ceara",
-      "url": "https://voodc.com/embed/85818c95a487a186847a8595a4879887847f.html"
-    },
-    {
-      "date": "",
-      "time": "19:30 UTC -5",
-      "category": "BASKETBALL",
-      "info": "Argentina Liga A",
-      "title": "La Union - Instituto de Cordoba",
-      "url": "https://voodc.com/embed/85818c95a487a186847a8595a48898868d7a.html"
-    },
-    {
-      "date": "",
-      "time": "19:30 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NBA G League",
-      "title": "Raptors 905 - Capital City Go-Go",
-      "url": "https://voodc.com/embed/85818c95a487a186847a8595a48998868d7b.html"
-    },
-    {
-      "date": "",
-      "time": "19:30 UTC -5",
+      "time": "21:00 UTC -5",
       "category": "VOLLEYBALL",
-      "info": "Brazil SuperLiga",
-      "title": "Goias - Joinville",
-      "url": "https://voodc.com/embed/85818c95a487a186847a8595a48a98878480.html"
+      "info": "NCAA Tournament",
+      "title": "Coppin State W - Arizona State W",
+      "url": "https://voodc.com/embed/85818c95a5879984847a8595a48c98888782.html"
     },
     {
       "date": "",
-      "time": "20:00 UTC -5",
-      "category": "COMBAT SPORT",
-      "info": "AEW",
-      "title": "AEW Dynamite",
-      "url": "https://voodc.com/embed/85818c95a4889984847a8595a48b98878481.html"
+      "time": "21:00 UTC -5",
+      "category": "VOLLEYBALL",
+      "info": "NCAA Tournament",
+      "title": "The 5th Set: NCAA Tournament Whiparound",
+      "url": "https://voodc.com/embed/85818c95a5879984847a8595a48d98888783.html"
     },
     {
       "date": "",
-      "time": "20:00 UTC -5",
-      "category": "COMBAT SPORT",
-      "info": "AEW",
-      "title": "AEW Dynamite [spanish]",
-      "url": "https://voodc.com/embed/85818c95a4889984847a8595a48c98878482.html"
-    },
-    {
-      "date": "",
-      "time": "20:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NBA",
-      "title": "Brooklyn Nets vs. Chicago Bulls [away feed]",
-      "url": "https://voodc.com/embed/85818c95a4889984847a8595a48d9887857b.html"
-    },
-    {
-      "date": "",
-      "time": "20:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NBA",
-      "title": "Brooklyn Nets vs. Chicago Bulls [home feed]",
-      "url": "https://voodc.com/embed/85818c95a4889984847a8595a48e9887857c.html"
-    },
-    {
-      "date": "",
-      "time": "20:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NBA",
-      "title": "Detroit Pistons vs. Milwaukee Bucks [away feed]",
-      "url": "https://voodc.com/embed/85818c95a4889984847a8595a48f9887857d.html"
-    },
-    {
-      "date": "",
-      "time": "20:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NBA",
-      "title": "Detroit Pistons vs. Milwaukee Bucks [home feed]",
-      "url": "https://voodc.com/embed/85818c95a4889984847a8595a4909887857e.html"
-    },
-    {
-      "date": "",
-      "time": "20:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NBA",
-      "title": "Sacramento Kings vs. Houston Rockets [away feed]",
-      "url": "https://voodc.com/embed/85818c95a4889984847a8595a5879887857f.html"
-    },
-    {
-      "date": "",
-      "time": "20:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NBA",
-      "title": "Sacramento Kings vs. Houston Rockets [home feed]",
-      "url": "https://voodc.com/embed/85818c95a4889984847a8595a58898878580.html"
-    },
-    {
-      "date": "",
-      "time": "20:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "UMBC vs. Georgetown",
-      "url": "https://voodc.com/embed/85818c95a4889984847a8595a58998878682.html"
-    },
-    {
-      "date": "",
-      "time": "20:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Alcorn State vs. #10 Iowa State",
-      "url": "https://voodc.com/embed/85818c95a4889984847a8595a58a98878581.html"
-    },
-    {
-      "date": "",
-      "time": "20:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Ball State vs. Evansville",
-      "url": "https://voodc.com/embed/85818c95a4889984847a8595a58b98878582.html"
-    },
-    {
-      "date": "",
-      "time": "20:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Eastern Kentucky vs. Illinois State",
-      "url": "https://voodc.com/embed/85818c95a4889984847a8595a58c98878583.html"
-    },
-    {
-      "date": "",
-      "time": "20:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Howard Payne vs. Tarleton State",
-      "url": "https://voodc.com/embed/85818c95a4889984847a8595a58d9887867a.html"
-    },
-    {
-      "date": "",
-      "time": "20:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "New Orleans vs. Memphis",
-      "url": "https://voodc.com/embed/85818c95a4889984847a8595a58e9887867c.html"
-    },
-    {
-      "date": "",
-      "time": "20:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "South Dakota State vs. Northern Arizona",
-      "url": "https://voodc.com/embed/85818c95a4889984847a8595a58f98878680.html"
-    },
-    {
-      "date": "",
-      "time": "20:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Princeton vs. Monmouth",
-      "url": "https://voodc.com/embed/85818c95a4889984847a8595a5909887867f.html"
-    },
-    {
-      "date": "",
-      "time": "20:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Idaho State vs. Kansas City",
-      "url": "https://voodc.com/embed/85818c95a4889984847a85969c879887867b.html"
-    },
-    {
-      "date": "",
-      "time": "20:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Northern Colorado vs. Omaha",
-      "url": "https://voodc.com/embed/85818c95a4889984847a85969c889887867d.html"
-    },
-    {
-      "date": "",
-      "time": "20:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Portland State vs. South Dakota",
-      "url": "https://voodc.com/embed/85818c95a4889984847a85969c899887867e.html"
-    },
-    {
-      "date": "",
-      "time": "20:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Tennessee State vs. Alabama A&M",
-      "url": "https://voodc.com/embed/85818c95a4889984847a85969c8a98878681.html"
-    },
-    {
-      "date": "",
-      "time": "20:00 UTC -5",
+      "time": "21:30 UTC -5",
       "category": "BASKETBALL",
       "info": "NCAAW",
-      "title": "North Dakota State (W) - Montana State (W)",
-      "url": "https://voodc.com/embed/85818c95a4889984847a85969c8b9887877d.html"
+      "title": "Cal State Bakersfield (W) - Cal State Northridge (W)",
+      "url": "https://voodc.com/embed/85818c95a5879a8c847a8595a48e9888887a.html"
     },
     {
       "date": "",
-      "time": "20:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAAW",
-      "title": "Nebraska (W) - Bradley (W)",
-      "url": "https://voodc.com/embed/85818c95a4889984847a85969c8c9887877b.html"
-    },
-    {
-      "date": "",
-      "time": "20:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAAW",
-      "title": "Northwestern (W) - Kansas (W)",
-      "url": "https://voodc.com/embed/85818c95a4889984847a85969c8d9887877e.html"
-    },
-    {
-      "date": "",
-      "time": "20:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAAW",
-      "title": "#14 Baylor (W) - SE Louisiana (W)",
-      "url": "https://voodc.com/embed/85818c95a4889984847a85969c8e98878683.html"
-    },
-    {
-      "date": "",
-      "time": "20:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAAW",
-      "title": "Arizona (W) - Southern (W)",
-      "url": "https://voodc.com/embed/85818c95a4889984847a85969c8f9887877a.html"
-    },
-    {
-      "date": "",
-      "time": "20:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAAW",
-      "title": "North Dakota (W) - Montana (W)",
-      "url": "https://voodc.com/embed/85818c95a4889984847a85969c909887877c.html"
-    },
-    {
-      "date": "",
-      "time": "20:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAAW",
-      "title": "South Dakota State (W) - Weber State (W)",
-      "url": "https://voodc.com/embed/85818c95a4889984847a85969d879887877f.html"
-    },
-    {
-      "date": "",
-      "time": "20:00 UTC -5",
-      "category": "SOCCER",
-      "info": "Mexico",
-      "title": "Cruz Azul - Tigres UANL [spanish]",
-      "url": "https://voodc.com/embed/85818c95a4889984847a85969d8898878780.html"
-    },
-    {
-      "date": "",
-      "time": "20:00 UTC -5",
-      "category": "SOCCER",
-      "info": "Mexico",
-      "title": "Cruz Azul - Tigres UANL [spanish alt]",
-      "url": "https://voodc.com/embed/85818c95a4889984847a85969d8998878781.html"
-    },
-    {
-      "date": "",
-      "time": "20:00 UTC -5",
-      "category": "SOCCER",
-      "info": "Mexico",
-      "title": "Cruz Azul - Tigres UANL [spanish alt]",
-      "url": "https://voodc.com/embed/85818c95a4889984847a85969d8a98878782.html"
-    },
-    {
-      "date": "",
-      "time": "20:00 UTC -5",
+      "time": "22:00 UTC -5",
       "category": "HOCKEY",
-      "info": "AHL",
-      "title": "Chicago Wolves - Manitoba Moose",
-      "url": "https://voodc.com/embed/85818c95a4889984847a85969d8b98878483.html"
+      "info": "NHL",
+      "title": "Chicago Blackhawks vs. Los Angeles Kings",
+      "url": "https://voodc.com/embed/85818c95a5879c8a847a8595a48f98888880.html"
     },
     {
       "date": "",
-      "time": "20:00 UTC -5",
+      "time": "22:00 UTC -5",
       "category": "HOCKEY",
-      "info": "AHL",
-      "title": "Milwaukee Admirals - Iowa Wild",
-      "url": "https://voodc.com/embed/85818c95a4889984847a85969d8c9887857a.html"
+      "info": "NHL",
+      "title": "Chicago Blackhawks vs. Los Angeles Kings [spanish]",
+      "url": "https://voodc.com/embed/85818c95a5879c8a847a8595a49098888881.html"
     },
     {
       "date": "",
-      "time": "20:05 UTC -5",
-      "category": "HOCKEY",
-      "info": "ECHL",
-      "title": "Kansas City - Iowa Heartlanders",
-      "url": "https://voodc.com/embed/85818c95a4889987847a85969d8d98878783.html"
-    },
-    {
-      "date": "",
-      "time": "20:10 UTC -5",
-      "category": "BASKETBALL",
-      "info": "Argentina Liga A",
-      "title": "Ferro - Union De Santa Fe",
-      "url": "https://voodc.com/embed/85818c95a488998a847a85969d8e9887887a.html"
-    },
-    {
-      "date": "",
-      "time": "20:30 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NBA",
-      "title": "Miami Heat vs. Dallas Mavericks [away feed]",
-      "url": "https://voodc.com/embed/85818c95a4889a8c847a85969d8f9887887b.html"
-    },
-    {
-      "date": "",
-      "time": "20:30 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NBA",
-      "title": "Miami Heat vs. Dallas Mavericks [home feed]",
-      "url": "https://voodc.com/embed/85818c95a4889a8c847a85969d909887887c.html"
-    },
-    {
-      "date": "",
-      "time": "20:30 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NBA",
-      "title": "Miami Heat vs. Dallas Mavericks [portuguese]",
-      "url": "https://voodc.com/embed/85818c95a4889a8c847a85969e879887887d.html"
-    },
-    {
-      "date": "",
-      "time": "20:30 UTC -5",
-      "category": "SOCCER",
-      "info": "Colombia Primera A",
-      "title": "Bucaramanga - Deportes Tolima",
-      "url": "https://voodc.com/embed/85818c95a4889a8c847a85969e889887887e.html"
-    },
-    {
-      "date": "",
-      "time": "20:30 UTC -5",
-      "category": "SOCCER",
-      "info": "Honduras",
-      "title": "Olancho - CD Olimpia",
-      "url": "https://voodc.com/embed/85818c95a4889a8c847a85969e899887887f.html"
-    },
-    {
-      "date": "",
-      "time": "21:00 UTC -5",
+      "time": "22:00 UTC -5",
       "category": "BASKETBALL",
       "info": "NCAA",
-      "title": "Northwestern vs. Wisconsin",
-      "url": "https://voodc.com/embed/85818c95a4889c8a847a85969e8a9887897b.html"
+      "title": "Cal Poly vs. Cal State Fullerton",
+      "url": "https://voodc.com/embed/85818c95a5879c8a847a8595a5879888887c.html"
     },
     {
       "date": "",
-      "time": "21:00 UTC -5",
+      "time": "22:00 UTC -5",
       "category": "BASKETBALL",
       "info": "NCAA",
-      "title": "California Baptist vs. #9 BYU",
-      "url": "https://voodc.com/embed/85818c95a4889c8a847a85969e8b98878881.html"
+      "title": "Cal State Bakersfield vs. Cal State Northridge",
+      "url": "https://voodc.com/embed/85818c95a5879c8a847a8595a5889888887d.html"
     },
     {
       "date": "",
-      "time": "21:00 UTC -5",
+      "time": "22:00 UTC -5",
       "category": "BASKETBALL",
       "info": "NCAA",
-      "title": "North Dakota State vs. Montana",
-      "url": "https://voodc.com/embed/85818c95a4889c8a847a85969e8c98878883.html"
+      "title": "UC Riverside vs. UC Irvine",
+      "url": "https://voodc.com/embed/85818c95a5879c8a847a8595a5899888887e.html"
     },
     {
       "date": "",
-      "time": "21:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "North Dakota vs. Idaho",
-      "url": "https://voodc.com/embed/85818c95a4889c8a847a85969e8d9887897a.html"
-    },
-    {
-      "date": "",
-      "time": "21:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Oral Roberts vs. Weber State",
-      "url": "https://voodc.com/embed/85818c95a4889c8a847a85969e8e9887897c.html"
-    },
-    {
-      "date": "",
-      "time": "21:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "St. Thomas-Minnesota vs. Montana State",
-      "url": "https://voodc.com/embed/85818c95a4889c8a847a85969e8f9887897e.html"
-    },
-    {
-      "date": "",
-      "time": "21:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Texas State vs. Rice",
-      "url": "https://voodc.com/embed/85818c95a4889c8a847a85969e909887897f.html"
-    },
-    {
-      "date": "",
-      "time": "21:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Pacific vs. Air Force",
-      "url": "https://voodc.com/embed/85818c95a4889c8a847a85969f879887897d.html"
-    },
-    {
-      "date": "",
-      "time": "21:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Eastern Washington vs. Denver",
-      "url": "https://voodc.com/embed/85818c95a4889c8a847a85969f8898878882.html"
-    },
-    {
-      "date": "",
-      "time": "21:00 UTC -5",
+      "time": "22:00 UTC -5",
       "category": "BASKETBALL",
       "info": "NCAAW",
-      "title": "Oregon (W) - Oregon State (W)",
-      "url": "https://voodc.com/embed/85818c95a4889c8a847a85969f8998878982.html"
+      "title": "San Jose State (W) - Saint Mary's (W)",
+      "url": "https://voodc.com/embed/85818c95a5879c8a847a8595a58a9888887f.html"
     },
     {
       "date": "",
-      "time": "21:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAAW",
-      "title": "Eastern Washington (W) - Denver (W)",
-      "url": "https://voodc.com/embed/85818c95a4889c8a847a85969f8a98878980.html"
-    },
-    {
-      "date": "",
-      "time": "21:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAAW",
-      "title": "Idaho State (W) - Omaha (W)",
-      "url": "https://voodc.com/embed/85818c95a4889c8a847a85969f8b98878981.html"
-    },
-    {
-      "date": "",
-      "time": "21:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAAW",
-      "title": "Pepperdine (W) - California Baptist (W)",
-      "url": "https://voodc.com/embed/85818c95a4889c8a847a85969f8c98878983.html"
-    },
-    {
-      "date": "",
-      "time": "21:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAAW",
-      "title": "UTEP (W) - Texas A&M-Corpus Christi (W)",
-      "url": "https://voodc.com/embed/85818c95a4889c8a847a85969f8d98878a7a.html"
-    },
-    {
-      "date": "",
-      "time": "21:00 UTC -5",
-      "category": "SOCCER",
-      "info": "",
-      "title": "Xelaju - Alajuelense [english]",
-      "url": "https://voodc.com/embed/85818c95a4889c8a847a85969f8e98878a7c.html"
-    },
-    {
-      "date": "",
-      "time": "21:00 UTC -5",
-      "category": "SOCCER",
-      "info": "CONCACAF Central American Cup",
-      "title": "Xelaju - Alajuelense [spanish]",
-      "url": "https://voodc.com/embed/85818c95a4889c8a847a85969f8f98878a7b.html"
-    },
-    {
-      "date": "",
-      "time": "21:00 UTC -5",
+      "time": "22:00 UTC -5",
       "category": "BASKETBALL",
       "info": "NBA G League",
-      "title": "Valley Suns - Santa Cruz Warriors",
-      "url": "https://voodc.com/embed/85818c95a4889c8a847a85969f9098878880.html"
+      "title": "Stockton Kings - Salt Lake City Stars",
+      "url": "https://voodc.com/embed/85818c95a5879c8a847a8595a58b9888887b.html"
     },
     {
       "date": "",
-      "time": "21:10 UTC -5",
-      "category": "HOCKEY",
-      "info": "ECHL",
-      "title": "Idaho Steelheads - Trois-Rivieres Lions",
-      "url": "https://voodc.com/embed/85818c95a4889d86847a8596a08798878a7d.html"
+      "time": "22:30 UTC -5",
+      "category": "VOLLEYBALL",
+      "info": "NCAA Tournament",
+      "title": "Princeton W - W",
+      "url": "https://voodc.com/embed/85818c95a5879e88847a8595a58c98888882.html"
     },
     {
       "date": "",
-      "time": "21:15 UTC -5",
+      "time": "23:59 UTC -5",
       "category": "BASKETBALL",
       "info": "NCAA",
-      "title": "NC State vs. #20 Auburn",
-      "url": "https://voodc.com/embed/85818c95a4889d89847a8596a08898878a7f.html"
+      "title": "UC Davis vs. Hawai'i",
+      "url": "https://voodc.com/embed/85818c95a588998b887a8595a58d98888883.html"
     },
     {
       "date": "",
-      "time": "21:15 UTC -5",
+      "time": "01:30 UTC -5",
       "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Virginia vs. Texas",
-      "url": "https://voodc.com/embed/85818c95a4889d89847a8596a08998878a81.html"
+      "info": "WNBL",
+      "title": "Bendigo W - Geelong Venom W",
+      "url": "https://voodc.com/embed/85818c95a5889f86847a8595a58e9888897a.html"
     },
     {
       "date": "",
-      "time": "21:15 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Mississippi State vs. Georgia Tech",
-      "url": "https://voodc.com/embed/85818c95a4889d89847a8596a08a98878a7e.html"
+      "time": "02:05 UTC -5",
+      "category": "MOTORSPORT",
+      "info": "F2",
+      "title": "Formula 2 Abu Dhabi Practice [english]",
+      "url": "https://voodc.com/embed/85818c95a588a187847a8595a58f9888897b.html"
     },
     {
       "date": "",
-      "time": "21:15 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "SMU vs. #17 Vanderbilt",
-      "url": "https://voodc.com/embed/85818c95a4889d89847a8596a08b98878a80.html"
+      "time": "02:05 UTC -5",
+      "category": "MOTORSPORT",
+      "info": "F2",
+      "title": "Formula 2 Abu Dhabi Practice [spanish]",
+      "url": "https://voodc.com/embed/85818c95a588a187847a8595a5909888897c.html"
     },
     {
       "date": "",
-      "time": "21:15 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAAW",
-      "title": "Stanford (W) - #19 Tennessee (W)",
-      "url": "https://voodc.com/embed/85818c95a4889d89847a8596a08c98878a82.html"
-    },
-    {
-      "date": "",
-      "time": "21:30 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Vermont vs. Oregon State",
-      "url": "https://voodc.com/embed/85818c95a4889e88847a8596a08d98878b7b.html"
-    },
-    {
-      "date": "",
-      "time": "21:30 UTC -5",
-      "category": "HOCKEY",
-      "info": "AHL",
-      "title": "Bakersfield Condors - Tucson Roadrunners",
-      "url": "https://voodc.com/embed/85818c95a4889e88847a8596a08e98878a83.html"
-    },
-    {
-      "date": "",
-      "time": "21:30 UTC -5",
-      "category": "HOCKEY",
-      "info": "AHL",
-      "title": "Coachella Valley Firebirds - Texas Stars",
-      "url": "https://voodc.com/embed/85818c95a4889e88847a8596a08f98878b7a.html"
-    },
-    {
-      "date": "",
-      "time": "22:00 UTC -5",
-      "category": "HOCKEY",
-      "info": "NHL",
-      "title": "Utah Mammoth vs. Anaheim Ducks",
-      "url": "https://voodc.com/embed/85818c95a488a086847a8596a09098878c7a.html"
-    },
-    {
-      "date": "",
-      "time": "22:00 UTC -5",
-      "category": "HOCKEY",
-      "info": "NHL",
-      "title": "Washington Capitals vs. San Jose Sharks [away feed]",
-      "url": "https://voodc.com/embed/85818c95a488a086847a8596a18798878c7b.html"
-    },
-    {
-      "date": "",
-      "time": "22:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "North Alabama vs. San Francisco",
-      "url": "https://voodc.com/embed/85818c95a488a086847a8596a18898878b7f.html"
-    },
-    {
-      "date": "",
-      "time": "22:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Puget Sound vs. Seattle U",
-      "url": "https://voodc.com/embed/85818c95a488a086847a8596a18998878b80.html"
-    },
-    {
-      "date": "",
-      "time": "22:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Utah Tech vs. Santa Clara",
-      "url": "https://voodc.com/embed/85818c95a488a086847a8596a18a98878b81.html"
-    },
-    {
-      "date": "",
-      "time": "22:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "Utah Valley vs. San Diego State",
-      "url": "https://voodc.com/embed/85818c95a488a086847a8596a18c9d8387818e.html"
-    },
-    {
-      "date": "",
-      "time": "22:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAAW",
-      "title": "Portland State (W) - South Dakota (W)",
-      "url": "https://voodc.com/embed/85818c95a488a086847a8596a18c98878b83.html"
-    },
-    {
-      "date": "",
-      "time": "22:00 UTC -5",
-      "category": "HOCKEY",
-      "info": "AHL",
-      "title": "Abbotsford Canucks - Calgary Wranglers",
-      "url": "https://voodc.com/embed/85818c95a488a086847a8596a18d98878b7c.html"
-    },
-    {
-      "date": "",
-      "time": "22:00 UTC -5",
-      "category": "HOCKEY",
-      "info": "ECHL",
-      "title": "Tahoe Knight Monsters - Rapid City Rush",
-      "url": "https://voodc.com/embed/85818c95a488a086847a8596a18e98878b7d.html"
-    },
-    {
-      "date": "",
-      "time": "22:00 UTC -5",
-      "category": "HOCKEY",
-      "info": "PWHL",
-      "title": "Seattle Torrent W - New York Sirens W",
-      "url": "https://voodc.com/embed/85818c95a488a086847a8596a18f98878b7e.html"
-    },
-    {
-      "date": "",
-      "time": "22:10 UTC -5",
+      "time": "03:00 UTC -5",
       "category": "SOCCER",
-      "info": "Mexico",
-      "title": "Monterrey - Toluca [spanish]",
-      "url": "https://voodc.com/embed/85818c95a488a08c847a8596a19098878c7c.html"
-    },
-    {
-      "date": "",
-      "time": "22:10 UTC -5",
-      "category": "SOCCER",
-      "info": "Mexico",
-      "title": "Monterrey - Toluca [spanish alt]",
-      "url": "https://voodc.com/embed/85818c95a488a08c847a8596a28798878c7d.html"
-    },
-    {
-      "date": "",
-      "time": "22:10 UTC -5",
-      "category": "SOCCER",
-      "info": "Mexico",
-      "title": "Monterrey - Toluca [spanish alt]",
-      "url": "https://voodc.com/embed/85818c95a488a08c847a8596a28898878c7e.html"
-    },
-    {
-      "date": "",
-      "time": "22:10 UTC -5",
-      "category": "SOCCER",
-      "info": "Mexico",
-      "title": "Monterrey - Toluca [english]",
-      "url": "https://voodc.com/embed/85818c95a488a08c847a8596a28998878c7f.html"
-    },
-    {
-      "date": "",
-      "time": "23:00 UTC -5",
-      "category": "BASKETBALL",
-      "info": "NCAA",
-      "title": "UCLA vs. Washington",
-      "url": "https://voodc.com/embed/85818c95a489998c847a8596a28a98878c80.html"
+      "info": "A-League Women",
+      "title": "Melbourne Victory W - Canberra W",
+      "url": "https://voodc.com/embed/85818c95a5899a8a847a85969c879888897d.html"
     },
     {
       "date": "",
       "time": "03:30 UTC -5",
       "category": "BASKETBALL",
       "info": "NBL",
-      "title": "Illawarra Hawks - South East Melbourne",
-      "url": "https://voodc.com/embed/85818c95a48aa084847a8596a28b98878c81.html"
+      "title": "Adelaide 36ers - Brisbane Bullets",
+      "url": "https://voodc.com/embed/85818c95a5899c88847a85969c889888897e.html"
+    },
+    {
+      "date": "",
+      "time": "03:35 UTC -5",
+      "category": "SOCCER",
+      "info": "A-League",
+      "title": "Macarthur FC - Melbourne Victory",
+      "url": "https://voodc.com/embed/85818c95a5899c8b847a85969c899888897f.html"
+    },
+    {
+      "date": "",
+      "time": "04:00 UTC -5",
+      "category": "GOLF",
+      "info": "DP World Tour",
+      "title": "Nedbank Golf Challenge",
+      "url": "https://voodc.com/embed/85818c95a5899e86847a8597a58d98888980.html"
     }
   ]
 }
