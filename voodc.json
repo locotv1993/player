@@ -1,6 +1,5 @@
-{
-  "events": [
-    
+
+
     {
       "date": "",
       "time": "03:00 UTC -5",
@@ -111,7 +110,7 @@
       "category": "BILLIARD",
       "info": "Snooker",
       "title": "Scottish Open - Table 1",
-      "url": "https://voodc.com/embed/85818c96a490a284847a85979c88988588.html"
+      "url": "https://voodc.com/embed/85818c96a490a284847a85979c87988588.html"
     },
     {
       "date": "",
@@ -119,7 +118,7 @@
       "category": "BILLIARD",
       "info": "Snooker",
       "title": "Scottish Open - Table 2",
-      "url": "https://voodc.com/embed/85818c96a490a284847a85979c89988589.html"
+      "url": "https://voodc.com/embed/85818c96a490a284847a85979c88988589.html"
     },
     {
       "date": "",
@@ -127,7 +126,7 @@
       "category": "BILLIARD",
       "info": "Snooker",
       "title": "Scottish Open - Table 3",
-      "url": "https://voodc.com/embed/85818c96a490a284847a85979c8a98858a.html"
+      "url": "https://voodc.com/embed/85818c96a490a284847a85979c8998858a.html"
     },
     {
       "date": "",
@@ -135,7 +134,207 @@
       "category": "BILLIARD",
       "info": "Snooker",
       "title": "Scottish Open - Table 4",
-      "url": "https://voodc.com/embed/85818c96a490a284847a85979c8b98858b.html"
+      "url": "https://voodc.com/embed/85818c96a490a284847a85979c8a98858b.html"
+    },
+    {
+      "date": "",
+      "time": "11:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NCAA",
+      "title": "Howard vs. Drexel",
+      "url": "https://voodc.com/embed/85818c96a587998c847a85979c8b988688.html"
+    },
+    {
+      "date": "",
+      "time": "11:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NCAAW",
+      "title": "Bowling Green (W) - Le Moyne (W)",
+      "url": "https://voodc.com/embed/85818c96a587998c847a85979c8c988689.html"
+    },
+    {
+      "date": "",
+      "time": "11:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NCAAW",
+      "title": "Cleveland State (W) - Northern Kentucky (W)",
+      "url": "https://voodc.com/embed/85818c96a587998c847a85979c8d98868a.html"
+    },
+    {
+      "date": "",
+      "time": "11:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NCAAW",
+      "title": "Dartmouth (W) - Franklin Pierce (W)",
+      "url": "https://voodc.com/embed/85818c96a587998c847a85979c8e98868b.html"
+    },
+    {
+      "date": "",
+      "time": "11:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "NCAAW",
+      "title": "Richmond (W) - Bethune-Cookman (W)",
+      "url": "https://voodc.com/embed/85818c96a587998c847a85979c8f98868c.html"
+    },
+    {
+      "date": "",
+      "time": "11:00 UTC -5",
+      "category": "HOCKEY",
+      "info": "KHL",
+      "title": "Ak Bars Kazan - Salavat Ufa",
+      "url": "https://voodc.com/embed/85818c96a587998c847a85979c90988685.html"
+    },
+    {
+      "date": "",
+      "time": "11:00 UTC -5",
+      "category": "HOCKEY",
+      "info": "KHL",
+      "title": "Lokomotiv Yaroslavl - Dinamo Minsk",
+      "url": "https://voodc.com/embed/85818c96a587998c847a85979d87988686.html"
+    },
+    {
+      "date": "",
+      "time": "11:00 UTC -5",
+      "category": "HOCKEY",
+      "info": "KHL",
+      "title": "Niznekamsk - Nizhny Novgorod",
+      "url": "https://voodc.com/embed/85818c96a587998c847a85979d88988687.html"
+    },
+    {
+      "date": "",
+      "time": "11:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "EuroLeague",
+      "title": "Dubai - Maccabi Tel Aviv [english]",
+      "url": "https://voodc.com/embed/85818c96a587998c847a85979d8998858c.html"
+    },
+    {
+      "date": "",
+      "time": "11:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "EuroLeague",
+      "title": "Dubai - Maccabi Tel Aviv [hebrew]",
+      "url": "https://voodc.com/embed/85818c96a587998c847a85979d8a98858d.html"
+    },
+    {
+      "date": "",
+      "time": "11:00 UTC -5",
+      "category": "BASKETBALL",
+      "info": "EuroLeague",
+      "title": "Dubai - Maccabi Tel Aviv [serbian]",
+      "url": "https://voodc.com/embed/85818c96a587998c847a85979d8b988684.html"
+    },
+    {
+      "date": "",
+      "time": "11:30 UTC -5",
+      "category": "HOCKEY",
+      "info": "CHL",
+      "title": "Ilves - Lulea Hockey [english]",
+      "url": "https://voodc.com/embed/85818c96a5879b8a847a85979d8c988784.html"
+    },
+    {
+      "date": "",
+      "time": "11:30 UTC -5",
+      "category": "HOCKEY",
+      "info": "CHL",
+      "title": "Ilves - Lulea Hockey [czech]",
+      "url": "https://voodc.com/embed/85818c96a5879b8a847a85979d8d988785.html"
+    },
+    {
+      "date": "",
+      "time": "11:30 UTC -5",
+      "category": "HOCKEY",
+      "info": "CHL",
+      "title": "Ilves - Lulea Hockey [croatian]",
+      "url": "https://voodc.com/embed/85818c96a5879b8a847a85979d8e988786.html"
+    },
+    {
+      "date": "",
+      "time": "11:30 UTC -5",
+      "category": "HOCKEY",
+      "info": "CHL",
+      "title": "Ilves - Lulea Hockey [polish]",
+      "url": "https://voodc.com/embed/85818c96a5879b8a847a85979d8f988787.html"
+    },
+    {
+      "date": "",
+      "time": "11:30 UTC -5",
+      "category": "HOCKEY",
+      "info": "CHL",
+      "title": "KalPa Kuopio - Brynas [english]",
+      "url": "https://voodc.com/embed/85818c96a5879b8a847a85979d90988788.html"
+    },
+    {
+      "date": "",
+      "time": "11:30 UTC -5",
+      "category": "HOCKEY",
+      "info": "CHL",
+      "title": "KalPa Kuopio - Brynas [polish]",
+      "url": "https://voodc.com/embed/85818c96a5879b8a847a85979e87988789.html"
+    },
+    {
+      "date": "",
+      "time": "11:30 UTC -5",
+      "category": "HOCKEY",
+      "info": "KHL",
+      "title": "Dynamo Moscow - Spartak Moscow",
+      "url": "https://voodc.com/embed/85818c96a5879b8a847a85979e8898878a.html"
+    },
+    {
+      "date": "",
+      "time": "11:30 UTC -5",
+      "category": "HOCKEY",
+      "info": "KHL",
+      "title": "SKA St. Petersburg - Shanghai",
+      "url": "https://voodc.com/embed/85818c96a5879b8a847a85979e8998878b.html"
+    },
+    {
+      "date": "",
+      "time": "11:30 UTC -5",
+      "category": "HOCKEY",
+      "info": "Mestis",
+      "title": "Hermes - IPK",
+      "url": "https://voodc.com/embed/85818c96a5879b8a847a85979e8a98878c.html"
+    },
+    {
+      "date": "",
+      "time": "11:30 UTC -5",
+      "category": "HOCKEY",
+      "info": "Mestis",
+      "title": "Jokerit - Pyry",
+      "url": "https://voodc.com/embed/85818c96a5879b8a847a85979e8b98878d.html"
+    },
+    {
+      "date": "",
+      "time": "11:30 UTC -5",
+      "category": "HOCKEY",
+      "info": "Mestis",
+      "title": "TUTO - KeuPa",
+      "url": "https://voodc.com/embed/85818c96a5879b8a847a85979e8c988884.html"
+    },
+    {
+      "date": "",
+      "time": "11:30 UTC -5",
+      "category": "BASKETBALL",
+      "info": "WASL Gulf League",
+      "title": "Al Muharraq - Kazma",
+      "url": "https://voodc.com/embed/85818c96a5879b8a847a85979e8d98868d.html"
+    },
+    {
+      "date": "",
+      "time": "11:30 UTC -5",
+      "category": "VOLLEYBALL",
+      "info": "Club World Championship",
+      "title": "Perugia - Swehly",
+      "url": "https://voodc.com/embed/85818c96a5879b8a847a85979e8e988885.html"
+    },
+    {
+      "date": "",
+      "time": "11:30 UTC -5",
+      "category": "VOLLEYBALL",
+      "info": "Poland",
+      "title": "Belchatow - Slepsk Suwalki",
+      "url": "https://voodc.com/embed/85818c96a5879b8a847a85979e8f988886.html"
     }
   ]
 }
