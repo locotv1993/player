@@ -113,13 +113,38 @@
              "comparacion": "https://perfil.datafactory.la/html/v3/minapp/init/index.html?channel=deportes.futbol.mexico.statsCenterTeamComparison&lang=es_LA"
           }
         },
+         {
+          "liga": "Liga pro ecuador",
+          "id": "ecuador",
+          "urls": {
+            "home": "https://widgets.eluniverso.com/datafactory/v3/index.html?channel=deportes.futbol.ecuador.fixture&lang=es_LA",
+            "posiciones": "https://widgets.eluniverso.com/datafactory/v3/index.html?channel=deportes.futbol.ecuador.posiciones&lang=es_LA",            
+            "goleadores": "https://widgets.eluniverso.com/datafactory/v3/index.html?channel=deportes.futbol.ecuador.goleadores&lang=es_LA",
+            "planteles": "https://widgets.eluniverso.com/datafactory/v3/index.html?channel=deportes.futbol.ecuador.planteles&lang=es_LA",
+            "statsEquipo": "https://widgets.eluniverso.com/datafactory/v3/index.html?channel=deportes.futbol.ecuador.statsCenterPerTeam&lang=es_LA",
+            "statsJugador": "https://widgets.eluniverso.com/datafactory/v3/index.html?channel=deportes.futbol.ecuador.statsCenterPerPlayer&lang=es_LA",
+             "comparacion": "https://widgets.eluniverso.com/datafactory/v3/index.html?channel=deportes.futbol.ecuador.statsCenterTeamComparison&lang=es_LA"
+          }
+        },
+         {
+          "liga": "Colombia-betplay",
+          "id": "colombia",
+          "urls": {
+             "home": "https://widgets.eluniverso.com/datafactory/v3/index.html?channel=deportes.futbol.ecuador.fixture&lang=es_LA",
+            "posiciones": "https://widgets.eluniverso.com/datafactory/v3/index.html?channel=deportes.futbol.colombia.posiciones&lang=es_LA",            
+            "goleadores": "https://widgets.eluniverso.com/datafactory/v3/index.html?channel=deportes.futbol.colombia.goleadores&lang=es_LA",
+            "planteles": "https://widgets.eluniverso.com/datafactory/v3/index.html?channel=deportes.futbol.colombia.planteles&lang=es_LA",
+            "statsEquipo": "https://widgets.eluniverso.com/datafactory/v3/index.html?channel=deportes.futbol.colombia.statsCenterPerTeam&lang=es_LA",
+            "statsJugador": "https://widgets.eluniverso.com/datafactory/v3/index.html?channel=deportes.futbol.colombia.statsCenterPerPlayer&lang=es_LA",
+             "comparacion": "https://widgets.eluniverso.com/datafactory/v3/index.html?channel=deportes.futbol.colombia.statsCenterTeamComparison&lang=es_LA"
+          }
+        },
         {
           "liga": "Copa Libertadores",
           "id": "libertadores",
           "urls": {
             "home": "https://perfil.datafactory.la/html/v3/minapp/init/index.html?channel=deportes.futbol.libertadores&lang=es_LA",
             "posiciones": "https://perfil.datafactory.la/html/v3/minapp/init/index.html?channel=deportes.futbol.libertadores.posiciones&lang=es_LA",
-             "descenso": "https://perfil.datafactory.la/html/v3/minapp/init/index.html?channel=deportes.futbol.libertadores.descenso&lang=es_LA",
             "goleadores": "https://perfil.datafactory.la/html/v3/minapp/init/index.html?channel=deportes.futbol.libertadores.goleadores&lang=es_LA",
             "planteles": "https://perfil.datafactory.la/html/v3/minapp/init/index.html?channel=deportes.futbol.libertadores.planteles&lang=es_LA",
             "statsEquipo": "https://perfil.datafactory.la/html/v3/minapp/init/index.html?channel=deportes.futbol.libertadores.statsCenterPerTeam&lang=es_LA",
@@ -132,8 +157,7 @@
           "id": "sudamericana",
           "urls": {
             "home": "https://perfil.datafactory.la/html/v3/minapp/init/index.html?channel=deportes.futbol.sudamericana&lang=es_LA",
-            "posiciones": "https://perfil.datafactory.la/html/v3/minapp/init/index.html?channel=deportes.futbol.sudamericana.posiciones&lang=es_LA",
-             "descenso": "https://perfil.datafactory.la/html/v3/minapp/init/index.html?channel=deportes.futbol.sudamericana.descenso&lang=es_LA",
+            "posiciones": "https://perfil.datafactory.la/html/v3/minapp/init/index.html?channel=deportes.futbol.sudamericana.posiciones&lang=es_LA",             
             "goleadores": "https://perfil.datafactory.la/html/v3/minapp/init/index.html?channel=deportes.futbol.sudamericana.goleadores&lang=es_LA",
             "planteles": "https://perfil.datafactory.la/html/v3/minapp/init/index.html?channel=deportes.futbol.sudamericana.planteles&lang=es_LA",
             "statsEquipo": "https://perfil.datafactory.la/html/v3/minapp/init/index.html?channel=deportes.futbol.sudamericana.statsCenterPerTeam&lang=es_LA",
