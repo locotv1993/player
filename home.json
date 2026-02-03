@@ -1,0 +1,118 @@
+{
+  "version": "1.0",
+  "fuente": "DataFactory",
+  "idioma": "es_LA",
+  "ligas": [
+    {
+      "region": "Europa",
+      "items": [
+        {
+          "liga": "España - LaLiga",
+          "id": "espana",
+          "urls": {
+            "home": "https://perfil.datafactory.la/html/v3/minapp/init/index.html?channel=deportes.futbol.espana&lang=es_LA",
+            "posiciones": "https://perfil.datafactory.la/html/v3/minapp/init/index.html?channel=deportes.futbol.espana.posiciones&lang=es_LA",
+            "goleadores": "https://perfil.datafactory.la/html/v3/minapp/init/index.html?channel=deportes.futbol.espana.goleadores&lang=es_LA",
+            "planteles": "https://perfil.datafactory.la/html/v3/minapp/init/index.html?channel=deportes.futbol.espana.planteles&lang=es_LA",
+            "statsEquipo": "https://perfil.datafactory.la/html/v3/minapp/init/index.html?channel=deportes.futbol.espana.statsCenterPerTeam&lang=es_LA",
+            "statsJugador": "https://perfil.datafactory.la/html/v3/minapp/init/index.html?channel=deportes.futbol.espana.statsCenterPerPlayer&lang=es_LA",
+            "comparacion": "https://perfil.datafactory.la/html/v3/minapp/init/index.html?channel=deportes.futbol.espana.statsCenterTeamComparison&lang=es_LA"
+          }
+        },
+        {
+          "liga": "Inglaterra - Premier League",
+          "id": "premierleague",
+          "urls": {
+            "home": "https://perfil.datafactory.la/html/v3/minapp/init/index.html?channel=deportes.futbol.premierleague&lang=es_LA",
+            "posiciones": "https://perfil.datafactory.la/html/v3/minapp/init/index.html?channel=deportes.futbol.premierleague.posiciones&lang=es_LA",
+            "goleadores": "https://perfil.datafactory.la/html/v3/minapp/init/index.html?channel=deportes.futbol.premierleague.goleadores&lang=es_LA",
+            "planteles": "https://perfil.datafactory.la/html/v3/minapp/init/index.html?channel=deportes.futbol.premierleague.planteles&lang=es_LA",
+            "statsEquipo": "https://perfil.datafactory.la/html/v3/minapp/init/index.html?channel=deportes.futbol.premierleague.statsCenterPerTeam&lang=es_LA",
+            "statsJugador": "https://perfil.datafactory.la/html/v3/minapp/init/index.html?channel=deportes.futbol.premierleague.statsCenterPerPlayer&lang=es_LA",
+            "comparacion": "https://perfil.datafactory.la/html/v3/minapp/init/index.html?channel=deportes.futbol.premierleague.statsCenterTeamComparison&lang=es_LA"
+          }
+        },
+        {
+          "liga": "Italia - Serie A",
+          "id": "italia",
+          "urls": {
+            "home": "https://perfil.datafactory.la/html/v3/minapp/init/index.html?channel=deportes.futbol.italia&lang=es_LA",
+            "posiciones": "https://perfil.datafactory.la/html/v3/minapp/init/index.html?channel=deportes.futbol.italia.posiciones&lang=es_LA",
+            "goleadores": "https://perfil.datafactory.la/html/v3/minapp/init/index.html?channel=deportes.futbol.italia.goleadores&lang=es_LA",
+            "planteles": "https://perfil.datafactory.la/html/v3/minapp/init/index.html?channel=deportes.futbol.italia.planteles&lang=es_LA"
+          }
+        },
+        {
+          "liga": "Alemania - Bundesliga",
+          "id": "alemania",
+          "urls": {
+            "home": "https://perfil.datafactory.la/html/v3/minapp/init/index.html?channel=deportes.futbol.alemania&lang=es_LA",
+            "posiciones": "https://perfil.datafactory.la/html/v3/minapp/init/index.html?channel=deportes.futbol.alemania.posiciones&lang=es_LA",
+            "goleadores": "https://perfil.datafactory.la/html/v3/minapp/init/index.html?channel=deportes.futbol.alemania.goleadores&lang=es_LA",
+            "planteles": "https://perfil.datafactory.la/html/v3/minapp/init/index.html?channel=deportes.futbol.alemania.planteles&lang=es_LA",
+            "statsEquipo": "https://perfil.datafactory.la/html/v3/minapp/init/index.html?channel=deportes.futbol.alemania.statsCenterPerTeam&lang=es_LA",
+            "statsJugador": "https://perfil.datafactory.la/html/v3/minapp/init/index.html?channel=deportes.futbol.alemania.statsCenterPerPlayer&lang=es_LA"
+          }
+        },
+        {
+          "liga": "UEFA Champions League",
+          "id": "champions",
+          "urls": {
+            "home": "https://perfil.datafactory.la/html/v3/minapp/init/index.html?channel=deportes.futbol.champions&lang=es_LA",
+            "posiciones": "https://perfil.datafactory.la/html/v3/minapp/init/index.html?channel=deportes.futbol.champions.posiciones&lang=es_LA",
+            "goleadores": "https://perfil.datafactory.la/html/v3/minapp/init/index.html?channel=deportes.futbol.champions.goleadores&lang=es_LA"
+          }
+        }
+      ]
+    },
+    {
+      "region": "América",
+      "items": [
+        {
+          "liga": "Argentina - Liga Profesional",
+          "id": "argentina",
+          "urls": {
+            "home": "https://perfil.datafactory.la/html/v3/minapp/init/index.html?channel=deportes.futbol.argentina&lang=es_LA",
+            "posiciones": "https://perfil.datafactory.la/html/v3/minapp/init/index.html?channel=deportes.futbol.argentina.posiciones&lang=es_LA",
+            "goleadores": "https://perfil.datafactory.la/html/v3/minapp/init/index.html?channel=deportes.futbol.argentina.goleadores&lang=es_LA"
+          }
+        },
+        {
+          "liga": "Brasil - Serie A",
+          "id": "brasil",
+          "urls": {
+            "home": "https://perfil.datafactory.la/html/v3/minapp/init/index.html?channel=deportes.futbol.brasil&lang=es_LA",
+            "posiciones": "https://perfil.datafactory.la/html/v3/minapp/init/index.html?channel=deportes.futbol.brasil.posiciones&lang=es_LA",
+            "goleadores": "https://perfil.datafactory.la/html/v3/minapp/init/index.html?channel=deportes.futbol.brasil.goleadores&lang=es_LA"
+          }
+        },
+        {
+          "liga": "México - Liga MX",
+          "id": "mexico",
+          "urls": {
+            "home": "https://perfil.datafactory.la/html/v3/minapp/init/index.html?channel=deportes.futbol.mexico&lang=es_LA",
+            "posiciones": "https://perfil.datafactory.la/html/v3/minapp/init/index.html?channel=deportes.futbol.mexico.posiciones&lang=es_LA",
+            "descenso": "https://perfil.datafactory.la/html/v3/minapp/init/index.html?channel=deportes.futbol.mexico.descenso&lang=es_LA",
+            "goleadores": "https://perfil.datafactory.la/html/v3/minapp/init/index.html?channel=deportes.futbol.mexico.goleadores&lang=es_LA",
+            "planteles": "https://perfil.datafactory.la/html/v3/minapp/init/index.html?channel=deportes.futbol.mexico.planteles&lang=es_LA"
+          }
+        },
+        {
+          "liga": "Copa Libertadores",
+          "id": "libertadores",
+          "urls": {
+            "home": "https://perfil.datafactory.la/html/v3/minapp/init/index.html?channel=deportes.futbol.libertadores&lang=es_LA",
+            "posiciones": "https://perfil.datafactory.la/html/v3/minapp/init/index.html?channel=deportes.futbol.libertadores.posiciones&lang=es_LA"
+          }
+        },
+        {
+          "liga": "Copa Sudamericana",
+          "id": "sudamericana",
+          "urls": {
+            "home": "https://perfil.datafactory.la/html/v3/minapp/init/index.html?channel=deportes.futbol.sudamericana&lang=es_LA"
+          }
+        }
+      ]
+    }
+  ]
+}
