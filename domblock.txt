@@ -1,0 +1,14 @@
+script#_waumzx
+script[src*="waust.at"]
+
+# popunders conocidos
+id:dontfoid
+
+# clases usadas por ads
+class:djw
+
+# atributos raros
+attr:znid
+
+# overlays fullscreen invisibles
+zindex:1000000
