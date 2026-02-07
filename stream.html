@@ -71,6 +71,21 @@ if (id) {
     document.getElementById("loading").innerText = "❌ Evento no disponible";
 }
 </script>
+<script>
+(function () {
+  const FROM = document.referrer;
+
+  history.pushState({}, "", location.href);
+
+  window.addEventListener("popstate", function () {
+    if (FROM) {
+      location.href = FROM;
+    } else {
+      location.href = "/";
+    }
+  });
+})();
+</script>
 
 </body>
 </html>
