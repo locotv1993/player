@@ -41,17 +41,24 @@ iframe {
 <div id="loader">⏳ Cargando transmisión…</div>
 
 <script>
-const HOME_PAGE = "stream.html"; // 👈 CAMBIA AQUÍ si tu menú es otro
-
 const params = new URLSearchParams(location.search);
 const id = params.get("id");
 
-// 🔒 Truco clave: bloquea historial intermedio
-history.pushState(null, "", location.href);
+// 👉 Guardamos de dónde viene el usuario
+const FROM = document.referrer;
 
-// 👈 Cuando el usuario da ATRÁS → vuelve al menú
+// 🔒 Empujamos un estado falso para capturar el BACK
+history.pushState({stream:true}, "", location.href);
+
+// ⬅️ Cuando el usuario presiona ATRÁS
 window.addEventListener("popstate", () => {
-  location.replace(HOME_PAGE);
+  if (FROM && FROM !== location.href) {
+    // vuelve EXACTO a donde estaba
+    location.href = FROM;
+  } else {
+    // fallback limpio
+    history.go(-1);
+  }
 });
 
 if (!id) {
@@ -68,11 +75,11 @@ if (!id) {
 
   document.body.appendChild(iframe);
 
-  // ⏱️ fallback si queda negro
+  // ⏱️ seguridad si queda negro
   setTimeout(() => {
-    if (document.getElementById("loader").style.display !== "none") {
-      document.getElementById("loader").innerText =
-        "⏳ Aún cargando… presiona atrás para volver";
+    const loader = document.getElementById("loader");
+    if (loader.style.display !== "none") {
+      loader.innerText = "⏳ Aún cargando… presiona atrás para volver";
     }
   }, 15000);
 }
