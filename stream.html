@@ -2,86 +2,73 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Stream</title>
+<title>Player</title>
 
 <style>
 html, body {
-  margin: 0;
-  width: 100%;
-  height: 100%;
-  background: #000;
-  overflow: hidden;
-  font-family: Arial, sans-serif;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
 }
 
-#loader {
-  position: fixed;
-  inset: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  font-size: 18px;
-  background: #000;
-  z-index: 10;
+/* Mensaje de carga */
+#loading {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+    background: black;
+    z-index: 999;
 }
 
 iframe {
-  width: 100%;
-  height: 100%;
-  border: 0;
-  display: none;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    display: none;
 }
 </style>
 </head>
 
 <body>
 
-<div id="loader">⏳ Cargando transmisión…</div>
+<div id="loading">⏳ Cargando evento…</div>
 
 <script>
-const params = new URLSearchParams(location.search);
+const params = new URLSearchParams(window.location.search);
 const id = params.get("id");
 
-// 👉 Guardamos de dónde viene el usuario
+// Guardamos de dónde viene el usuario
 const FROM = document.referrer;
 
-// 🔒 Empujamos un estado falso para capturar el BACK
-history.pushState({stream:true}, "", location.href);
-
-// ⬅️ Cuando el usuario presiona ATRÁS
-window.addEventListener("popstate", () => {
-  if (FROM && FROM !== location.href) {
-    // vuelve EXACTO a donde estaba
-    location.href = FROM;
-  } else {
-    // fallback limpio
-    history.go(-1);
-  }
-});
-
-if (!id) {
-  document.getElementById("loader").innerText = "❌ Stream no disponible";
-} else {
-  const iframe = document.createElement("iframe");
-  iframe.src = `https://streamtpcloud.com/global1.php?stream=${encodeURIComponent(id)}`;
-  iframe.allow = "autoplay; fullscreen; picture-in-picture";
-
-  iframe.onload = () => {
-    document.getElementById("loader").style.display = "none";
-    iframe.style.display = "block";
-  };
-
-  document.body.appendChild(iframe);
-
-  // ⏱️ seguridad si queda negro
-  setTimeout(() => {
-    const loader = document.getElementById("loader");
-    if (loader.style.display !== "none") {
-      loader.innerText = "⏳ Aún cargando… presiona atrás para volver";
+// ⏪ Regreso automático en 5 segundos
+setTimeout(() => {
+    if (FROM) {
+        window.location.href = FROM;
+    } else {
+        history.back();
     }
-  }, 15000);
+}, 5000);
+
+if (id) {
+    const iframe = document.createElement("iframe");
+    iframe.src = `https://streamtpcloud.com/global1.php?stream=${encodeURIComponent(id)}`;
+    iframe.allow = "autoplay; fullscreen";
+
+    iframe.onload = () => {
+        document.getElementById("loading").style.display = "none";
+        iframe.style.display = "block";
+    };
+
+    document.body.appendChild(iframe);
+} else {
+    document.getElementById("loading").innerText = "❌ Evento no disponible";
 }
 </script>
 
