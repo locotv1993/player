@@ -1,100 +1,103 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Player</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stream</title>
 
 <style>
-  html, body {
-    margin: 0;
-    width: 100%;
-    height: 100%;
-    background: #000;
-    overflow: hidden;
-    font-family: Arial, sans-serif;
-  }
+html, body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
 
-  #loader {
-    position: fixed;
-    inset: 0;
-    display: grid;
-    place-items: center;
-    color: #fff;
-    background: #000;
-    z-index: 10;
-    text-align: center;
-    padding: 20px;
-  }
+/* Loader */
+#loader {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 18px;
+  background: #000;
+  z-index: 10;
+}
 
-  #loader small { color: #aaa; display:block; margin-top:8px; }
+/* Botón volver */
+#backBtn {
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  z-index: 20;
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.3);
+  padding: 8px 12px;
+  border-radius: 10px;
+  font-size: 14px;
+}
 
-  #backBtn {
-    position: fixed;
-    top: 12px;
-    left: 12px;
-    z-index: 20;
-    background: rgba(0,0,0,.55);
-    color: #fff;
-    border: 1px solid rgba(255,255,255,.25);
-    padding: 8px 12px;
-    border-radius: 10px;
-    font-size: 14px;
-  }
-
-  iframe {
-    width: 100%;
-    height: 100%;
-    border: 0;
-    display: none;
-  }
+/* iframe */
+iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: none;
+}
 </style>
 </head>
+
 <body>
 
 <button id="backBtn">← Volver</button>
-<div id="loader">⏳ Cargando transmisión… <small>Si tarda, revisa tu conexión</small></div>
+<div id="loader">⏳ Cargando transmisión…</div>
 
 <script>
-  const params = new URLSearchParams(location.search);
-  const id = params.get("id");
+const params = new URLSearchParams(location.search);
+const id = params.get("id");
 
-  // ✅ HOME seguro para GitHub Pages (raíz del repo)
-  // Ej: /TuRepo/player.html  ->  https://dominio/TuRepo/
-  const parts = location.pathname.split("/").filter(Boolean);
-  const repo = parts.length ? parts[0] : "";
-  const HOME = location.origin + (repo ? `/${repo}/` : "/");
+// 👉 Vuelve SIEMPRE al menú (index.html)
+function goHome() {
+  location.href = "./";
+}
 
-  function goBackSmart() {
-    // Si vienes desde tu menú, esto vuelve en 1 clic normal
-    if (history.length > 1) history.back();
-    else location.replace(HOME); // si abriste directo el player
+// Botón volver
+document.getElementById("backBtn").onclick = goHome;
+
+// Tecla atrás (PC / TV)
+document.addEventListener("keydown", e => {
+  if (e.key === "Escape" || e.key === "Backspace") {
+    goHome();
   }
+});
 
-  document.getElementById("backBtn").addEventListener("click", goBackSmart);
+if (!id) {
+  document.getElementById("loader").innerText = "❌ Stream no disponible";
+} else {
+  const iframe = document.createElement("iframe");
+  iframe.src = `https://streamtpcloud.com/global1.php?stream=${encodeURIComponent(id)}`;
+  iframe.allow = "autoplay; fullscreen; picture-in-picture";
 
-  if (!id) {
-    document.getElementById("loader").innerHTML = "❌ Stream no disponible";
-  } else {
-    const iframe = document.createElement("iframe");
-    iframe.src = `https://streamtpcloud.com/global1.php?stream=${encodeURIComponent(id)}`;
-    iframe.allow = "autoplay; fullscreen; picture-in-picture";
+  iframe.onload = () => {
+    document.getElementById("loader").style.display = "none";
+    iframe.style.display = "block";
+  };
 
-    iframe.onload = () => {
-      document.getElementById("loader").style.display = "none";
-      iframe.style.display = "block";
-    };
+  document.body.appendChild(iframe);
 
-    document.body.appendChild(iframe);
-
-    // 🔥 Si tarda mucho o queda negro, muestra opción de volver
-    setTimeout(() => {
-      const loader = document.getElementById("loader");
-      if (loader.style.display !== "none") {
-        loader.innerHTML = "⏳ Aún cargando…<br><small>Si no abre, vuelve y prueba otro enlace</small>";
-      }
-    }, 12000);
-  }
+  // Seguridad: si tarda mucho
+  setTimeout(() => {
+    const loader = document.getElementById("loader");
+    if (loader.style.display !== "none") {
+      loader.innerText = "⏳ Aún cargando… vuelve e intenta otro enlace";
+    }
+  }, 15000);
+}
 </script>
 
 </body>
