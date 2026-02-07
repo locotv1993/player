@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Player</title>
+
+<style>
+html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    overflow: hidden;
+}
+
+/* Loader */
+#loader {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    background: black;
+    z-index: 9999;
+}
+
+/* iframe ocupa todo */
+iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    display: none;
+}
+</style>
+</head>
+
+<body>
+
+<div id="loader">⏳ Cargando transmisión…</div>
+
+<script>
+const params = new URLSearchParams(window.location.search);
+const id = params.get("id");
+
+// 🔒 Evita doble retroceso
+history.replaceState(null, "", location.href);
+history.pushState(null, "", location.href);
+
+window.addEventListener("popstate", () => {
+    // 👇 URL de tu menú principal
+    window.location.href = "index.html";
+});
+
+if (id) {
+    const iframe = document.createElement("iframe");
+    iframe.src = `https://streamtpcloud.com/global1.php?stream=${id}`;
+    iframe.allow = "autoplay; fullscreen";
+
+    iframe.onload = () => {
+        document.getElementById("loader").style.display = "none";
+        iframe.style.display = "block";
+    };
+
+    document.body.appendChild(iframe);
+} else {
+    document.getElementById("loader").innerText = "❌ Stream no disponible";
+}
+</script>
+
+</body>
+</html>
