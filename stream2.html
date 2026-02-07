@@ -2,7 +2,8 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
-<title>Player</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EcplayTV - Player</title>
 
 <style>
 html, body {
@@ -41,23 +42,31 @@ iframe {
 <div id="loading">⏳ Cargando evento…</div>
 
 <script>
+/**
+ * 1. CONFIGURACIÓN DE RETORNO
+ */
+// Guardamos de dónde viene el usuario. 
+// Si no hay rastro, ponemos por defecto la URL de tu agenda.
+const PAGINA_INICIO = document.referrer || "https://locotv1993.github.io/player/home.html";
+
+// Esta función empuja un estado falso al historial para que cuando el usuario 
+// presione "atrás", el navegador se quede en nuestra página y ejecute el código.
+history.pushState(null, null, window.location.href);
+
+window.onpopstate = function () {
+    // Al detectar el botón atrás, lo mandamos a la página de inicio
+    window.location.replace(PAGINA_INICIO);
+};
+
+/**
+ * 2. LÓGICA DEL REPRODUCTOR
+ */
 const params = new URLSearchParams(window.location.search);
 const id = params.get("id");
 
-// Guardamos de dónde viene el usuario
-const FROM = document.referrer;
-
-// ⏪ Regreso automático en 5 segundos
-setTimeout(() => {
-    if (FROM) {
-        window.location.href = FROM;
-    } else {
-        history.back();
-    }
-}, 5000);
-
 if (id) {
     const iframe = document.createElement("iframe");
+    // URL del servidor de streaming
     iframe.src = `https://streamtpcloud.com/global1.php?stream=${encodeURIComponent(id)}`;
     iframe.allow = "autoplay; fullscreen";
 
@@ -66,9 +75,16 @@ if (id) {
         iframe.style.display = "block";
     };
 
+    // Manejo de error si no carga
+    iframe.onerror = () => {
+        document.getElementById("loading").innerText = "❌ Error al cargar el stream";
+    };
+
     document.body.appendChild(iframe);
 } else {
-    document.getElementById("loading").innerText = "❌ Evento no disponible";
+    document.getElementById("loading").innerText = "❌ ID de evento no encontrado";
+    // Si no hay ID, lo regresamos a la agenda después de 2 segundos
+    setTimeout(() => window.location.replace(PAGINA_INICIO), 2000);
 }
 </script>
 </body>
