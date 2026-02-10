@@ -2,8 +2,8 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Player</title>
-
 <style>
 html, body {
     margin: 0;
@@ -19,12 +19,30 @@ html, body {
     position: fixed;
     inset: 0;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     color: white;
     font-size: 18px;
     background: black;
     z-index: 999;
+}
+
+#loading button {
+    margin-top: 20px;
+    padding: 12px 24px;
+    background: #FF3D00;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+#loading button:hover {
+    background: #E63500;
+    transform: scale(1.05);
 }
 
 iframe {
@@ -35,10 +53,8 @@ iframe {
 }
 </style>
 </head>
-
 <body>
-
-<div id="loading">⏳ Cargando evento…</div>
+<div id="loading">⏳ Abriendo reproductor…</div>
 
 <script>
 const params = new URLSearchParams(window.location.search);
@@ -47,29 +63,82 @@ const id = params.get("id");
 // Guardamos de dónde viene el usuario
 const FROM = document.referrer;
 
-// ⏪ Regreso automático en 5 segundos
-setTimeout(() => {
-    if (FROM) {
+// Función para volver atrás
+function goBack() {
+    if (FROM && FROM !== window.location.href) {
         window.location.href = FROM;
     } else {
-        history.back();
+        if (window.history.length > 1) {
+            window.history.back();
+        } else {
+            window.close();
+        }
     }
-}, 5000);
+}
+
+// Detectar cuando el usuario vuelve del reproductor nativo
+let playerOpened = false;
+
+document.addEventListener('visibilitychange', function() {
+    if (!document.hidden && playerOpened) {
+        setTimeout(() => {
+            goBack();
+        }, 500);
+    }
+});
+
+window.addEventListener('pageshow', function(event) {
+    if (event.persisted || playerOpened) {
+        goBack();
+    }
+});
+
+window.addEventListener('focus', function() {
+    if (playerOpened) {
+        setTimeout(() => {
+            goBack();
+        }, 500);
+    }
+});
 
 if (id) {
     const iframe = document.createElement("iframe");
+    // SIN &useplayer - eso ya viene de la agenda
     iframe.src = `https://streamtpcloud.com/global1.php?stream=${encodeURIComponent(id)}`;
     iframe.allow = "autoplay; fullscreen";
-
+    
     iframe.onload = () => {
+        playerOpened = true;
         document.getElementById("loading").style.display = "none";
         iframe.style.display = "block";
     };
-
+    
+    iframe.onerror = () => {
+        document.getElementById("loading").innerHTML = `
+            ❌ Error al cargar el evento<br>
+            <button onclick='goBack()'>Volver a los eventos</button>
+        `;
+    };
+    
     document.body.appendChild(iframe);
 } else {
-    document.getElementById("loading").innerText = "❌ Evento no disponible";
+    document.getElementById("loading").innerHTML = `
+        ❌ Evento no disponible<br>
+        <button onclick='goBack()'>Volver a los eventos</button>
+    `;
 }
+
+// Detectar tecla ESC para cerrar
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+        goBack();
+    }
+});
+
+// Detectar el botón "atrás" del navegador
+window.addEventListener('popstate', function(event) {
+    goBack();
+});
 </script>
 </body>
 </html>
