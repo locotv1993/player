@@ -14,35 +14,16 @@ html, body {
     font-family: Arial, sans-serif;
 }
 
-/* Mensaje de carga */
 #loading {
     position: fixed;
     inset: 0;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     color: white;
     font-size: 18px;
     background: black;
     z-index: 999;
-}
-
-#loading button {
-    margin-top: 20px;
-    padding: 12px 24px;
-    background: #FF3D00;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: all 0.3s ease;
-}
-
-#loading button:hover {
-    background: #E63500;
-    transform: scale(1.05);
 }
 
 iframe {
@@ -54,90 +35,101 @@ iframe {
 </style>
 </head>
 <body>
-<div id="loading">⏳ Abriendo reproductor…</div>
+<div id="loading">⏳ Cargando evento…</div>
 
 <script>
 const params = new URLSearchParams(window.location.search);
 const id = params.get("id");
-
-// Guardamos de dónde viene el usuario
 const FROM = document.referrer;
 
-// Función para volver atrás
-function goBack() {
-    if (FROM && FROM !== window.location.href) {
-        window.location.href = FROM;
-    } else {
-        if (window.history.length > 1) {
-            window.history.back();
-        } else {
-            window.close();
-        }
-    }
+// SOLUCIÓN: Reemplazar la entrada del historial en lugar de agregar una nueva
+if (FROM) {
+    // Guardar la URL de origen en sessionStorage
+    sessionStorage.setItem('returnUrl', FROM);
 }
 
-// Detectar cuando el usuario vuelve del reproductor nativo
-let playerOpened = false;
+// Detectar cuando la página se vuelve visible (usuario regresó del reproductor nativo)
+let hasLoaded = false;
 
 document.addEventListener('visibilitychange', function() {
-    if (!document.hidden && playerOpened) {
-        setTimeout(() => {
-            goBack();
-        }, 500);
+    if (!document.hidden && hasLoaded) {
+        // Usuario regresó, volver a la agenda
+        const returnUrl = sessionStorage.getItem('returnUrl') || FROM;
+        if (returnUrl) {
+            window.location.replace(returnUrl); // replace en lugar de href
+        } else {
+            window.history.back();
+        }
     }
 });
 
 window.addEventListener('pageshow', function(event) {
-    if (event.persisted || playerOpened) {
-        goBack();
+    if (hasLoaded && (event.persisted || performance.navigation.type === 2)) {
+        const returnUrl = sessionStorage.getItem('returnUrl') || FROM;
+        if (returnUrl) {
+            window.location.replace(returnUrl);
+        } else {
+            window.history.back();
+        }
     }
 });
 
+// También detectar cuando la ventana recupera el foco
 window.addEventListener('focus', function() {
-    if (playerOpened) {
-        setTimeout(() => {
-            goBack();
-        }, 500);
+    if (hasLoaded && document.visibilityState === 'visible') {
+        setTimeout(function() {
+            const returnUrl = sessionStorage.getItem('returnUrl') || FROM;
+            if (returnUrl) {
+                window.location.replace(returnUrl);
+            } else {
+                window.history.back();
+            }
+        }, 300);
     }
 });
 
 if (id) {
     const iframe = document.createElement("iframe");
-    // SIN &useplayer - eso ya viene de la agenda
     iframe.src = `https://streamtpcloud.com/global1.php?stream=${encodeURIComponent(id)}`;
     iframe.allow = "autoplay; fullscreen";
     
     iframe.onload = () => {
-        playerOpened = true;
+        hasLoaded = true;
         document.getElementById("loading").style.display = "none";
         iframe.style.display = "block";
     };
     
     iframe.onerror = () => {
-        document.getElementById("loading").innerHTML = `
-            ❌ Error al cargar el evento<br>
-            <button onclick='goBack()'>Volver a los eventos</button>
-        `;
+        document.getElementById("loading").innerText = "❌ Error al cargar el evento";
+        setTimeout(function() {
+            const returnUrl = sessionStorage.getItem('returnUrl') || FROM;
+            if (returnUrl) {
+                window.location.replace(returnUrl);
+            } else {
+                window.history.back();
+            }
+        }, 2000);
     };
     
     document.body.appendChild(iframe);
 } else {
-    document.getElementById("loading").innerHTML = `
-        ❌ Evento no disponible<br>
-        <button onclick='goBack()'>Volver a los eventos</button>
-    `;
+    document.getElementById("loading").innerText = "❌ Evento no disponible";
+    setTimeout(function() {
+        const returnUrl = sessionStorage.getItem('returnUrl') || FROM;
+        if (returnUrl) {
+            window.location.replace(returnUrl);
+        } else {
+            window.history.back();
+        }
+    }, 2000);
 }
 
-// Detectar tecla ESC para cerrar
-document.addEventListener('keydown', function(e) {
-    if (e.key === 'Escape') {
-        goBack();
+// Interceptar el botón atrás
+window.addEventListener('popstate', function() {
+    const returnUrl = sessionStorage.getItem('returnUrl') || FROM;
+    if (returnUrl) {
+        window.location.replace(returnUrl);
     }
-});
-
-// Detectar el botón "atrás" del navegador
-window.addEventListener('popstate', function(event) {
-    goBack();
 });
 </script>
 </body>
