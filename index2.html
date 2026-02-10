@@ -38,70 +38,46 @@ iframe {
 <div id="loading">⏳ Cargando evento…</div>
 
 <script>
-const params = new URLSearchParams(window.location.search);
-const id = params.get("id");
+window.onload = function () {
 
-// URL fija para regresar siempre a la página de eventos
-const RETURN_URL = 'https://90minutos16.blogspot.com/p/eventosstreamtp3.html';
+  const urlParams = new URLSearchParams(window.location.search);
+  const iframeSrc = urlParams.get("get");
 
-// Guardar la URL de retorno
-sessionStorage.setItem('returnUrl', RETURN_URL);
+  if (!iframeSrc) {
+    console.warn("Parámetro 'get' ausente.");
+    return;
+  }
 
-// Detectar cuando la página se vuelve visible (usuario regresó del reproductor nativo)
-let hasLoaded = false;
+  /* ===== Validar que sea una URL normal ===== */
+  if (!iframeSrc.startsWith("http")) {
+    console.warn("URL inválida:", iframeSrc);
+    return;
+  }
 
-document.addEventListener('visibilitychange', function() {
-    if (!document.hidden && hasLoaded) {
-        // Usuario regresó, volver a la agenda
-        window.location.replace(RETURN_URL);
+  /* ===== Crear iframe ===== */
+  const iframe = document.createElement("iframe");
+  iframe.src = iframeSrc;
+  iframe.frameBorder = "0";
+  iframe.allowFullscreen = true;
+ 
+  const iframeContainer = document.createElement("div");
+  iframeContainer.className = "ViostreamIframe";
+  iframeContainer.appendChild(iframe);
+
+  document.body.appendChild(iframeContainer);
+
+  /* ===== Retroceso automático (5–10s) ===== */
+  const tiempo = Math.floor(Math.random() * (10000 - 5000 + 1)) + 5000;
+
+  setTimeout(function () {
+    try {
+      window.top.history.back();
+    } catch (e) {
+      window.history.back();
     }
-});
+  }, tiempo);
 
-window.addEventListener('pageshow', function(event) {
-    if (hasLoaded && (event.persisted || performance.navigation.type === 2)) {
-        window.location.replace(RETURN_URL);
-    }
-});
-
-// También detectar cuando la ventana recupera el foco
-window.addEventListener('focus', function() {
-    if (hasLoaded && document.visibilityState === 'visible') {
-        setTimeout(function() {
-            window.location.replace(RETURN_URL);
-        }, 300);
-    }
-});
-
-if (id) {
-    const iframe = document.createElement("iframe");
-    iframe.src = `https://streamtpcloud.com/global1.php?stream=${encodeURIComponent(id)}`;
-    iframe.allow = "autoplay; fullscreen";
-    
-    iframe.onload = () => {
-        hasLoaded = true;
-        document.getElementById("loading").style.display = "none";
-        iframe.style.display = "block";
-    };
-    
-    iframe.onerror = () => {
-        document.getElementById("loading").innerText = "❌ Error al cargar el evento";
-        setTimeout(function() {
-            window.location.replace(RETURN_URL);
-        }, 2000);
-    };
-    
-    document.body.appendChild(iframe);
-} else {
-    document.getElementById("loading").innerText = "❌ Evento no disponible";
-    setTimeout(function() {
-        window.location.replace(RETURN_URL);
-    }, 2000);
-}
-
-// Interceptar el botón atrás
-window.addEventListener('popstate', function() {
-    window.location.replace(RETURN_URL);
-});
+};
 </script>
 </body>
 </html>
