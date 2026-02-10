@@ -1,81 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Player</title>
 <style>
-
-.post-title,  
-
-.blog-feeds {  
-
-    display: none !important;  
-
+html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
 }
 
-</style><!DOCTYPE html>
+#loading {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+    background: black;
+    z-index: 999;
+}
 
-<html lang="es">
-
-<head>
-
-    <meta charset="UTF-8">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Menu Principal</title>
-
-    <script src="https://cdn.tailwindcss.com"></script>
-
+iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    display: none;
+}
+</style>
 </head>
-
-<body class="bg-gradient-to-br from-red-700 to-red-700 flex items-center justify-center min-h-screen">
-
-    <div class="w-full max-w-sm bg-red shadow-2x2 rounded-3xl p-8 text-center transform hover:scale-105 transition duration-300">
-
-        <!-- Logo con enlace dinámico -->
-
-<div class="flex justify-center mb-6">
-
-    <a id="logo-link">
-
-        <img
-
-            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyaYkZb-P1mVp_KerhJtyiwn2pZ-_IEFKXeGLZ3avhB1G9xkEV4OZtlQM3vsAonBgZULuPHgsh6iYBUtsmyHhyphenhyphenwPkW74YtpuAFqOkoU2wA3yOJsvmBsrO2gK_W8ZrlEsdc5ILTZWT8AxyHBEbKyjDzPyrPxi_5isfUHGaenDI33AzuaIL9lRzaOqtDl5I/s800/1000065137.jpg" 
-
-            alt="Logo" 
-
-            class="w-100 h-100 object-contain rounded-full shadow-lg border-4 border-red-500">
-
-    </a>
-
-</div>
+<body>
+<div id="loading">⏳ Cargando evento…</div>
 
 <script>
+const params = new URLSearchParams(window.location.search);
+const id = params.get("id");
 
-    document.getElementById("logo-link").addEventListener("click", function(event) {
+// URL fija para regresar siempre a la página de eventos
+const RETURN_URL = 'https://90minutos16.blogspot.com/p/eventosstreamtp3.html';
 
-        event.preventDefault(); // Evita que haga clic en un enlace normal
+// Guardar la URL de retorno
+sessionStorage.setItem('returnUrl', RETURN_URL);
 
-        window.location.href = "https://ns1-app.competenciadeportiva.com/ap/636f6d2e6e6f76656e74616d696e75746f732e6f66696369616c"; // Redirige a otra URL
+// Detectar cuando la página se vuelve visible (usuario regresó del reproductor nativo)
+let hasLoaded = false;
 
-    });
+document.addEventListener('visibilitychange', function() {
+    if (!document.hidden && hasLoaded) {
+        // Usuario regresó, volver a la agenda
+        window.location.replace(RETURN_URL);
+    }
+});
 
+window.addEventListener('pageshow', function(event) {
+    if (hasLoaded && (event.persisted || performance.navigation.type === 2)) {
+        window.location.replace(RETURN_URL);
+    }
+});
+
+// También detectar cuando la ventana recupera el foco
+window.addEventListener('focus', function() {
+    if (hasLoaded && document.visibilityState === 'visible') {
+        setTimeout(function() {
+            window.location.replace(RETURN_URL);
+        }, 300);
+    }
+});
+
+if (id) {
+    const iframe = document.createElement("iframe");
+    iframe.src = `https://streamtpcloud.com/global1.php?stream=${encodeURIComponent(id)}`;
+    iframe.allow = "autoplay; fullscreen";
+    
+    iframe.onload = () => {
+        hasLoaded = true;
+        document.getElementById("loading").style.display = "none";
+        iframe.style.display = "block";
+    };
+    
+    iframe.onerror = () => {
+        document.getElementById("loading").innerText = "❌ Error al cargar el evento";
+        setTimeout(function() {
+            window.location.replace(RETURN_URL);
+        }, 2000);
+    };
+    
+    document.body.appendChild(iframe);
+} else {
+    document.getElementById("loading").innerText = "❌ Evento no disponible";
+    setTimeout(function() {
+        window.location.replace(RETURN_URL);
+    }, 2000);
+}
+
+// Interceptar el botón atrás
+window.addEventListener('popstate', function() {
+    window.location.replace(RETURN_URL);
+});
 </script>
-
-        <!-- Menu -->
-
-        <nav class="space-y-6">
-
-            <a href="https://cmrroto01.blogspot.com/p/estadisticas.html" class="block bg-gradient-to-r from-red-500 to-indigo-600 text-white py-4 rounded-xl text-lg font-semibold shadow-lg hover:from-indigo-600 hover:to-blue-500 transform hover:scale-105 transition"> 📄Resultados de fútbol 📄</a>
-
-            <a href="https://fast.com/es/" class="block bg-gradient-to-r from-red-500 to-indigo-600 text-white py-4 rounded-xl text-lg font-semibold shadow-lg hover:from-indigo-600 hover:to-blue-500 transform hover:scale-105 transition">🏃Tes de velocidad🏃</a>
-
-            <a href="https://chat.whatsapp.com/EJH5OyfPmhKIzXfKVwHHts" class="block bg-gradient-to-r from-red-500 to-indigo-600 text-white py-4 rounded-xl text-lg font-semibold shadow-lg hover:from-indigo-600 hover:to-blue-500 transform hover:scale-105 transition">⚠️ Soporte - WhatsApp ⚠️</a>
-
-            <a href="https://t.me/+cNRPwvRRPbhiMzBh/?target=external" class="block bg-gradient-to-r from-red-500 to-indigo-600 text-white py-4 rounded-xl text-lg font-semibold shadow-lg hover:from-indigo-600 hover:to-blue-500 transform hover:scale-105 transition">⚠️ Soporte - Telegram ⚠️</a>
-          
-          <a href="http://app.competenciadeportiva.com/document/cobertura.html" class="block bg-gradient-to-r from-red-500 to-indigo-600 text-white py-4 rounded-xl text-lg font-semibold shadow-lg hover:from-indigo-600 hover:to-blue-500 transform hover:scale-105 transition">📶Cobertura📶</a>
-
-        </nav>
-
-    </div>
-
 </body>
-
 </html>
