@@ -3,6 +3,7 @@ const params = new URLSearchParams(window.location.search);
 const id = params.get("id");
 
 if(id){
+  // redirige a TU player real (stream2.html)
   window.location.href = "https://locotv1993.github.io/player/stream2.html?stream=" + id;
 }
 </script>
