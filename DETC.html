@@ -3,15 +3,6 @@ const params = new URLSearchParams(window.location.search);
 const id = params.get("id");
 
 if(id){
-  let url = "https://streamtpnew.com/global1.php?stream=" + id;
-
-  // evitar duplicar useplayer
-  if(!window.location.search.includes("useplayer")){
-    url += "&useplayer";
-  } else {
-    url += "&useplayer";
-  }
-
-  window.location.href = url;
+  window.location.href = "https://locotv1993.github.io/player/stream2.html?stream=" + id;
 }
 </script>
