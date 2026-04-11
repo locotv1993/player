@@ -35,6 +35,26 @@ if(stream){
 // ⏪ regreso automático en 10 segundos
 
 </script>
+<script>
+const iframe = document.getElementById("playerFrame");
 
+// doble clic en toda la pantalla
+document.body.addEventListener("dblclick", async () => {
+  try {
+    // activar pantalla completa
+    if (!document.fullscreenElement) {
+      await document.documentElement.requestFullscreen();
+    }
+
+    // forzar modo horizontal (si el navegador lo permite)
+    if (screen.orientation && screen.orientation.lock) {
+      await screen.orientation.lock("landscape");
+    }
+
+  } catch (err) {
+    console.log("Error fullscreen:", err);
+  }
+});
+</script>
 </body>
 </html>
