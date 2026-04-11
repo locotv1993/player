@@ -2,72 +2,40 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Player</title>
 
 <style>
-html, body {
-    margin: 0;
-    width: 100%;
-    height: 100%;
-    background: black;
-    overflow: hidden;
+body {
+  margin: 0;
+  background: #000;
 }
 
-/* Loader */
-#loader {
-    position: fixed;
-    inset: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-size: 18px;
-    font-family: Arial, sans-serif;
-    background: black;
-    z-index: 9999;
-}
-
-/* iframe ocupa todo */
 iframe {
-    width: 100%;
-    height: 100%;
-    border: 0;
-    display: none;
+  width: 100%;
+  height: 100vh;
+  border: none;
 }
 </style>
 </head>
-
 <body>
 
-<div id="loader">⏳ Cargando transmisión…</div>
+<iframe id="playerFrame"></iframe>
 
 <script>
 const params = new URLSearchParams(window.location.search);
-const id = params.get("id");
+const stream = params.get("stream");
 
-// 🔒 Evita doble retroceso
-history.replaceState(null, "", location.href);
-history.pushState(null, "", location.href);
-
-window.addEventListener("popstate", () => {
-    // 👇 URL de tu menú principal
-    window.location.href = "https://90minutos16.blogspot.com/p/agenda-streamp22.html";
-});
-
-if (id) {
-    const iframe = document.createElement("iframe");
-    iframe.src = `https://streamtpcloud.com/global1.php?stream=${id}`;
-    iframe.allow = "autoplay; fullscreen";
-
-    iframe.onload = () => {
-        document.getElementById("loader").style.display = "none";
-        iframe.style.display = "block";
-    };
-
-    document.body.appendChild(iframe);
-} else {
-    document.getElementById("loader").innerText = "❌ Stream no disponible";
+// cargar el player real dentro del iframe
+if(stream){
+  document.getElementById("playerFrame").src =
+    "https://streamtpnew.com/global1.php?stream=" + stream + "&useplayer";
 }
+
+// ⏪ regreso automático en 10 segundos
+setTimeout(() => {
+  history.back();
+}, 10000);
 </script>
 
 </body>
