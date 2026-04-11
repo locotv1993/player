@@ -1,0 +1,8 @@
+<script>
+const params = new URLSearchParams(window.location.search);
+const stream = params.get("stream");
+
+if(stream){
+  window.location.href = "https://streamtpnew.com/global1.php?stream=" + stream + "&useplayer";
+}
+</script>
