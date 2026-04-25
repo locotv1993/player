@@ -47,14 +47,14 @@ const id = params.get("id");
 // Guardamos de dónde viene el usuario
 const FROM = document.referrer;
 
-// ⏪ Regreso automático en 5 segundos
+// ⏪ Regreso automático en 8 segundos
 setTimeout(() => {
     if (FROM) {
         window.location.href = FROM;
     } else {
         history.back();
     }
-}, 5000);
+}, 8000);
 
 if (id) {
     const iframe = document.createElement("iframe");
