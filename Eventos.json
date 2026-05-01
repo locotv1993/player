@@ -1,0 +1,523 @@
+[
+  {
+    "teams": {
+      "home": {
+        "name": "Universidad Catolica",
+        "logo": "https://media.api-sports.io/football/teams/1157.png"
+      },
+      "away": {
+        "name": "Independiente del Valle",
+        "logo": "https://media.api-sports.io/football/teams/1153.png"
+      }
+    },
+    "details": {
+      "time": "2026-05-01T16:30:00-05:00",
+      "event_type": "Liga Pro Ecuador",
+      "channel": "Proximamente",
+      "duration": 120
+    },
+    "signals": [
+      {
+        "name": "señal 1",
+        "url": "https://90minutos16.blogspot.com/p/media32026.html?Id=ZPS"
+      },
+      {
+        "name": "señal 2",
+        "url": "https://90minutos16.blogspot.com/p/el-canal-del-futbol.html"
+      },
+      {
+        "name": "señal 3",
+        "url": "https://cositalehacemos.alwaysdata.net/zd.php?url=https://extortdecade.net/embed/b9d5tcl59dh2&referer=https://zonalive.click/"
+      },
+      {
+        "name": "",
+        "url": ""
+      },
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "teams": {
+      "home": {
+        "name": "Libertad",
+        "logo": "https://media.api-sports.io/football/teams/18762.png"
+      },
+      "away": {
+        "name": "Aucas",
+        "logo": "https://media.api-sports.io/football/teams/1156.png"
+      }
+    },
+    "details": {
+      "time": "2026-05-01T19:00:00-05:00",
+      "event_type": "Liga Pro Ecuador",
+      "channel": "Proximamente",
+      "duration": 120
+    },
+    "signals": [
+      {
+        "name": "señal 1",
+        "url": "https://90minutos16.blogspot.com/p/media32026.html?Id=ZPS"
+      },
+      {
+        "name": "señal 2",
+        "url": "https://90minutos16.blogspot.com/p/el-canal-del-futbol.html"
+      },
+      {
+        "name": "señal 3",
+        "url": "https://cositalehacemos.alwaysdata.net/zd.php?url=https://extortdecade.net/embed/b9d5tcl59dh2&referer=https://zonalive.click/"
+      },
+      {
+        "name": "",
+        "url": ""
+      },
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "teams": {
+      "home": {
+        "name": "Sportivo Trinidense",
+        "logo": "https://media.api-sports.io/football/teams/1187.png"
+      },
+      "away": {
+        "name": "2 de Mayo",
+        "logo": "https://media.api-sports.io/football/teams/2140.png"
+      }
+    },
+    "details": {
+      "time": "2026-05-01T15:45:00-05:00",
+      "event_type": "Division Profesional - Paraguay",
+      "channel": "Proximamente",
+      "duration": 120
+    },
+    "signals": [
+      {
+        "name": "Tigo sports vpn py",
+        "url": "https://90minutos16.blogspot.com/p/media3.html?Id=TIGO1"
+      },
+      {
+        "name": "Tigo sports vpn py",
+        "url": "https://90minutos16.blogspot.com/p/media3.html?Id=TIGO2"
+      },
+      {
+        "name": "",
+        "url": ""
+      },
+      {
+        "name": "",
+        "url": ""
+      },
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "teams": {
+      "home": {
+        "name": "Libertad Asuncion",
+        "logo": "https://media.api-sports.io/football/teams/1179.png"
+      },
+      "away": {
+        "name": "Club Sp. San Lorenzo",
+        "logo": "https://media.api-sports.io/football/teams/2125.png"
+      }
+    },
+    "details": {
+      "time": "2026-05-01T18:00:00-05:00",
+      "event_type": "Division Profesional - Paraguay",
+      "channel": "Proximamente",
+      "duration": 120
+    },
+    "signals": [
+      {
+        "name": "Tigo sports vpn py",
+        "url": "https://90minutos16.blogspot.com/p/media3.html?Id=TIGO1"
+      },
+      {
+        "name": "Tigo sports vpn py",
+        "url": "https://90minutos16.blogspot.com/p/media3.html?Id=TIGO2"
+      },
+      {
+        "name": "",
+        "url": ""
+      },
+      {
+        "name": "",
+        "url": ""
+      },
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "teams": {
+      "home": {
+        "name": "FC Andorra",
+        "logo": "https://media.api-sports.io/football/teams/8157.png"
+      },
+      "away": {
+        "name": "Albacete",
+        "logo": "https://media.api-sports.io/football/teams/722.png"
+      }
+    },
+    "details": {
+      "time": "2026-05-01T09:15:00-05:00",
+      "event_type": "Segunda División España",
+      "channel": "Proximamente",
+      "duration": 125
+    },
+    "signals": [
+      {
+        "name": "GLOBAL",
+        "url": "https://90minutos16.blogspot.com/p/media32026.html?ID=LIGAHP1"
+      },
+      {
+        "name": "",
+        "url": ""
+      },
+      {
+        "name": "",
+        "url": ""
+      },
+      {
+        "name": "",
+        "url": ""
+      },
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "teams": {
+      "home": {
+        "name": "Deportivo La Coruna",
+        "logo": "https://media.api-sports.io/football/teams/544.png"
+      },
+      "away": {
+        "name": "Leganes",
+        "logo": "https://media.api-sports.io/football/teams/537.png"
+      }
+    },
+    "details": {
+      "time": "2026-05-01T11:30:00-05:00",
+      "event_type": "Segunda División españa",
+      "channel": "Proximamente",
+      "duration": 130
+    },
+    "signals": [
+      {
+        "name": "GLOBAL",
+        "url": "https://90minutos16.blogspot.com/p/media32026.html?Id=LIGAHP1"
+      },
+      {
+        "name": "",
+        "url": ""
+      },
+      {
+        "name": "",
+        "url": ""
+      },
+      {
+        "name": "",
+        "url": ""
+      },
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "teams": {
+      "home": {
+        "name": "Zaragoza",
+        "logo": "https://media.api-sports.io/football/teams/732.png"
+      },
+      "away": {
+        "name": "Granada CF",
+        "logo": "https://media.api-sports.io/football/teams/715.png"
+      }
+    },
+    "details": {
+      "time": "2026-05-01T14:00:00-05:00",
+      "event_type": "Segunda División españa",
+      "channel": "Proximamente",
+      "duration": 120
+    },
+    "signals": [
+      {
+        "name": "GLOBAL",
+        "url": "https://90minutos16.blogspot.com/p/media32026.html?Id=LIGAHP1"
+      },
+      {
+        "name": "",
+        "url": ""
+      },
+      {
+        "name": "",
+        "url": ""
+      },
+      {
+        "name": "",
+        "url": ""
+      },
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "teams": {
+      "home": {
+        "name": "Girona",
+        "logo": "https://media.api-sports.io/football/teams/547.png"
+      },
+      "away": {
+        "name": "Mallorca",
+        "logo": "https://media.api-sports.io/football/teams/798.png"
+      }
+    },
+    "details": {
+      "time": "2026-05-01T14:00:00-05:00",
+      "event_type": "La Liga EA Sports",
+      "channel": "Proximamente",
+      "duration": 120
+    },
+    "signals": [
+      {
+        "name": "d sports",
+        "url": "https://90minutos16.blogspot.com/p/media32026.html?Id=DSP1"
+      },
+      {
+        "name": "sky sports mx",
+        "url": "https://90minutos16.blogspot.com/p/media3.html?Id=SPLALIGAMX"
+      },
+      {
+        "name": "inglés",
+        "url": "https://90minutos16.blogspot.com/p/media3.html?Id=LALIGAUK"
+      },
+      {
+        "name": "m laliga vpn Europa",
+        "url": "https://90minutos16.blogspot.com/p/media3.html?Id=MLALIGA1"
+      },
+      {
+        "name": "español",
+        "url": "https://90minutos16.blogspot.com/p/media32026.html?Id=JMC3"
+      }
+    ]
+  },
+  {
+    "teams": {
+      "home": {
+        "name": "Leeds",
+        "logo": "https://media.api-sports.io/football/teams/63.png"
+      },
+      "away": {
+        "name": "Burnley",
+        "logo": "https://media.api-sports.io/football/teams/44.png"
+      }
+    },
+    "details": {
+      "time": "2026-05-01T14:00:00-05:00",
+      "event_type": "Premier League Inglaterra",
+      "channel": "Proximamente",
+      "duration": 120
+    },
+    "signals": [
+      {
+        "name": "dazn es vpn Europa",
+        "url": "https://90minutos16.blogspot.com/p/media32026.html?Id=DZ1ES"
+      },
+      {
+        "name": "max",
+        "url": "https://canalesaqui.blogspot.com/p/tnt-sports.html"
+      },
+      {
+        "name": "multi opciónes",
+        "url": "https://locotv1993.github.io/player/Dt.html?id=NDE5Mzk4M18x"
+      },
+      {
+        "name": "",
+        "url": ""
+      },
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "teams": {
+      "home": {
+        "name": "Once Caldas",
+        "logo": "https://media.api-sports.io/football/teams/1136.png"
+      },
+      "away": {
+        "name": "Atletico Nacional",
+        "logo": "https://media.api-sports.io/football/teams/1137.png"
+      }
+    },
+    "details": {
+      "time": "2026-05-01T18:00:00-05:00",
+      "event_type": "Primera A Colombia",
+      "channel": "Proximamente",
+      "duration": 120
+    },
+    "signals": [
+      {
+        "name": "win Sport+ solo co",
+        "url": "https://canalesaqui.blogspot.com/p/win-sports.html"
+      },
+      {
+        "name": "win Sport+",
+        "url": "https://cositalehacemos.alwaysdata.net/zd.php?url=https://albumshape.net/embed/h5m4gyv36vtc&referer=https://cartelive.club/"
+      },
+      {
+        "name": "win Sport+",
+        "url": "https://la14hd.com/vivo/canales.php?stream=winplus"
+      },
+      {
+        "name": "",
+        "url": ""
+      },
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "teams": {
+      "home": {
+        "name": "Pisa",
+        "logo": "https://media.api-sports.io/football/teams/801.png"
+      },
+      "away": {
+        "name": "Lecce",
+        "logo": "https://media.api-sports.io/football/teams/867.png"
+      }
+    },
+    "details": {
+      "time": "2026-05-01T13:45:00-05:00",
+      "event_type": "Serie A Italiana",
+      "channel": "Proximamente",
+      "duration": 120
+    },
+    "signals": [
+      {
+        "name": "Fox deportes",
+        "url": "https://90minutos16.blogspot.com/p/media3.html?Id=FOXD"
+      },
+      {
+        "name": "",
+        "url": ""
+      },
+      {
+        "name": "",
+        "url": ""
+      },
+      {
+        "name": "",
+        "url": ""
+      },
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "teams": {
+      "home": {
+        "name": "real madrid",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3KTzm7UnqjY6oN-0vZkJGfySrTuKWAHCsyppeLBvP5g&s=10"
+      },
+      "away": {
+        "name": "hapoel tel aviv",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3KTzm7UnqjY6oN-0vZkJGfySrTuKWAHCsyppeLBvP5g&s=10"
+      }
+    },
+    "details": {
+      "time": "2026-05-01T13:45:00-05:00",
+      "event_type": "Euroliga- básquet",
+      "channel": "Proximamente",
+      "duration": 120
+    },
+    "signals": [
+      {
+        "name": "M+ VPN EUROPA",
+        "url": "https://90minutos16.blogspot.com/p/media3.html?Id=MPLUS"
+      },
+      {
+        "name": "",
+        "url": ""
+      },
+      {
+        "name": "",
+        "url": ""
+      },
+      {
+        "name": "",
+        "url": ""
+      },
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
+  },
+{
+    "teams": {
+      "home": {
+        "name": "Formula 1",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8CKv3czc9QO7ElUPnBFk7rV71iAphm5N7D6qLzf5QEb7WHuCl_wIgIN1Z&s=10"
+      },
+      "away": {
+        "name": "f1",
+        "logo": ""
+      }
+    },
+    "details": {
+      "time": "2026-05-01T16:00:00-05:00",
+      "event_type": "Formula 1 - gran premio de Miami",
+      "channel": "Proximamente",
+      "duration": 150
+    },
+    "signals": [
+      {
+        "name": "dazn vnp Europa",
+        "url": "https://90minutos16.blogspot.com/p/media3.html?Id=DZF11"
+      },
+      {
+        "name": "Español",
+        "url": "https://90minutos16.blogspot.com/p/media32026.html?Id=JMC3"
+      },
+      {
+        "name": "sky sports f1",
+        "url": "https://90minutos16.blogspot.com/p/media32026.html?Id=SKYF1"
+      },
+      {
+        "name": "",
+        "url": ""
+      },
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
+  }
+
+]
