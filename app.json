@@ -21,6 +21,14 @@
       }
     },
     {
+      "domain": "svc40.main.sl.t-online.de",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+        "Referer": "https://svc40.main.sl.t-online.de/",
+        "Origin": "https://svc40.main.sl.t-online.de"
+      }
+    },
+    {
       "domain": "cdn182.prospectivetoday.fun",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
