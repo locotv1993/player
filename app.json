@@ -21,6 +21,14 @@
       }
     },
     {
+      "domain": "primevideo.com",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+        "Referer": "https://www.primevideo.com/",
+        "Origin": "https://www.primevideo.com"
+      }
+    },
+    {
       "domain": "svc40.main.sl.t-online.de",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
